@@ -1,0 +1,9 @@
+.DS_Store
+*.lck
+~*.lck
+*.bak
+*.tmp
+__pycache__/
+*.pyc
+.venv/
+fp-info-cache

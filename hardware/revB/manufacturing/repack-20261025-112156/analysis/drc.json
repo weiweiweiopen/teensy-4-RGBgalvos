@@ -1,0 +1,94 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-25T11:22:02",
+    "ignored_checks": [
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "key": "pth_inside_courtyard"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "key": "npth_inside_courtyard"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.5",
+    "schematic_parity": [],
+    "source": "ILDA8CH.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "被板邊截斷的絲印 (電路板設定中的 \"絲印\" 約束 間隙 0.1000 mm; 實際 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Edge.Cuts 上的 線段",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 0.0
+                    },
+                    "uuid": "e40af578-5c59-4605-a07b-467a70c8f663"
+                },
+                {
+                    "description": "F.Silkscreen 上的 線段 J1",
+                    "pos": {
+                        "x": 99.02,
+                        "y": 39.39
+                    },
+                    "uuid": "ea2e7329-782a-40fe-a03c-acd684db37d3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "被板邊截斷的絲印 (電路板設定中的 \"絲印\" 約束 間隙 0.1000 mm; 實際 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Edge.Cuts 上的 線段",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 0.0
+                    },
+                    "uuid": "e40af578-5c59-4605-a07b-467a70c8f663"
+                },
+                {
+                    "description": "F.Silkscreen 上的 線段 J1",
+                    "pos": {
+                        "x": 111.36,
+                        "y": 92.61
+                    },
+                    "uuid": "24226c24-4bb2-448f-b18b-460d3464e243"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "文字線寬超出範圍 (TrueType 字體字符的筆畫線寬不足)",
+            "items": [
+                {
+                    "description": "F.Silkscreen 上的 PCB文字 'MIND THE MOUSE WITH LASER 0.1\nWISE MOUSE CULTURE 2026'",
+                    "pos": {
+                        "x": 46.875,
+                        "y": 96.775
+                    },
+                    "uuid": "38547ead-e678-4b42-88a2-0454b92e7873"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        }
+    ]
+}

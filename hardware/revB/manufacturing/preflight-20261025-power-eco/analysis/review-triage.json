@@ -1,0 +1,30 @@
+{
+  "confidence": "deterministic for native geometry and output readback; heuristic for generic skew thresholds",
+  "evidence_source": "native PCB, source/netlist, manufacturer PDFs and export readback",
+  "schematic_PP001": {
+    "count": 11,
+    "disposition": "false_positive",
+    "basis": "-15A enters through J2.3/D2; MCU_3V3 enters from Teensy A1.26 power_out."
+  },
+  "cross_PS002": {
+    "count": 2,
+    "disposition": "false_positive",
+    "basis": "connectivity-triage.json"
+  },
+  "cross_verify_skew": {
+    "fail": 34,
+    "warning": 4,
+    "disposition": "generic high-speed length thresholds not applicable to these low-frequency analog pairs; pickup/parasitics remain review limits"
+  },
+  "gerber_GR002": {
+    "count": 2,
+    "disposition": "extent comparison does not establish displacement",
+    "basis": "Common native export origin, closed 110x100 Edge.Cuts, drill and pad/net readback."
+  },
+  "fab_gate": {
+    "raw_status": "FAIL",
+    "disposition": "Do not use as final verdict; extent failure triaged, thermal None pass rejected and candidate J1 MPN not qualified."
+  },
+  "final_verdict": "HOLD",
+  "whole_board_electrical_correctness_claimed": false
+}

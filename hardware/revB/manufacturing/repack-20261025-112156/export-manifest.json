@@ -1,0 +1,26 @@
+{
+  "status": "HOLD — DO NOT ORDER",
+  "pcb_sha256": "825edcd27853183ae879091047c481432507c4003eede9e3af0c213e0eff5e42",
+  "files": {
+    "gerbers-DRAFT/ILDA8CH-B_Cu.gbl": "d6d3d2054bb148528665a9c9ed29c36b000ced5f6ae879eb85ca1accad6e9ce6",
+    "gerbers-DRAFT/ILDA8CH-B_Mask.gbs": "27409fe761bc087ab82ed4f2574d03879992ea58c8173c717c97eac1ab454a2f",
+    "gerbers-DRAFT/ILDA8CH-B_Paste.gbp": "7d6ed3b75c1aecd4dc50fdca79d6af76d6be0f1775b865753f02a2d660822c37",
+    "gerbers-DRAFT/ILDA8CH-B_Silkscreen.gbo": "d357cbfc619ee8ce1af041d17bb0fa6f83636997bc7b9d2e43dee615401e0023",
+    "gerbers-DRAFT/ILDA8CH-Edge_Cuts.gm1": "c931328e40de7ada735c1ddd713f1db93cc201138f5f1f33d3ad2b876ba9c10f",
+    "gerbers-DRAFT/ILDA8CH-F_Cu.gtl": "2d50ae2fea8ab9a09086a56456f18ede9a7faf23b1895b422ea5c85f5102a0b2",
+    "gerbers-DRAFT/ILDA8CH-F_Mask.gts": "b0cbce6ad64ed6d87bdee083ba9016a8850b7fe885a194ef4d3d54c821cf00ef",
+    "gerbers-DRAFT/ILDA8CH-F_Paste.gtp": "deffdf040e005bcba8c5baabbe319cdeaa6f20f245e156ce4ba37d60876a70b6",
+    "gerbers-DRAFT/ILDA8CH-F_Silkscreen.gto": "a00501707b8e87d6385085f71e5b153a3b4ee93c4eff46036203816e771cc463",
+    "gerbers-DRAFT/ILDA8CH-In1_Cu.g1": "ab8a76d84ba3cc34b6ab7eb5b724036b85dbe80facc49059d0a10b01d9804684",
+    "gerbers-DRAFT/ILDA8CH-In2_Cu.g2": "3a66fbf5ff1949e5accd5ad78f56f26bcefbd58822030974982dde84f93b9fd5",
+    "gerbers-DRAFT/ILDA8CH-NPTH-drl_map.svg": "014ab562bfc02fb86d8c80efaf2145f8f1141591c99d6a3f3edbc1c1780c0aae",
+    "gerbers-DRAFT/ILDA8CH-NPTH.drl": "dba2f078db26b9c83c6bd5e89746824142536c46b0b37775d1b903cd08af24f1",
+    "gerbers-DRAFT/ILDA8CH-PTH-drl_map.svg": "a909edd4facb5f8899067f3d8f67d4afa194376464f12b39bb29184abccefb0a",
+    "gerbers-DRAFT/ILDA8CH-PTH.drl": "14a7148b74cfa367fdefe261778405bf614f719f8cd5910985f063d9101e0bcb",
+    "gerbers-DRAFT/ILDA8CH-job.gbrjob": "429129427cdfe83cc4a3e6a5a453e6093c9db7067b8eacb0affa874779e3923e",
+    "assembly-DRAFT/JLC_CPL_DRAFT_UNCHECKED_ROTATIONS.csv": "7763d1864b8c2cd5766c3dff128d5ad4d889d55d63629ba515cd3553ebbf00e0",
+    "assembly-DRAFT/KiCad-native.csv": "929e7f755a88c82522c7b4a2faf2f0a8c8f3a973e22485d00fc714c69fc759fc",
+    "assembly-DRAFT/rotation-audit.json": "3ee4bffb1a5f63f5b65e80278886fa38f3ec94685d897e1441ae6653f96e9883",
+    "assembly-DRAFT/source-BOM-review.csv": "ce0e0d133e7d173c2da879bea70b293b6a8ffacb180420a28b8cdcff544c1d58"
+  }
+}

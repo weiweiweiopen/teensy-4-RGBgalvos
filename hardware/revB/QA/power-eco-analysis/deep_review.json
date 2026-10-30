@@ -1,0 +1,369 @@
+{
+  "schema_version": "1.0",
+  "produced_for_run_id": "power-sequencing-20261025",
+  "produced_at": "2026-10-25T09:00:00+08:00",
+  "findings": [
+    {
+      "detector": "deep_review",
+      "category": "adc_shutdown_qualification",
+      "severity": "warning",
+      "confidence": "high",
+      "summary": "ADC power-off architecture is improved; exact negative-signal leakage and ramp corners still require qualification.",
+      "description": "U35 uses actualMCU3V3, U10 supervises2.93V, C37/C38 are upstream, R364/R365 are4.7k. The38uA envelope is published under another isolation test condition, not a new maximum guarantee for the exact negative shutdown corner.",
+      "evidence": {
+        "components": [
+          "U35",
+          "U10",
+          "R364",
+          "R365",
+          "R366",
+          "R26"
+        ],
+        "nets": [
+          "MCU_3V3",
+          "ADC_P15",
+          "ADC_N15"
+        ],
+        "datasheet": [
+          {
+            "mpn": "ADG4613BRUZ",
+            "page": 7,
+            "quote": "Drain Off Leakage"
+          },
+          {
+            "mpn": "TPS3839K33DBZR",
+            "page": 4,
+            "quote": "TPS3839K33"
+          }
+        ],
+        "computation": {
+          "description": "Conservative table-envelope model with4.7k0.1% bleed; firmware reconstruction includes loading.",
+          "script": "tools/verify_power_eco.py",
+          "result": "38uA*4700ohm*1.001=0.178779V; reconstruction factors27.2765957 and32.2765957. Bench leakage/ramp test remains open."
+        }
+      },
+      "evidence_checked": "partial",
+      "components": [
+        "U35",
+        "U10",
+        "R364",
+        "R365",
+        "R366",
+        "R26"
+      ],
+      "nets": [
+        "MCU_3V3",
+        "ADC_P15",
+        "ADC_N15"
+      ],
+      "finding_id": "deep_review:09fab3980de5"
+    },
+    {
+      "detector": "deep_review",
+      "category": "analog_loading_qualification",
+      "severity": "warning",
+      "confidence": "high",
+      "summary": "ADG ON capacitance has a typical value only; worst-case codec capacitive loading is not closed.",
+      "evidence": {
+        "components": [
+          "U1",
+          "U31",
+          "U32",
+          "U33",
+          "U34"
+        ],
+        "datasheet": [
+          {
+            "mpn": "ADG4613BRUZ",
+            "page": 8,
+            "quote": "CD (On), CS (On)"
+          },
+          {
+            "mpn": "CS42448-CQZR",
+            "page": 14,
+            "quote": "Load Capacitance"
+          }
+        ],
+        "computation": {
+          "description": "Declared model uses50pFtyp switch capacitance on low-impedance codec side.",
+          "script": "tools/verify_power_eco.py",
+          "result": "Generic gain/pole tests pass; no manufacturer maximum ON-C bound or complete PCB capacitance extraction was obtained."
+        }
+      },
+      "evidence_checked": "partial",
+      "components": [
+        "U1",
+        "U31",
+        "U32",
+        "U33",
+        "U34"
+      ],
+      "finding_id": "deep_review:2d49e16de4f4"
+    },
+    {
+      "detector": "deep_review",
+      "category": "codec_reference",
+      "severity": "info",
+      "confidence": "high",
+      "summary": "FILT bulk capacitor nominal assignments now match CS42448 Figure 1.",
+      "description": "C18 22u/1206 is connected to FILT_ADC; C20 100u/1210 to FILT_DAC. Existing MPNs retained; effective MLCC DC-bias capacitance is not claimed.",
+      "evidence": {
+        "components": [
+          "U1",
+          "C18",
+          "C20"
+        ],
+        "nets": [
+          "FILT_ADC",
+          "FILT_DAC"
+        ],
+        "datasheet": [
+          {
+            "mpn": "CS42448-CQZR",
+            "page": 9,
+            "quote": "TYPICAL CONNECTION DIAGRAM"
+          }
+        ],
+        "computation": {
+          "description": "Check actual source assignments against Figure1.",
+          "script": "tools/verify_power_eco.py",
+          "result": "C18 nominal22u on ADC, C20 nominal100u on DAC; nominal reference deviation corrected."
+        }
+      },
+      "evidence_checked": "partial",
+      "components": [
+        "U1",
+        "C18",
+        "C20"
+      ],
+      "nets": [
+        "FILT_ADC",
+        "FILT_DAC"
+      ],
+      "finding_id": "deep_review:91fe37794922"
+    },
+    {
+      "detector": "deep_review",
+      "category": "logic_interfaces",
+      "severity": "info",
+      "confidence": "high",
+      "summary": "Separate push-pull rail-good outputs and Schmitt shutter OE remove the identified pull-up-limited CMOS edges.",
+      "evidence": {
+        "components": [
+          "U6",
+          "U7",
+          "U36",
+          "U37",
+          "U5",
+          "R371",
+          "R372"
+        ],
+        "nets": [
+          "RAIL_P_GOOD",
+          "RAIL_N_GOOD",
+          "SHUTTER_DISABLE"
+        ],
+        "datasheet": [
+          {
+            "mpn": "TLV3202AIDGKR",
+            "page": 5,
+            "quote": "Voltage output swing from lower rail"
+          },
+          {
+            "mpn": "SN74AHCT1G14DBVR",
+            "page": 5,
+            "quote": "Positive-going input threshold voltage"
+          }
+        ],
+        "computation": {
+          "description": "Check real package pins, separated outputs, 100ohm series topology and static logic margins.",
+          "script": "tools/verify_power_eco.py",
+          "result": "TLV3202 low225mV max at5V/4mA versus LVC VIL0.8V; U37 Schmitt input threshold<=2V, clean push-pull output solely to U5OE."
+        }
+      },
+      "evidence_checked": "partial",
+      "components": [
+        "U6",
+        "U7",
+        "U36",
+        "U37",
+        "U5",
+        "R371",
+        "R372"
+      ],
+      "nets": [
+        "RAIL_P_GOOD",
+        "RAIL_N_GOOD",
+        "SHUTTER_DISABLE"
+      ],
+      "finding_id": "deep_review:efe36b9ddca4"
+    },
+    {
+      "detector": "deep_review",
+      "category": "mechanical_procurement",
+      "severity": "error",
+      "confidence": "high",
+      "summary": "J1 still requires a real qualified right-angle DB25 MPN and mechanical drawing.",
+      "evidence": {
+        "components": [
+          "J1"
+        ],
+        "computation": {
+          "description": "Inspect the actual sourceMPN field rather than accepting a nonempty candidate string as procurement completion.",
+          "script": "tools/verify_power_eco.py",
+          "result": "SourceJ1 still explicitly says CANDIDATE / MPN pending; geometry and cable envelope remain unqualified."
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "J1"
+      ],
+      "finding_id": "deep_review:d56c61fb443c"
+    },
+    {
+      "detector": "deep_review",
+      "category": "output_power_loss",
+      "severity": "warning",
+      "confidence": "high",
+      "summary": "TMUX6212 fail-safe controls are not a guarantee of powered-off S/D isolation.",
+      "description": "The new reset/ARM guard inhibits RUN earlier, but exact S/D voltages during collapsing supplies and external back-bias remain qualification items.",
+      "evidence": {
+        "components": [
+          "U21",
+          "U22",
+          "U23",
+          "U24"
+        ],
+        "nets": [
+          "RUN_ENABLE",
+          "+15A",
+          "-15A"
+        ],
+        "datasheet": [
+          {
+            "mpn": "TMUX6212PWR",
+            "page": 25,
+            "quote": "Fail-Safe Logic on the control input pins"
+          },
+          {
+            "mpn": "TMUX6212PWR",
+            "page": 4,
+            "quote": "Source or drain voltage"
+          }
+        ]
+      },
+      "evidence_checked": "partial",
+      "components": [
+        "U21",
+        "U22",
+        "U23",
+        "U24"
+      ],
+      "nets": [
+        "RUN_ENABLE",
+        "+15A",
+        "-15A"
+      ],
+      "finding_id": "deep_review:42a6f157cdce"
+    },
+    {
+      "detector": "deep_review",
+      "category": "power_off_isolation",
+      "severity": "info",
+      "confidence": "high",
+      "summary": "DAC inputs have hardware-controlled ADG4613 isolation ahead of the 100k resistors.",
+      "description": "Mixed channel polarities use CODEC_RESET for channels1/4 and DAC_ISOLATE_N for2/3. Powered codec / missing analog-rail steady state requests OFF. No instantaneous all-transient current guarantee is made.",
+      "evidence": {
+        "components": [
+          "U31",
+          "U32",
+          "U33",
+          "U34",
+          "U9"
+        ],
+        "nets": [
+          "CODEC_RESET",
+          "DAC_ISOLATE_N"
+        ],
+        "datasheet": [
+          {
+            "mpn": "ADG4613BRUZ",
+            "page": 10,
+            "quote": "ADG4613 Truth Table"
+          }
+        ],
+        "computation": {
+          "description": "New10M ground paths and existing100k inputs bound normal resistive DC loading.",
+          "script": "tools/verify_power_eco.py",
+          "result": "5.25V/(10Meg+100k+12.5ohm)=0.520uA/leg; nominal input attenuation0.99010."
+        }
+      },
+      "evidence_checked": "partial",
+      "components": [
+        "U31",
+        "U32",
+        "U33",
+        "U34",
+        "U9"
+      ],
+      "nets": [
+        "CODEC_RESET",
+        "DAC_ISOLATE_N"
+      ],
+      "finding_id": "deep_review:6c5952d2f6b1"
+    },
+    {
+      "detector": "deep_review",
+      "category": "recovery_interlock",
+      "severity": "info",
+      "confidence": "high",
+      "summary": "Fresh-ARM DFF blocks the known stationary-ARM/HEART analog-rail-recovery pulse for valid logic supplies.",
+      "description": "U8 D=carrier3V3, CLK=ARM, CLRn=CODEC_RESET, Q=HC123clear. Firmware active shutdown also assertsRESET because ARM falling alone no longer clears this latch.",
+      "evidence": {
+        "components": [
+          "U8",
+          "U4"
+        ],
+        "nets": [
+          "ARM",
+          "ARM_QUALIFIED",
+          "CODEC_RESET"
+        ],
+        "pins": [
+          "U8.1",
+          "U8.6",
+          "U4.3"
+        ],
+        "datasheet": [
+          {
+            "mpn": "SN74LVC1G175DBVR",
+            "page": 3,
+            "quote": "Clear Data Input"
+          }
+        ],
+        "computation": {
+          "description": "Compare HC123clear-release behavior using the old AND and new DFF state tables.",
+          "script": "tools/verify_power_eco.py",
+          "result": "Legacy model triggers RUN on recovery with ARM/HEART stuckHIGH; new latch stays clear until a fresh ARM edge. Analog brownout timing is not certified."
+        }
+      },
+      "evidence_checked": "partial",
+      "components": [
+        "U8",
+        "U4"
+      ],
+      "nets": [
+        "ARM",
+        "ARM_QUALIFIED",
+        "CODEC_RESET"
+      ],
+      "pins": [
+        "U8.1",
+        "U8.6",
+        "U4.3"
+      ],
+      "finding_id": "deep_review:7da7e2f83ffa"
+    }
+  ],
+  "quarantined": []
+}

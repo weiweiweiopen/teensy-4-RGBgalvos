@@ -1,0 +1,4814 @@
+[
+  {
+    "ref": "U1",
+    "mpn": "CS42448-CQZR",
+    "source_code": "C2151089",
+    "code_model_match": true,
+    "stock": 0,
+    "returned_models": [
+      {
+        "code": "C2151089",
+        "model": "CS42448-CQZR",
+        "package": "LQFP-64(10x10)",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "ref": "U2",
+    "mpn": "TLV75533PDBVR",
+    "source_code": "C404027",
+    "code_model_match": true,
+    "stock": 108629,
+    "returned_models": [
+      {
+        "code": "C404027",
+        "model": "TLV75533PDBVR",
+        "package": "SOT-23-5",
+        "stock": 108629
+      }
+    ]
+  },
+  {
+    "ref": "C1",
+    "mpn": "GRM21BR61E106KA73L",
+    "source_code": "C84416",
+    "code_model_match": true,
+    "stock": 59996,
+    "returned_models": [
+      {
+        "code": "C84416",
+        "model": "GRM21BR61E106KA73L",
+        "package": "0805",
+        "stock": 59996
+      }
+    ]
+  },
+  {
+    "ref": "C2",
+    "mpn": "GRM21BR61E106KA73L",
+    "source_code": "C84416",
+    "code_model_match": true,
+    "stock": 59996,
+    "returned_models": [
+      {
+        "code": "C84416",
+        "model": "GRM21BR61E106KA73L",
+        "package": "0805",
+        "stock": 59996
+      }
+    ]
+  },
+  {
+    "ref": "FB1",
+    "mpn": "BLM21PG601SN1D",
+    "source_code": "C41556732",
+    "code_model_match": true,
+    "stock": 4560,
+    "returned_models": [
+      {
+        "code": "C41556732",
+        "model": "BLM21PG601SN1D",
+        "package": "0805",
+        "stock": 4560
+      }
+    ]
+  },
+  {
+    "ref": "C3",
+    "mpn": "GRM21BR61E106KA73L",
+    "source_code": "C84416",
+    "code_model_match": true,
+    "stock": 59996,
+    "returned_models": [
+      {
+        "code": "C84416",
+        "model": "GRM21BR61E106KA73L",
+        "package": "0805",
+        "stock": 59996
+      }
+    ]
+  },
+  {
+    "ref": "D1",
+    "mpn": "SS14",
+    "source_code": "C2480",
+    "code_model_match": true,
+    "stock": 1790102,
+    "returned_models": [
+      {
+        "code": "C2480",
+        "model": "SS14",
+        "package": "SMA(DO-214AC)",
+        "stock": 1790102
+      },
+      {
+        "code": "C9900015281",
+        "model": "ZCC2480",
+        "package": "ESOP8",
+        "stock": 0
+      },
+      {
+        "code": "C5717987",
+        "model": "GC2480003",
+        "package": "HC-49S-SMD",
+        "stock": 0
+      },
+      {
+        "code": "C3606896",
+        "model": "CC2480A1RTC",
+        "package": "VQFN-48-EP(7x7)",
+        "stock": 0
+      },
+      {
+        "code": "C9900057021",
+        "model": "AE-SC24801A",
+        "package": "SMD-24",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "ref": "D2",
+    "mpn": "SS14",
+    "source_code": "C2480",
+    "code_model_match": true,
+    "stock": 1790102,
+    "returned_models": [
+      {
+        "code": "C2480",
+        "model": "SS14",
+        "package": "SMA(DO-214AC)",
+        "stock": 1790102
+      },
+      {
+        "code": "C9900015281",
+        "model": "ZCC2480",
+        "package": "ESOP8",
+        "stock": 0
+      },
+      {
+        "code": "C5717987",
+        "model": "GC2480003",
+        "package": "HC-49S-SMD",
+        "stock": 0
+      },
+      {
+        "code": "C3606896",
+        "model": "CC2480A1RTC",
+        "package": "VQFN-48-EP(7x7)",
+        "stock": 0
+      },
+      {
+        "code": "C9900057021",
+        "model": "AE-SC24801A",
+        "package": "SMD-24",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "ref": "C4",
+    "mpn": "GRM21BR61E106KA73L",
+    "source_code": "C84416",
+    "code_model_match": true,
+    "stock": 59996,
+    "returned_models": [
+      {
+        "code": "C84416",
+        "model": "GRM21BR61E106KA73L",
+        "package": "0805",
+        "stock": 59996
+      }
+    ]
+  },
+  {
+    "ref": "C5",
+    "mpn": "GRM21BR61E106KA73L",
+    "source_code": "C84416",
+    "code_model_match": true,
+    "stock": 59996,
+    "returned_models": [
+      {
+        "code": "C84416",
+        "model": "GRM21BR61E106KA73L",
+        "package": "0805",
+        "stock": 59996
+      }
+    ]
+  },
+  {
+    "ref": "R1",
+    "mpn": "RC0603FR-07100RL",
+    "source_code": "C105588",
+    "code_model_match": true,
+    "stock": 2094931,
+    "returned_models": [
+      {
+        "code": "C105588",
+        "model": "RC0603FR-07100RL",
+        "package": "0603",
+        "stock": 2094931
+      }
+    ]
+  },
+  {
+    "ref": "R2",
+    "mpn": "RC0603FR-07100RL",
+    "source_code": "C105588",
+    "code_model_match": true,
+    "stock": 2094931,
+    "returned_models": [
+      {
+        "code": "C105588",
+        "model": "RC0603FR-07100RL",
+        "package": "0603",
+        "stock": 2094931
+      }
+    ]
+  },
+  {
+    "ref": "R3",
+    "mpn": "RC0603FR-07100RL",
+    "source_code": "C105588",
+    "code_model_match": true,
+    "stock": 2094931,
+    "returned_models": [
+      {
+        "code": "C105588",
+        "model": "RC0603FR-07100RL",
+        "package": "0603",
+        "stock": 2094931
+      }
+    ]
+  },
+  {
+    "ref": "R4",
+    "mpn": "RC0603FR-07100RL",
+    "source_code": "C105588",
+    "code_model_match": true,
+    "stock": 2094931,
+    "returned_models": [
+      {
+        "code": "C105588",
+        "model": "RC0603FR-07100RL",
+        "package": "0603",
+        "stock": 2094931
+      }
+    ]
+  },
+  {
+    "ref": "R5",
+    "mpn": "RC0603FR-07100RL",
+    "source_code": "C105588",
+    "code_model_match": true,
+    "stock": 2094931,
+    "returned_models": [
+      {
+        "code": "C105588",
+        "model": "RC0603FR-07100RL",
+        "package": "0603",
+        "stock": 2094931
+      }
+    ]
+  },
+  {
+    "ref": "R6",
+    "mpn": "RC0603FR-072K2L",
+    "source_code": "C114662",
+    "code_model_match": true,
+    "stock": 2177988,
+    "returned_models": [
+      {
+        "code": "C114662",
+        "model": "RC0603FR-072K2L",
+        "package": "0603",
+        "stock": 2177988
+      }
+    ]
+  },
+  {
+    "ref": "R7",
+    "mpn": "RC0603FR-072K2L",
+    "source_code": "C114662",
+    "code_model_match": true,
+    "stock": 2177988,
+    "returned_models": [
+      {
+        "code": "C114662",
+        "model": "RC0603FR-072K2L",
+        "package": "0603",
+        "stock": 2177988
+      }
+    ]
+  },
+  {
+    "ref": "R8",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R9",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R10",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R11",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R12",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R13",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R14",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R15",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R16",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "U3",
+    "mpn": "SN74LVC1G17DBVR",
+    "source_code": "C7836",
+    "code_model_match": true,
+    "stock": 9651,
+    "returned_models": [
+      {
+        "code": "C7836",
+        "model": "SN74LVC1G17DBVR",
+        "package": "SOT-23-5",
+        "stock": 9651
+      },
+      {
+        "code": "C2871917",
+        "model": "AMC7836IPAPR",
+        "package": "HTQFP-64(10x10)",
+        "stock": 12
+      },
+      {
+        "code": "C1540230",
+        "model": "AMC7836IPAP",
+        "package": "HTQFP-64(10x10)",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "ref": "C6",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C7",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C8",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C9",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C10",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C11",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C12",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C13",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C14",
+    "mpn": "GRM21BR61E106KA73L",
+    "source_code": "C84416",
+    "code_model_match": true,
+    "stock": 59996,
+    "returned_models": [
+      {
+        "code": "C84416",
+        "model": "GRM21BR61E106KA73L",
+        "package": "0805",
+        "stock": 59996
+      }
+    ]
+  },
+  {
+    "ref": "C15",
+    "mpn": "GRM21BR61E106KA73L",
+    "source_code": "C84416",
+    "code_model_match": true,
+    "stock": 59996,
+    "returned_models": [
+      {
+        "code": "C84416",
+        "model": "GRM21BR61E106KA73L",
+        "package": "0805",
+        "stock": 59996
+      }
+    ]
+  },
+  {
+    "ref": "C16",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "C17",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C18",
+    "mpn": "GRM31CR61E226KE15L",
+    "source_code": "C77091",
+    "code_model_match": true,
+    "stock": 53776,
+    "returned_models": [
+      {
+        "code": "C77091",
+        "model": "GRM31CR61E226KE15L",
+        "package": "1206",
+        "stock": 53776
+      }
+    ]
+  },
+  {
+    "ref": "C19",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C20",
+    "mpn": "GRM32ER61A107ME20L",
+    "source_code": "C84455",
+    "code_model_match": true,
+    "stock": 48306,
+    "returned_models": [
+      {
+        "code": "C84455",
+        "model": "GRM32ER61A107ME20L",
+        "package": "1210",
+        "stock": 48306
+      }
+    ]
+  },
+  {
+    "ref": "C21",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C22",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "C23",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "C24",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "C25",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "C26",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "C27",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "C28",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "C29",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "C30",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "C31",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "C32",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "C33",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "U11",
+    "mpn": "OPA4197IDR",
+    "source_code": "C2058532",
+    "code_model_match": true,
+    "stock": 6931,
+    "returned_models": [
+      {
+        "code": "C2058532",
+        "model": "OPA4197IDR",
+        "package": "SOIC-14",
+        "stock": 6931
+      }
+    ]
+  },
+  {
+    "ref": "R121",
+    "mpn": "RT0603BRD071KL",
+    "source_code": "C110776",
+    "code_model_match": true,
+    "stock": 1659840,
+    "returned_models": [
+      {
+        "code": "C110776",
+        "model": "RT0603BRD071KL",
+        "package": "0603",
+        "stock": 1659840
+      }
+    ]
+  },
+  {
+    "ref": "R122",
+    "mpn": "RT0603BRD071KL",
+    "source_code": "C110776",
+    "code_model_match": true,
+    "stock": 1659840,
+    "returned_models": [
+      {
+        "code": "C110776",
+        "model": "RT0603BRD071KL",
+        "package": "0603",
+        "stock": 1659840
+      }
+    ]
+  },
+  {
+    "ref": "C121",
+    "mpn": "GRM1885C1H472JA01D",
+    "source_code": "C85980",
+    "code_model_match": true,
+    "stock": 40893,
+    "returned_models": [
+      {
+        "code": "C85980",
+        "model": "GRM1885C1H472JA01D",
+        "package": "0603",
+        "stock": 40893
+      }
+    ]
+  },
+  {
+    "ref": "C122",
+    "mpn": "GRM1885C1H472JA01D",
+    "source_code": "C85980",
+    "code_model_match": true,
+    "stock": 40893,
+    "returned_models": [
+      {
+        "code": "C85980",
+        "model": "GRM1885C1H472JA01D",
+        "package": "0603",
+        "stock": 40893
+      }
+    ]
+  },
+  {
+    "ref": "R123",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R124",
+    "mpn": "RT0603BRD0739KL",
+    "source_code": "C309652",
+    "code_model_match": true,
+    "stock": 43529,
+    "returned_models": [
+      {
+        "code": "C309652",
+        "model": "RT0603BRD0739KL",
+        "package": "0603",
+        "stock": 43529
+      }
+    ]
+  },
+  {
+    "ref": "R125",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R126",
+    "mpn": "RT0603BRD0739KL",
+    "source_code": "C309652",
+    "code_model_match": true,
+    "stock": 43529,
+    "returned_models": [
+      {
+        "code": "C309652",
+        "model": "RT0603BRD0739KL",
+        "package": "0603",
+        "stock": 43529
+      }
+    ]
+  },
+  {
+    "ref": "R127",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R128",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R129",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R130",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "C123",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C124",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C125",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "C126",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "U12",
+    "mpn": "OPA4197IDR",
+    "source_code": "C2058532",
+    "code_model_match": true,
+    "stock": 6931,
+    "returned_models": [
+      {
+        "code": "C2058532",
+        "model": "OPA4197IDR",
+        "package": "SOIC-14",
+        "stock": 6931
+      }
+    ]
+  },
+  {
+    "ref": "R141",
+    "mpn": "RT0603BRD071KL",
+    "source_code": "C110776",
+    "code_model_match": true,
+    "stock": 1659840,
+    "returned_models": [
+      {
+        "code": "C110776",
+        "model": "RT0603BRD071KL",
+        "package": "0603",
+        "stock": 1659840
+      }
+    ]
+  },
+  {
+    "ref": "R142",
+    "mpn": "RT0603BRD071KL",
+    "source_code": "C110776",
+    "code_model_match": true,
+    "stock": 1659840,
+    "returned_models": [
+      {
+        "code": "C110776",
+        "model": "RT0603BRD071KL",
+        "package": "0603",
+        "stock": 1659840
+      }
+    ]
+  },
+  {
+    "ref": "C141",
+    "mpn": "GRM1885C1H472JA01D",
+    "source_code": "C85980",
+    "code_model_match": true,
+    "stock": 40893,
+    "returned_models": [
+      {
+        "code": "C85980",
+        "model": "GRM1885C1H472JA01D",
+        "package": "0603",
+        "stock": 40893
+      }
+    ]
+  },
+  {
+    "ref": "C142",
+    "mpn": "GRM1885C1H472JA01D",
+    "source_code": "C85980",
+    "code_model_match": true,
+    "stock": 40893,
+    "returned_models": [
+      {
+        "code": "C85980",
+        "model": "GRM1885C1H472JA01D",
+        "package": "0603",
+        "stock": 40893
+      }
+    ]
+  },
+  {
+    "ref": "R143",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R144",
+    "mpn": "RT0603BRD0739KL",
+    "source_code": "C309652",
+    "code_model_match": true,
+    "stock": 43529,
+    "returned_models": [
+      {
+        "code": "C309652",
+        "model": "RT0603BRD0739KL",
+        "package": "0603",
+        "stock": 43529
+      }
+    ]
+  },
+  {
+    "ref": "R145",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R146",
+    "mpn": "RT0603BRD0739KL",
+    "source_code": "C309652",
+    "code_model_match": true,
+    "stock": 43529,
+    "returned_models": [
+      {
+        "code": "C309652",
+        "model": "RT0603BRD0739KL",
+        "package": "0603",
+        "stock": 43529
+      }
+    ]
+  },
+  {
+    "ref": "R147",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R148",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R149",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R150",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "C143",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C144",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C145",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "C146",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "U13",
+    "mpn": "OPA4197IDR",
+    "source_code": "C2058532",
+    "code_model_match": true,
+    "stock": 6931,
+    "returned_models": [
+      {
+        "code": "C2058532",
+        "model": "OPA4197IDR",
+        "package": "SOIC-14",
+        "stock": 6931
+      }
+    ]
+  },
+  {
+    "ref": "R161",
+    "mpn": "RT0603BRD071KL",
+    "source_code": "C110776",
+    "code_model_match": true,
+    "stock": 1659840,
+    "returned_models": [
+      {
+        "code": "C110776",
+        "model": "RT0603BRD071KL",
+        "package": "0603",
+        "stock": 1659840
+      }
+    ]
+  },
+  {
+    "ref": "R162",
+    "mpn": "RT0603BRD071KL",
+    "source_code": "C110776",
+    "code_model_match": true,
+    "stock": 1659840,
+    "returned_models": [
+      {
+        "code": "C110776",
+        "model": "RT0603BRD071KL",
+        "package": "0603",
+        "stock": 1659840
+      }
+    ]
+  },
+  {
+    "ref": "C161",
+    "mpn": "GRM1885C1H472JA01D",
+    "source_code": "C85980",
+    "code_model_match": true,
+    "stock": 40893,
+    "returned_models": [
+      {
+        "code": "C85980",
+        "model": "GRM1885C1H472JA01D",
+        "package": "0603",
+        "stock": 40893
+      }
+    ]
+  },
+  {
+    "ref": "C162",
+    "mpn": "GRM1885C1H472JA01D",
+    "source_code": "C85980",
+    "code_model_match": true,
+    "stock": 40893,
+    "returned_models": [
+      {
+        "code": "C85980",
+        "model": "GRM1885C1H472JA01D",
+        "package": "0603",
+        "stock": 40893
+      }
+    ]
+  },
+  {
+    "ref": "R163",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R164",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R165",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R166",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R167",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R168",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R169",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R170",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "C163",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C164",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C165",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "C166",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "U14",
+    "mpn": "OPA4197IDR",
+    "source_code": "C2058532",
+    "code_model_match": true,
+    "stock": 6931,
+    "returned_models": [
+      {
+        "code": "C2058532",
+        "model": "OPA4197IDR",
+        "package": "SOIC-14",
+        "stock": 6931
+      }
+    ]
+  },
+  {
+    "ref": "R181",
+    "mpn": "RT0603BRD071KL",
+    "source_code": "C110776",
+    "code_model_match": true,
+    "stock": 1659840,
+    "returned_models": [
+      {
+        "code": "C110776",
+        "model": "RT0603BRD071KL",
+        "package": "0603",
+        "stock": 1659840
+      }
+    ]
+  },
+  {
+    "ref": "R182",
+    "mpn": "RT0603BRD071KL",
+    "source_code": "C110776",
+    "code_model_match": true,
+    "stock": 1659840,
+    "returned_models": [
+      {
+        "code": "C110776",
+        "model": "RT0603BRD071KL",
+        "package": "0603",
+        "stock": 1659840
+      }
+    ]
+  },
+  {
+    "ref": "C181",
+    "mpn": "GRM1885C1H472JA01D",
+    "source_code": "C85980",
+    "code_model_match": true,
+    "stock": 40893,
+    "returned_models": [
+      {
+        "code": "C85980",
+        "model": "GRM1885C1H472JA01D",
+        "package": "0603",
+        "stock": 40893
+      }
+    ]
+  },
+  {
+    "ref": "C182",
+    "mpn": "GRM1885C1H472JA01D",
+    "source_code": "C85980",
+    "code_model_match": true,
+    "stock": 40893,
+    "returned_models": [
+      {
+        "code": "C85980",
+        "model": "GRM1885C1H472JA01D",
+        "package": "0603",
+        "stock": 40893
+      }
+    ]
+  },
+  {
+    "ref": "R183",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R184",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R185",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R186",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R187",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R188",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R189",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R190",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "C183",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C184",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C185",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "C186",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "U15",
+    "mpn": "OPA4197IDR",
+    "source_code": "C2058532",
+    "code_model_match": true,
+    "stock": 6931,
+    "returned_models": [
+      {
+        "code": "C2058532",
+        "model": "OPA4197IDR",
+        "package": "SOIC-14",
+        "stock": 6931
+      }
+    ]
+  },
+  {
+    "ref": "R201",
+    "mpn": "RT0603BRD071KL",
+    "source_code": "C110776",
+    "code_model_match": true,
+    "stock": 1659840,
+    "returned_models": [
+      {
+        "code": "C110776",
+        "model": "RT0603BRD071KL",
+        "package": "0603",
+        "stock": 1659840
+      }
+    ]
+  },
+  {
+    "ref": "R202",
+    "mpn": "RT0603BRD071KL",
+    "source_code": "C110776",
+    "code_model_match": true,
+    "stock": 1659840,
+    "returned_models": [
+      {
+        "code": "C110776",
+        "model": "RT0603BRD071KL",
+        "package": "0603",
+        "stock": 1659840
+      }
+    ]
+  },
+  {
+    "ref": "C201",
+    "mpn": "GRM1885C1H472JA01D",
+    "source_code": "C85980",
+    "code_model_match": true,
+    "stock": 40893,
+    "returned_models": [
+      {
+        "code": "C85980",
+        "model": "GRM1885C1H472JA01D",
+        "package": "0603",
+        "stock": 40893
+      }
+    ]
+  },
+  {
+    "ref": "C202",
+    "mpn": "GRM1885C1H472JA01D",
+    "source_code": "C85980",
+    "code_model_match": true,
+    "stock": 40893,
+    "returned_models": [
+      {
+        "code": "C85980",
+        "model": "GRM1885C1H472JA01D",
+        "package": "0603",
+        "stock": 40893
+      }
+    ]
+  },
+  {
+    "ref": "R203",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R204",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R205",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R206",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R207",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R208",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R209",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R210",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "C203",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C204",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C205",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "C206",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "U16",
+    "mpn": "OPA4197IDR",
+    "source_code": "C2058532",
+    "code_model_match": true,
+    "stock": 6931,
+    "returned_models": [
+      {
+        "code": "C2058532",
+        "model": "OPA4197IDR",
+        "package": "SOIC-14",
+        "stock": 6931
+      }
+    ]
+  },
+  {
+    "ref": "R221",
+    "mpn": "RT0603BRD071KL",
+    "source_code": "C110776",
+    "code_model_match": true,
+    "stock": 1659840,
+    "returned_models": [
+      {
+        "code": "C110776",
+        "model": "RT0603BRD071KL",
+        "package": "0603",
+        "stock": 1659840
+      }
+    ]
+  },
+  {
+    "ref": "R222",
+    "mpn": "RT0603BRD071KL",
+    "source_code": "C110776",
+    "code_model_match": true,
+    "stock": 1659840,
+    "returned_models": [
+      {
+        "code": "C110776",
+        "model": "RT0603BRD071KL",
+        "package": "0603",
+        "stock": 1659840
+      }
+    ]
+  },
+  {
+    "ref": "C221",
+    "mpn": "GRM1885C1H472JA01D",
+    "source_code": "C85980",
+    "code_model_match": true,
+    "stock": 40893,
+    "returned_models": [
+      {
+        "code": "C85980",
+        "model": "GRM1885C1H472JA01D",
+        "package": "0603",
+        "stock": 40893
+      }
+    ]
+  },
+  {
+    "ref": "C222",
+    "mpn": "GRM1885C1H472JA01D",
+    "source_code": "C85980",
+    "code_model_match": true,
+    "stock": 40893,
+    "returned_models": [
+      {
+        "code": "C85980",
+        "model": "GRM1885C1H472JA01D",
+        "package": "0603",
+        "stock": 40893
+      }
+    ]
+  },
+  {
+    "ref": "R223",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R224",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R225",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R226",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R227",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R228",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R229",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R230",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "C223",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C224",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C225",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "C226",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "U17",
+    "mpn": "OPA4197IDR",
+    "source_code": "C2058532",
+    "code_model_match": true,
+    "stock": 6931,
+    "returned_models": [
+      {
+        "code": "C2058532",
+        "model": "OPA4197IDR",
+        "package": "SOIC-14",
+        "stock": 6931
+      }
+    ]
+  },
+  {
+    "ref": "R241",
+    "mpn": "RT0603BRD071KL",
+    "source_code": "C110776",
+    "code_model_match": true,
+    "stock": 1659840,
+    "returned_models": [
+      {
+        "code": "C110776",
+        "model": "RT0603BRD071KL",
+        "package": "0603",
+        "stock": 1659840
+      }
+    ]
+  },
+  {
+    "ref": "R242",
+    "mpn": "RT0603BRD071KL",
+    "source_code": "C110776",
+    "code_model_match": true,
+    "stock": 1659840,
+    "returned_models": [
+      {
+        "code": "C110776",
+        "model": "RT0603BRD071KL",
+        "package": "0603",
+        "stock": 1659840
+      }
+    ]
+  },
+  {
+    "ref": "C241",
+    "mpn": "GRM1885C1H472JA01D",
+    "source_code": "C85980",
+    "code_model_match": true,
+    "stock": 40893,
+    "returned_models": [
+      {
+        "code": "C85980",
+        "model": "GRM1885C1H472JA01D",
+        "package": "0603",
+        "stock": 40893
+      }
+    ]
+  },
+  {
+    "ref": "C242",
+    "mpn": "GRM1885C1H472JA01D",
+    "source_code": "C85980",
+    "code_model_match": true,
+    "stock": 40893,
+    "returned_models": [
+      {
+        "code": "C85980",
+        "model": "GRM1885C1H472JA01D",
+        "package": "0603",
+        "stock": 40893
+      }
+    ]
+  },
+  {
+    "ref": "R243",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R244",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R245",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R246",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R247",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R248",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R249",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R250",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "C243",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C244",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C245",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "C246",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "U18",
+    "mpn": "OPA4197IDR",
+    "source_code": "C2058532",
+    "code_model_match": true,
+    "stock": 6931,
+    "returned_models": [
+      {
+        "code": "C2058532",
+        "model": "OPA4197IDR",
+        "package": "SOIC-14",
+        "stock": 6931
+      }
+    ]
+  },
+  {
+    "ref": "R261",
+    "mpn": "RT0603BRD071KL",
+    "source_code": "C110776",
+    "code_model_match": true,
+    "stock": 1659840,
+    "returned_models": [
+      {
+        "code": "C110776",
+        "model": "RT0603BRD071KL",
+        "package": "0603",
+        "stock": 1659840
+      }
+    ]
+  },
+  {
+    "ref": "R262",
+    "mpn": "RT0603BRD071KL",
+    "source_code": "C110776",
+    "code_model_match": true,
+    "stock": 1659840,
+    "returned_models": [
+      {
+        "code": "C110776",
+        "model": "RT0603BRD071KL",
+        "package": "0603",
+        "stock": 1659840
+      }
+    ]
+  },
+  {
+    "ref": "C261",
+    "mpn": "GRM1885C1H472JA01D",
+    "source_code": "C85980",
+    "code_model_match": true,
+    "stock": 40893,
+    "returned_models": [
+      {
+        "code": "C85980",
+        "model": "GRM1885C1H472JA01D",
+        "package": "0603",
+        "stock": 40893
+      }
+    ]
+  },
+  {
+    "ref": "C262",
+    "mpn": "GRM1885C1H472JA01D",
+    "source_code": "C85980",
+    "code_model_match": true,
+    "stock": 40893,
+    "returned_models": [
+      {
+        "code": "C85980",
+        "model": "GRM1885C1H472JA01D",
+        "package": "0603",
+        "stock": 40893
+      }
+    ]
+  },
+  {
+    "ref": "R263",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R264",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R265",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R266",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R267",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R268",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R269",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R270",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "C263",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C264",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C265",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "C266",
+    "mpn": "GRM21BR61E475KA12L",
+    "source_code": "C77077",
+    "code_model_match": true,
+    "stock": 27157,
+    "returned_models": [
+      {
+        "code": "C77077",
+        "model": "GRM21BR61E475KA12L",
+        "package": "0805",
+        "stock": 27157
+      }
+    ]
+  },
+  {
+    "ref": "U21",
+    "mpn": "TMUX6212PWR",
+    "source_code": "C2902526",
+    "code_model_match": true,
+    "stock": 476,
+    "returned_models": [
+      {
+        "code": "C2902526",
+        "model": "TMUX6212PWR",
+        "package": "TSSOP-16-175mil",
+        "stock": 476
+      }
+    ]
+  },
+  {
+    "ref": "C310",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C311",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "R300",
+    "mpn": "RC2512FK-07100RL",
+    "source_code": "C309603",
+    "code_model_match": true,
+    "stock": 36495,
+    "returned_models": [
+      {
+        "code": "C309603",
+        "model": "RC2512FK-07100RL",
+        "package": "2512",
+        "stock": 36495
+      }
+    ]
+  },
+  {
+    "ref": "R301",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R302",
+    "mpn": "RC2512FK-07100RL",
+    "source_code": "C309603",
+    "code_model_match": true,
+    "stock": 36495,
+    "returned_models": [
+      {
+        "code": "C309603",
+        "model": "RC2512FK-07100RL",
+        "package": "2512",
+        "stock": 36495
+      }
+    ]
+  },
+  {
+    "ref": "R303",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R304",
+    "mpn": "RC2512FK-07100RL",
+    "source_code": "C309603",
+    "code_model_match": true,
+    "stock": 36495,
+    "returned_models": [
+      {
+        "code": "C309603",
+        "model": "RC2512FK-07100RL",
+        "package": "2512",
+        "stock": 36495
+      }
+    ]
+  },
+  {
+    "ref": "R305",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R306",
+    "mpn": "RC2512FK-07100RL",
+    "source_code": "C309603",
+    "code_model_match": true,
+    "stock": 36495,
+    "returned_models": [
+      {
+        "code": "C309603",
+        "model": "RC2512FK-07100RL",
+        "package": "2512",
+        "stock": 36495
+      }
+    ]
+  },
+  {
+    "ref": "R307",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "U22",
+    "mpn": "TMUX6212PWR",
+    "source_code": "C2902526",
+    "code_model_match": true,
+    "stock": 476,
+    "returned_models": [
+      {
+        "code": "C2902526",
+        "model": "TMUX6212PWR",
+        "package": "TSSOP-16-175mil",
+        "stock": 476
+      }
+    ]
+  },
+  {
+    "ref": "C312",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C313",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "R308",
+    "mpn": "RC2512FK-07100RL",
+    "source_code": "C309603",
+    "code_model_match": true,
+    "stock": 36495,
+    "returned_models": [
+      {
+        "code": "C309603",
+        "model": "RC2512FK-07100RL",
+        "package": "2512",
+        "stock": 36495
+      }
+    ]
+  },
+  {
+    "ref": "R309",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R310",
+    "mpn": "RC2512FK-07100RL",
+    "source_code": "C309603",
+    "code_model_match": true,
+    "stock": 36495,
+    "returned_models": [
+      {
+        "code": "C309603",
+        "model": "RC2512FK-07100RL",
+        "package": "2512",
+        "stock": 36495
+      }
+    ]
+  },
+  {
+    "ref": "R311",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R312",
+    "mpn": "RC2512FK-07100RL",
+    "source_code": "C309603",
+    "code_model_match": true,
+    "stock": 36495,
+    "returned_models": [
+      {
+        "code": "C309603",
+        "model": "RC2512FK-07100RL",
+        "package": "2512",
+        "stock": 36495
+      }
+    ]
+  },
+  {
+    "ref": "R313",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R314",
+    "mpn": "RC2512FK-07100RL",
+    "source_code": "C309603",
+    "code_model_match": true,
+    "stock": 36495,
+    "returned_models": [
+      {
+        "code": "C309603",
+        "model": "RC2512FK-07100RL",
+        "package": "2512",
+        "stock": 36495
+      }
+    ]
+  },
+  {
+    "ref": "R315",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "U23",
+    "mpn": "TMUX6212PWR",
+    "source_code": "C2902526",
+    "code_model_match": true,
+    "stock": 476,
+    "returned_models": [
+      {
+        "code": "C2902526",
+        "model": "TMUX6212PWR",
+        "package": "TSSOP-16-175mil",
+        "stock": 476
+      }
+    ]
+  },
+  {
+    "ref": "C314",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C315",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "R316",
+    "mpn": "RC2512FK-07100RL",
+    "source_code": "C309603",
+    "code_model_match": true,
+    "stock": 36495,
+    "returned_models": [
+      {
+        "code": "C309603",
+        "model": "RC2512FK-07100RL",
+        "package": "2512",
+        "stock": 36495
+      }
+    ]
+  },
+  {
+    "ref": "R317",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R318",
+    "mpn": "RC2512FK-07100RL",
+    "source_code": "C309603",
+    "code_model_match": true,
+    "stock": 36495,
+    "returned_models": [
+      {
+        "code": "C309603",
+        "model": "RC2512FK-07100RL",
+        "package": "2512",
+        "stock": 36495
+      }
+    ]
+  },
+  {
+    "ref": "R319",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R320",
+    "mpn": "RC2512FK-07100RL",
+    "source_code": "C309603",
+    "code_model_match": true,
+    "stock": 36495,
+    "returned_models": [
+      {
+        "code": "C309603",
+        "model": "RC2512FK-07100RL",
+        "package": "2512",
+        "stock": 36495
+      }
+    ]
+  },
+  {
+    "ref": "R321",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R322",
+    "mpn": "RC2512FK-07100RL",
+    "source_code": "C309603",
+    "code_model_match": true,
+    "stock": 36495,
+    "returned_models": [
+      {
+        "code": "C309603",
+        "model": "RC2512FK-07100RL",
+        "package": "2512",
+        "stock": 36495
+      }
+    ]
+  },
+  {
+    "ref": "R323",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "U24",
+    "mpn": "TMUX6212PWR",
+    "source_code": "C2902526",
+    "code_model_match": true,
+    "stock": 476,
+    "returned_models": [
+      {
+        "code": "C2902526",
+        "model": "TMUX6212PWR",
+        "package": "TSSOP-16-175mil",
+        "stock": 476
+      }
+    ]
+  },
+  {
+    "ref": "C316",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C317",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "R324",
+    "mpn": "RC2512FK-07100RL",
+    "source_code": "C309603",
+    "code_model_match": true,
+    "stock": 36495,
+    "returned_models": [
+      {
+        "code": "C309603",
+        "model": "RC2512FK-07100RL",
+        "package": "2512",
+        "stock": 36495
+      }
+    ]
+  },
+  {
+    "ref": "R325",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R326",
+    "mpn": "RC2512FK-07100RL",
+    "source_code": "C309603",
+    "code_model_match": true,
+    "stock": 36495,
+    "returned_models": [
+      {
+        "code": "C309603",
+        "model": "RC2512FK-07100RL",
+        "package": "2512",
+        "stock": 36495
+      }
+    ]
+  },
+  {
+    "ref": "R327",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R328",
+    "mpn": "RC2512FK-07100RL",
+    "source_code": "C309603",
+    "code_model_match": true,
+    "stock": 36495,
+    "returned_models": [
+      {
+        "code": "C309603",
+        "model": "RC2512FK-07100RL",
+        "package": "2512",
+        "stock": 36495
+      }
+    ]
+  },
+  {
+    "ref": "R329",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R330",
+    "mpn": "RC2512FK-07100RL",
+    "source_code": "C309603",
+    "code_model_match": true,
+    "stock": 36495,
+    "returned_models": [
+      {
+        "code": "C309603",
+        "model": "RC2512FK-07100RL",
+        "package": "2512",
+        "stock": 36495
+      }
+    ]
+  },
+  {
+    "ref": "R331",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "U4",
+    "mpn": "CD74HC123M96",
+    "source_code": "C133784",
+    "code_model_match": true,
+    "stock": 5698,
+    "returned_models": [
+      {
+        "code": "C133784",
+        "model": "CD74HC123M96",
+        "package": "SOIC-16",
+        "stock": 5698
+      }
+    ]
+  },
+  {
+    "ref": "R17",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "C34",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C35",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "R18",
+    "mpn": "RC0603FR-072K2L",
+    "source_code": "C114662",
+    "code_model_match": true,
+    "stock": 2177988,
+    "returned_models": [
+      {
+        "code": "C114662",
+        "model": "RC0603FR-072K2L",
+        "package": "0603",
+        "stock": 2177988
+      }
+    ]
+  },
+  {
+    "ref": "R19",
+    "mpn": "RC0603FR-072K2L",
+    "source_code": "C114662",
+    "code_model_match": true,
+    "stock": 2177988,
+    "returned_models": [
+      {
+        "code": "C114662",
+        "model": "RC0603FR-072K2L",
+        "package": "0603",
+        "stock": 2177988
+      }
+    ]
+  },
+  {
+    "ref": "R20",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "U5",
+    "mpn": "SN74AHCT1G125DBVR",
+    "source_code": "C7484",
+    "code_model_match": true,
+    "stock": 46558,
+    "returned_models": [
+      {
+        "code": "C7484",
+        "model": "SN74AHCT1G125DBVR",
+        "package": "SOT-23-5",
+        "stock": 46558
+      }
+    ]
+  },
+  {
+    "ref": "C36",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "R21",
+    "mpn": "RT0603BRD071KL",
+    "source_code": "C110776",
+    "code_model_match": true,
+    "stock": 1659840,
+    "returned_models": [
+      {
+        "code": "C110776",
+        "model": "RT0603BRD071KL",
+        "package": "0603",
+        "stock": 1659840
+      }
+    ]
+  },
+  {
+    "ref": "R22",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R23",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R24",
+    "mpn": "RT0603BRD0720KL",
+    "source_code": "C723637",
+    "code_model_match": true,
+    "stock": 49946,
+    "returned_models": [
+      {
+        "code": "C723637",
+        "model": "RT0603BRD0720KL",
+        "package": "0603",
+        "stock": 49946
+      }
+    ]
+  },
+  {
+    "ref": "R25",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R26",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "C37",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C38",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "U6",
+    "mpn": "TLV3202AIDGKR",
+    "source_code": "C478075",
+    "code_model_match": true,
+    "stock": 2459,
+    "returned_models": [
+      {
+        "code": "C478075",
+        "model": "TLV3202AIDGKR",
+        "package": "VSSOP-8",
+        "stock": 2459
+      }
+    ]
+  },
+  {
+    "ref": "U7",
+    "mpn": "SN74LVC1G11DBVR",
+    "source_code": "C22046",
+    "code_model_match": true,
+    "stock": 9796,
+    "returned_models": [
+      {
+        "code": "C22046",
+        "model": "SN74LVC1G11DBVR",
+        "package": "SOT-23-6",
+        "stock": 9796
+      }
+    ]
+  },
+  {
+    "ref": "U8",
+    "mpn": "SN74LVC1G175DBVR",
+    "source_code": "C128412",
+    "code_model_match": true,
+    "stock": 54881,
+    "returned_models": [
+      {
+        "code": "C128412",
+        "model": "SN74LVC1G175DBVR",
+        "package": "SOT-23-6",
+        "stock": 54881
+      }
+    ]
+  },
+  {
+    "ref": "U9",
+    "mpn": "SN74LVC1G06DBVR",
+    "source_code": "C840103",
+    "code_model_match": true,
+    "stock": 20144,
+    "returned_models": [
+      {
+        "code": "C840103",
+        "model": "SN74LVC1G06DBVR",
+        "package": "SOT-23-5",
+        "stock": 20144
+      }
+    ]
+  },
+  {
+    "ref": "U10",
+    "mpn": "TPS3839K33DBZR",
+    "source_code": "C96333",
+    "code_model_match": true,
+    "stock": 1065,
+    "returned_models": [
+      {
+        "code": "C96333",
+        "model": "TPS3839K33DBZR",
+        "package": "SOT-23",
+        "stock": 1065
+      }
+    ]
+  },
+  {
+    "ref": "U31",
+    "mpn": "ADG4613BRUZ",
+    "source_code": "C657392",
+    "code_model_match": true,
+    "stock": 15,
+    "returned_models": [
+      {
+        "code": "C657392",
+        "model": "ADG4613BRUZ",
+        "package": "TSSOP-16",
+        "stock": 15
+      }
+    ]
+  },
+  {
+    "ref": "U32",
+    "mpn": "ADG4613BRUZ",
+    "source_code": "C657392",
+    "code_model_match": true,
+    "stock": 15,
+    "returned_models": [
+      {
+        "code": "C657392",
+        "model": "ADG4613BRUZ",
+        "package": "TSSOP-16",
+        "stock": 15
+      }
+    ]
+  },
+  {
+    "ref": "U33",
+    "mpn": "ADG4613BRUZ",
+    "source_code": "C657392",
+    "code_model_match": true,
+    "stock": 15,
+    "returned_models": [
+      {
+        "code": "C657392",
+        "model": "ADG4613BRUZ",
+        "package": "TSSOP-16",
+        "stock": 15
+      }
+    ]
+  },
+  {
+    "ref": "U34",
+    "mpn": "ADG4613BRUZ",
+    "source_code": "C657392",
+    "code_model_match": true,
+    "stock": 15,
+    "returned_models": [
+      {
+        "code": "C657392",
+        "model": "ADG4613BRUZ",
+        "package": "TSSOP-16",
+        "stock": 15
+      }
+    ]
+  },
+  {
+    "ref": "U35",
+    "mpn": "ADG4613BRUZ",
+    "source_code": "C657392",
+    "code_model_match": true,
+    "stock": 15,
+    "returned_models": [
+      {
+        "code": "C657392",
+        "model": "ADG4613BRUZ",
+        "package": "TSSOP-16",
+        "stock": 15
+      }
+    ]
+  },
+  {
+    "ref": "R350",
+    "mpn": "RC0603FR-071ML",
+    "source_code": "C105578",
+    "code_model_match": true,
+    "stock": 927394,
+    "returned_models": [
+      {
+        "code": "C105578",
+        "model": "RC0603FR-071ML",
+        "package": "0603",
+        "stock": 927394
+      }
+    ]
+  },
+  {
+    "ref": "R351",
+    "mpn": "RC0603FR-07200KL",
+    "source_code": "C105574",
+    "code_model_match": true,
+    "stock": 2488436,
+    "returned_models": [
+      {
+        "code": "C105574",
+        "model": "RC0603FR-07200KL",
+        "package": "0603",
+        "stock": 2488436
+      }
+    ]
+  },
+  {
+    "ref": "R352",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R353",
+    "mpn": "RC0603FR-07150KL",
+    "source_code": "C114660",
+    "code_model_match": true,
+    "stock": 1027700,
+    "returned_models": [
+      {
+        "code": "C114660",
+        "model": "RC0603FR-07150KL",
+        "package": "0603",
+        "stock": 1027700
+      }
+    ]
+  },
+  {
+    "ref": "R354",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R355",
+    "mpn": "RC0603FR-0710ML",
+    "source_code": "C114606",
+    "code_model_match": true,
+    "stock": 1634835,
+    "returned_models": [
+      {
+        "code": "C114606",
+        "model": "RC0603FR-0710ML",
+        "package": "0603",
+        "stock": 1634835
+      }
+    ]
+  },
+  {
+    "ref": "R356",
+    "mpn": "RC0603FR-071ML",
+    "source_code": "C105578",
+    "code_model_match": true,
+    "stock": 927394,
+    "returned_models": [
+      {
+        "code": "C105578",
+        "model": "RC0603FR-071ML",
+        "package": "0603",
+        "stock": 927394
+      }
+    ]
+  },
+  {
+    "ref": "R357",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R358",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R359",
+    "mpn": "RC0603FR-0745K3L",
+    "source_code": "C245971",
+    "code_model_match": true,
+    "stock": 2548,
+    "returned_models": [
+      {
+        "code": "C245971",
+        "model": "RC0603FR-0745K3L",
+        "package": "0603",
+        "stock": 2548
+      }
+    ]
+  },
+  {
+    "ref": "R360",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R361",
+    "mpn": "RC0603FR-0710ML",
+    "source_code": "C114606",
+    "code_model_match": true,
+    "stock": 1634835,
+    "returned_models": [
+      {
+        "code": "C114606",
+        "model": "RC0603FR-0710ML",
+        "package": "0603",
+        "stock": 1634835
+      }
+    ]
+  },
+  {
+    "ref": "R362",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R363",
+    "mpn": "RT0603BRD0710KL",
+    "source_code": "C95204",
+    "code_model_match": true,
+    "stock": 1995941,
+    "returned_models": [
+      {
+        "code": "C95204",
+        "model": "RT0603BRD0710KL",
+        "package": "0603",
+        "stock": 1995941
+      }
+    ]
+  },
+  {
+    "ref": "R364",
+    "mpn": "RT0603BRD074K7L",
+    "source_code": "C513565",
+    "code_model_match": true,
+    "stock": 109529,
+    "returned_models": [
+      {
+        "code": "C513565",
+        "model": "RT0603BRD074K7L",
+        "package": "0603",
+        "stock": 109529
+      }
+    ]
+  },
+  {
+    "ref": "R365",
+    "mpn": "RT0603BRD074K7L",
+    "source_code": "C513565",
+    "code_model_match": true,
+    "stock": 109529,
+    "returned_models": [
+      {
+        "code": "C513565",
+        "model": "RT0603BRD074K7L",
+        "package": "0603",
+        "stock": 109529
+      }
+    ]
+  },
+  {
+    "ref": "R366",
+    "mpn": "RC0603FR-07330RL",
+    "source_code": "C105881",
+    "code_model_match": true,
+    "stock": 828632,
+    "returned_models": [
+      {
+        "code": "C105881",
+        "model": "RC0603FR-07330RL",
+        "package": "0603",
+        "stock": 828632
+      }
+    ]
+  },
+  {
+    "ref": "R367",
+    "mpn": "RT0603BRD071KL",
+    "source_code": "C110776",
+    "code_model_match": true,
+    "stock": 1659840,
+    "returned_models": [
+      {
+        "code": "C110776",
+        "model": "RT0603BRD071KL",
+        "package": "0603",
+        "stock": 1659840
+      }
+    ]
+  },
+  {
+    "ref": "R368",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R401",
+    "mpn": "RC0603FR-0710ML",
+    "source_code": "C114606",
+    "code_model_match": true,
+    "stock": 1634835,
+    "returned_models": [
+      {
+        "code": "C114606",
+        "model": "RC0603FR-0710ML",
+        "package": "0603",
+        "stock": 1634835
+      }
+    ]
+  },
+  {
+    "ref": "R402",
+    "mpn": "RC0603FR-0710ML",
+    "source_code": "C114606",
+    "code_model_match": true,
+    "stock": 1634835,
+    "returned_models": [
+      {
+        "code": "C114606",
+        "model": "RC0603FR-0710ML",
+        "package": "0603",
+        "stock": 1634835
+      }
+    ]
+  },
+  {
+    "ref": "R403",
+    "mpn": "RC0603FR-0710ML",
+    "source_code": "C114606",
+    "code_model_match": true,
+    "stock": 1634835,
+    "returned_models": [
+      {
+        "code": "C114606",
+        "model": "RC0603FR-0710ML",
+        "package": "0603",
+        "stock": 1634835
+      }
+    ]
+  },
+  {
+    "ref": "R404",
+    "mpn": "RC0603FR-0710ML",
+    "source_code": "C114606",
+    "code_model_match": true,
+    "stock": 1634835,
+    "returned_models": [
+      {
+        "code": "C114606",
+        "model": "RC0603FR-0710ML",
+        "package": "0603",
+        "stock": 1634835
+      }
+    ]
+  },
+  {
+    "ref": "R405",
+    "mpn": "RC0603FR-0710ML",
+    "source_code": "C114606",
+    "code_model_match": true,
+    "stock": 1634835,
+    "returned_models": [
+      {
+        "code": "C114606",
+        "model": "RC0603FR-0710ML",
+        "package": "0603",
+        "stock": 1634835
+      }
+    ]
+  },
+  {
+    "ref": "R406",
+    "mpn": "RC0603FR-0710ML",
+    "source_code": "C114606",
+    "code_model_match": true,
+    "stock": 1634835,
+    "returned_models": [
+      {
+        "code": "C114606",
+        "model": "RC0603FR-0710ML",
+        "package": "0603",
+        "stock": 1634835
+      }
+    ]
+  },
+  {
+    "ref": "R407",
+    "mpn": "RC0603FR-0710ML",
+    "source_code": "C114606",
+    "code_model_match": true,
+    "stock": 1634835,
+    "returned_models": [
+      {
+        "code": "C114606",
+        "model": "RC0603FR-0710ML",
+        "package": "0603",
+        "stock": 1634835
+      }
+    ]
+  },
+  {
+    "ref": "R408",
+    "mpn": "RC0603FR-0710ML",
+    "source_code": "C114606",
+    "code_model_match": true,
+    "stock": 1634835,
+    "returned_models": [
+      {
+        "code": "C114606",
+        "model": "RC0603FR-0710ML",
+        "package": "0603",
+        "stock": 1634835
+      }
+    ]
+  },
+  {
+    "ref": "R409",
+    "mpn": "RC0603FR-0710ML",
+    "source_code": "C114606",
+    "code_model_match": true,
+    "stock": 1634835,
+    "returned_models": [
+      {
+        "code": "C114606",
+        "model": "RC0603FR-0710ML",
+        "package": "0603",
+        "stock": 1634835
+      }
+    ]
+  },
+  {
+    "ref": "R410",
+    "mpn": "RC0603FR-0710ML",
+    "source_code": "C114606",
+    "code_model_match": true,
+    "stock": 1634835,
+    "returned_models": [
+      {
+        "code": "C114606",
+        "model": "RC0603FR-0710ML",
+        "package": "0603",
+        "stock": 1634835
+      }
+    ]
+  },
+  {
+    "ref": "R411",
+    "mpn": "RC0603FR-0710ML",
+    "source_code": "C114606",
+    "code_model_match": true,
+    "stock": 1634835,
+    "returned_models": [
+      {
+        "code": "C114606",
+        "model": "RC0603FR-0710ML",
+        "package": "0603",
+        "stock": 1634835
+      }
+    ]
+  },
+  {
+    "ref": "R412",
+    "mpn": "RC0603FR-0710ML",
+    "source_code": "C114606",
+    "code_model_match": true,
+    "stock": 1634835,
+    "returned_models": [
+      {
+        "code": "C114606",
+        "model": "RC0603FR-0710ML",
+        "package": "0603",
+        "stock": 1634835
+      }
+    ]
+  },
+  {
+    "ref": "R413",
+    "mpn": "RC0603FR-0710ML",
+    "source_code": "C114606",
+    "code_model_match": true,
+    "stock": 1634835,
+    "returned_models": [
+      {
+        "code": "C114606",
+        "model": "RC0603FR-0710ML",
+        "package": "0603",
+        "stock": 1634835
+      }
+    ]
+  },
+  {
+    "ref": "R414",
+    "mpn": "RC0603FR-0710ML",
+    "source_code": "C114606",
+    "code_model_match": true,
+    "stock": 1634835,
+    "returned_models": [
+      {
+        "code": "C114606",
+        "model": "RC0603FR-0710ML",
+        "package": "0603",
+        "stock": 1634835
+      }
+    ]
+  },
+  {
+    "ref": "R415",
+    "mpn": "RC0603FR-0710ML",
+    "source_code": "C114606",
+    "code_model_match": true,
+    "stock": 1634835,
+    "returned_models": [
+      {
+        "code": "C114606",
+        "model": "RC0603FR-0710ML",
+        "package": "0603",
+        "stock": 1634835
+      }
+    ]
+  },
+  {
+    "ref": "R416",
+    "mpn": "RC0603FR-0710ML",
+    "source_code": "C114606",
+    "code_model_match": true,
+    "stock": 1634835,
+    "returned_models": [
+      {
+        "code": "C114606",
+        "model": "RC0603FR-0710ML",
+        "package": "0603",
+        "stock": 1634835
+      }
+    ]
+  },
+  {
+    "ref": "C350",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C351",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C352",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C353",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C354",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C355",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C356",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C357",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C358",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C359",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "U36",
+    "mpn": "SN74LVC1G08DBVR",
+    "source_code": "C7666",
+    "code_model_match": true,
+    "stock": 236105,
+    "returned_models": [
+      {
+        "code": "C7666",
+        "model": "SN74LVC1G08DBVR",
+        "package": "SOT-23-5",
+        "stock": 236105
+      }
+    ]
+  },
+  {
+    "ref": "U37",
+    "mpn": "SN74AHCT1G14DBVR",
+    "source_code": "C55250",
+    "code_model_match": true,
+    "stock": 20905,
+    "returned_models": [
+      {
+        "code": "C55250",
+        "model": "SN74AHCT1G14DBVR",
+        "package": "SOT-23-5",
+        "stock": 20905
+      },
+      {
+        "code": "C9900213112",
+        "model": "YDC55250F142R01",
+        "package": "Through hole",
+        "stock": 0
+      },
+      {
+        "code": "C3488675",
+        "model": "ERC55250R00BHEK600",
+        "package": "Plugin,D2.5xL7.1mm",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "ref": "C360",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "C361",
+    "mpn": "GRM188R71H104KA93D",
+    "source_code": "C77055",
+    "code_model_match": true,
+    "stock": 636800,
+    "returned_models": [
+      {
+        "code": "C77055",
+        "model": "GRM188R71H104KA93D",
+        "package": "0603",
+        "stock": 636800
+      }
+    ]
+  },
+  {
+    "ref": "R369",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R370",
+    "mpn": "RC0603FR-07100KL",
+    "source_code": "C14675",
+    "code_model_match": true,
+    "stock": 8854650,
+    "returned_models": [
+      {
+        "code": "C14675",
+        "model": "RC0603FR-07100KL",
+        "package": "0603",
+        "stock": 8854650
+      }
+    ]
+  },
+  {
+    "ref": "R371",
+    "mpn": "RC0603FR-07100RL",
+    "source_code": "C105588",
+    "code_model_match": true,
+    "stock": 2094931,
+    "returned_models": [
+      {
+        "code": "C105588",
+        "model": "RC0603FR-07100RL",
+        "package": "0603",
+        "stock": 2094931
+      }
+    ]
+  },
+  {
+    "ref": "R372",
+    "mpn": "RC0603FR-07100RL",
+    "source_code": "C105588",
+    "code_model_match": true,
+    "stock": 2094931,
+    "returned_models": [
+      {
+        "code": "C105588",
+        "model": "RC0603FR-07100RL",
+        "package": "0603",
+        "stock": 2094931
+      }
+    ]
+  },
+  {
+    "ref": "R373",
+    "mpn": "RC0603FR-072K2L",
+    "source_code": "C114662",
+    "code_model_match": true,
+    "stock": 2177988,
+    "returned_models": [
+      {
+        "code": "C114662",
+        "model": "RC0603FR-072K2L",
+        "package": "0603",
+        "stock": 2177988
+      }
+    ]
+  }
+]

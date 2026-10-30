@@ -1,0 +1,10077 @@
+{
+  "pcb_sha256": "825edcd27853183ae879091047c481432507c4003eede9e3af0c213e0eff5e42",
+  "footprint_count": 337,
+  "numbered_pad_checks": 1032,
+  "smt_placement_count": 316,
+  "vias": 483,
+  "board_thickness_mm": 1.6,
+  "expected_drills": [
+    {
+      "ref": "H1",
+      "pad": "",
+      "x_mm": 3.0,
+      "y_mm": -23.0,
+      "drill_x_mm": 3.2,
+      "drill_y_mm": 3.2,
+      "nonplated": true
+    },
+    {
+      "ref": "J1",
+      "pad": "1",
+      "x_mm": 100.88,
+      "y_mm": -49.38,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "2",
+      "x_mm": 100.88,
+      "y_mm": -52.15,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "3",
+      "x_mm": 100.88,
+      "y_mm": -54.92,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "4",
+      "x_mm": 100.88,
+      "y_mm": -57.69,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "5",
+      "x_mm": 100.88,
+      "y_mm": -60.46,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "6",
+      "x_mm": 100.88,
+      "y_mm": -63.23,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "7",
+      "x_mm": 100.88,
+      "y_mm": -66.0,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "8",
+      "x_mm": 100.88,
+      "y_mm": -68.77,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "9",
+      "x_mm": 100.88,
+      "y_mm": -71.54,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "10",
+      "x_mm": 100.88,
+      "y_mm": -74.31,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "11",
+      "x_mm": 100.88,
+      "y_mm": -77.08,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "12",
+      "x_mm": 100.88,
+      "y_mm": -79.85,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "13",
+      "x_mm": 100.88,
+      "y_mm": -82.62,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "14",
+      "x_mm": 103.72,
+      "y_mm": -50.765,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "15",
+      "x_mm": 103.72,
+      "y_mm": -53.535,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "16",
+      "x_mm": 103.72,
+      "y_mm": -56.305,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "17",
+      "x_mm": 103.72,
+      "y_mm": -59.075,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "18",
+      "x_mm": 103.72,
+      "y_mm": -61.845,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "19",
+      "x_mm": 103.72,
+      "y_mm": -64.615,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "20",
+      "x_mm": 103.72,
+      "y_mm": -67.385,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "21",
+      "x_mm": 103.72,
+      "y_mm": -70.155,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "22",
+      "x_mm": 103.72,
+      "y_mm": -72.925,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "23",
+      "x_mm": 103.72,
+      "y_mm": -75.695,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "24",
+      "x_mm": 103.72,
+      "y_mm": -78.465,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "25",
+      "x_mm": 103.72,
+      "y_mm": -81.235,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "SH",
+      "x_mm": 102.3,
+      "y_mm": -89.55,
+      "drill_x_mm": 3.2,
+      "drill_y_mm": 3.2,
+      "nonplated": false
+    },
+    {
+      "ref": "J1",
+      "pad": "SH",
+      "x_mm": 102.3,
+      "y_mm": -42.45,
+      "drill_x_mm": 3.2,
+      "drill_y_mm": 3.2,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "1",
+      "x_mm": 86.0,
+      "y_mm": -2.0,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "2",
+      "x_mm": 86.0,
+      "y_mm": -4.54,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "3",
+      "x_mm": 86.0,
+      "y_mm": -7.08,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "4",
+      "x_mm": 86.0,
+      "y_mm": -9.62,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "5",
+      "x_mm": 86.0,
+      "y_mm": -12.16,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "6",
+      "x_mm": 86.0,
+      "y_mm": -14.7,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "7",
+      "x_mm": 86.0,
+      "y_mm": -17.24,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "8",
+      "x_mm": 86.0,
+      "y_mm": -19.78,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "9",
+      "x_mm": 86.0,
+      "y_mm": -22.32,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "10",
+      "x_mm": 86.0,
+      "y_mm": -24.86,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "11",
+      "x_mm": 86.0,
+      "y_mm": -27.4,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "12",
+      "x_mm": 86.0,
+      "y_mm": -29.94,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "13",
+      "x_mm": 86.0,
+      "y_mm": -32.48,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "14",
+      "x_mm": 86.0,
+      "y_mm": -35.02,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "15",
+      "x_mm": 101.24,
+      "y_mm": -35.02,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "16",
+      "x_mm": 101.24,
+      "y_mm": -32.48,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "17",
+      "x_mm": 101.24,
+      "y_mm": -29.94,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "18",
+      "x_mm": 101.24,
+      "y_mm": -27.4,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "19",
+      "x_mm": 101.24,
+      "y_mm": -24.86,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "20",
+      "x_mm": 101.24,
+      "y_mm": -22.32,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "21",
+      "x_mm": 101.24,
+      "y_mm": -19.78,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "22",
+      "x_mm": 101.24,
+      "y_mm": -17.24,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "23",
+      "x_mm": 101.24,
+      "y_mm": -14.7,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "24",
+      "x_mm": 101.24,
+      "y_mm": -12.16,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "25",
+      "x_mm": 101.24,
+      "y_mm": -9.62,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "26",
+      "x_mm": 101.24,
+      "y_mm": -7.08,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "27",
+      "x_mm": 101.24,
+      "y_mm": -4.54,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "A1",
+      "pad": "28",
+      "x_mm": 101.24,
+      "y_mm": -2.0,
+      "drill_x_mm": 1.0,
+      "drill_y_mm": 1.0,
+      "nonplated": false
+    },
+    {
+      "ref": "H3",
+      "pad": "",
+      "x_mm": 3.0,
+      "y_mm": -97.0,
+      "drill_x_mm": 3.2,
+      "drill_y_mm": 3.2,
+      "nonplated": true
+    },
+    {
+      "ref": "H2",
+      "pad": "",
+      "x_mm": 107.0,
+      "y_mm": -3.0,
+      "drill_x_mm": 3.2,
+      "drill_y_mm": 3.2,
+      "nonplated": true
+    },
+    {
+      "ref": "H4",
+      "pad": "",
+      "x_mm": 107.0,
+      "y_mm": -97.0,
+      "drill_x_mm": 3.2,
+      "drill_y_mm": 3.2,
+      "nonplated": true
+    },
+    {
+      "ref": "J2",
+      "pad": "1",
+      "x_mm": 6.0,
+      "y_mm": -6.0,
+      "drill_x_mm": 1.19,
+      "drill_y_mm": 1.19,
+      "nonplated": false
+    },
+    {
+      "ref": "J2",
+      "pad": "2",
+      "x_mm": 8.54,
+      "y_mm": -6.0,
+      "drill_x_mm": 1.19,
+      "drill_y_mm": 1.19,
+      "nonplated": false
+    },
+    {
+      "ref": "J2",
+      "pad": "3",
+      "x_mm": 11.08,
+      "y_mm": -6.0,
+      "drill_x_mm": 1.19,
+      "drill_y_mm": 1.19,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 13.8,
+      "y_mm": -93.3,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 70.0,
+      "y_mm": -40.2,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 54.2089,
+      "y_mm": -5.8839,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 45.7,
+      "y_mm": -33.325,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 22.7,
+      "y_mm": -33.325,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 88.5,
+      "y_mm": -75.925,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 51.3875,
+      "y_mm": -89.325,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 77.5,
+      "y_mm": -69.925,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 73.225,
+      "y_mm": -13.5,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 59.3875,
+      "y_mm": -61.325,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 75.5,
+      "y_mm": -20.7,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 6.425,
+      "y_mm": -70.5,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 22.0,
+      "y_mm": -15.2,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 22.25,
+      "y_mm": -19.475,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 77.5,
+      "y_mm": -61.925,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 14.1,
+      "y_mm": -80.7,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 27.6411,
+      "y_mm": -2.6711,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 69.9625,
+      "y_mm": -46.925,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 39.025,
+      "y_mm": -15.0,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 54.25,
+      "y_mm": -94.0,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 6.3839,
+      "y_mm": -90.2411,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 21.575,
+      "y_mm": -37.5,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 41.4786,
+      "y_mm": -23.8339,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 34.075,
+      "y_mm": -15.0,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 88.5,
+      "y_mm": -83.925,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 66.5,
+      "y_mm": -32.2,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 21.575,
+      "y_mm": -54.0,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 51.3875,
+      "y_mm": -61.325,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 96.9125,
+      "y_mm": -37.625,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 82.825,
+      "y_mm": -41.5,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 7.95,
+      "y_mm": -34.375,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 75.5,
+      "y_mm": -35.7,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 92.6125,
+      "y_mm": -40.475,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 80.5,
+      "y_mm": -30.7,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 77.5,
+      "y_mm": -75.925,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 18.7089,
+      "y_mm": -16.8839,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 70.9625,
+      "y_mm": -74.925,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 29.3839,
+      "y_mm": -57.2411,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 45.7,
+      "y_mm": -82.825,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 30.95,
+      "y_mm": -83.875,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 5.5,
+      "y_mm": -80.075,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 37.1,
+      "y_mm": -80.7,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 55.0,
+      "y_mm": -18.75,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 29.3839,
+      "y_mm": -40.7411,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 43.6125,
+      "y_mm": -4.5,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 13.8,
+      "y_mm": -76.8,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 52.7464,
+      "y_mm": -36.3339,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 77.5,
+      "y_mm": -83.925,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 47.575,
+      "y_mm": -14.25,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 22.7,
+      "y_mm": -49.825,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 81.75,
+      "y_mm": -19.45,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 106.625,
+      "y_mm": -11.7,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 59.75,
+      "y_mm": -15.5,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 42.0,
+      "y_mm": -2.3,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 44.575,
+      "y_mm": -87.0,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 66.0,
+      "y_mm": -40.2,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 35.125,
+      "y_mm": -11.175,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 16.0,
+      "y_mm": -10.8,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 84.2714,
+      "y_mm": -21.9339,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 14.1,
+      "y_mm": -64.2,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 53.3,
+      "y_mm": -30.0,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 77.5,
+      "y_mm": -41.925,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 18.125,
+      "y_mm": -85.73,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 45.7,
+      "y_mm": -49.825,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 28.5,
+      "y_mm": -47.075,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 21.575,
+      "y_mm": -70.5,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 88.5,
+      "y_mm": -61.925,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 84.1875,
+      "y_mm": -1.5,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 86.075,
+      "y_mm": -39.75,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 37.1,
+      "y_mm": -31.2,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 80.6875,
+      "y_mm": -6.5,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 14.1,
+      "y_mm": -47.7,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 6.425,
+      "y_mm": -87.0,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 43.5,
+      "y_mm": -23.975,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 75.5,
+      "y_mm": -15.2,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 80.5,
+      "y_mm": -35.7,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 5.5,
+      "y_mm": -47.075,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 29.3839,
+      "y_mm": -90.2411,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 5.5,
+      "y_mm": -63.575,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 30.95,
+      "y_mm": -50.875,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 59.3875,
+      "y_mm": -88.825,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 24.55,
+      "y_mm": -6.575,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 85.9875,
+      "y_mm": -37.45,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 80.5,
+      "y_mm": -15.2,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 27.075,
+      "y_mm": -24.0,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 41.125,
+      "y_mm": -36.23,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 30.95,
+      "y_mm": -67.375,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 62.0,
+      "y_mm": -40.2,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 34.3589,
+      "y_mm": -13.3289,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 48.0,
+      "y_mm": -84.975,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 14.1,
+      "y_mm": -31.2,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 22.7,
+      "y_mm": -82.825,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 39.025,
+      "y_mm": -18.0,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 30.95,
+      "y_mm": -34.375,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 74.0,
+      "y_mm": -40.2,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 70.775,
+      "y_mm": -20.75,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 36.8,
+      "y_mm": -93.3,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 44.575,
+      "y_mm": -37.5,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 51.075,
+      "y_mm": -11.25,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 18.125,
+      "y_mm": -69.23,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 36.8,
+      "y_mm": -60.3,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 38.8625,
+      "y_mm": -16.5,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 58.3875,
+      "y_mm": -47.325,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 57.0,
+      "y_mm": -37.475,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 44.575,
+      "y_mm": -54.0,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 82.3125,
+      "y_mm": -36.55,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 41.125,
+      "y_mm": -69.23,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 63.0,
+      "y_mm": -19.75,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 54.575,
+      "y_mm": -1.85,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 54.25,
+      "y_mm": -6.975,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 45.4375,
+      "y_mm": -16.0,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 8.199999,
+      "y_mm": -83.875,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 35.825,
+      "y_mm": -1.5,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 88.5,
+      "y_mm": -55.925,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 50.75,
+      "y_mm": -2.049999,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 29.425,
+      "y_mm": -87.0,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 48.0,
+      "y_mm": -93.025,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 59.5,
+      "y_mm": -31.525,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 62.0,
+      "y_mm": -32.025,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 75.725,
+      "y_mm": -23.5,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 92.6125,
+      "y_mm": -38.525,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 50.9786,
+      "y_mm": -41.3339,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 57.75,
+      "y_mm": -6.975,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 59.3875,
+      "y_mm": -75.325,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 21.575,
+      "y_mm": -87.0,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 6.3839,
+      "y_mm": -40.7411,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 106.625,
+      "y_mm": -7.95,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 44.575,
+      "y_mm": -70.5,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 5.5,
+      "y_mm": -30.575,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 6.3839,
+      "y_mm": -57.2411,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 70.4089,
+      "y_mm": -25.3839,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 70.9625,
+      "y_mm": -88.925,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 36.8,
+      "y_mm": -43.8,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 61.8875,
+      "y_mm": -88.175,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 16.05,
+      "y_mm": -22.975,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 95.1125,
+      "y_mm": -41.125,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 51.3875,
+      "y_mm": -47.325,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 41.125,
+      "y_mm": -52.73,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 77.5,
+      "y_mm": -89.925,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 77.5,
+      "y_mm": -55.925,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 41.125,
+      "y_mm": -85.73,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 88.5,
+      "y_mm": -69.925,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 36.8,
+      "y_mm": -76.8,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 27.6411,
+      "y_mm": -13.3289,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 18.125,
+      "y_mm": -36.23,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 70.9625,
+      "y_mm": -60.925,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 45.7,
+      "y_mm": -66.325,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 89.3875,
+      "y_mm": -39.175,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 61.8875,
+      "y_mm": -60.675,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 22.7,
+      "y_mm": -66.325,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 6.425,
+      "y_mm": -37.5,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 75.0839,
+      "y_mm": -5.4089,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 77.325,
+      "y_mm": -25.5,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 15.075,
+      "y_mm": -15.0,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 73.9964,
+      "y_mm": -10.5839,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 48.475,
+      "y_mm": -19.25,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 6.3839,
+      "y_mm": -73.7411,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 28.5,
+      "y_mm": -63.575,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 59.75,
+      "y_mm": -23.5,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 48.0,
+      "y_mm": -51.025,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 88.5,
+      "y_mm": -47.925,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 42.325,
+      "y_mm": -19.25,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 7.95,
+      "y_mm": -67.375,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 7.95,
+      "y_mm": -50.875,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 18.125,
+      "y_mm": -52.73,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 6.425,
+      "y_mm": -54.0,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 48.475,
+      "y_mm": -15.0,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 35.125,
+      "y_mm": -9.905,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 88.5,
+      "y_mm": -89.925,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 58.6375,
+      "y_mm": -33.549999,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 13.8,
+      "y_mm": -60.3,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 48.0,
+      "y_mm": -79.025,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 12.075,
+      "y_mm": -21.0,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 48.0,
+      "y_mm": -56.975,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 13.8,
+      "y_mm": -43.8,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 61.25,
+      "y_mm": -6.975,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 28.5,
+      "y_mm": -80.075,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 65.8839,
+      "y_mm": -6.7089,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 55.5,
+      "y_mm": -2.3,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 60.8875,
+      "y_mm": -46.675,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 48.0,
+      "y_mm": -65.025,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 66.075,
+      "y_mm": -43.0,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 61.8875,
+      "y_mm": -74.675,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 51.075,
+      "y_mm": -7.75,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 90.1875,
+      "y_mm": -39.825,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 24.55,
+      "y_mm": -9.975,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 48.0,
+      "y_mm": -70.975,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 47.5,
+      "y_mm": -19.8,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 65.0,
+      "y_mm": -10.575,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 29.425,
+      "y_mm": -37.5,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 48.0,
+      "y_mm": -42.975,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 75.5,
+      "y_mm": -30.7,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 70.775,
+      "y_mm": -17.0,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 29.3839,
+      "y_mm": -73.7411,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 29.425,
+      "y_mm": -70.5,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 91.8125,
+      "y_mm": -37.875,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 28.5,
+      "y_mm": -30.575,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 25.8,
+      "y_mm": -1.925,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 63.0,
+      "y_mm": -16.75,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 37.1,
+      "y_mm": -64.2,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 51.3875,
+      "y_mm": -75.325,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 75.1125,
+      "y_mm": -4.0,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 29.425,
+      "y_mm": -54.0,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 37.1,
+      "y_mm": -47.7,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 77.5,
+      "y_mm": -47.925,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 89.75,
+      "y_mm": -43.175,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 78.7464,
+      "y_mm": -23.8339,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 18.5443,
+      "y_mm": -61.0138,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 40.1244,
+      "y_mm": -81.6112,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 47.4862,
+      "y_mm": -46.9046,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 43.4525,
+      "y_mm": -44.1509,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 41.0743,
+      "y_mm": -76.9773,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 18.3633,
+      "y_mm": -55.6692,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 42.5563,
+      "y_mm": -47.9335,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 47.0097,
+      "y_mm": -63.7117,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 17.9573,
+      "y_mm": -43.8,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 52.0161,
+      "y_mm": -63.1379,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 81.1689,
+      "y_mm": -63.8983,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 55.0004,
+      "y_mm": -92.5156,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 76.52,
+      "y_mm": -87.6558,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 89.2544,
+      "y_mm": -86.0706,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 76.7982,
+      "y_mm": -8.1699,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 83.433,
+      "y_mm": -19.1279,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 60.2403,
+      "y_mm": -9.5794,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 80.6045,
+      "y_mm": -8.2155,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 37.4639,
+      "y_mm": -79.8968,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 46.2459,
+      "y_mm": -87.6522,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 86.6613,
+      "y_mm": -38.7352,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 40.0194,
+      "y_mm": -22.0676,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 36.5362,
+      "y_mm": -70.5541,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 53.5035,
+      "y_mm": -75.254,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 49.3097,
+      "y_mm": -84.9908,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 48.1307,
+      "y_mm": -74.7456,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 12.874,
+      "y_mm": -62.5808,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 35.4192,
+      "y_mm": -42.3046,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 12.9487,
+      "y_mm": -53.514,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 57.17,
+      "y_mm": -74.7826,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 34.6416,
+      "y_mm": -46.5662,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 40.1084,
+      "y_mm": -80.3163,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 48.8494,
+      "y_mm": -88.4805,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 45.3106,
+      "y_mm": -79.3106,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 54.5994,
+      "y_mm": -82.6561,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 19.515,
+      "y_mm": -80.9438,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 6.8378,
+      "y_mm": -69.3644,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 56.2636,
+      "y_mm": -71.9145,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 43.2565,
+      "y_mm": -62.3789,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 52.1895,
+      "y_mm": -74.7483,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 43.3879,
+      "y_mm": -49.8373,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 54.2976,
+      "y_mm": -74.3501,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 16.1033,
+      "y_mm": -24.9489,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 76.0829,
+      "y_mm": -5.7692,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 78.1549,
+      "y_mm": -20.2442,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 20.7994,
+      "y_mm": -26.1616,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 78.5286,
+      "y_mm": -7.1034,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 79.1242,
+      "y_mm": -21.7293,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 40.1602,
+      "y_mm": -18.5148,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 34.473,
+      "y_mm": -19.065,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 102.9709,
+      "y_mm": -10.9459,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 84.1308,
+      "y_mm": -20.1371,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 70.3296,
+      "y_mm": -17.7057,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 66.8196,
+      "y_mm": -17.8621,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 42.7743,
+      "y_mm": -12.6233,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 61.2381,
+      "y_mm": -71.5268,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 50.1978,
+      "y_mm": -35.5988,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 47.1778,
+      "y_mm": -2.7404,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 62.808,
+      "y_mm": -77.3157,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 67.4231,
+      "y_mm": -45.5811,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 73.8167,
+      "y_mm": -14.1792,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 26.5664,
+      "y_mm": -19.7521,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 50.9876,
+      "y_mm": -32.1431,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 45.3914,
+      "y_mm": -16.9227,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 44.8625,
+      "y_mm": -6.2668,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 65.5874,
+      "y_mm": -41.5937,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 78.6999,
+      "y_mm": -50.8726,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 6.8378,
+      "y_mm": -36.3644,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 58.2123,
+      "y_mm": -44.608,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 51.5281,
+      "y_mm": -77.114,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 81.1605,
+      "y_mm": -78.6183,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 82.4271,
+      "y_mm": -15.0756,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 24.813,
+      "y_mm": -4.7343,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 41.3612,
+      "y_mm": -14.8705,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 32.7333,
+      "y_mm": -33.3985,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 39.5733,
+      "y_mm": -42.1278,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 78.6999,
+      "y_mm": -44.8376,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 68.136,
+      "y_mm": -51.9566,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 54.4149,
+      "y_mm": -45.375,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 54.6023,
+      "y_mm": -51.941,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 79.6619,
+      "y_mm": -24.1277,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 53.9776,
+      "y_mm": -15.0974,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 72.2975,
+      "y_mm": -7.0,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 25.2164,
+      "y_mm": -60.654,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 54.268,
+      "y_mm": -62.153,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 79.0734,
+      "y_mm": -45.8991,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 57.8624,
+      "y_mm": -49.5897,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 59.2879,
+      "y_mm": -91.0951,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 33.4169,
+      "y_mm": -91.6344,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 30.117,
+      "y_mm": -50.8621,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 65.061,
+      "y_mm": -62.625,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 41.3495,
+      "y_mm": -62.1608,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 59.226,
+      "y_mm": -74.3537,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 55.0555,
+      "y_mm": -23.8872,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 56.9544,
+      "y_mm": -26.7287,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 58.8819,
+      "y_mm": -75.975,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 57.2985,
+      "y_mm": -76.3148,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 28.0109,
+      "y_mm": -73.2862,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 77.9339,
+      "y_mm": -14.9702,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 65.3624,
+      "y_mm": -49.988,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 66.528,
+      "y_mm": -78.3124,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 64.8441,
+      "y_mm": -44.0222,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 35.2943,
+      "y_mm": -76.1855,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 30.2448,
+      "y_mm": -69.3934,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 61.9404,
+      "y_mm": -76.8116,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 57.2086,
+      "y_mm": -23.8977,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 65.1165,
+      "y_mm": -75.975,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 65.1222,
+      "y_mm": -74.025,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 60.5769,
+      "y_mm": -27.2048,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 53.8385,
+      "y_mm": -26.3582,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 62.5805,
+      "y_mm": -73.3224,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 8.1625,
+      "y_mm": -73.5242,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 48.883,
+      "y_mm": -47.4517,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 43.3218,
+      "y_mm": -32.724,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 11.4316,
+      "y_mm": -32.4434,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 24.2461,
+      "y_mm": -39.0765,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 70.5569,
+      "y_mm": -11.5908,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 65.9945,
+      "y_mm": -19.019,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 75.73,
+      "y_mm": -75.0496,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 64.2731,
+      "y_mm": -78.0065,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 4.955,
+      "y_mm": -51.4982,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 57.1359,
+      "y_mm": -59.0467,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 42.5736,
+      "y_mm": -18.2674,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 31.9862,
+      "y_mm": -6.095,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 67.5915,
+      "y_mm": -1.6278,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 58.25,
+      "y_mm": -12.5239,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 68.6681,
+      "y_mm": -33.8517,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 64.4649,
+      "y_mm": -26.3286,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 89.3864,
+      "y_mm": -40.7203,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 84.844,
+      "y_mm": -42.2686,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 69.9962,
+      "y_mm": -41.9375,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 71.7521,
+      "y_mm": -18.2464,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 78.942,
+      "y_mm": -17.8707,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 67.3977,
+      "y_mm": -18.4423,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 44.0643,
+      "y_mm": -45.9867,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 46.325,
+      "y_mm": -54.8109,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 53.0441,
+      "y_mm": -39.495,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 52.9436,
+      "y_mm": -76.5107,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 40.1185,
+      "y_mm": -10.9179,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 49.5009,
+      "y_mm": -49.9881,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 55.8625,
+      "y_mm": -80.4989,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 51.3948,
+      "y_mm": -58.725,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 49.7681,
+      "y_mm": -86.0107,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 49.4918,
+      "y_mm": -44.0002,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 53.9494,
+      "y_mm": -49.5819,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 67.9031,
+      "y_mm": -43.0859,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 51.3841,
+      "y_mm": -45.375,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 76.2318,
+      "y_mm": -49.0846,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 52.5274,
+      "y_mm": -48.5744,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 54.1341,
+      "y_mm": -50.5837,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 20.2962,
+      "y_mm": -32.724,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 52.6966,
+      "y_mm": -46.025,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 48.3559,
+      "y_mm": -54.4199,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 69.0375,
+      "y_mm": -55.8038,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 78.6223,
+      "y_mm": -2.2423,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 7.3815,
+      "y_mm": -57.5536,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 65.0582,
+      "y_mm": -59.3441,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 66.6047,
+      "y_mm": -44.942,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 8.1625,
+      "y_mm": -40.8151,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 66.5296,
+      "y_mm": -84.7152,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 7.3572,
+      "y_mm": -90.3124,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 11.6371,
+      "y_mm": -76.1929,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 16.4356,
+      "y_mm": -75.1271,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 45.3036,
+      "y_mm": -71.4521,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 34.2367,
+      "y_mm": -65.4363,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 64.7131,
+      "y_mm": -28.4105,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 64.7355,
+      "y_mm": -35.8952,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 58.4905,
+      "y_mm": -93.9599,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 54.3609,
+      "y_mm": -90.625,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 69.0375,
+      "y_mm": -66.1786,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 59.7255,
+      "y_mm": -64.404,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 57.407,
+      "y_mm": -60.216,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 17.807,
+      "y_mm": -90.2373,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 8.5708,
+      "y_mm": -83.0832,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 64.2601,
+      "y_mm": -8.4133,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 63.425,
+      "y_mm": -13.825,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 65.9851,
+      "y_mm": -4.4688,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 62.5719,
+      "y_mm": -15.1186,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 105.6332,
+      "y_mm": -19.172,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 59.9355,
+      "y_mm": -16.7225,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 61.0562,
+      "y_mm": -15.1162,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 52.4164,
+      "y_mm": -5.7414,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 52.5197,
+      "y_mm": -12.6685,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 54.6102,
+      "y_mm": -17.7656,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 50.3272,
+      "y_mm": -15.9416,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 66.6027,
+      "y_mm": -45.7535,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 56.7563,
+      "y_mm": -19.525,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 52.0327,
+      "y_mm": -20.2096,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 53.499,
+      "y_mm": -43.3707,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 55.7172,
+      "y_mm": -20.5148,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 63.9846,
+      "y_mm": -44.1362,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 57.8937,
+      "y_mm": -47.975,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 56.519,
+      "y_mm": -20.6785,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 52.0458,
+      "y_mm": -21.7391,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 63.7951,
+      "y_mm": -59.7701,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 55.1793,
+      "y_mm": -56.6739,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 58.4457,
+      "y_mm": -60.025,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 55.1645,
+      "y_mm": -22.107,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 52.641,
+      "y_mm": -23.9106,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 60.8184,
+      "y_mm": -41.7062,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 64.3849,
+      "y_mm": -61.975,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 54.4149,
+      "y_mm": -41.2839,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 58.2674,
+      "y_mm": -61.975,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 54.6071,
+      "y_mm": -22.6837,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 58.116,
+      "y_mm": -26.6755,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 65.1144,
+      "y_mm": -87.525,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 58.9178,
+      "y_mm": -26.4601,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 59.3933,
+      "y_mm": -87.525,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 58.1913,
+      "y_mm": -23.8696,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 65.1056,
+      "y_mm": -89.475,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 54.7038,
+      "y_mm": -28.3061,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 59.3886,
+      "y_mm": -89.7413,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 63.7754,
+      "y_mm": -36.7373,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 63.8263,
+      "y_mm": -27.2193,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 69.108,
+      "y_mm": -36.1259,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 65.4658,
+      "y_mm": -25.7614,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 78.8276,
+      "y_mm": -26.9681,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 65.55,
+      "y_mm": -24.0319,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 65.9564,
+      "y_mm": -22.75,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 69.1646,
+      "y_mm": -27.2163,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 72.5824,
+      "y_mm": -26.5353,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 76.5313,
+      "y_mm": -31.6205,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 65.6027,
+      "y_mm": -24.9489,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 72.7389,
+      "y_mm": -31.6432,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 66.7432,
+      "y_mm": -24.6174,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 63.3787,
+      "y_mm": -18.8362,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 67.9306,
+      "y_mm": -12.5222,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 73.9046,
+      "y_mm": -12.5238,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 68.5106,
+      "y_mm": -15.9068,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 80.7688,
+      "y_mm": -5.3982,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 66.5107,
+      "y_mm": -16.7086,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 66.5788,
+      "y_mm": -15.9068,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 35.0957,
+      "y_mm": -5.387,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 46.0373,
+      "y_mm": -22.4614,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 81.3709,
+      "y_mm": -41.2307,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 89.4524,
+      "y_mm": -37.5389,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 41.4087,
+      "y_mm": -83.4337,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 45.4388,
+      "y_mm": -90.9988,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 102.1308,
+      "y_mm": -8.4924,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 93.7196,
+      "y_mm": -36.0942,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 83.479,
+      "y_mm": -38.4292,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 64.6821,
+      "y_mm": -90.7566,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 29.2646,
+      "y_mm": -85.8923,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 35.9472,
+      "y_mm": -90.0163,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 21.5897,
+      "y_mm": -21.9411,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 21.6758,
+      "y_mm": -17.007,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 19.3396,
+      "y_mm": -24.75,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 51.6425,
+      "y_mm": -74.0345,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 68.949,
+      "y_mm": -69.7966,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 57.4639,
+      "y_mm": -63.5386,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 77.3317,
+      "y_mm": -60.2625,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 57.9788,
+      "y_mm": -83.0666,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 6.8719,
+      "y_mm": -85.7762,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 46.3375,
+      "y_mm": -75.3403,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 20.768,
+      "y_mm": -66.5217,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 57.1104,
+      "y_mm": -87.375,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 59.3088,
+      "y_mm": -91.9315,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 20.6559,
+      "y_mm": -50.0,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 47.4778,
+      "y_mm": -66.5941,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 45.8039,
+      "y_mm": -63.3214,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 54.361,
+      "y_mm": -58.9642,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 51.379,
+      "y_mm": -87.3073,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 69.7824,
+      "y_mm": -83.8909,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 34.0787,
+      "y_mm": -59.9269,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 31.1625,
+      "y_mm": -57.0107,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 57.3198,
+      "y_mm": -62.1172,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 81.4851,
+      "y_mm": -8.4202,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 78.658,
+      "y_mm": -5.7552,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 31.0335,
+      "y_mm": -40.7479,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 57.5484,
+      "y_mm": -46.7153,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 30.392,
+      "y_mm": -36.411,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 63.5054,
+      "y_mm": -48.9198,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 42.9046,
+      "y_mm": -49.0973,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 69.0375,
+      "y_mm": -80.1795,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 59.5054,
+      "y_mm": -79.8521,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    },
+    {
+      "ref": "via",
+      "pad": "",
+      "x_mm": 57.4234,
+      "y_mm": -73.2764,
+      "drill_x_mm": 0.3,
+      "drill_y_mm": 0.3,
+      "nonplated": false
+    }
+  ],
+  "pad_net_checks": [
+    [
+      "A1",
+      "1",
+      "GND"
+    ],
+    [
+      "A1",
+      "2",
+      "unconnected-(A1-NC-Pad2)"
+    ],
+    [
+      "A1",
+      "3",
+      "unconnected-(A1-NC-Pad3)"
+    ],
+    [
+      "A1",
+      "4",
+      "CODEC_RESET_GPIO"
+    ],
+    [
+      "A1",
+      "5",
+      "CODEC_INT"
+    ],
+    [
+      "A1",
+      "6",
+      "HEARTBEAT"
+    ],
+    [
+      "A1",
+      "7",
+      "RAILS_GOOD"
+    ],
+    [
+      "A1",
+      "8",
+      "ARM"
+    ],
+    [
+      "A1",
+      "9",
+      "TDM_TX_GPIO"
+    ],
+    [
+      "A1",
+      "10",
+      "unconnected-(A1-NC-Pad10)"
+    ],
+    [
+      "A1",
+      "11",
+      "MUTEC_3V3"
+    ],
+    [
+      "A1",
+      "12",
+      "unconnected-(A1-NC-Pad12)"
+    ],
+    [
+      "A1",
+      "13",
+      "unconnected-(A1-NC-Pad13)"
+    ],
+    [
+      "A1",
+      "14",
+      "unconnected-(A1-NC-Pad14)"
+    ],
+    [
+      "A1",
+      "15",
+      "unconnected-(A1-NC-Pad15)"
+    ],
+    [
+      "A1",
+      "16",
+      "ADC_P15"
+    ],
+    [
+      "A1",
+      "17",
+      "ADC_N15"
+    ],
+    [
+      "A1",
+      "18",
+      "SCL"
+    ],
+    [
+      "A1",
+      "19",
+      "SDA"
+    ],
+    [
+      "A1",
+      "20",
+      "unconnected-(A1-NC-Pad20)"
+    ],
+    [
+      "A1",
+      "21",
+      "unconnected-(A1-NC-Pad21)"
+    ],
+    [
+      "A1",
+      "22",
+      "LRCLK_GPIO"
+    ],
+    [
+      "A1",
+      "23",
+      "BCLK_GPIO"
+    ],
+    [
+      "A1",
+      "24",
+      "unconnected-(A1-NC-Pad24)"
+    ],
+    [
+      "A1",
+      "25",
+      "MCLK_GPIO"
+    ],
+    [
+      "A1",
+      "26",
+      "MCU_3V3"
+    ],
+    [
+      "A1",
+      "27",
+      "GND"
+    ],
+    [
+      "A1",
+      "28",
+      "USB_5V"
+    ],
+    [
+      "U1",
+      "1",
+      "AD0"
+    ],
+    [
+      "U1",
+      "2",
+      "AD1"
+    ],
+    [
+      "U1",
+      "3",
+      "CODEC_RESET"
+    ],
+    [
+      "U1",
+      "4",
+      "+3V3"
+    ],
+    [
+      "U1",
+      "5",
+      "LRCLK"
+    ],
+    [
+      "U1",
+      "6",
+      "+3V3"
+    ],
+    [
+      "U1",
+      "7",
+      "GND"
+    ],
+    [
+      "U1",
+      "8",
+      "+3V3"
+    ],
+    [
+      "U1",
+      "9",
+      "BCLK"
+    ],
+    [
+      "U1",
+      "10",
+      "MCLK"
+    ],
+    [
+      "U1",
+      "11",
+      "unconnected-(U1-ADC_SDOUT3-Pad11)"
+    ],
+    [
+      "U1",
+      "12",
+      "unconnected-(U1-ADC_SDOUT2-Pad12)"
+    ],
+    [
+      "U1",
+      "13",
+      "unconnected-(U1-ADC_SDOUT1-Pad13)"
+    ],
+    [
+      "U1",
+      "14",
+      "SDIN4"
+    ],
+    [
+      "U1",
+      "15",
+      "SDIN3"
+    ],
+    [
+      "U1",
+      "16",
+      "SDIN2"
+    ],
+    [
+      "U1",
+      "17",
+      "TDM_TX"
+    ],
+    [
+      "U1",
+      "18",
+      "BCLK"
+    ],
+    [
+      "U1",
+      "19",
+      "LRCLK"
+    ],
+    [
+      "U1",
+      "20",
+      "unconnected-(U1-AUX_LRCK-Pad20)"
+    ],
+    [
+      "U1",
+      "21",
+      "unconnected-(U1-AUX_SCLK-Pad21)"
+    ],
+    [
+      "U1",
+      "22",
+      "AUX_SDIN"
+    ],
+    [
+      "U1",
+      "23",
+      "GND"
+    ],
+    [
+      "U1",
+      "24",
+      "+3V3"
+    ],
+    [
+      "U1",
+      "25",
+      "DAC1_N"
+    ],
+    [
+      "U1",
+      "26",
+      "DAC1_P"
+    ],
+    [
+      "U1",
+      "27",
+      "DAC2_P"
+    ],
+    [
+      "U1",
+      "28",
+      "DAC2_N"
+    ],
+    [
+      "U1",
+      "29",
+      "DAC3_N"
+    ],
+    [
+      "U1",
+      "30",
+      "DAC3_P"
+    ],
+    [
+      "U1",
+      "31",
+      "DAC4_P"
+    ],
+    [
+      "U1",
+      "32",
+      "DAC4_N"
+    ],
+    [
+      "U1",
+      "33",
+      "DAC5_N"
+    ],
+    [
+      "U1",
+      "34",
+      "DAC5_P"
+    ],
+    [
+      "U1",
+      "35",
+      "MUTEC_5V"
+    ],
+    [
+      "U1",
+      "36",
+      "DAC6_P"
+    ],
+    [
+      "U1",
+      "37",
+      "DAC6_N"
+    ],
+    [
+      "U1",
+      "38",
+      "DAC7_N"
+    ],
+    [
+      "U1",
+      "39",
+      "DAC7_P"
+    ],
+    [
+      "U1",
+      "40",
+      "DAC8_P"
+    ],
+    [
+      "U1",
+      "41",
+      "DAC8_N"
+    ],
+    [
+      "U1",
+      "42",
+      "GND"
+    ],
+    [
+      "U1",
+      "43",
+      "VQ"
+    ],
+    [
+      "U1",
+      "44",
+      "+5VA"
+    ],
+    [
+      "U1",
+      "45",
+      "AIN2"
+    ],
+    [
+      "U1",
+      "46",
+      "AIN1"
+    ],
+    [
+      "U1",
+      "47",
+      "AIN4"
+    ],
+    [
+      "U1",
+      "48",
+      "AIN3"
+    ],
+    [
+      "U1",
+      "49",
+      "AIN6"
+    ],
+    [
+      "U1",
+      "50",
+      "AIN5"
+    ],
+    [
+      "U1",
+      "51",
+      "AIN8"
+    ],
+    [
+      "U1",
+      "52",
+      "AIN7"
+    ],
+    [
+      "U1",
+      "53",
+      "+5VA"
+    ],
+    [
+      "U1",
+      "54",
+      "FILT_DAC"
+    ],
+    [
+      "U1",
+      "55",
+      "FILT_ADC"
+    ],
+    [
+      "U1",
+      "56",
+      "GND"
+    ],
+    [
+      "U1",
+      "57",
+      "AIN10"
+    ],
+    [
+      "U1",
+      "58",
+      "AIN9"
+    ],
+    [
+      "U1",
+      "59",
+      "AIN12"
+    ],
+    [
+      "U1",
+      "60",
+      "AIN11"
+    ],
+    [
+      "U1",
+      "61",
+      "CODEC_INT"
+    ],
+    [
+      "U1",
+      "62",
+      "GND"
+    ],
+    [
+      "U1",
+      "63",
+      "SCL"
+    ],
+    [
+      "U1",
+      "64",
+      "SDA"
+    ],
+    [
+      "U2",
+      "1",
+      "USB_5V"
+    ],
+    [
+      "U2",
+      "2",
+      "GND"
+    ],
+    [
+      "U2",
+      "3",
+      "USB_5V"
+    ],
+    [
+      "U2",
+      "4",
+      "unconnected-(U2-NC-Pad4)"
+    ],
+    [
+      "U2",
+      "5",
+      "+3V3"
+    ],
+    [
+      "C1",
+      "1",
+      "USB_5V"
+    ],
+    [
+      "C1",
+      "2",
+      "GND"
+    ],
+    [
+      "C2",
+      "1",
+      "+3V3"
+    ],
+    [
+      "C2",
+      "2",
+      "GND"
+    ],
+    [
+      "FB1",
+      "1",
+      "USB_5V"
+    ],
+    [
+      "FB1",
+      "2",
+      "+5VA"
+    ],
+    [
+      "C3",
+      "1",
+      "+5VA"
+    ],
+    [
+      "C3",
+      "2",
+      "GND"
+    ],
+    [
+      "J2",
+      "1",
+      "P15_IN"
+    ],
+    [
+      "J2",
+      "2",
+      "GND"
+    ],
+    [
+      "J2",
+      "3",
+      "N15_IN"
+    ],
+    [
+      "D1",
+      "1",
+      "+15A"
+    ],
+    [
+      "D1",
+      "2",
+      "P15_IN"
+    ],
+    [
+      "D2",
+      "1",
+      "N15_IN"
+    ],
+    [
+      "D2",
+      "2",
+      "-15A"
+    ],
+    [
+      "C4",
+      "1",
+      "+15A"
+    ],
+    [
+      "C4",
+      "2",
+      "GND"
+    ],
+    [
+      "C5",
+      "1",
+      "GND"
+    ],
+    [
+      "C5",
+      "2",
+      "-15A"
+    ],
+    [
+      "R1",
+      "1",
+      "TDM_TX_GPIO"
+    ],
+    [
+      "R1",
+      "2",
+      "TDM_TX"
+    ],
+    [
+      "R2",
+      "1",
+      "LRCLK_GPIO"
+    ],
+    [
+      "R2",
+      "2",
+      "LRCLK"
+    ],
+    [
+      "R3",
+      "1",
+      "BCLK_GPIO"
+    ],
+    [
+      "R3",
+      "2",
+      "BCLK"
+    ],
+    [
+      "R4",
+      "1",
+      "MCLK_GPIO"
+    ],
+    [
+      "R4",
+      "2",
+      "MCLK"
+    ],
+    [
+      "R5",
+      "1",
+      "RESET_QUALIFIED"
+    ],
+    [
+      "R5",
+      "2",
+      "CODEC_RESET"
+    ],
+    [
+      "R6",
+      "1",
+      "SCL"
+    ],
+    [
+      "R6",
+      "2",
+      "+3V3"
+    ],
+    [
+      "R7",
+      "1",
+      "SDA"
+    ],
+    [
+      "R7",
+      "2",
+      "+3V3"
+    ],
+    [
+      "R8",
+      "1",
+      "AD0"
+    ],
+    [
+      "R8",
+      "2",
+      "GND"
+    ],
+    [
+      "R9",
+      "1",
+      "AD1"
+    ],
+    [
+      "R9",
+      "2",
+      "GND"
+    ],
+    [
+      "R10",
+      "1",
+      "CODEC_RESET"
+    ],
+    [
+      "R10",
+      "2",
+      "GND"
+    ],
+    [
+      "R11",
+      "1",
+      "AUX_SDIN"
+    ],
+    [
+      "R11",
+      "2",
+      "GND"
+    ],
+    [
+      "R12",
+      "1",
+      "SDIN2"
+    ],
+    [
+      "R12",
+      "2",
+      "GND"
+    ],
+    [
+      "R13",
+      "1",
+      "SDIN3"
+    ],
+    [
+      "R13",
+      "2",
+      "GND"
+    ],
+    [
+      "R14",
+      "1",
+      "SDIN4"
+    ],
+    [
+      "R14",
+      "2",
+      "GND"
+    ],
+    [
+      "R15",
+      "1",
+      "CODEC_INT"
+    ],
+    [
+      "R15",
+      "2",
+      "+3V3"
+    ],
+    [
+      "R16",
+      "1",
+      "MUTEC_5V"
+    ],
+    [
+      "R16",
+      "2",
+      "+5VA"
+    ],
+    [
+      "U3",
+      "1",
+      "unconnected-(U3-NC-Pad1)"
+    ],
+    [
+      "U3",
+      "2",
+      "MUTEC_5V"
+    ],
+    [
+      "U3",
+      "3",
+      "GND"
+    ],
+    [
+      "U3",
+      "4",
+      "MUTEC_3V3"
+    ],
+    [
+      "U3",
+      "5",
+      "+3V3"
+    ],
+    [
+      "C6",
+      "1",
+      "+3V3"
+    ],
+    [
+      "C6",
+      "2",
+      "GND"
+    ],
+    [
+      "C7",
+      "1",
+      "+3V3"
+    ],
+    [
+      "C7",
+      "2",
+      "GND"
+    ],
+    [
+      "C8",
+      "1",
+      "+3V3"
+    ],
+    [
+      "C8",
+      "2",
+      "GND"
+    ],
+    [
+      "C9",
+      "1",
+      "+3V3"
+    ],
+    [
+      "C9",
+      "2",
+      "GND"
+    ],
+    [
+      "C10",
+      "1",
+      "+3V3"
+    ],
+    [
+      "C10",
+      "2",
+      "GND"
+    ],
+    [
+      "C11",
+      "1",
+      "+3V3"
+    ],
+    [
+      "C11",
+      "2",
+      "GND"
+    ],
+    [
+      "C12",
+      "1",
+      "+5VA"
+    ],
+    [
+      "C12",
+      "2",
+      "GND"
+    ],
+    [
+      "C13",
+      "1",
+      "+5VA"
+    ],
+    [
+      "C13",
+      "2",
+      "GND"
+    ],
+    [
+      "C14",
+      "1",
+      "+3V3"
+    ],
+    [
+      "C14",
+      "2",
+      "GND"
+    ],
+    [
+      "C15",
+      "1",
+      "+5VA"
+    ],
+    [
+      "C15",
+      "2",
+      "GND"
+    ],
+    [
+      "C16",
+      "1",
+      "VQ"
+    ],
+    [
+      "C16",
+      "2",
+      "GND"
+    ],
+    [
+      "C17",
+      "1",
+      "VQ"
+    ],
+    [
+      "C17",
+      "2",
+      "GND"
+    ],
+    [
+      "C18",
+      "1",
+      "FILT_ADC"
+    ],
+    [
+      "C18",
+      "2",
+      "GND"
+    ],
+    [
+      "C19",
+      "1",
+      "FILT_DAC"
+    ],
+    [
+      "C19",
+      "2",
+      "GND"
+    ],
+    [
+      "C20",
+      "1",
+      "FILT_DAC"
+    ],
+    [
+      "C20",
+      "2",
+      "GND"
+    ],
+    [
+      "C21",
+      "1",
+      "FILT_ADC"
+    ],
+    [
+      "C21",
+      "2",
+      "GND"
+    ],
+    [
+      "C22",
+      "1",
+      "AIN1"
+    ],
+    [
+      "C22",
+      "2",
+      "GND"
+    ],
+    [
+      "C23",
+      "1",
+      "AIN2"
+    ],
+    [
+      "C23",
+      "2",
+      "GND"
+    ],
+    [
+      "C24",
+      "1",
+      "AIN3"
+    ],
+    [
+      "C24",
+      "2",
+      "GND"
+    ],
+    [
+      "C25",
+      "1",
+      "AIN4"
+    ],
+    [
+      "C25",
+      "2",
+      "GND"
+    ],
+    [
+      "C26",
+      "1",
+      "AIN5"
+    ],
+    [
+      "C26",
+      "2",
+      "GND"
+    ],
+    [
+      "C27",
+      "1",
+      "AIN6"
+    ],
+    [
+      "C27",
+      "2",
+      "GND"
+    ],
+    [
+      "C28",
+      "1",
+      "AIN7"
+    ],
+    [
+      "C28",
+      "2",
+      "GND"
+    ],
+    [
+      "C29",
+      "1",
+      "AIN8"
+    ],
+    [
+      "C29",
+      "2",
+      "GND"
+    ],
+    [
+      "C30",
+      "1",
+      "AIN9"
+    ],
+    [
+      "C30",
+      "2",
+      "GND"
+    ],
+    [
+      "C31",
+      "1",
+      "AIN10"
+    ],
+    [
+      "C31",
+      "2",
+      "GND"
+    ],
+    [
+      "C32",
+      "1",
+      "AIN11"
+    ],
+    [
+      "C32",
+      "2",
+      "GND"
+    ],
+    [
+      "C33",
+      "1",
+      "AIN12"
+    ],
+    [
+      "C33",
+      "2",
+      "GND"
+    ],
+    [
+      "U11",
+      "1",
+      "B1P"
+    ],
+    [
+      "U11",
+      "2",
+      "B1P"
+    ],
+    [
+      "U11",
+      "3",
+      "IN1P"
+    ],
+    [
+      "U11",
+      "4",
+      "+15A"
+    ],
+    [
+      "U11",
+      "5",
+      "IN1N"
+    ],
+    [
+      "U11",
+      "6",
+      "B1N"
+    ],
+    [
+      "U11",
+      "7",
+      "B1N"
+    ],
+    [
+      "U11",
+      "8",
+      "X_DRV_P"
+    ],
+    [
+      "U11",
+      "9",
+      "SUM1N"
+    ],
+    [
+      "U11",
+      "10",
+      "SUM1P"
+    ],
+    [
+      "U11",
+      "11",
+      "-15A"
+    ],
+    [
+      "U11",
+      "12",
+      "GND"
+    ],
+    [
+      "U11",
+      "13",
+      "INV1"
+    ],
+    [
+      "U11",
+      "14",
+      "X_DRV_N"
+    ],
+    [
+      "R121",
+      "1",
+      "B1P"
+    ],
+    [
+      "R121",
+      "2",
+      "F1P"
+    ],
+    [
+      "R122",
+      "1",
+      "B1N"
+    ],
+    [
+      "R122",
+      "2",
+      "F1N"
+    ],
+    [
+      "C121",
+      "1",
+      "F1P"
+    ],
+    [
+      "C121",
+      "2",
+      "GND"
+    ],
+    [
+      "C122",
+      "1",
+      "F1N"
+    ],
+    [
+      "C122",
+      "2",
+      "GND"
+    ],
+    [
+      "R123",
+      "1",
+      "F1P"
+    ],
+    [
+      "R123",
+      "2",
+      "SUM1P"
+    ],
+    [
+      "R124",
+      "1",
+      "SUM1P"
+    ],
+    [
+      "R124",
+      "2",
+      "GND"
+    ],
+    [
+      "R125",
+      "1",
+      "F1N"
+    ],
+    [
+      "R125",
+      "2",
+      "SUM1N"
+    ],
+    [
+      "R126",
+      "1",
+      "X_DRV_P"
+    ],
+    [
+      "R126",
+      "2",
+      "SUM1N"
+    ],
+    [
+      "R127",
+      "1",
+      "X_DRV_P"
+    ],
+    [
+      "R127",
+      "2",
+      "INV1"
+    ],
+    [
+      "R128",
+      "1",
+      "X_DRV_N"
+    ],
+    [
+      "R128",
+      "2",
+      "INV1"
+    ],
+    [
+      "R129",
+      "1",
+      "ISO_DAC1_P"
+    ],
+    [
+      "R129",
+      "2",
+      "IN1P"
+    ],
+    [
+      "R130",
+      "1",
+      "ISO_DAC1_N"
+    ],
+    [
+      "R130",
+      "2",
+      "IN1N"
+    ],
+    [
+      "C123",
+      "1",
+      "+15A"
+    ],
+    [
+      "C123",
+      "2",
+      "GND"
+    ],
+    [
+      "C124",
+      "1",
+      "GND"
+    ],
+    [
+      "C124",
+      "2",
+      "-15A"
+    ],
+    [
+      "C125",
+      "1",
+      "+15A"
+    ],
+    [
+      "C125",
+      "2",
+      "GND"
+    ],
+    [
+      "C126",
+      "1",
+      "GND"
+    ],
+    [
+      "C126",
+      "2",
+      "-15A"
+    ],
+    [
+      "U12",
+      "1",
+      "B2P"
+    ],
+    [
+      "U12",
+      "2",
+      "B2P"
+    ],
+    [
+      "U12",
+      "3",
+      "IN2P"
+    ],
+    [
+      "U12",
+      "4",
+      "+15A"
+    ],
+    [
+      "U12",
+      "5",
+      "IN2N"
+    ],
+    [
+      "U12",
+      "6",
+      "B2N"
+    ],
+    [
+      "U12",
+      "7",
+      "B2N"
+    ],
+    [
+      "U12",
+      "8",
+      "Y_DRV_P"
+    ],
+    [
+      "U12",
+      "9",
+      "SUM2N"
+    ],
+    [
+      "U12",
+      "10",
+      "SUM2P"
+    ],
+    [
+      "U12",
+      "11",
+      "-15A"
+    ],
+    [
+      "U12",
+      "12",
+      "GND"
+    ],
+    [
+      "U12",
+      "13",
+      "INV2"
+    ],
+    [
+      "U12",
+      "14",
+      "Y_DRV_N"
+    ],
+    [
+      "R141",
+      "1",
+      "B2P"
+    ],
+    [
+      "R141",
+      "2",
+      "F2P"
+    ],
+    [
+      "R142",
+      "1",
+      "B2N"
+    ],
+    [
+      "R142",
+      "2",
+      "F2N"
+    ],
+    [
+      "C141",
+      "1",
+      "F2P"
+    ],
+    [
+      "C141",
+      "2",
+      "GND"
+    ],
+    [
+      "C142",
+      "1",
+      "F2N"
+    ],
+    [
+      "C142",
+      "2",
+      "GND"
+    ],
+    [
+      "R143",
+      "1",
+      "F2P"
+    ],
+    [
+      "R143",
+      "2",
+      "SUM2P"
+    ],
+    [
+      "R144",
+      "1",
+      "SUM2P"
+    ],
+    [
+      "R144",
+      "2",
+      "GND"
+    ],
+    [
+      "R145",
+      "1",
+      "F2N"
+    ],
+    [
+      "R145",
+      "2",
+      "SUM2N"
+    ],
+    [
+      "R146",
+      "1",
+      "Y_DRV_P"
+    ],
+    [
+      "R146",
+      "2",
+      "SUM2N"
+    ],
+    [
+      "R147",
+      "1",
+      "Y_DRV_P"
+    ],
+    [
+      "R147",
+      "2",
+      "INV2"
+    ],
+    [
+      "R148",
+      "1",
+      "Y_DRV_N"
+    ],
+    [
+      "R148",
+      "2",
+      "INV2"
+    ],
+    [
+      "R149",
+      "1",
+      "ISO_DAC2_P"
+    ],
+    [
+      "R149",
+      "2",
+      "IN2P"
+    ],
+    [
+      "R150",
+      "1",
+      "ISO_DAC2_N"
+    ],
+    [
+      "R150",
+      "2",
+      "IN2N"
+    ],
+    [
+      "C143",
+      "1",
+      "+15A"
+    ],
+    [
+      "C143",
+      "2",
+      "GND"
+    ],
+    [
+      "C144",
+      "1",
+      "GND"
+    ],
+    [
+      "C144",
+      "2",
+      "-15A"
+    ],
+    [
+      "C145",
+      "1",
+      "+15A"
+    ],
+    [
+      "C145",
+      "2",
+      "GND"
+    ],
+    [
+      "C146",
+      "1",
+      "GND"
+    ],
+    [
+      "C146",
+      "2",
+      "-15A"
+    ],
+    [
+      "U13",
+      "1",
+      "B3P"
+    ],
+    [
+      "U13",
+      "2",
+      "B3P"
+    ],
+    [
+      "U13",
+      "3",
+      "IN3P"
+    ],
+    [
+      "U13",
+      "4",
+      "+15A"
+    ],
+    [
+      "U13",
+      "5",
+      "IN3N"
+    ],
+    [
+      "U13",
+      "6",
+      "B3N"
+    ],
+    [
+      "U13",
+      "7",
+      "B3N"
+    ],
+    [
+      "U13",
+      "8",
+      "R_DRV_P"
+    ],
+    [
+      "U13",
+      "9",
+      "SUM3N"
+    ],
+    [
+      "U13",
+      "10",
+      "SUM3P"
+    ],
+    [
+      "U13",
+      "11",
+      "-15A"
+    ],
+    [
+      "U13",
+      "12",
+      "GND"
+    ],
+    [
+      "U13",
+      "13",
+      "INV3"
+    ],
+    [
+      "U13",
+      "14",
+      "R_DRV_N"
+    ],
+    [
+      "R161",
+      "1",
+      "B3P"
+    ],
+    [
+      "R161",
+      "2",
+      "F3P"
+    ],
+    [
+      "R162",
+      "1",
+      "B3N"
+    ],
+    [
+      "R162",
+      "2",
+      "F3N"
+    ],
+    [
+      "C161",
+      "1",
+      "F3P"
+    ],
+    [
+      "C161",
+      "2",
+      "GND"
+    ],
+    [
+      "C162",
+      "1",
+      "F3N"
+    ],
+    [
+      "C162",
+      "2",
+      "GND"
+    ],
+    [
+      "R163",
+      "1",
+      "F3P"
+    ],
+    [
+      "R163",
+      "2",
+      "SUM3P"
+    ],
+    [
+      "R164",
+      "1",
+      "SUM3P"
+    ],
+    [
+      "R164",
+      "2",
+      "GND"
+    ],
+    [
+      "R165",
+      "1",
+      "F3N"
+    ],
+    [
+      "R165",
+      "2",
+      "SUM3N"
+    ],
+    [
+      "R166",
+      "1",
+      "R_DRV_P"
+    ],
+    [
+      "R166",
+      "2",
+      "SUM3N"
+    ],
+    [
+      "R167",
+      "1",
+      "R_DRV_P"
+    ],
+    [
+      "R167",
+      "2",
+      "INV3"
+    ],
+    [
+      "R168",
+      "1",
+      "R_DRV_N"
+    ],
+    [
+      "R168",
+      "2",
+      "INV3"
+    ],
+    [
+      "R169",
+      "1",
+      "ISO_DAC3_P"
+    ],
+    [
+      "R169",
+      "2",
+      "IN3P"
+    ],
+    [
+      "R170",
+      "1",
+      "ISO_DAC3_N"
+    ],
+    [
+      "R170",
+      "2",
+      "IN3N"
+    ],
+    [
+      "C163",
+      "1",
+      "+15A"
+    ],
+    [
+      "C163",
+      "2",
+      "GND"
+    ],
+    [
+      "C164",
+      "1",
+      "GND"
+    ],
+    [
+      "C164",
+      "2",
+      "-15A"
+    ],
+    [
+      "C165",
+      "1",
+      "+15A"
+    ],
+    [
+      "C165",
+      "2",
+      "GND"
+    ],
+    [
+      "C166",
+      "1",
+      "GND"
+    ],
+    [
+      "C166",
+      "2",
+      "-15A"
+    ],
+    [
+      "U14",
+      "1",
+      "B4P"
+    ],
+    [
+      "U14",
+      "2",
+      "B4P"
+    ],
+    [
+      "U14",
+      "3",
+      "IN4P"
+    ],
+    [
+      "U14",
+      "4",
+      "+15A"
+    ],
+    [
+      "U14",
+      "5",
+      "IN4N"
+    ],
+    [
+      "U14",
+      "6",
+      "B4N"
+    ],
+    [
+      "U14",
+      "7",
+      "B4N"
+    ],
+    [
+      "U14",
+      "8",
+      "G_DRV_P"
+    ],
+    [
+      "U14",
+      "9",
+      "SUM4N"
+    ],
+    [
+      "U14",
+      "10",
+      "SUM4P"
+    ],
+    [
+      "U14",
+      "11",
+      "-15A"
+    ],
+    [
+      "U14",
+      "12",
+      "GND"
+    ],
+    [
+      "U14",
+      "13",
+      "INV4"
+    ],
+    [
+      "U14",
+      "14",
+      "G_DRV_N"
+    ],
+    [
+      "R181",
+      "1",
+      "B4P"
+    ],
+    [
+      "R181",
+      "2",
+      "F4P"
+    ],
+    [
+      "R182",
+      "1",
+      "B4N"
+    ],
+    [
+      "R182",
+      "2",
+      "F4N"
+    ],
+    [
+      "C181",
+      "1",
+      "F4P"
+    ],
+    [
+      "C181",
+      "2",
+      "GND"
+    ],
+    [
+      "C182",
+      "1",
+      "F4N"
+    ],
+    [
+      "C182",
+      "2",
+      "GND"
+    ],
+    [
+      "R183",
+      "1",
+      "F4P"
+    ],
+    [
+      "R183",
+      "2",
+      "SUM4P"
+    ],
+    [
+      "R184",
+      "1",
+      "SUM4P"
+    ],
+    [
+      "R184",
+      "2",
+      "GND"
+    ],
+    [
+      "R185",
+      "1",
+      "F4N"
+    ],
+    [
+      "R185",
+      "2",
+      "SUM4N"
+    ],
+    [
+      "R186",
+      "1",
+      "G_DRV_P"
+    ],
+    [
+      "R186",
+      "2",
+      "SUM4N"
+    ],
+    [
+      "R187",
+      "1",
+      "G_DRV_P"
+    ],
+    [
+      "R187",
+      "2",
+      "INV4"
+    ],
+    [
+      "R188",
+      "1",
+      "G_DRV_N"
+    ],
+    [
+      "R188",
+      "2",
+      "INV4"
+    ],
+    [
+      "R189",
+      "1",
+      "ISO_DAC4_P"
+    ],
+    [
+      "R189",
+      "2",
+      "IN4P"
+    ],
+    [
+      "R190",
+      "1",
+      "ISO_DAC4_N"
+    ],
+    [
+      "R190",
+      "2",
+      "IN4N"
+    ],
+    [
+      "C183",
+      "1",
+      "+15A"
+    ],
+    [
+      "C183",
+      "2",
+      "GND"
+    ],
+    [
+      "C184",
+      "1",
+      "GND"
+    ],
+    [
+      "C184",
+      "2",
+      "-15A"
+    ],
+    [
+      "C185",
+      "1",
+      "+15A"
+    ],
+    [
+      "C185",
+      "2",
+      "GND"
+    ],
+    [
+      "C186",
+      "1",
+      "GND"
+    ],
+    [
+      "C186",
+      "2",
+      "-15A"
+    ],
+    [
+      "U15",
+      "1",
+      "B5P"
+    ],
+    [
+      "U15",
+      "2",
+      "B5P"
+    ],
+    [
+      "U15",
+      "3",
+      "IN5P"
+    ],
+    [
+      "U15",
+      "4",
+      "+15A"
+    ],
+    [
+      "U15",
+      "5",
+      "IN5N"
+    ],
+    [
+      "U15",
+      "6",
+      "B5N"
+    ],
+    [
+      "U15",
+      "7",
+      "B5N"
+    ],
+    [
+      "U15",
+      "8",
+      "B_DRV_P"
+    ],
+    [
+      "U15",
+      "9",
+      "SUM5N"
+    ],
+    [
+      "U15",
+      "10",
+      "SUM5P"
+    ],
+    [
+      "U15",
+      "11",
+      "-15A"
+    ],
+    [
+      "U15",
+      "12",
+      "GND"
+    ],
+    [
+      "U15",
+      "13",
+      "INV5"
+    ],
+    [
+      "U15",
+      "14",
+      "B_DRV_N"
+    ],
+    [
+      "R201",
+      "1",
+      "B5P"
+    ],
+    [
+      "R201",
+      "2",
+      "F5P"
+    ],
+    [
+      "R202",
+      "1",
+      "B5N"
+    ],
+    [
+      "R202",
+      "2",
+      "F5N"
+    ],
+    [
+      "C201",
+      "1",
+      "F5P"
+    ],
+    [
+      "C201",
+      "2",
+      "GND"
+    ],
+    [
+      "C202",
+      "1",
+      "F5N"
+    ],
+    [
+      "C202",
+      "2",
+      "GND"
+    ],
+    [
+      "R203",
+      "1",
+      "F5P"
+    ],
+    [
+      "R203",
+      "2",
+      "SUM5P"
+    ],
+    [
+      "R204",
+      "1",
+      "SUM5P"
+    ],
+    [
+      "R204",
+      "2",
+      "GND"
+    ],
+    [
+      "R205",
+      "1",
+      "F5N"
+    ],
+    [
+      "R205",
+      "2",
+      "SUM5N"
+    ],
+    [
+      "R206",
+      "1",
+      "B_DRV_P"
+    ],
+    [
+      "R206",
+      "2",
+      "SUM5N"
+    ],
+    [
+      "R207",
+      "1",
+      "B_DRV_P"
+    ],
+    [
+      "R207",
+      "2",
+      "INV5"
+    ],
+    [
+      "R208",
+      "1",
+      "B_DRV_N"
+    ],
+    [
+      "R208",
+      "2",
+      "INV5"
+    ],
+    [
+      "R209",
+      "1",
+      "ISO_DAC5_P"
+    ],
+    [
+      "R209",
+      "2",
+      "IN5P"
+    ],
+    [
+      "R210",
+      "1",
+      "ISO_DAC5_N"
+    ],
+    [
+      "R210",
+      "2",
+      "IN5N"
+    ],
+    [
+      "C203",
+      "1",
+      "+15A"
+    ],
+    [
+      "C203",
+      "2",
+      "GND"
+    ],
+    [
+      "C204",
+      "1",
+      "GND"
+    ],
+    [
+      "C204",
+      "2",
+      "-15A"
+    ],
+    [
+      "C205",
+      "1",
+      "+15A"
+    ],
+    [
+      "C205",
+      "2",
+      "GND"
+    ],
+    [
+      "C206",
+      "1",
+      "GND"
+    ],
+    [
+      "C206",
+      "2",
+      "-15A"
+    ],
+    [
+      "U16",
+      "1",
+      "B6P"
+    ],
+    [
+      "U16",
+      "2",
+      "B6P"
+    ],
+    [
+      "U16",
+      "3",
+      "IN6P"
+    ],
+    [
+      "U16",
+      "4",
+      "+15A"
+    ],
+    [
+      "U16",
+      "5",
+      "IN6N"
+    ],
+    [
+      "U16",
+      "6",
+      "B6N"
+    ],
+    [
+      "U16",
+      "7",
+      "B6N"
+    ],
+    [
+      "U16",
+      "8",
+      "I_DRV_P"
+    ],
+    [
+      "U16",
+      "9",
+      "SUM6N"
+    ],
+    [
+      "U16",
+      "10",
+      "SUM6P"
+    ],
+    [
+      "U16",
+      "11",
+      "-15A"
+    ],
+    [
+      "U16",
+      "12",
+      "GND"
+    ],
+    [
+      "U16",
+      "13",
+      "INV6"
+    ],
+    [
+      "U16",
+      "14",
+      "I_DRV_N"
+    ],
+    [
+      "R221",
+      "1",
+      "B6P"
+    ],
+    [
+      "R221",
+      "2",
+      "F6P"
+    ],
+    [
+      "R222",
+      "1",
+      "B6N"
+    ],
+    [
+      "R222",
+      "2",
+      "F6N"
+    ],
+    [
+      "C221",
+      "1",
+      "F6P"
+    ],
+    [
+      "C221",
+      "2",
+      "GND"
+    ],
+    [
+      "C222",
+      "1",
+      "F6N"
+    ],
+    [
+      "C222",
+      "2",
+      "GND"
+    ],
+    [
+      "R223",
+      "1",
+      "F6P"
+    ],
+    [
+      "R223",
+      "2",
+      "SUM6P"
+    ],
+    [
+      "R224",
+      "1",
+      "SUM6P"
+    ],
+    [
+      "R224",
+      "2",
+      "GND"
+    ],
+    [
+      "R225",
+      "1",
+      "F6N"
+    ],
+    [
+      "R225",
+      "2",
+      "SUM6N"
+    ],
+    [
+      "R226",
+      "1",
+      "I_DRV_P"
+    ],
+    [
+      "R226",
+      "2",
+      "SUM6N"
+    ],
+    [
+      "R227",
+      "1",
+      "I_DRV_P"
+    ],
+    [
+      "R227",
+      "2",
+      "INV6"
+    ],
+    [
+      "R228",
+      "1",
+      "I_DRV_N"
+    ],
+    [
+      "R228",
+      "2",
+      "INV6"
+    ],
+    [
+      "R229",
+      "1",
+      "ISO_DAC6_P"
+    ],
+    [
+      "R229",
+      "2",
+      "IN6P"
+    ],
+    [
+      "R230",
+      "1",
+      "ISO_DAC6_N"
+    ],
+    [
+      "R230",
+      "2",
+      "IN6N"
+    ],
+    [
+      "C223",
+      "1",
+      "+15A"
+    ],
+    [
+      "C223",
+      "2",
+      "GND"
+    ],
+    [
+      "C224",
+      "1",
+      "GND"
+    ],
+    [
+      "C224",
+      "2",
+      "-15A"
+    ],
+    [
+      "C225",
+      "1",
+      "+15A"
+    ],
+    [
+      "C225",
+      "2",
+      "GND"
+    ],
+    [
+      "C226",
+      "1",
+      "GND"
+    ],
+    [
+      "C226",
+      "2",
+      "-15A"
+    ],
+    [
+      "U17",
+      "1",
+      "B7P"
+    ],
+    [
+      "U17",
+      "2",
+      "B7P"
+    ],
+    [
+      "U17",
+      "3",
+      "IN7P"
+    ],
+    [
+      "U17",
+      "4",
+      "+15A"
+    ],
+    [
+      "U17",
+      "5",
+      "IN7N"
+    ],
+    [
+      "U17",
+      "6",
+      "B7N"
+    ],
+    [
+      "U17",
+      "7",
+      "B7N"
+    ],
+    [
+      "U17",
+      "8",
+      "AUX1_DRV_P"
+    ],
+    [
+      "U17",
+      "9",
+      "SUM7N"
+    ],
+    [
+      "U17",
+      "10",
+      "SUM7P"
+    ],
+    [
+      "U17",
+      "11",
+      "-15A"
+    ],
+    [
+      "U17",
+      "12",
+      "GND"
+    ],
+    [
+      "U17",
+      "13",
+      "INV7"
+    ],
+    [
+      "U17",
+      "14",
+      "AUX1_DRV_N"
+    ],
+    [
+      "R241",
+      "1",
+      "B7P"
+    ],
+    [
+      "R241",
+      "2",
+      "F7P"
+    ],
+    [
+      "R242",
+      "1",
+      "B7N"
+    ],
+    [
+      "R242",
+      "2",
+      "F7N"
+    ],
+    [
+      "C241",
+      "1",
+      "F7P"
+    ],
+    [
+      "C241",
+      "2",
+      "GND"
+    ],
+    [
+      "C242",
+      "1",
+      "F7N"
+    ],
+    [
+      "C242",
+      "2",
+      "GND"
+    ],
+    [
+      "R243",
+      "1",
+      "F7P"
+    ],
+    [
+      "R243",
+      "2",
+      "SUM7P"
+    ],
+    [
+      "R244",
+      "1",
+      "SUM7P"
+    ],
+    [
+      "R244",
+      "2",
+      "GND"
+    ],
+    [
+      "R245",
+      "1",
+      "F7N"
+    ],
+    [
+      "R245",
+      "2",
+      "SUM7N"
+    ],
+    [
+      "R246",
+      "1",
+      "AUX1_DRV_P"
+    ],
+    [
+      "R246",
+      "2",
+      "SUM7N"
+    ],
+    [
+      "R247",
+      "1",
+      "AUX1_DRV_P"
+    ],
+    [
+      "R247",
+      "2",
+      "INV7"
+    ],
+    [
+      "R248",
+      "1",
+      "AUX1_DRV_N"
+    ],
+    [
+      "R248",
+      "2",
+      "INV7"
+    ],
+    [
+      "R249",
+      "1",
+      "ISO_DAC7_P"
+    ],
+    [
+      "R249",
+      "2",
+      "IN7P"
+    ],
+    [
+      "R250",
+      "1",
+      "ISO_DAC7_N"
+    ],
+    [
+      "R250",
+      "2",
+      "IN7N"
+    ],
+    [
+      "C243",
+      "1",
+      "+15A"
+    ],
+    [
+      "C243",
+      "2",
+      "GND"
+    ],
+    [
+      "C244",
+      "1",
+      "GND"
+    ],
+    [
+      "C244",
+      "2",
+      "-15A"
+    ],
+    [
+      "C245",
+      "1",
+      "+15A"
+    ],
+    [
+      "C245",
+      "2",
+      "GND"
+    ],
+    [
+      "C246",
+      "1",
+      "GND"
+    ],
+    [
+      "C246",
+      "2",
+      "-15A"
+    ],
+    [
+      "U18",
+      "1",
+      "B8P"
+    ],
+    [
+      "U18",
+      "2",
+      "B8P"
+    ],
+    [
+      "U18",
+      "3",
+      "IN8P"
+    ],
+    [
+      "U18",
+      "4",
+      "+15A"
+    ],
+    [
+      "U18",
+      "5",
+      "IN8N"
+    ],
+    [
+      "U18",
+      "6",
+      "B8N"
+    ],
+    [
+      "U18",
+      "7",
+      "B8N"
+    ],
+    [
+      "U18",
+      "8",
+      "AUX2_DRV_P"
+    ],
+    [
+      "U18",
+      "9",
+      "SUM8N"
+    ],
+    [
+      "U18",
+      "10",
+      "SUM8P"
+    ],
+    [
+      "U18",
+      "11",
+      "-15A"
+    ],
+    [
+      "U18",
+      "12",
+      "GND"
+    ],
+    [
+      "U18",
+      "13",
+      "INV8"
+    ],
+    [
+      "U18",
+      "14",
+      "AUX2_DRV_N"
+    ],
+    [
+      "R261",
+      "1",
+      "B8P"
+    ],
+    [
+      "R261",
+      "2",
+      "F8P"
+    ],
+    [
+      "R262",
+      "1",
+      "B8N"
+    ],
+    [
+      "R262",
+      "2",
+      "F8N"
+    ],
+    [
+      "C261",
+      "1",
+      "F8P"
+    ],
+    [
+      "C261",
+      "2",
+      "GND"
+    ],
+    [
+      "C262",
+      "1",
+      "F8N"
+    ],
+    [
+      "C262",
+      "2",
+      "GND"
+    ],
+    [
+      "R263",
+      "1",
+      "F8P"
+    ],
+    [
+      "R263",
+      "2",
+      "SUM8P"
+    ],
+    [
+      "R264",
+      "1",
+      "SUM8P"
+    ],
+    [
+      "R264",
+      "2",
+      "GND"
+    ],
+    [
+      "R265",
+      "1",
+      "F8N"
+    ],
+    [
+      "R265",
+      "2",
+      "SUM8N"
+    ],
+    [
+      "R266",
+      "1",
+      "AUX2_DRV_P"
+    ],
+    [
+      "R266",
+      "2",
+      "SUM8N"
+    ],
+    [
+      "R267",
+      "1",
+      "AUX2_DRV_P"
+    ],
+    [
+      "R267",
+      "2",
+      "INV8"
+    ],
+    [
+      "R268",
+      "1",
+      "AUX2_DRV_N"
+    ],
+    [
+      "R268",
+      "2",
+      "INV8"
+    ],
+    [
+      "R269",
+      "1",
+      "ISO_DAC8_P"
+    ],
+    [
+      "R269",
+      "2",
+      "IN8P"
+    ],
+    [
+      "R270",
+      "1",
+      "ISO_DAC8_N"
+    ],
+    [
+      "R270",
+      "2",
+      "IN8N"
+    ],
+    [
+      "C263",
+      "1",
+      "+15A"
+    ],
+    [
+      "C263",
+      "2",
+      "GND"
+    ],
+    [
+      "C264",
+      "1",
+      "GND"
+    ],
+    [
+      "C264",
+      "2",
+      "-15A"
+    ],
+    [
+      "C265",
+      "1",
+      "+15A"
+    ],
+    [
+      "C265",
+      "2",
+      "GND"
+    ],
+    [
+      "C266",
+      "1",
+      "GND"
+    ],
+    [
+      "C266",
+      "2",
+      "-15A"
+    ],
+    [
+      "U21",
+      "1",
+      "RUN_ENABLE"
+    ],
+    [
+      "U21",
+      "2",
+      "X_SW_P"
+    ],
+    [
+      "U21",
+      "3",
+      "X_DRV_P"
+    ],
+    [
+      "U21",
+      "4",
+      "-15A"
+    ],
+    [
+      "U21",
+      "5",
+      "GND"
+    ],
+    [
+      "U21",
+      "6",
+      "Y_DRV_N"
+    ],
+    [
+      "U21",
+      "7",
+      "Y_SW_N"
+    ],
+    [
+      "U21",
+      "8",
+      "RUN_ENABLE"
+    ],
+    [
+      "U21",
+      "9",
+      "RUN_ENABLE"
+    ],
+    [
+      "U21",
+      "10",
+      "Y_SW_P"
+    ],
+    [
+      "U21",
+      "11",
+      "Y_DRV_P"
+    ],
+    [
+      "U21",
+      "12",
+      "unconnected-(U21-NC-Pad12)"
+    ],
+    [
+      "U21",
+      "13",
+      "+15A"
+    ],
+    [
+      "U21",
+      "14",
+      "X_DRV_N"
+    ],
+    [
+      "U21",
+      "15",
+      "X_SW_N"
+    ],
+    [
+      "U21",
+      "16",
+      "RUN_ENABLE"
+    ],
+    [
+      "C310",
+      "1",
+      "+15A"
+    ],
+    [
+      "C310",
+      "2",
+      "GND"
+    ],
+    [
+      "C311",
+      "1",
+      "GND"
+    ],
+    [
+      "C311",
+      "2",
+      "-15A"
+    ],
+    [
+      "R300",
+      "1",
+      "X_SW_P"
+    ],
+    [
+      "R300",
+      "2",
+      "ILDA_X_P"
+    ],
+    [
+      "R301",
+      "1",
+      "ILDA_X_P"
+    ],
+    [
+      "R301",
+      "2",
+      "GND"
+    ],
+    [
+      "R302",
+      "1",
+      "X_SW_N"
+    ],
+    [
+      "R302",
+      "2",
+      "ILDA_X_N"
+    ],
+    [
+      "R303",
+      "1",
+      "ILDA_X_N"
+    ],
+    [
+      "R303",
+      "2",
+      "GND"
+    ],
+    [
+      "R304",
+      "1",
+      "Y_SW_P"
+    ],
+    [
+      "R304",
+      "2",
+      "ILDA_Y_P"
+    ],
+    [
+      "R305",
+      "1",
+      "ILDA_Y_P"
+    ],
+    [
+      "R305",
+      "2",
+      "GND"
+    ],
+    [
+      "R306",
+      "1",
+      "Y_SW_N"
+    ],
+    [
+      "R306",
+      "2",
+      "ILDA_Y_N"
+    ],
+    [
+      "R307",
+      "1",
+      "ILDA_Y_N"
+    ],
+    [
+      "R307",
+      "2",
+      "GND"
+    ],
+    [
+      "U22",
+      "1",
+      "RUN_ENABLE"
+    ],
+    [
+      "U22",
+      "2",
+      "I_SW_P"
+    ],
+    [
+      "U22",
+      "3",
+      "I_DRV_P"
+    ],
+    [
+      "U22",
+      "4",
+      "-15A"
+    ],
+    [
+      "U22",
+      "5",
+      "GND"
+    ],
+    [
+      "U22",
+      "6",
+      "R_DRV_N"
+    ],
+    [
+      "U22",
+      "7",
+      "R_SW_N"
+    ],
+    [
+      "U22",
+      "8",
+      "RUN_ENABLE"
+    ],
+    [
+      "U22",
+      "9",
+      "RUN_ENABLE"
+    ],
+    [
+      "U22",
+      "10",
+      "R_SW_P"
+    ],
+    [
+      "U22",
+      "11",
+      "R_DRV_P"
+    ],
+    [
+      "U22",
+      "12",
+      "unconnected-(U22-NC-Pad12)"
+    ],
+    [
+      "U22",
+      "13",
+      "+15A"
+    ],
+    [
+      "U22",
+      "14",
+      "I_DRV_N"
+    ],
+    [
+      "U22",
+      "15",
+      "I_SW_N"
+    ],
+    [
+      "U22",
+      "16",
+      "RUN_ENABLE"
+    ],
+    [
+      "C312",
+      "1",
+      "+15A"
+    ],
+    [
+      "C312",
+      "2",
+      "GND"
+    ],
+    [
+      "C313",
+      "1",
+      "GND"
+    ],
+    [
+      "C313",
+      "2",
+      "-15A"
+    ],
+    [
+      "R308",
+      "1",
+      "R_SW_P"
+    ],
+    [
+      "R308",
+      "2",
+      "ILDA_R_P"
+    ],
+    [
+      "R309",
+      "1",
+      "ILDA_R_P"
+    ],
+    [
+      "R309",
+      "2",
+      "GND"
+    ],
+    [
+      "R310",
+      "1",
+      "R_SW_N"
+    ],
+    [
+      "R310",
+      "2",
+      "ILDA_R_N"
+    ],
+    [
+      "R311",
+      "1",
+      "ILDA_R_N"
+    ],
+    [
+      "R311",
+      "2",
+      "GND"
+    ],
+    [
+      "R312",
+      "1",
+      "G_SW_P"
+    ],
+    [
+      "R312",
+      "2",
+      "ILDA_G_P"
+    ],
+    [
+      "R313",
+      "1",
+      "ILDA_G_P"
+    ],
+    [
+      "R313",
+      "2",
+      "GND"
+    ],
+    [
+      "R314",
+      "1",
+      "G_SW_N"
+    ],
+    [
+      "R314",
+      "2",
+      "ILDA_G_N"
+    ],
+    [
+      "R315",
+      "1",
+      "ILDA_G_N"
+    ],
+    [
+      "R315",
+      "2",
+      "GND"
+    ],
+    [
+      "U23",
+      "1",
+      "RUN_ENABLE"
+    ],
+    [
+      "U23",
+      "2",
+      "G_SW_P"
+    ],
+    [
+      "U23",
+      "3",
+      "G_DRV_P"
+    ],
+    [
+      "U23",
+      "4",
+      "-15A"
+    ],
+    [
+      "U23",
+      "5",
+      "GND"
+    ],
+    [
+      "U23",
+      "6",
+      "B_DRV_N"
+    ],
+    [
+      "U23",
+      "7",
+      "B_SW_N"
+    ],
+    [
+      "U23",
+      "8",
+      "RUN_ENABLE"
+    ],
+    [
+      "U23",
+      "9",
+      "RUN_ENABLE"
+    ],
+    [
+      "U23",
+      "10",
+      "B_SW_P"
+    ],
+    [
+      "U23",
+      "11",
+      "B_DRV_P"
+    ],
+    [
+      "U23",
+      "12",
+      "unconnected-(U23-NC-Pad12)"
+    ],
+    [
+      "U23",
+      "13",
+      "+15A"
+    ],
+    [
+      "U23",
+      "14",
+      "G_DRV_N"
+    ],
+    [
+      "U23",
+      "15",
+      "G_SW_N"
+    ],
+    [
+      "U23",
+      "16",
+      "RUN_ENABLE"
+    ],
+    [
+      "C314",
+      "1",
+      "+15A"
+    ],
+    [
+      "C314",
+      "2",
+      "GND"
+    ],
+    [
+      "C315",
+      "1",
+      "GND"
+    ],
+    [
+      "C315",
+      "2",
+      "-15A"
+    ],
+    [
+      "R316",
+      "1",
+      "B_SW_P"
+    ],
+    [
+      "R316",
+      "2",
+      "ILDA_B_P"
+    ],
+    [
+      "R317",
+      "1",
+      "ILDA_B_P"
+    ],
+    [
+      "R317",
+      "2",
+      "GND"
+    ],
+    [
+      "R318",
+      "1",
+      "B_SW_N"
+    ],
+    [
+      "R318",
+      "2",
+      "ILDA_B_N"
+    ],
+    [
+      "R319",
+      "1",
+      "ILDA_B_N"
+    ],
+    [
+      "R319",
+      "2",
+      "GND"
+    ],
+    [
+      "R320",
+      "1",
+      "I_SW_P"
+    ],
+    [
+      "R320",
+      "2",
+      "ILDA_I_P"
+    ],
+    [
+      "R321",
+      "1",
+      "ILDA_I_P"
+    ],
+    [
+      "R321",
+      "2",
+      "GND"
+    ],
+    [
+      "R322",
+      "1",
+      "I_SW_N"
+    ],
+    [
+      "R322",
+      "2",
+      "ILDA_I_N"
+    ],
+    [
+      "R323",
+      "1",
+      "ILDA_I_N"
+    ],
+    [
+      "R323",
+      "2",
+      "GND"
+    ],
+    [
+      "U24",
+      "1",
+      "RUN_ENABLE"
+    ],
+    [
+      "U24",
+      "2",
+      "AUX1_SW_P"
+    ],
+    [
+      "U24",
+      "3",
+      "AUX1_DRV_P"
+    ],
+    [
+      "U24",
+      "4",
+      "-15A"
+    ],
+    [
+      "U24",
+      "5",
+      "GND"
+    ],
+    [
+      "U24",
+      "6",
+      "AUX2_DRV_N"
+    ],
+    [
+      "U24",
+      "7",
+      "AUX2_SW_N"
+    ],
+    [
+      "U24",
+      "8",
+      "RUN_ENABLE"
+    ],
+    [
+      "U24",
+      "9",
+      "RUN_ENABLE"
+    ],
+    [
+      "U24",
+      "10",
+      "AUX2_SW_P"
+    ],
+    [
+      "U24",
+      "11",
+      "AUX2_DRV_P"
+    ],
+    [
+      "U24",
+      "12",
+      "unconnected-(U24-NC-Pad12)"
+    ],
+    [
+      "U24",
+      "13",
+      "+15A"
+    ],
+    [
+      "U24",
+      "14",
+      "AUX1_DRV_N"
+    ],
+    [
+      "U24",
+      "15",
+      "AUX1_SW_N"
+    ],
+    [
+      "U24",
+      "16",
+      "RUN_ENABLE"
+    ],
+    [
+      "C316",
+      "1",
+      "+15A"
+    ],
+    [
+      "C316",
+      "2",
+      "GND"
+    ],
+    [
+      "C317",
+      "1",
+      "GND"
+    ],
+    [
+      "C317",
+      "2",
+      "-15A"
+    ],
+    [
+      "R324",
+      "1",
+      "AUX1_SW_P"
+    ],
+    [
+      "R324",
+      "2",
+      "ILDA_AUX1_P"
+    ],
+    [
+      "R325",
+      "1",
+      "ILDA_AUX1_P"
+    ],
+    [
+      "R325",
+      "2",
+      "GND"
+    ],
+    [
+      "R326",
+      "1",
+      "AUX1_SW_N"
+    ],
+    [
+      "R326",
+      "2",
+      "ILDA_AUX1_N"
+    ],
+    [
+      "R327",
+      "1",
+      "ILDA_AUX1_N"
+    ],
+    [
+      "R327",
+      "2",
+      "GND"
+    ],
+    [
+      "R328",
+      "1",
+      "AUX2_SW_P"
+    ],
+    [
+      "R328",
+      "2",
+      "ILDA_AUX2_P"
+    ],
+    [
+      "R329",
+      "1",
+      "ILDA_AUX2_P"
+    ],
+    [
+      "R329",
+      "2",
+      "GND"
+    ],
+    [
+      "R330",
+      "1",
+      "AUX2_SW_N"
+    ],
+    [
+      "R330",
+      "2",
+      "ILDA_AUX2_N"
+    ],
+    [
+      "R331",
+      "1",
+      "ILDA_AUX2_N"
+    ],
+    [
+      "R331",
+      "2",
+      "GND"
+    ],
+    [
+      "U4",
+      "1",
+      "GND"
+    ],
+    [
+      "U4",
+      "2",
+      "HEARTBEAT"
+    ],
+    [
+      "U4",
+      "3",
+      "ARM_QUALIFIED"
+    ],
+    [
+      "U4",
+      "4",
+      "unconnected-(U4-~{1Q}-Pad4)"
+    ],
+    [
+      "U4",
+      "5",
+      "unconnected-(U4-2Q-Pad5)"
+    ],
+    [
+      "U4",
+      "6",
+      "unconnected-(U4-2CEXT-Pad6)"
+    ],
+    [
+      "U4",
+      "7",
+      "unconnected-(U4-2REXT-Pad7)"
+    ],
+    [
+      "U4",
+      "8",
+      "GND"
+    ],
+    [
+      "U4",
+      "9",
+      "GND"
+    ],
+    [
+      "U4",
+      "10",
+      "GND"
+    ],
+    [
+      "U4",
+      "11",
+      "GND"
+    ],
+    [
+      "U4",
+      "12",
+      "unconnected-(U4-~{2Q}-Pad12)"
+    ],
+    [
+      "U4",
+      "13",
+      "RUN_ENABLE"
+    ],
+    [
+      "U4",
+      "14",
+      "WD_CAP"
+    ],
+    [
+      "U4",
+      "15",
+      "WD_RC"
+    ],
+    [
+      "U4",
+      "16",
+      "+3V3"
+    ],
+    [
+      "R17",
+      "1",
+      "+3V3"
+    ],
+    [
+      "R17",
+      "2",
+      "WD_RC"
+    ],
+    [
+      "C34",
+      "1",
+      "WD_CAP"
+    ],
+    [
+      "C34",
+      "2",
+      "WD_RC"
+    ],
+    [
+      "C35",
+      "1",
+      "+3V3"
+    ],
+    [
+      "C35",
+      "2",
+      "GND"
+    ],
+    [
+      "R18",
+      "1",
+      "ARM"
+    ],
+    [
+      "R18",
+      "2",
+      "GND"
+    ],
+    [
+      "R19",
+      "1",
+      "HEARTBEAT"
+    ],
+    [
+      "R19",
+      "2",
+      "GND"
+    ],
+    [
+      "R20",
+      "1",
+      "RUN_ENABLE"
+    ],
+    [
+      "R20",
+      "2",
+      "GND"
+    ],
+    [
+      "U5",
+      "1",
+      "SHUTTER_DISABLE"
+    ],
+    [
+      "U5",
+      "2",
+      "RUN_ENABLE"
+    ],
+    [
+      "U5",
+      "3",
+      "GND"
+    ],
+    [
+      "U5",
+      "4",
+      "SHUTTER_DRV"
+    ],
+    [
+      "U5",
+      "5",
+      "USB_5V"
+    ],
+    [
+      "C36",
+      "1",
+      "USB_5V"
+    ],
+    [
+      "C36",
+      "2",
+      "GND"
+    ],
+    [
+      "R21",
+      "1",
+      "SHUTTER_DRV"
+    ],
+    [
+      "R21",
+      "2",
+      "ILDA_SHUTTER"
+    ],
+    [
+      "R22",
+      "1",
+      "ILDA_SHUTTER"
+    ],
+    [
+      "R22",
+      "2",
+      "GND"
+    ],
+    [
+      "R23",
+      "1",
+      "+15A"
+    ],
+    [
+      "R23",
+      "2",
+      "SENSE_P15"
+    ],
+    [
+      "R24",
+      "1",
+      "SENSE_P15"
+    ],
+    [
+      "R24",
+      "2",
+      "GND"
+    ],
+    [
+      "R25",
+      "1",
+      "-15A"
+    ],
+    [
+      "R25",
+      "2",
+      "SENSE_N15"
+    ],
+    [
+      "R26",
+      "1",
+      "SENSE_N15"
+    ],
+    [
+      "R26",
+      "2",
+      "MCU_3V3"
+    ],
+    [
+      "C37",
+      "1",
+      "SENSE_P15"
+    ],
+    [
+      "C37",
+      "2",
+      "GND"
+    ],
+    [
+      "C38",
+      "1",
+      "SENSE_N15"
+    ],
+    [
+      "C38",
+      "2",
+      "GND"
+    ],
+    [
+      "J1",
+      "1",
+      "ILDA_X_P"
+    ],
+    [
+      "J1",
+      "2",
+      "ILDA_Y_P"
+    ],
+    [
+      "J1",
+      "3",
+      "ILDA_I_P"
+    ],
+    [
+      "J1",
+      "4",
+      "INTERLOCK"
+    ],
+    [
+      "J1",
+      "5",
+      "ILDA_R_P"
+    ],
+    [
+      "J1",
+      "6",
+      "ILDA_G_P"
+    ],
+    [
+      "J1",
+      "7",
+      "ILDA_B_P"
+    ],
+    [
+      "J1",
+      "8",
+      "ILDA_AUX1_P"
+    ],
+    [
+      "J1",
+      "9",
+      "ILDA_AUX2_P"
+    ],
+    [
+      "J1",
+      "10",
+      "unconnected-(J1-NC-Pad10)"
+    ],
+    [
+      "J1",
+      "11",
+      "unconnected-(J1-NC-Pad11)"
+    ],
+    [
+      "J1",
+      "12",
+      "unconnected-(J1-NC-Pad12)"
+    ],
+    [
+      "J1",
+      "13",
+      "ILDA_SHUTTER"
+    ],
+    [
+      "J1",
+      "14",
+      "ILDA_X_N"
+    ],
+    [
+      "J1",
+      "15",
+      "ILDA_Y_N"
+    ],
+    [
+      "J1",
+      "16",
+      "ILDA_I_N"
+    ],
+    [
+      "J1",
+      "17",
+      "INTERLOCK"
+    ],
+    [
+      "J1",
+      "18",
+      "ILDA_R_N"
+    ],
+    [
+      "J1",
+      "19",
+      "ILDA_G_N"
+    ],
+    [
+      "J1",
+      "20",
+      "ILDA_B_N"
+    ],
+    [
+      "J1",
+      "21",
+      "ILDA_AUX1_N"
+    ],
+    [
+      "J1",
+      "22",
+      "ILDA_AUX2_N"
+    ],
+    [
+      "J1",
+      "23",
+      "unconnected-(J1-NC-Pad23)"
+    ],
+    [
+      "J1",
+      "24",
+      "unconnected-(J1-NC-Pad24)"
+    ],
+    [
+      "J1",
+      "25",
+      "GND"
+    ],
+    [
+      "J1",
+      "SH",
+      "GND"
+    ],
+    [
+      "J1",
+      "SH",
+      "GND"
+    ],
+    [
+      "TP1",
+      "1",
+      "GND"
+    ],
+    [
+      "TP2",
+      "1",
+      "+3V3"
+    ],
+    [
+      "TP3",
+      "1",
+      "+5VA"
+    ],
+    [
+      "TP4",
+      "1",
+      "+15A"
+    ],
+    [
+      "TP5",
+      "1",
+      "-15A"
+    ],
+    [
+      "TP6",
+      "1",
+      "RUN_ENABLE"
+    ],
+    [
+      "TP7",
+      "1",
+      "MCLK"
+    ],
+    [
+      "TP8",
+      "1",
+      "LRCLK"
+    ],
+    [
+      "TP9",
+      "1",
+      "BCLK"
+    ],
+    [
+      "TP10",
+      "1",
+      "TDM_TX"
+    ],
+    [
+      "TP11",
+      "1",
+      "VQ"
+    ],
+    [
+      "U6",
+      "1",
+      "RAIL_P_RAW"
+    ],
+    [
+      "U6",
+      "2",
+      "PREF"
+    ],
+    [
+      "U6",
+      "3",
+      "PMON"
+    ],
+    [
+      "U6",
+      "4",
+      "GND"
+    ],
+    [
+      "U6",
+      "5",
+      "NREF"
+    ],
+    [
+      "U6",
+      "6",
+      "NMON"
+    ],
+    [
+      "U6",
+      "7",
+      "RAIL_N_RAW"
+    ],
+    [
+      "U6",
+      "8",
+      "USB_5V"
+    ],
+    [
+      "U7",
+      "1",
+      "CODEC_RESET_GPIO"
+    ],
+    [
+      "U7",
+      "2",
+      "GND"
+    ],
+    [
+      "U7",
+      "3",
+      "RAIL_P_GOOD"
+    ],
+    [
+      "U7",
+      "4",
+      "RESET_QUALIFIED"
+    ],
+    [
+      "U7",
+      "5",
+      "+3V3"
+    ],
+    [
+      "U7",
+      "6",
+      "RAIL_N_GOOD"
+    ],
+    [
+      "U8",
+      "1",
+      "ARM"
+    ],
+    [
+      "U8",
+      "2",
+      "GND"
+    ],
+    [
+      "U8",
+      "3",
+      "+3V3"
+    ],
+    [
+      "U8",
+      "4",
+      "ARM_QUALIFIED"
+    ],
+    [
+      "U8",
+      "5",
+      "+3V3"
+    ],
+    [
+      "U8",
+      "6",
+      "CODEC_RESET"
+    ],
+    [
+      "U9",
+      "1",
+      "unconnected-(U9-NC-Pad1)"
+    ],
+    [
+      "U9",
+      "2",
+      "CODEC_RESET"
+    ],
+    [
+      "U9",
+      "3",
+      "GND"
+    ],
+    [
+      "U9",
+      "4",
+      "DAC_ISOLATE_N"
+    ],
+    [
+      "U9",
+      "5",
+      "+3V3"
+    ],
+    [
+      "U10",
+      "1",
+      "GND"
+    ],
+    [
+      "U10",
+      "2",
+      "MCU_POWER_GOOD"
+    ],
+    [
+      "U10",
+      "3",
+      "MCU_3V3"
+    ],
+    [
+      "U31",
+      "1",
+      "CODEC_RESET"
+    ],
+    [
+      "U31",
+      "2",
+      "ISO_DAC1_P"
+    ],
+    [
+      "U31",
+      "3",
+      "DAC1_P"
+    ],
+    [
+      "U31",
+      "4",
+      "GND"
+    ],
+    [
+      "U31",
+      "5",
+      "GND"
+    ],
+    [
+      "U31",
+      "6",
+      "DAC2_N"
+    ],
+    [
+      "U31",
+      "7",
+      "ISO_DAC2_N"
+    ],
+    [
+      "U31",
+      "8",
+      "CODEC_RESET"
+    ],
+    [
+      "U31",
+      "9",
+      "DAC_ISOLATE_N"
+    ],
+    [
+      "U31",
+      "10",
+      "ISO_DAC2_P"
+    ],
+    [
+      "U31",
+      "11",
+      "DAC2_P"
+    ],
+    [
+      "U31",
+      "12",
+      "unconnected-(U31-NC-Pad12)"
+    ],
+    [
+      "U31",
+      "13",
+      "USB_5V"
+    ],
+    [
+      "U31",
+      "14",
+      "DAC1_N"
+    ],
+    [
+      "U31",
+      "15",
+      "ISO_DAC1_N"
+    ],
+    [
+      "U31",
+      "16",
+      "DAC_ISOLATE_N"
+    ],
+    [
+      "U32",
+      "1",
+      "CODEC_RESET"
+    ],
+    [
+      "U32",
+      "2",
+      "ISO_DAC3_P"
+    ],
+    [
+      "U32",
+      "3",
+      "DAC3_P"
+    ],
+    [
+      "U32",
+      "4",
+      "GND"
+    ],
+    [
+      "U32",
+      "5",
+      "GND"
+    ],
+    [
+      "U32",
+      "6",
+      "DAC4_N"
+    ],
+    [
+      "U32",
+      "7",
+      "ISO_DAC4_N"
+    ],
+    [
+      "U32",
+      "8",
+      "CODEC_RESET"
+    ],
+    [
+      "U32",
+      "9",
+      "DAC_ISOLATE_N"
+    ],
+    [
+      "U32",
+      "10",
+      "ISO_DAC4_P"
+    ],
+    [
+      "U32",
+      "11",
+      "DAC4_P"
+    ],
+    [
+      "U32",
+      "12",
+      "unconnected-(U32-NC-Pad12)"
+    ],
+    [
+      "U32",
+      "13",
+      "USB_5V"
+    ],
+    [
+      "U32",
+      "14",
+      "DAC3_N"
+    ],
+    [
+      "U32",
+      "15",
+      "ISO_DAC3_N"
+    ],
+    [
+      "U32",
+      "16",
+      "DAC_ISOLATE_N"
+    ],
+    [
+      "U33",
+      "1",
+      "CODEC_RESET"
+    ],
+    [
+      "U33",
+      "2",
+      "ISO_DAC5_P"
+    ],
+    [
+      "U33",
+      "3",
+      "DAC5_P"
+    ],
+    [
+      "U33",
+      "4",
+      "GND"
+    ],
+    [
+      "U33",
+      "5",
+      "GND"
+    ],
+    [
+      "U33",
+      "6",
+      "DAC6_N"
+    ],
+    [
+      "U33",
+      "7",
+      "ISO_DAC6_N"
+    ],
+    [
+      "U33",
+      "8",
+      "CODEC_RESET"
+    ],
+    [
+      "U33",
+      "9",
+      "DAC_ISOLATE_N"
+    ],
+    [
+      "U33",
+      "10",
+      "ISO_DAC6_P"
+    ],
+    [
+      "U33",
+      "11",
+      "DAC6_P"
+    ],
+    [
+      "U33",
+      "12",
+      "unconnected-(U33-NC-Pad12)"
+    ],
+    [
+      "U33",
+      "13",
+      "USB_5V"
+    ],
+    [
+      "U33",
+      "14",
+      "DAC5_N"
+    ],
+    [
+      "U33",
+      "15",
+      "ISO_DAC5_N"
+    ],
+    [
+      "U33",
+      "16",
+      "DAC_ISOLATE_N"
+    ],
+    [
+      "U34",
+      "1",
+      "CODEC_RESET"
+    ],
+    [
+      "U34",
+      "2",
+      "ISO_DAC7_P"
+    ],
+    [
+      "U34",
+      "3",
+      "DAC7_P"
+    ],
+    [
+      "U34",
+      "4",
+      "GND"
+    ],
+    [
+      "U34",
+      "5",
+      "GND"
+    ],
+    [
+      "U34",
+      "6",
+      "DAC8_N"
+    ],
+    [
+      "U34",
+      "7",
+      "ISO_DAC8_N"
+    ],
+    [
+      "U34",
+      "8",
+      "CODEC_RESET"
+    ],
+    [
+      "U34",
+      "9",
+      "DAC_ISOLATE_N"
+    ],
+    [
+      "U34",
+      "10",
+      "ISO_DAC8_P"
+    ],
+    [
+      "U34",
+      "11",
+      "DAC8_P"
+    ],
+    [
+      "U34",
+      "12",
+      "unconnected-(U34-NC-Pad12)"
+    ],
+    [
+      "U34",
+      "13",
+      "USB_5V"
+    ],
+    [
+      "U34",
+      "14",
+      "DAC7_N"
+    ],
+    [
+      "U34",
+      "15",
+      "ISO_DAC7_N"
+    ],
+    [
+      "U34",
+      "16",
+      "DAC_ISOLATE_N"
+    ],
+    [
+      "U35",
+      "1",
+      "MCU_POWER_GOOD"
+    ],
+    [
+      "U35",
+      "2",
+      "ADC_P15"
+    ],
+    [
+      "U35",
+      "3",
+      "SENSE_P15"
+    ],
+    [
+      "U35",
+      "4",
+      "GND"
+    ],
+    [
+      "U35",
+      "5",
+      "GND"
+    ],
+    [
+      "U35",
+      "6",
+      "SENSE_N15"
+    ],
+    [
+      "U35",
+      "7",
+      "ADC_N15"
+    ],
+    [
+      "U35",
+      "8",
+      "MCU_POWER_GOOD"
+    ],
+    [
+      "U35",
+      "9",
+      "MCU_3V3"
+    ],
+    [
+      "U35",
+      "10",
+      "GND"
+    ],
+    [
+      "U35",
+      "11",
+      "GND"
+    ],
+    [
+      "U35",
+      "12",
+      "unconnected-(U35-NC-Pad12)"
+    ],
+    [
+      "U35",
+      "13",
+      "MCU_3V3"
+    ],
+    [
+      "U35",
+      "14",
+      "GND"
+    ],
+    [
+      "U35",
+      "15",
+      "GND"
+    ],
+    [
+      "U35",
+      "16",
+      "MCU_3V3"
+    ],
+    [
+      "R350",
+      "1",
+      "+15A"
+    ],
+    [
+      "R350",
+      "2",
+      "PMON_RAW"
+    ],
+    [
+      "R351",
+      "1",
+      "PMON_RAW"
+    ],
+    [
+      "R351",
+      "2",
+      "GND"
+    ],
+    [
+      "R352",
+      "1",
+      "PMON_RAW"
+    ],
+    [
+      "R352",
+      "2",
+      "PMON"
+    ],
+    [
+      "R353",
+      "1",
+      "USB_5V"
+    ],
+    [
+      "R353",
+      "2",
+      "PREF"
+    ],
+    [
+      "R354",
+      "1",
+      "PREF"
+    ],
+    [
+      "R354",
+      "2",
+      "GND"
+    ],
+    [
+      "R355",
+      "1",
+      "RAIL_P_RAW"
+    ],
+    [
+      "R355",
+      "2",
+      "PMON_RAW"
+    ],
+    [
+      "R356",
+      "1",
+      "-15A"
+    ],
+    [
+      "R356",
+      "2",
+      "NMON_RAW"
+    ],
+    [
+      "R357",
+      "1",
+      "NMON_RAW"
+    ],
+    [
+      "R357",
+      "2",
+      "USB_5V"
+    ],
+    [
+      "R358",
+      "1",
+      "NMON_RAW"
+    ],
+    [
+      "R358",
+      "2",
+      "NMON"
+    ],
+    [
+      "R359",
+      "1",
+      "USB_5V"
+    ],
+    [
+      "R359",
+      "2",
+      "NREF"
+    ],
+    [
+      "R360",
+      "1",
+      "NREF"
+    ],
+    [
+      "R360",
+      "2",
+      "GND"
+    ],
+    [
+      "R361",
+      "1",
+      "RAIL_N_RAW"
+    ],
+    [
+      "R361",
+      "2",
+      "NREF"
+    ],
+    [
+      "R362",
+      "1",
+      "RAILS_GOOD"
+    ],
+    [
+      "R362",
+      "2",
+      "GND"
+    ],
+    [
+      "R363",
+      "1",
+      "USB_5V"
+    ],
+    [
+      "R363",
+      "2",
+      "DAC_ISOLATE_N"
+    ],
+    [
+      "R364",
+      "1",
+      "ADC_P15"
+    ],
+    [
+      "R364",
+      "2",
+      "GND"
+    ],
+    [
+      "R365",
+      "1",
+      "ADC_N15"
+    ],
+    [
+      "R365",
+      "2",
+      "GND"
+    ],
+    [
+      "R366",
+      "1",
+      "MCU_3V3"
+    ],
+    [
+      "R366",
+      "2",
+      "GND"
+    ],
+    [
+      "R367",
+      "1",
+      "USB_5V"
+    ],
+    [
+      "R367",
+      "2",
+      "GND"
+    ],
+    [
+      "R368",
+      "1",
+      "MCU_POWER_GOOD"
+    ],
+    [
+      "R368",
+      "2",
+      "GND"
+    ],
+    [
+      "R401",
+      "1",
+      "IN1P"
+    ],
+    [
+      "R401",
+      "2",
+      "GND"
+    ],
+    [
+      "R402",
+      "1",
+      "IN1N"
+    ],
+    [
+      "R402",
+      "2",
+      "GND"
+    ],
+    [
+      "R403",
+      "1",
+      "IN2P"
+    ],
+    [
+      "R403",
+      "2",
+      "GND"
+    ],
+    [
+      "R404",
+      "1",
+      "IN2N"
+    ],
+    [
+      "R404",
+      "2",
+      "GND"
+    ],
+    [
+      "R405",
+      "1",
+      "IN3P"
+    ],
+    [
+      "R405",
+      "2",
+      "GND"
+    ],
+    [
+      "R406",
+      "1",
+      "IN3N"
+    ],
+    [
+      "R406",
+      "2",
+      "GND"
+    ],
+    [
+      "R407",
+      "1",
+      "IN4P"
+    ],
+    [
+      "R407",
+      "2",
+      "GND"
+    ],
+    [
+      "R408",
+      "1",
+      "IN4N"
+    ],
+    [
+      "R408",
+      "2",
+      "GND"
+    ],
+    [
+      "R409",
+      "1",
+      "IN5P"
+    ],
+    [
+      "R409",
+      "2",
+      "GND"
+    ],
+    [
+      "R410",
+      "1",
+      "IN5N"
+    ],
+    [
+      "R410",
+      "2",
+      "GND"
+    ],
+    [
+      "R411",
+      "1",
+      "IN6P"
+    ],
+    [
+      "R411",
+      "2",
+      "GND"
+    ],
+    [
+      "R412",
+      "1",
+      "IN6N"
+    ],
+    [
+      "R412",
+      "2",
+      "GND"
+    ],
+    [
+      "R413",
+      "1",
+      "IN7P"
+    ],
+    [
+      "R413",
+      "2",
+      "GND"
+    ],
+    [
+      "R414",
+      "1",
+      "IN7N"
+    ],
+    [
+      "R414",
+      "2",
+      "GND"
+    ],
+    [
+      "R415",
+      "1",
+      "IN8P"
+    ],
+    [
+      "R415",
+      "2",
+      "GND"
+    ],
+    [
+      "R416",
+      "1",
+      "IN8N"
+    ],
+    [
+      "R416",
+      "2",
+      "GND"
+    ],
+    [
+      "C350",
+      "1",
+      "USB_5V"
+    ],
+    [
+      "C350",
+      "2",
+      "GND"
+    ],
+    [
+      "C351",
+      "1",
+      "+3V3"
+    ],
+    [
+      "C351",
+      "2",
+      "GND"
+    ],
+    [
+      "C352",
+      "1",
+      "+3V3"
+    ],
+    [
+      "C352",
+      "2",
+      "GND"
+    ],
+    [
+      "C353",
+      "1",
+      "+3V3"
+    ],
+    [
+      "C353",
+      "2",
+      "GND"
+    ],
+    [
+      "C354",
+      "1",
+      "MCU_3V3"
+    ],
+    [
+      "C354",
+      "2",
+      "GND"
+    ],
+    [
+      "C355",
+      "1",
+      "USB_5V"
+    ],
+    [
+      "C355",
+      "2",
+      "GND"
+    ],
+    [
+      "C356",
+      "1",
+      "USB_5V"
+    ],
+    [
+      "C356",
+      "2",
+      "GND"
+    ],
+    [
+      "C357",
+      "1",
+      "USB_5V"
+    ],
+    [
+      "C357",
+      "2",
+      "GND"
+    ],
+    [
+      "C358",
+      "1",
+      "USB_5V"
+    ],
+    [
+      "C358",
+      "2",
+      "GND"
+    ],
+    [
+      "C359",
+      "1",
+      "MCU_3V3"
+    ],
+    [
+      "C359",
+      "2",
+      "GND"
+    ],
+    [
+      "U36",
+      "1",
+      "RAIL_P_GOOD"
+    ],
+    [
+      "U36",
+      "2",
+      "RAIL_N_GOOD"
+    ],
+    [
+      "U36",
+      "3",
+      "GND"
+    ],
+    [
+      "U36",
+      "4",
+      "RAILS_GOOD"
+    ],
+    [
+      "U36",
+      "5",
+      "MCU_3V3"
+    ],
+    [
+      "U37",
+      "1",
+      "unconnected-(U37-NC-Pad1)"
+    ],
+    [
+      "U37",
+      "2",
+      "CODEC_RESET"
+    ],
+    [
+      "U37",
+      "3",
+      "GND"
+    ],
+    [
+      "U37",
+      "4",
+      "SHUTTER_DISABLE"
+    ],
+    [
+      "U37",
+      "5",
+      "USB_5V"
+    ],
+    [
+      "C360",
+      "1",
+      "MCU_3V3"
+    ],
+    [
+      "C360",
+      "2",
+      "GND"
+    ],
+    [
+      "C361",
+      "1",
+      "USB_5V"
+    ],
+    [
+      "C361",
+      "2",
+      "GND"
+    ],
+    [
+      "R369",
+      "1",
+      "RAIL_P_GOOD"
+    ],
+    [
+      "R369",
+      "2",
+      "GND"
+    ],
+    [
+      "R370",
+      "1",
+      "RAIL_N_GOOD"
+    ],
+    [
+      "R370",
+      "2",
+      "GND"
+    ],
+    [
+      "R371",
+      "1",
+      "RAIL_P_RAW"
+    ],
+    [
+      "R371",
+      "2",
+      "RAIL_P_GOOD"
+    ],
+    [
+      "R372",
+      "1",
+      "RAIL_N_RAW"
+    ],
+    [
+      "R372",
+      "2",
+      "RAIL_N_GOOD"
+    ],
+    [
+      "R373",
+      "1",
+      "CODEC_RESET_GPIO"
+    ],
+    [
+      "R373",
+      "2",
+      "GND"
+    ]
+  ]
+}

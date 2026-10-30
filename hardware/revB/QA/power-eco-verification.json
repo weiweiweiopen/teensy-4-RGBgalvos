@@ -1,0 +1,419 @@
+{
+  "nominal_thresholds_V": {
+    "positive_recovery": 12.2,
+    "positive_loss": 11.7,
+    "negative_recovery": -12.264927651574922,
+    "negative_loss": -12.09398777383656
+  },
+  "threshold_corners": {
+    "positive_fault_to_good": {
+      "min_V": 11.157769840516984,
+      "max_V": 13.25742962288213,
+      "cases": 256
+    },
+    "positive_good_to_fault": {
+      "min_V": 10.66831983162388,
+      "max_V": 12.813111945102328,
+      "cases": 256
+    },
+    "negative_fault_to_good": {
+      "min_V": -13.599797539951759,
+      "max_V": -10.995845513471423,
+      "cases": 256
+    },
+    "negative_good_to_fault": {
+      "min_V": -13.445061841967203,
+      "max_V": -10.831453763506396,
+      "cases": 256
+    }
+  },
+  "threshold_corner_assumptions": "Separate TLV3202 push-pull raw outputs and feedback. All five relevant resistors +/-1%, USB4.75..5.25V, LOW0..0.325V, HIGH4.4..5.25V; +/-12mV aggregate offset/bias allowance. Conservative static independent corners, not latency simulation.",
+  "adc_sense": {
+    "positive_factor": 27.27659574468085,
+    "negative_factor": 32.27659574468085,
+    "positive_at_15V": 0.5499219968798752,
+    "negative_at_minus15V": 0.5576796308503627,
+    "upstream_capacitors": [
+      "C37",
+      "C38"
+    ],
+    "downstream_pull_ohms": 4700,
+    "tabulated_off_test_leakage_A": 3e-06,
+    "tabulated_off_test_drain_V": 0.014114099999999997,
+    "assumed_conservative_isolation_leakage_A": 3.8e-05,
+    "off_drain_bound_V": 0.17877859999999998,
+    "mcu_unpowered_negative_bias_V": -0.05492281199963748,
+    "limitation": "38uA is the largest published isolation-mode table envelope, not a separately guaranteed -1.5V/3.3V shutdown test corner. Negative-signal high impedance is specified architecturally; validate actual leakage and ramps on hardware."
+  },
+  "input_switch": {
+    "location": "Before existing 100k, codec low-impedance side",
+    "mpn": "ADG4613BRUZ",
+    "powered_off_leakage_test_A": 3e-06,
+    "normal_off_max_A": 8e-08,
+    "on_capacitance_typ_F": 5e-11,
+    "on_capacitance_max_specified": false,
+    "input_shunt_ohms": 10000000.0,
+    "dc_input_attenuation": 0.9900977845324449,
+    "dc_load_at_5_25V_A": 5.198013368795336e-07
+  },
+  "hardware_truth_table": [
+    {
+      "rails_good": false,
+      "reset_request": false,
+      "arm_request": false,
+      "codec_reset": false,
+      "fresh_arm_clock_requested": false,
+      "dac_inputs_connected": false,
+      "shutter_oe_disabled": true
+    },
+    {
+      "rails_good": false,
+      "reset_request": false,
+      "arm_request": true,
+      "codec_reset": false,
+      "fresh_arm_clock_requested": true,
+      "dac_inputs_connected": false,
+      "shutter_oe_disabled": true
+    },
+    {
+      "rails_good": false,
+      "reset_request": true,
+      "arm_request": false,
+      "codec_reset": false,
+      "fresh_arm_clock_requested": false,
+      "dac_inputs_connected": false,
+      "shutter_oe_disabled": true
+    },
+    {
+      "rails_good": false,
+      "reset_request": true,
+      "arm_request": true,
+      "codec_reset": false,
+      "fresh_arm_clock_requested": true,
+      "dac_inputs_connected": false,
+      "shutter_oe_disabled": true
+    },
+    {
+      "rails_good": true,
+      "reset_request": false,
+      "arm_request": false,
+      "codec_reset": false,
+      "fresh_arm_clock_requested": false,
+      "dac_inputs_connected": false,
+      "shutter_oe_disabled": true
+    },
+    {
+      "rails_good": true,
+      "reset_request": false,
+      "arm_request": true,
+      "codec_reset": false,
+      "fresh_arm_clock_requested": true,
+      "dac_inputs_connected": false,
+      "shutter_oe_disabled": true
+    },
+    {
+      "rails_good": true,
+      "reset_request": true,
+      "arm_request": false,
+      "codec_reset": true,
+      "fresh_arm_clock_requested": false,
+      "dac_inputs_connected": true,
+      "shutter_oe_disabled": false
+    },
+    {
+      "rails_good": true,
+      "reset_request": true,
+      "arm_request": true,
+      "codec_reset": true,
+      "fresh_arm_clock_requested": true,
+      "dac_inputs_connected": true,
+      "shutter_oe_disabled": false
+    }
+  ],
+  "limits": [
+    "Truth table models valid supply levels, not undefined ramp regions or propagation delays.",
+    "The ARM latch blocks the known valid-logic-rail recovery pulse; power-on/brownout analog timing remains a hardware qualification item.",
+    "Powered-off analog protection is -5.5..+16V within a maximum16V terminal span, not +/-16V.",
+    "Exact comparator, supervisor and switch removal transients require bench waveforms."
+  ],
+  "arm_recovery_logic_regression": {
+    "legacy_and": [
+      {
+        "time_ms": 0,
+        "reset": false,
+        "arm": false,
+        "heartbeat": false,
+        "clear": false,
+        "run": false
+      },
+      {
+        "time_ms": 10,
+        "reset": true,
+        "arm": false,
+        "heartbeat": false,
+        "clear": false,
+        "run": false
+      },
+      {
+        "time_ms": 20,
+        "reset": true,
+        "arm": true,
+        "heartbeat": false,
+        "clear": true,
+        "run": false
+      },
+      {
+        "time_ms": 21,
+        "reset": true,
+        "arm": true,
+        "heartbeat": true,
+        "clear": true,
+        "run": true
+      },
+      {
+        "time_ms": 21.002,
+        "reset": true,
+        "arm": true,
+        "heartbeat": false,
+        "clear": true,
+        "run": true
+      },
+      {
+        "time_ms": 30,
+        "reset": true,
+        "arm": true,
+        "heartbeat": true,
+        "clear": true,
+        "run": true
+      },
+      {
+        "time_ms": 31,
+        "reset": false,
+        "arm": true,
+        "heartbeat": true,
+        "clear": false,
+        "run": false
+      },
+      {
+        "time_ms": 100,
+        "reset": true,
+        "arm": true,
+        "heartbeat": true,
+        "clear": true,
+        "run": true
+      },
+      {
+        "time_ms": 101,
+        "reset": true,
+        "arm": true,
+        "heartbeat": true,
+        "clear": true,
+        "run": true
+      },
+      {
+        "time_ms": 110,
+        "reset": true,
+        "arm": false,
+        "heartbeat": true,
+        "clear": false,
+        "run": false
+      },
+      {
+        "time_ms": 111,
+        "reset": true,
+        "arm": false,
+        "heartbeat": false,
+        "clear": false,
+        "run": false
+      },
+      {
+        "time_ms": 112,
+        "reset": true,
+        "arm": true,
+        "heartbeat": false,
+        "clear": true,
+        "run": false
+      },
+      {
+        "time_ms": 113,
+        "reset": true,
+        "arm": true,
+        "heartbeat": true,
+        "clear": true,
+        "run": true
+      },
+      {
+        "time_ms": 114,
+        "reset": false,
+        "arm": false,
+        "heartbeat": false,
+        "clear": false,
+        "run": false
+      }
+    ],
+    "new_latch": [
+      {
+        "time_ms": 0,
+        "reset": false,
+        "arm": false,
+        "heartbeat": false,
+        "clear": false,
+        "run": false
+      },
+      {
+        "time_ms": 10,
+        "reset": true,
+        "arm": false,
+        "heartbeat": false,
+        "clear": false,
+        "run": false
+      },
+      {
+        "time_ms": 20,
+        "reset": true,
+        "arm": true,
+        "heartbeat": false,
+        "clear": true,
+        "run": false
+      },
+      {
+        "time_ms": 21,
+        "reset": true,
+        "arm": true,
+        "heartbeat": true,
+        "clear": true,
+        "run": true
+      },
+      {
+        "time_ms": 21.002,
+        "reset": true,
+        "arm": true,
+        "heartbeat": false,
+        "clear": true,
+        "run": true
+      },
+      {
+        "time_ms": 30,
+        "reset": true,
+        "arm": true,
+        "heartbeat": true,
+        "clear": true,
+        "run": true
+      },
+      {
+        "time_ms": 31,
+        "reset": false,
+        "arm": true,
+        "heartbeat": true,
+        "clear": false,
+        "run": false
+      },
+      {
+        "time_ms": 100,
+        "reset": true,
+        "arm": true,
+        "heartbeat": true,
+        "clear": false,
+        "run": false
+      },
+      {
+        "time_ms": 101,
+        "reset": true,
+        "arm": true,
+        "heartbeat": true,
+        "clear": false,
+        "run": false
+      },
+      {
+        "time_ms": 110,
+        "reset": true,
+        "arm": false,
+        "heartbeat": true,
+        "clear": false,
+        "run": false
+      },
+      {
+        "time_ms": 111,
+        "reset": true,
+        "arm": false,
+        "heartbeat": false,
+        "clear": false,
+        "run": false
+      },
+      {
+        "time_ms": 112,
+        "reset": true,
+        "arm": true,
+        "heartbeat": false,
+        "clear": true,
+        "run": false
+      },
+      {
+        "time_ms": 113,
+        "reset": true,
+        "arm": true,
+        "heartbeat": true,
+        "clear": true,
+        "run": true
+      },
+      {
+        "time_ms": 114,
+        "reset": false,
+        "arm": false,
+        "heartbeat": false,
+        "clear": false,
+        "run": false
+      }
+    ],
+    "basis": "HC123 datasheet p2 clear-release trigger plus SN74LVC1G175 p10 DFF truth table; state-level model, not analog/macromodel timing."
+  },
+  "startup_pulldowns": {
+    "ohms": 2200,
+    "assumed_weak_pullup_ohms": 22000,
+    "resulting_default_V": 0.3,
+    "active_GPIO_load_mA": 1.4999999999999998
+  },
+  "spice": {
+    "simulator": "/Applications/KiCad/KiCad.app/Contents/Frameworks/libngspice.0.dylib",
+    "model": "Generic 10MHz opamp, ADG Ron12.5ohm/C50pF typical, TMUX2.7ohm,10k per-leg receiver; not manufacturer macromodels",
+    "results": [
+      {
+        "class_": "XY",
+        "excitation": "differential",
+        "dc_positive_V": 1.8182056666368764,
+        "dc_negative_V": -1.8182020302328161,
+        "expected_gain": 1.8182126797739913,
+        "sampled_minus3dB_Hz": 34673.68504525281,
+        "low_frequency_AC_gain": 1.8182055922367406
+      },
+      {
+        "class_": "XY",
+        "excitation": "common_mode",
+        "dc_positive_V": 2.3022973830029118e-10,
+        "dc_negative_V": -2.302292778417355e-10,
+        "expected_gain": 0,
+        "sampled_minus3dB_Hz": null,
+        "low_frequency_AC_gain": 8.443929465332209e-11
+      },
+      {
+        "class_": "Colour",
+        "excitation": "differential",
+        "dc_positive_V": 0.932414005857,
+        "dc_negative_V": -0.9324121410327179,
+        "expected_gain": 0.9324167588584568,
+        "sampled_minus3dB_Hz": 34673.68504525281,
+        "low_frequency_AC_gain": 0.9324139678473669
+      },
+      {
+        "class_": "Colour",
+        "excitation": "common_mode",
+        "dc_positive_V": 0.0,
+        "dc_negative_V": 0.0,
+        "expected_gain": 0,
+        "sampled_minus3dB_Hz": null,
+        "low_frequency_AC_gain": 2.563575975169699e-12
+      }
+    ],
+    "errors": []
+  }
+}

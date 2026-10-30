@@ -1,0 +1,112 @@
+[
+  {
+    "path": "firmware/cs42448_usb_8ch_test/cs42448_usb_8ch_test.ino",
+    "blob": "c878ed2e65c2bd60fdccfef791e1e71ecba124b7",
+    "sha256": "3219128fede08a26313a52db33a8bb8d599375fb493f6fa066ac752522aeabbb"
+  },
+  {
+    "path": "firmware/usb-audio-core/LICENSE",
+    "blob": "a099138e81868f2a45ead13f8874202c54ade02c",
+    "sha256": "aa6e8536cf54855d5ce2061e61111cf130f0938ac1fc3884283a0d4102f922b2"
+  },
+  {
+    "path": "firmware/usb-audio-core/README.md",
+    "blob": "d48851911b707379993dbfbbaa822fc1657fba15",
+    "sha256": "085fbf606f1a82837d1e0f13639d40d7279d0b92bd7d022708fd1f3be9245626"
+  },
+  {
+    "path": "firmware/usb-audio-core/changedConfigfiles/BM-platform.txt",
+    "blob": "17e3bab95d2098a3522273505e297943eefb8484",
+    "sha256": "b4883c785937f5bfe6787fc29a785d55bf051a86d43e76e4b5ab6dc4febb0a40"
+  },
+  {
+    "path": "firmware/usb-audio-core/changedConfigfiles/TD-platform.txt",
+    "blob": "593b7a87f10664396a3064c8ecba8a044e802e24",
+    "sha256": "e1a945cd52001433c8f271939903c3532a7797bb172463f5ecff79ee5b2d4c3b"
+  },
+  {
+    "path": "firmware/usb-audio-core/changedConfigfiles/boards.local.txt",
+    "blob": "a61212a63e0479f830a8cfb4f2a02c633671ef10",
+    "sha256": "11ed1a984418e2380fb4f804c17b6aa35ecfb004c498fcdea24f7a32967a84bc"
+  },
+  {
+    "path": "firmware/usb-audio-core/changedCorefiles/usb.c",
+    "blob": "b1f5d6e8c2ef32eb8d3c73a4ad0ed346292171bc",
+    "sha256": "3c7863cdbea5720d409882e41d05b05473440ee6576d1df9def0527ae96d25dd"
+  },
+  {
+    "path": "firmware/usb-audio-core/changedCorefiles/usb_audio_interface.h",
+    "blob": "61f0d4066aaa83b9dd8800c0ed383b4e7b57a4fe",
+    "sha256": "b5800e1df402a233bfe790a9b898f66f87c60b76395f549f3b5df68fb1b4422d"
+  },
+  {
+    "path": "firmware/usb-audio-core/changedCorefiles/usb_audio.h",
+    "blob": "7669b322af78328544adb1f10fe457543c8aef5a",
+    "sha256": "05d4388127a4638ca956accdcd14091184320d4b610f402e2c4177b67e0b01c2"
+  },
+  {
+    "path": "firmware/usb-audio-core/changedCorefiles/usb_audio_interface.cpp",
+    "blob": "22bb335a9354f25bccbcbd9c359645e268899a33",
+    "sha256": "0e42d0cc128773015abd670d1b9b486718db7b798008a69b9e18d367052040f6"
+  },
+  {
+    "path": "firmware/usb-audio-core/changedCorefiles/usb_desc.h",
+    "blob": "a8e2d75bab0d97c9faaf3f5ddc92ca86d8af6b86",
+    "sha256": "13923e3de9e71b52a51fecc2dc46f439ea137cd79b532302043c8751a078a3d3"
+  },
+  {
+    "path": "firmware/usb-audio-core/changedCorefiles/AudioStream.h",
+    "blob": "33570876cf1d3f565f02c8020c17961ef1e33b51",
+    "sha256": "59407081ae7bc33e34fc8f0657f833d2d930c6d10ee5c537977b8a5c37fd9d17"
+  },
+  {
+    "path": "firmware/usb-audio-core/changedCorefiles/usb_audio.cpp",
+    "blob": "3797a0164d4660caff2e070bc13009d051644bc9",
+    "sha256": "7342726baabbf8e8d3d52ddd03d6494ad17d7164f4f2ed278bd68b5923abe14d"
+  },
+  {
+    "path": "firmware/usb-audio-core/changedCorefiles/usb_desc.c",
+    "blob": "967297dc8d0c8b0e537242ced140d36bfd1a873d",
+    "sha256": "10e2aed8802e268381e3bde63e38c5de6fef2a2b3dd38cdce1916e09430db52e"
+  },
+  {
+    "path": "firmware/usb-audio-core/changedCorefiles/util/LastCall.h",
+    "blob": "de27c1ad1ad3e9704db40f1aba21e9fa18859ae2",
+    "sha256": "886ff53bbd05faf765cc57b17b85c138e6d4183267d5a4ef2ff436485122f229"
+  },
+  {
+    "path": "firmware/usb-audio-core/changedGUI/index.html",
+    "blob": "9293b026664fa1cc281ee460940e857be5e27c35",
+    "sha256": "90ccde1c339f16a994f57db1b5b65204a8e1d474ce366e94f108d960f478780a"
+  },
+  {
+    "path": "firmware/usb-audio-core/src/main_usbOutput.ino",
+    "blob": "26ecfc4a7040a84de03bd048097c3db0f7c73131",
+    "sha256": "2835b0df8a219b307f89a8c39b30b214dbdac4bbc9089f7f8789dd67573dee1c"
+  },
+  {
+    "path": "firmware/usb-audio-core/src/plotter.cpp",
+    "blob": "0dbbadd763b20d540c51f6fdff4f61356ec8d50b",
+    "sha256": "25b987ead1c27067952b148a84c9f9ac3afad91f3e9c6580b22f9c9db42add33"
+  },
+  {
+    "path": "firmware/usb-audio-core/src/plotter.h",
+    "blob": "15c2106562d4d210ae27818ce04e0b919bbe6d90",
+    "sha256": "873226e39ce3b15684aac29634fc5bc9759b228c447fdf7bb597c64d5a344a1d"
+  },
+  {
+    "path": "firmware/usb-audio-core/src/main_usbInput.ino",
+    "blob": "3c13a246f1a18c9d12a0ec95ddad8b2450e6e735",
+    "sha256": "f1e1920f10e9aca27dda195a7247137cf92c5580f70bade10435af84d39da096"
+  },
+  {
+    "path": "firmware/usb-audio-core/src/set_usb_string_serial_number.h",
+    "blob": "702574b8ffc1b338e53588d9c5d9679f321188e7",
+    "sha256": "6ee394a644826b1192938486ddda2dd80b515d14d8957a43e00340a0577a33af"
+  },
+  {
+    "path": "firmware/usb-audio-core/src/USBmultiChannelTest/USBmultiChannelTest.ino",
+    "blob": "c0855d14b11f1932f7c20e7a32f25c31fff0ce68",
+    "sha256": "5e5b7a895189ae5de29da4570f7e5da723f56bf18ecfb2a9e42254cff88b996d"
+  }
+]

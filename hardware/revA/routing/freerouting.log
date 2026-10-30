@@ -1,0 +1,23 @@
+2026-10-24 12:41:08.053 INFO   Freerouting v2.4.1 (build-date: 2026-09-03)
+WARNING: Final field userProfileSettings in class app.freerouting.settings.GlobalSettings has been mutated reflectively by class com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2 in unnamed module @954b04f (file:/Users/shihweichieh/Documents/KiCad/10.0/scripting/plugins/freerouting/jar/freerouting-2.4.1.jar)
+WARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning
+WARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled
+2026-10-24 12:41:09.514 INFO   Opening '/Users/shihweichieh/Documents/Projects/Audio-8CH-Teensy-CS42448/hardware/revA/routing/ILDA8CH.dsn'...
+2026-10-24 12:41:10.608 INFO   New version available: v2.5.0
+2026-10-24 12:41:11.201 INFO   [ECC767\59C76F] Loading board file 'ILDA8CH.dsn'...
+2026-10-24 12:41:17.228 INFO   [ECC767\59C76F] Starting routing of 'ILDA8CH' on 9 threads...
+2026-10-24 12:41:17.465 INFO   [ECC767\59C76F] Fanout stage started on board 'b496a0f157606c203e9337b014f28a8b' with 736 of 755 SMD pins needing fanout (16 already connected, 3 netless).
+2026-10-24 12:41:28.702 INFO   [ECC767\59C76F] Fanout pass #1 on board 'f294c31909ea3c7dbf5f174d7c360493' completed in 11.07 seconds with 704 SMD pins fanouted, 19 not routed, 0 insert errors, +352 extra vias (0 SMD pins still to check in pass, ripup costs=100).
+2026-10-24 12:41:31.239 INFO   [ECC767\59C76F] Fanout pass #2 on board '664ab89f9f6acd956e41f330417a6534' completed in 2.46 seconds with 136 SMD pins fanouted, 18 not routed, 0 insert errors, +68 extra vias (0 SMD pins still to check in pass, ripup costs=200).
+2026-10-24 12:41:32.454 INFO   [ECC767\59C76F] Fanout pass #3 on board '3dc8054600db5a25b9ab5cf1b6dff94c' completed in 1.15 seconds with 42 SMD pins fanouted, 16 not routed, 0 insert errors, +7 extra vias (0 SMD pins still to check in pass, ripup costs=300).
+2026-10-24 12:41:33.495 INFO   [ECC767\59C76F] Fanout pass #4 on board '7df94ac6a83d2ae818069d3fec2d734d' completed in 0.98 seconds with 27 SMD pins fanouted, 17 not routed, 0 insert errors, +4 extra vias (0 SMD pins still to check in pass, ripup costs=400).
+2026-10-24 12:41:34.289 INFO   [ECC767\59C76F] Fanout pass #5 on board '238d91ec3f041239fb8d617126e5c007' completed in 0.74 seconds with 18 SMD pins fanouted, 16 not routed, 0 insert errors, +4 extra vias (0 SMD pins still to check in pass, ripup costs=500).
+2026-10-24 12:41:34.875 INFO   [ECC767\59C76F] Fanout pass #6 on board '36f660f2eb673e43d223733cd3aa73eb' completed in 0.53 seconds with 13 SMD pins fanouted, 16 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=600).
+2026-10-24 12:41:35.445 INFO   [ECC767\59C76F] Fanout pass #7 on board '20f672ada74c013573a98897eae2f664' completed in 0.52 seconds with 12 SMD pins fanouted, 16 not routed, 0 insert errors, +2 extra vias (0 SMD pins still to check in pass, ripup costs=700).
+2026-10-24 12:41:35.967 INFO   [ECC767\59C76F] Fanout pass #8 on board '9f2feb8f371b70121161d538440e82dc' completed in 0.47 seconds with 9 SMD pins fanouted, 17 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=800).
+2026-10-24 12:41:36.475 INFO   [ECC767\59C76F] Fanout pass #9 on board '425d0fe80f223dd49d1942e37c6898e7' completed in 0.45 seconds with 9 SMD pins fanouted, 17 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=900).
+2026-10-24 12:41:36.992 INFO   [ECC767\59C76F] Fanout pass #10 on board '6f6871f1f99beda02a9c7b5bd7a90313' completed in 0.46 seconds with 9 SMD pins fanouted, 17 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=1000).
+2026-10-24 12:41:37.511 INFO   [ECC767\59C76F] Fanout pass #11 on board '5eaa712c2ee4bdb57b572cd6999c8a40' completed in 0.47 seconds with 9 SMD pins fanouted, 17 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=1100).
+2026-10-24 12:41:37.512 INFO   Fanout stopped after 11 passes: no progress for 3 consecutive passes.
+2026-10-24 12:41:37.581 INFO   [ECC767\59C76F] Fanout stage completed: started with 752 total SMD pins, completed in 20.04 seconds, escaped pins: 714/752 (94.9%), using 19.01 total CPU seconds, 101.17 GB total allocated, and 1319.2 MB peak heap usage.
+2026-10-24 12:41:37.608 INFO   [ECC767\59C76F] Auto-routing stage started on board '5eaa712c2ee4bdb57b572cd6999c8a40' for 316 unrouted items.

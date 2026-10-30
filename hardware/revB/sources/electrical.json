@@ -1,0 +1,8089 @@
+{
+  "revision": "B-P4",
+  "board_mm": [
+    110,
+    100
+  ],
+  "channels": [
+    "X",
+    "Y",
+    "R",
+    "G",
+    "B",
+    "I",
+    "AUX1",
+    "AUX2"
+  ],
+  "parts": [
+    {
+      "ref": "A1",
+      "value": "Teensy 4.0",
+      "fp": "ILDA8CH:Teensy40_Socket",
+      "source_fp": "ILDA8CH:Teensy40_Socket",
+      "pins": {
+        "1": "GND",
+        "27": "GND",
+        "28": "USB_5V",
+        "2": null,
+        "3": null,
+        "4": "CODEC_RESET_GPIO",
+        "5": "CODEC_INT",
+        "6": "HEARTBEAT",
+        "7": "RAILS_GOOD",
+        "8": "ARM",
+        "9": "TDM_TX_GPIO",
+        "10": null,
+        "11": "MUTEC_3V3",
+        "12": null,
+        "13": null,
+        "14": null,
+        "15": null,
+        "16": "ADC_P15",
+        "17": "ADC_N15",
+        "18": "SCL",
+        "19": "SDA",
+        "20": null,
+        "21": null,
+        "22": "LRCLK_GPIO",
+        "23": "BCLK_GPIO",
+        "24": null,
+        "25": "MCLK_GPIO",
+        "26": "MCU_3V3"
+      },
+      "xy": [
+        86,
+        2
+      ],
+      "kind": "block",
+      "page": "Control",
+      "mpn": "TEENSY40",
+      "code": "",
+      "ds": "https://www.pjrc.com/teensy/pinout.html",
+      "smt": false,
+      "angle": 0,
+      "uuid": "31422115-f02a-5446-be9a-10a369363a89",
+      "pin_types": {
+        "26": "power_out",
+        "7": "input",
+        "16": "input",
+        "17": "input",
+        "4": "output",
+        "6": "output",
+        "8": "output"
+      }
+    },
+    {
+      "ref": "U1",
+      "value": "CS42448-CQZR",
+      "fp": "ILDA8CH:Package_QFP__LQFP-64_10x10mm_P0.5mm",
+      "source_fp": "Package_QFP:LQFP-64_10x10mm_P0.5mm",
+      "pins": {
+        "1": "AD0",
+        "2": "AD1",
+        "3": "CODEC_RESET",
+        "4": "+3V3",
+        "5": "LRCLK",
+        "6": "+3V3",
+        "7": "GND",
+        "8": "+3V3",
+        "9": "BCLK",
+        "10": "MCLK",
+        "11": null,
+        "12": null,
+        "13": null,
+        "14": "SDIN4",
+        "15": "SDIN3",
+        "16": "SDIN2",
+        "17": "TDM_TX",
+        "18": "BCLK",
+        "19": "LRCLK",
+        "20": null,
+        "21": null,
+        "22": "AUX_SDIN",
+        "23": "GND",
+        "24": "+3V3",
+        "35": "MUTEC_5V",
+        "42": "GND",
+        "43": "VQ",
+        "44": "+5VA",
+        "53": "+5VA",
+        "54": "FILT_DAC",
+        "55": "FILT_ADC",
+        "56": "GND",
+        "61": "CODEC_INT",
+        "62": "GND",
+        "63": "SCL",
+        "64": "SDA",
+        "26": "DAC1_P",
+        "25": "DAC1_N",
+        "27": "DAC2_P",
+        "28": "DAC2_N",
+        "30": "DAC3_P",
+        "29": "DAC3_N",
+        "31": "DAC4_P",
+        "32": "DAC4_N",
+        "34": "DAC5_P",
+        "33": "DAC5_N",
+        "36": "DAC6_P",
+        "37": "DAC6_N",
+        "39": "DAC7_P",
+        "38": "DAC7_N",
+        "40": "DAC8_P",
+        "41": "DAC8_N",
+        "46": "AIN1",
+        "45": "AIN2",
+        "48": "AIN3",
+        "47": "AIN4",
+        "50": "AIN5",
+        "49": "AIN6",
+        "52": "AIN7",
+        "51": "AIN8",
+        "58": "AIN9",
+        "57": "AIN10",
+        "60": "AIN11",
+        "59": "AIN12"
+      },
+      "xy": [
+        59,
+        19.5
+      ],
+      "kind": "block",
+      "page": "Codec",
+      "mpn": "CS42448-CQZR",
+      "code": "C2151089",
+      "ds": "https://statics.cirrus.com/pubs/proDatasheet/CS42448_F5.pdf",
+      "smt": true,
+      "angle": 270,
+      "uuid": "7d7ad308-4f6e-52f0-90b9-0ef07fbc2512"
+    },
+    {
+      "ref": "U2",
+      "value": "TLV75533PDBVR",
+      "fp": "ILDA8CH:Package_TO_SOT_SMD__SOT-23-5",
+      "source_fp": "Package_TO_SOT_SMD:SOT-23-5",
+      "pins": {
+        "1": "USB_5V",
+        "2": "GND",
+        "3": "USB_5V",
+        "4": null,
+        "5": "+3V3"
+      },
+      "xy": [
+        46,
+        4.5
+      ],
+      "kind": "block",
+      "page": "Power",
+      "mpn": "TLV75533PDBVR",
+      "code": "C404027",
+      "ds": "https://www.ti.com/lit/ds/symlink/tlv755p.pdf",
+      "smt": true,
+      "angle": 0,
+      "uuid": "efe7f350-ff64-5ba7-86aa-54a5b52c3af3"
+    },
+    {
+      "ref": "C1",
+      "value": "10u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "USB_5V",
+        "2": "GND"
+      },
+      "xy": [
+        42,
+        4.5
+      ],
+      "kind": "C",
+      "page": "Power",
+      "mpn": "GRM21BR61E106KA73L",
+      "code": "C84416",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "9a29acea-2b1f-5541-b56a-37057d79c586"
+    },
+    {
+      "ref": "C2",
+      "value": "10u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "xy": [
+        49.5,
+        3
+      ],
+      "kind": "C",
+      "page": "Power",
+      "mpn": "GRM21BR61E106KA73L",
+      "code": "C84416",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "50445f43-2a43-5427-8cac-08fba0696428"
+    },
+    {
+      "ref": "FB1",
+      "value": "600R@100MHz",
+      "fp": "ILDA8CH:Inductor_SMD__L_0805_2012Metric",
+      "source_fp": "Inductor_SMD:L_0805_2012Metric",
+      "pins": {
+        "1": "USB_5V",
+        "2": "+5VA"
+      },
+      "xy": [
+        47.5,
+        17
+      ],
+      "kind": "R",
+      "page": "Power",
+      "mpn": "BLM21PG601SN1D",
+      "code": "C41556732",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "ed2d4495-e52d-588d-8021-05084e4b55f4"
+    },
+    {
+      "ref": "C3",
+      "value": "10u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "+5VA",
+        "2": "GND"
+      },
+      "xy": [
+        47.5,
+        22
+      ],
+      "kind": "C",
+      "page": "Power",
+      "mpn": "GRM21BR61E106KA73L",
+      "code": "C84416",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "ae6788ed-cab4-5aef-8fd6-9bd60400814a"
+    },
+    {
+      "ref": "J2",
+      "value": "Molex KK-254 3P +/-15V",
+      "fp": "ILDA8CH:Connector_Molex__Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical",
+      "source_fp": "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical",
+      "pins": {
+        "1": "P15_IN",
+        "2": "GND",
+        "3": "N15_IN"
+      },
+      "xy": [
+        6,
+        6
+      ],
+      "kind": "block",
+      "page": "Power",
+      "mpn": "22-27-2031",
+      "code": "",
+      "ds": "https://www.molex.com/pdm_docs/sd/022272021_sd.pdf",
+      "smt": false,
+      "angle": 0,
+      "uuid": "28987520-1d8d-5a01-9553-a4026c6cfb99"
+    },
+    {
+      "ref": "D1",
+      "value": "SS14",
+      "fp": "ILDA8CH:Diode_SMD__D_SMA",
+      "source_fp": "Diode_SMD:D_SMA",
+      "pins": {
+        "1": "+15A",
+        "2": "P15_IN"
+      },
+      "xy": [
+        16,
+        6
+      ],
+      "kind": "D",
+      "page": "Power",
+      "mpn": "SS14",
+      "code": "C2480",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "b766c9e2-f8f5-5f34-9857-16e5f279526b"
+    },
+    {
+      "ref": "D2",
+      "value": "SS14",
+      "fp": "ILDA8CH:Diode_SMD__D_SMA",
+      "source_fp": "Diode_SMD:D_SMA",
+      "pins": {
+        "1": "N15_IN",
+        "2": "-15A"
+      },
+      "xy": [
+        22,
+        6
+      ],
+      "kind": "D",
+      "page": "Power",
+      "mpn": "SS14",
+      "code": "C2480",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "45d88671-35bc-5843-8fec-a668776fae70"
+    },
+    {
+      "ref": "C4",
+      "value": "10u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "+15A",
+        "2": "GND"
+      },
+      "xy": [
+        16,
+        13
+      ],
+      "kind": "C",
+      "page": "Power",
+      "mpn": "GRM21BR61E106KA73L",
+      "code": "C84416",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "934bd839-33b2-54a6-bdbf-0841d734b601"
+    },
+    {
+      "ref": "C5",
+      "value": "10u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "GND",
+        "2": "-15A"
+      },
+      "xy": [
+        22,
+        13
+      ],
+      "kind": "C",
+      "page": "Power",
+      "mpn": "GRM21BR61E106KA73L",
+      "code": "C84416",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "b502462f-20e3-53a2-aea2-95083ea356be"
+    },
+    {
+      "ref": "R1",
+      "value": "100",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "TDM_TX_GPIO",
+        "2": "TDM_TX"
+      },
+      "xy": [
+        82.7,
+        24
+      ],
+      "kind": "R",
+      "page": "Control",
+      "mpn": "RC0603FR-07100RL",
+      "code": "C105588",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "a056e074-df80-515a-9d42-1fd6baf80715"
+    },
+    {
+      "ref": "R2",
+      "value": "100",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "LRCLK_GPIO",
+        "2": "LRCLK"
+      },
+      "xy": [
+        105.8,
+        17.24
+      ],
+      "kind": "R",
+      "page": "Control",
+      "mpn": "RC0603FR-07100RL",
+      "code": "C105588",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "ed9ea319-8a9a-58e7-9e0f-7b6fb2bd261f"
+    },
+    {
+      "ref": "R3",
+      "value": "100",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "BCLK_GPIO",
+        "2": "BCLK"
+      },
+      "xy": [
+        105.8,
+        14.7
+      ],
+      "kind": "R",
+      "page": "Control",
+      "mpn": "RC0603FR-07100RL",
+      "code": "C105588",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "8c565f1c-81e7-5af9-8e34-708d4be9396e"
+    },
+    {
+      "ref": "R4",
+      "value": "100",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "MCLK_GPIO",
+        "2": "MCLK"
+      },
+      "xy": [
+        105.8,
+        9.62
+      ],
+      "kind": "R",
+      "page": "Control",
+      "mpn": "RC0603FR-07100RL",
+      "code": "C105588",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "a31effd6-4ee0-5c7b-a599-923d5a7fd65c"
+    },
+    {
+      "ref": "R5",
+      "value": "100",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "RESET_QUALIFIED",
+        "2": "CODEC_RESET"
+      },
+      "xy": [
+        82.7,
+        9.62
+      ],
+      "kind": "R",
+      "page": "Control",
+      "mpn": "RC0603FR-07100RL",
+      "code": "C105588",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "205fbb7c-e8b9-5c19-98f3-9f4b14e780dd"
+    },
+    {
+      "ref": "R6",
+      "value": "2.2k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SCL",
+        "2": "+3V3"
+      },
+      "xy": [
+        105.8,
+        22
+      ],
+      "kind": "R",
+      "page": "Control",
+      "mpn": "RC0603FR-072K2L",
+      "code": "C114662",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "71233d21-542d-5ce6-9247-45422aa2d073"
+    },
+    {
+      "ref": "R7",
+      "value": "2.2k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SDA",
+        "2": "+3V3"
+      },
+      "xy": [
+        105.8,
+        25.3
+      ],
+      "kind": "R",
+      "page": "Control",
+      "mpn": "RC0603FR-072K2L",
+      "code": "C114662",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "f6e225d0-0d5a-5c14-a5e6-5324fc2d250b"
+    },
+    {
+      "ref": "R8",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "AD0",
+        "2": "GND"
+      },
+      "xy": [
+        65,
+        8.5
+      ],
+      "kind": "R",
+      "page": "Codec",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "9afb2554-3c7f-56bd-9f75-b65014947844"
+    },
+    {
+      "ref": "R9",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "AD1",
+        "2": "GND"
+      },
+      "xy": [
+        65,
+        5
+      ],
+      "kind": "R",
+      "page": "Codec",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "148f0809-4037-5154-a780-7f27a58e7b2a"
+    },
+    {
+      "ref": "R10",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "CODEC_RESET",
+        "2": "GND"
+      },
+      "xy": [
+        52.5,
+        1.85
+      ],
+      "kind": "R",
+      "page": "Codec",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "7631e48f-9bf5-5872-ab07-b7a4eadd5d7e"
+    },
+    {
+      "ref": "R11",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "AUX_SDIN",
+        "2": "GND"
+      },
+      "xy": [
+        45.5,
+        14.25
+      ],
+      "kind": "R",
+      "page": "Codec",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "9c067c39-e3eb-5784-a2f7-00756dd8bed7"
+    },
+    {
+      "ref": "R12",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SDIN2",
+        "2": "GND"
+      },
+      "xy": [
+        49,
+        11.25
+      ],
+      "kind": "R",
+      "page": "Codec",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "be168cd8-82f9-5854-953d-6d6bbbbaf0dc"
+    },
+    {
+      "ref": "R13",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SDIN3",
+        "2": "GND"
+      },
+      "xy": [
+        52.5,
+        5
+      ],
+      "kind": "R",
+      "page": "Codec",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "681c1331-1c1a-59b7-b0a6-e2986b77bf1b"
+    },
+    {
+      "ref": "R14",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SDIN4",
+        "2": "GND"
+      },
+      "xy": [
+        49,
+        7.75
+      ],
+      "kind": "R",
+      "page": "Codec",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "957ecb14-e49b-50bf-b724-bdd39e1d66a5"
+    },
+    {
+      "ref": "R15",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "CODEC_INT",
+        "2": "+3V3"
+      },
+      "xy": [
+        82.5,
+        5.4
+      ],
+      "kind": "R",
+      "page": "Codec",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "cf08c314-f1eb-55ce-967b-0dd248adba60"
+    },
+    {
+      "ref": "R16",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "MUTEC_5V",
+        "2": "+5VA"
+      },
+      "xy": [
+        52,
+        26.8
+      ],
+      "kind": "R",
+      "page": "Codec",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "f3506da4-8965-547c-955f-58c129ef8be3"
+    },
+    {
+      "ref": "U3",
+      "value": "SN74LVC1G17DBVR",
+      "fp": "ILDA8CH:Package_TO_SOT_SMD__SOT-23-5",
+      "source_fp": "Package_TO_SOT_SMD:SOT-23-5",
+      "pins": {
+        "1": null,
+        "2": "MUTEC_5V",
+        "3": "GND",
+        "4": "MUTEC_3V3",
+        "5": "+3V3"
+      },
+      "xy": [
+        43.5,
+        22
+      ],
+      "kind": "block",
+      "page": "Control",
+      "mpn": "SN74LVC1G17DBVR",
+      "code": "C7836",
+      "ds": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+      "smt": true,
+      "angle": 0,
+      "uuid": "6df51f10-6fe8-5988-b59f-645448d65064"
+    },
+    {
+      "ref": "C6",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "xy": [
+        43.5,
+        26
+      ],
+      "kind": "C",
+      "page": "Control",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "57748021-0005-5f67-8cb7-874704ebaad6"
+    },
+    {
+      "ref": "C7",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "xy": [
+        61.25,
+        9
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "fce297e9-e866-5cb8-9532-46d8108107d0"
+    },
+    {
+      "ref": "C8",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "xy": [
+        57.75,
+        9
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "5b37103f-2af8-5acc-bd9b-97b88e162a0d"
+    },
+    {
+      "ref": "C9",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "xy": [
+        54.25,
+        9
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "41dc9818-96a7-53d2-b220-1479a6c83104"
+    },
+    {
+      "ref": "C10",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "xy": [
+        50.5,
+        19.25
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "67b910d1-1295-595e-a70c-21a1a4da963e"
+    },
+    {
+      "ref": "C11",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "xy": [
+        50.5,
+        15
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "402215a1-2643-58d3-acb6-b3fae556e497"
+    },
+    {
+      "ref": "C12",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+5VA",
+        "2": "GND"
+      },
+      "xy": [
+        62,
+        30
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "1262dffc-8317-5f2f-8865-b15ad2725816"
+    },
+    {
+      "ref": "C13",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+5VA",
+        "2": "GND"
+      },
+      "xy": [
+        68.75,
+        24.5
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "984b4eaa-8892-56d2-ad14-e7675823abfe"
+    },
+    {
+      "ref": "C14",
+      "value": "10u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "xy": [
+        55.5,
+        4.5
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM21BR61E106KA73L",
+      "code": "C84416",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "345c2f07-10ca-52e8-a640-f1e1551e491b"
+    },
+    {
+      "ref": "C15",
+      "value": "10u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "+5VA",
+        "2": "GND"
+      },
+      "xy": [
+        66.5,
+        30
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM21BR61E106KA73L",
+      "code": "C84416",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "62380a7a-8ca7-52db-909b-ce8e4f894bca"
+    },
+    {
+      "ref": "C16",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "VQ",
+        "2": "GND"
+      },
+      "xy": [
+        55.5,
+        30
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "71194ee3-b667-54f6-b743-0c2696443aac"
+    },
+    {
+      "ref": "C17",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "VQ",
+        "2": "GND"
+      },
+      "xy": [
+        59.5,
+        29.5
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "a1b0fce3-60e5-56a7-a42d-20207a44da76"
+    },
+    {
+      "ref": "C18",
+      "value": "22u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_1206_3216Metric",
+      "source_fp": "Capacitor_SMD:C_1206_3216Metric",
+      "pins": {
+        "1": "FILT_ADC",
+        "2": "GND"
+      },
+      "xy": [
+        73,
+        23.5
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM31CR61E226KE15L",
+      "code": "C77091",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "0a48010c-2f9a-5fe4-8ac1-c8dab8cd6f10"
+    },
+    {
+      "ref": "C19",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "FILT_DAC",
+        "2": "GND"
+      },
+      "xy": [
+        68.75,
+        20.75
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "2bc6f65c-2980-5f3d-9997-f87171b766dd"
+    },
+    {
+      "ref": "C20",
+      "value": "100u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_1210_3225Metric",
+      "source_fp": "Capacitor_SMD:C_1210_3225Metric",
+      "pins": {
+        "1": "FILT_DAC",
+        "2": "GND"
+      },
+      "xy": [
+        70.5,
+        13.5
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM32ER61A107ME20L",
+      "code": "C84455",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "4bde044a-df15-578c-9bfd-98fbead267bd"
+    },
+    {
+      "ref": "C21",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "FILT_ADC",
+        "2": "GND"
+      },
+      "xy": [
+        68.75,
+        17
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "d5152ec8-a220-596c-a74e-fa9721244282"
+    },
+    {
+      "ref": "C22",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "AIN1",
+        "2": "GND"
+      },
+      "xy": [
+        62,
+        38
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "5b0c9d0f-99c0-5fc1-9913-84828db63306"
+    },
+    {
+      "ref": "C23",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "AIN2",
+        "2": "GND"
+      },
+      "xy": [
+        66,
+        38
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "3b86f565-1099-5ef6-a5bd-aced1404eaf8"
+    },
+    {
+      "ref": "C24",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "AIN3",
+        "2": "GND"
+      },
+      "xy": [
+        70,
+        38
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "c5aaf4d7-3310-52a8-b984-0ec6a147b972"
+    },
+    {
+      "ref": "C25",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "AIN4",
+        "2": "GND"
+      },
+      "xy": [
+        74,
+        38
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "5cc45ec4-c2da-5c5a-8219-1293d1d18550"
+    },
+    {
+      "ref": "C26",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "AIN5",
+        "2": "GND"
+      },
+      "xy": [
+        75.5,
+        28.5
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "21f6619c-3a49-5d46-b945-3ac3b5eac34e"
+    },
+    {
+      "ref": "C27",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "AIN6",
+        "2": "GND"
+      },
+      "xy": [
+        80.5,
+        28.5
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "76ebef08-733b-53c1-b3db-2cefa24f2b22"
+    },
+    {
+      "ref": "C28",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "AIN7",
+        "2": "GND"
+      },
+      "xy": [
+        75.5,
+        33.5
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "a52f2d4e-f45d-5e07-961c-5a978f6d63be"
+    },
+    {
+      "ref": "C29",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "AIN8",
+        "2": "GND"
+      },
+      "xy": [
+        80.5,
+        33.5
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "d5749701-84df-57df-b77c-c5a4b5290bb4"
+    },
+    {
+      "ref": "C30",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "AIN9",
+        "2": "GND"
+      },
+      "xy": [
+        75.5,
+        13.0
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "771971a8-df11-5b27-8f2e-8ef2c7dfe4a4"
+    },
+    {
+      "ref": "C31",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "AIN10",
+        "2": "GND"
+      },
+      "xy": [
+        80.5,
+        13.0
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "af7e6535-0a52-503c-9685-34cab23dcbe3"
+    },
+    {
+      "ref": "C32",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "AIN11",
+        "2": "GND"
+      },
+      "xy": [
+        75.5,
+        18.5
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "8c5f76cf-24b3-5fdf-b37e-6a8a8d8df567"
+    },
+    {
+      "ref": "C33",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "AIN12",
+        "2": "GND"
+      },
+      "xy": [
+        80.5,
+        18.5
+      ],
+      "kind": "C",
+      "page": "Codec",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "09000f2c-fad4-5cc9-baa8-b771eb8f33f3"
+    },
+    {
+      "ref": "U11",
+      "value": "OPA4197IDR",
+      "fp": "ILDA8CH:Package_SO__SOIC-14_3.9x8.7mm_P1.27mm",
+      "source_fp": "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm",
+      "pins": {
+        "1": "B1P",
+        "2": "B1P",
+        "3": "IN1P",
+        "4": "+15A",
+        "5": "IN1N",
+        "6": "B1N",
+        "7": "B1N",
+        "8": "X_DRV_P",
+        "9": "SUM1N",
+        "10": "SUM1P",
+        "11": "-15A",
+        "12": "GND",
+        "13": "INV1",
+        "14": "X_DRV_N"
+      },
+      "xy": [
+        14,
+        37.5
+      ],
+      "kind": "opquad",
+      "page": "CH1_X",
+      "mpn": "OPA4197IDR",
+      "code": "C2058532",
+      "ds": "https://www.ti.com/lit/ds/symlink/opa4197.pdf",
+      "smt": true,
+      "angle": 0,
+      "uuid": "669ca4d8-629d-526f-b148-9f03f7c3228b"
+    },
+    {
+      "ref": "R121",
+      "value": "1k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "B1P",
+        "2": "F1P"
+      },
+      "xy": [
+        8.2,
+        32.6
+      ],
+      "kind": "R",
+      "page": "CH1_X",
+      "mpn": "RT0603BRD071KL",
+      "code": "C110776",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "34b5dcf8-2768-5e6d-858f-32cff3c63693"
+    },
+    {
+      "ref": "R122",
+      "value": "1k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "B1N",
+        "2": "F1N"
+      },
+      "xy": [
+        8.2,
+        42.4
+      ],
+      "kind": "R",
+      "page": "CH1_X",
+      "mpn": "RT0603BRD071KL",
+      "code": "C110776",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "9753ca29-a66b-58e1-8d28-0c4de18506f6"
+    },
+    {
+      "ref": "C121",
+      "value": "4.7n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "F1P",
+        "2": "GND"
+      },
+      "xy": [
+        5.5,
+        32.6
+      ],
+      "kind": "C",
+      "page": "CH1_X",
+      "mpn": "GRM1885C1H472JA01D",
+      "code": "C85980",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "6cdbb579-44ad-505e-8c8c-67beda8d8292"
+    },
+    {
+      "ref": "C122",
+      "value": "4.7n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "F1N",
+        "2": "GND"
+      },
+      "xy": [
+        5.5,
+        42.4
+      ],
+      "kind": "C",
+      "page": "CH1_X",
+      "mpn": "GRM1885C1H472JA01D",
+      "code": "C85980",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "b4ee264d-39d6-585d-85bb-c1b39e063a84"
+    },
+    {
+      "ref": "R123",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "F1P",
+        "2": "SUM1P"
+      },
+      "xy": [
+        22.5,
+        39.3
+      ],
+      "kind": "R",
+      "page": "CH1_X",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "68b25d5c-b1e2-58c2-8f9a-0b4e3f8ab877"
+    },
+    {
+      "ref": "R124",
+      "value": "39k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SUM1P",
+        "2": "GND"
+      },
+      "xy": [
+        22.7,
+        35.4
+      ],
+      "kind": "R",
+      "page": "CH1_X",
+      "mpn": "RT0603BRD0739KL",
+      "code": "C309652",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "5e56c772-8ca7-50ce-9616-1ef3185f6bc6"
+    },
+    {
+      "ref": "R125",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "F1N",
+        "2": "SUM1N"
+      },
+      "xy": [
+        21,
+        43.1
+      ],
+      "kind": "R",
+      "page": "CH1_X",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "783c2bfb-9d98-56f9-95a5-73d1d89131ef"
+    },
+    {
+      "ref": "R126",
+      "value": "39k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "X_DRV_P",
+        "2": "SUM1N"
+      },
+      "xy": [
+        19.4,
+        40.675
+      ],
+      "kind": "R",
+      "page": "CH1_X",
+      "mpn": "RT0603BRD0739KL",
+      "code": "C309652",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "a6edab95-a87e-5fe5-8e34-065362fe3eb5"
+    },
+    {
+      "ref": "R127",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "X_DRV_P",
+        "2": "INV1"
+      },
+      "xy": [
+        21.8,
+        31.6
+      ],
+      "kind": "R",
+      "page": "CH1_X",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "7930d132-1990-52f3-8e9c-65e5ade6d867"
+    },
+    {
+      "ref": "R128",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "X_DRV_N",
+        "2": "INV1"
+      },
+      "xy": [
+        19.4,
+        34.325
+      ],
+      "kind": "R",
+      "page": "CH1_X",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "fed9bb95-484a-554a-8cc0-f6e6634480c9"
+    },
+    {
+      "ref": "R129",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ISO_DAC1_P",
+        "2": "IN1P"
+      },
+      "xy": [
+        6.7,
+        35.4
+      ],
+      "kind": "R",
+      "page": "CH1_X",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "db8c74fa-d45c-5ade-b8c3-9d7b1d8ca3bb"
+    },
+    {
+      "ref": "R130",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ISO_DAC1_N",
+        "2": "IN1N"
+      },
+      "xy": [
+        6.7,
+        39.6
+      ],
+      "kind": "R",
+      "page": "CH1_X",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "2bf2e592-afcb-5351-9c28-2dc1f93dd402"
+    },
+    {
+      "ref": "C123",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+15A",
+        "2": "GND"
+      },
+      "xy": [
+        8.45,
+        37.5
+      ],
+      "kind": "C",
+      "page": "CH1_X",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "cca77651-d66f-54f3-940f-e45f6a32ae2b"
+    },
+    {
+      "ref": "C124",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "GND",
+        "2": "-15A"
+      },
+      "xy": [
+        19.55,
+        37.5
+      ],
+      "kind": "C",
+      "page": "CH1_X",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "a9460655-5770-5d97-9a11-f923dfbbaa27"
+    },
+    {
+      "ref": "C125",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "+15A",
+        "2": "GND"
+      },
+      "xy": [
+        11.9,
+        31.2
+      ],
+      "kind": "C",
+      "page": "CH1_X",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "ab22f6ea-7674-563d-b3f2-7e13315cbe7d"
+    },
+    {
+      "ref": "C126",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "GND",
+        "2": "-15A"
+      },
+      "xy": [
+        16,
+        43.8
+      ],
+      "kind": "C",
+      "page": "CH1_X",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "62fc4396-f841-55c0-9251-6b1cb4a1a280"
+    },
+    {
+      "ref": "U12",
+      "value": "OPA4197IDR",
+      "fp": "ILDA8CH:Package_SO__SOIC-14_3.9x8.7mm_P1.27mm",
+      "source_fp": "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm",
+      "pins": {
+        "1": "B2P",
+        "2": "B2P",
+        "3": "IN2P",
+        "4": "+15A",
+        "5": "IN2N",
+        "6": "B2N",
+        "7": "B2N",
+        "8": "Y_DRV_P",
+        "9": "SUM2N",
+        "10": "SUM2P",
+        "11": "-15A",
+        "12": "GND",
+        "13": "INV2",
+        "14": "Y_DRV_N"
+      },
+      "xy": [
+        37,
+        37.5
+      ],
+      "kind": "opquad",
+      "page": "CH2_Y",
+      "mpn": "OPA4197IDR",
+      "code": "C2058532",
+      "ds": "https://www.ti.com/lit/ds/symlink/opa4197.pdf",
+      "smt": true,
+      "angle": 0,
+      "uuid": "c1bc15db-ad3f-5587-a1b9-331d3653675c"
+    },
+    {
+      "ref": "R141",
+      "value": "1k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "B2P",
+        "2": "F2P"
+      },
+      "xy": [
+        31.2,
+        32.6
+      ],
+      "kind": "R",
+      "page": "CH2_Y",
+      "mpn": "RT0603BRD071KL",
+      "code": "C110776",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "a56a6ab6-63a0-5aa1-bc7b-180b1792d1ee"
+    },
+    {
+      "ref": "R142",
+      "value": "1k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "B2N",
+        "2": "F2N"
+      },
+      "xy": [
+        31.2,
+        42.4
+      ],
+      "kind": "R",
+      "page": "CH2_Y",
+      "mpn": "RT0603BRD071KL",
+      "code": "C110776",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "4ed8afee-cb0d-5e8f-8570-b6c02fbbd06f"
+    },
+    {
+      "ref": "C141",
+      "value": "4.7n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "F2P",
+        "2": "GND"
+      },
+      "xy": [
+        28.5,
+        32.6
+      ],
+      "kind": "C",
+      "page": "CH2_Y",
+      "mpn": "GRM1885C1H472JA01D",
+      "code": "C85980",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "3847eba2-35a3-5d88-9fd3-9277ffd52c07"
+    },
+    {
+      "ref": "C142",
+      "value": "4.7n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "F2N",
+        "2": "GND"
+      },
+      "xy": [
+        28.5,
+        42.4
+      ],
+      "kind": "C",
+      "page": "CH2_Y",
+      "mpn": "GRM1885C1H472JA01D",
+      "code": "C85980",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "d2ecefa9-123f-5347-a3ff-53d45d3a0908"
+    },
+    {
+      "ref": "R143",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "F2P",
+        "2": "SUM2P"
+      },
+      "xy": [
+        45.5,
+        39.3
+      ],
+      "kind": "R",
+      "page": "CH2_Y",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "c7737384-dfb3-5ee8-87e1-b5c4f7fd782a"
+    },
+    {
+      "ref": "R144",
+      "value": "39k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SUM2P",
+        "2": "GND"
+      },
+      "xy": [
+        45.7,
+        35.4
+      ],
+      "kind": "R",
+      "page": "CH2_Y",
+      "mpn": "RT0603BRD0739KL",
+      "code": "C309652",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "964efbc1-afda-50c5-aafc-9c89d5af10fb"
+    },
+    {
+      "ref": "R145",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "F2N",
+        "2": "SUM2N"
+      },
+      "xy": [
+        44,
+        43.1
+      ],
+      "kind": "R",
+      "page": "CH2_Y",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "cc28621b-55f6-5ec8-ae76-15c1e21a1e53"
+    },
+    {
+      "ref": "R146",
+      "value": "39k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "Y_DRV_P",
+        "2": "SUM2N"
+      },
+      "xy": [
+        42.4,
+        40.675
+      ],
+      "kind": "R",
+      "page": "CH2_Y",
+      "mpn": "RT0603BRD0739KL",
+      "code": "C309652",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "305f254d-7531-5cc9-a41c-20b1fa7b1ebd"
+    },
+    {
+      "ref": "R147",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "Y_DRV_P",
+        "2": "INV2"
+      },
+      "xy": [
+        44.8,
+        31.6
+      ],
+      "kind": "R",
+      "page": "CH2_Y",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "44dba3be-14c9-5720-818c-43b0e9050df3"
+    },
+    {
+      "ref": "R148",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "Y_DRV_N",
+        "2": "INV2"
+      },
+      "xy": [
+        42.4,
+        34.325
+      ],
+      "kind": "R",
+      "page": "CH2_Y",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "e89157cb-4c7b-5bc5-9c91-6ebcd4bbb8c5"
+    },
+    {
+      "ref": "R149",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ISO_DAC2_P",
+        "2": "IN2P"
+      },
+      "xy": [
+        29.7,
+        35.4
+      ],
+      "kind": "R",
+      "page": "CH2_Y",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "d3baaed9-d209-5e7e-9e48-12fe0f0cc0ec"
+    },
+    {
+      "ref": "R150",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ISO_DAC2_N",
+        "2": "IN2N"
+      },
+      "xy": [
+        29.7,
+        39.6
+      ],
+      "kind": "R",
+      "page": "CH2_Y",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "ae81a6ee-cbe1-54b1-a5a6-68b117cccb0b"
+    },
+    {
+      "ref": "C143",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+15A",
+        "2": "GND"
+      },
+      "xy": [
+        31.45,
+        37.5
+      ],
+      "kind": "C",
+      "page": "CH2_Y",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "a07ad9f0-e99d-5009-84e4-4a4f975a1d9a"
+    },
+    {
+      "ref": "C144",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "GND",
+        "2": "-15A"
+      },
+      "xy": [
+        42.55,
+        37.5
+      ],
+      "kind": "C",
+      "page": "CH2_Y",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "9437849b-7ef5-53be-8564-77ec57f6401b"
+    },
+    {
+      "ref": "C145",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "+15A",
+        "2": "GND"
+      },
+      "xy": [
+        34.9,
+        31.2
+      ],
+      "kind": "C",
+      "page": "CH2_Y",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "edcc4e47-e029-5647-9dc5-9bb91f7f8704"
+    },
+    {
+      "ref": "C146",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "GND",
+        "2": "-15A"
+      },
+      "xy": [
+        39,
+        43.8
+      ],
+      "kind": "C",
+      "page": "CH2_Y",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "1b89a773-934d-50b5-a7b8-78d923b18fe9"
+    },
+    {
+      "ref": "U13",
+      "value": "OPA4197IDR",
+      "fp": "ILDA8CH:Package_SO__SOIC-14_3.9x8.7mm_P1.27mm",
+      "source_fp": "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm",
+      "pins": {
+        "1": "B3P",
+        "2": "B3P",
+        "3": "IN3P",
+        "4": "+15A",
+        "5": "IN3N",
+        "6": "B3N",
+        "7": "B3N",
+        "8": "R_DRV_P",
+        "9": "SUM3N",
+        "10": "SUM3P",
+        "11": "-15A",
+        "12": "GND",
+        "13": "INV3",
+        "14": "R_DRV_N"
+      },
+      "xy": [
+        14,
+        54
+      ],
+      "kind": "opquad",
+      "page": "CH3_R",
+      "mpn": "OPA4197IDR",
+      "code": "C2058532",
+      "ds": "https://www.ti.com/lit/ds/symlink/opa4197.pdf",
+      "smt": true,
+      "angle": 0,
+      "uuid": "e7ff6886-c27d-5b4b-b9d4-68c7379be3df"
+    },
+    {
+      "ref": "R161",
+      "value": "1k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "B3P",
+        "2": "F3P"
+      },
+      "xy": [
+        8.2,
+        49.1
+      ],
+      "kind": "R",
+      "page": "CH3_R",
+      "mpn": "RT0603BRD071KL",
+      "code": "C110776",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "6222c043-c71c-554c-9b81-7cc034966088"
+    },
+    {
+      "ref": "R162",
+      "value": "1k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "B3N",
+        "2": "F3N"
+      },
+      "xy": [
+        8.2,
+        58.9
+      ],
+      "kind": "R",
+      "page": "CH3_R",
+      "mpn": "RT0603BRD071KL",
+      "code": "C110776",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "c72aa6db-46ae-53cb-8794-7ada310cc3af"
+    },
+    {
+      "ref": "C161",
+      "value": "4.7n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "F3P",
+        "2": "GND"
+      },
+      "xy": [
+        5.5,
+        49.1
+      ],
+      "kind": "C",
+      "page": "CH3_R",
+      "mpn": "GRM1885C1H472JA01D",
+      "code": "C85980",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "0b9ae1f6-7c23-56bd-9842-4f77be00528e"
+    },
+    {
+      "ref": "C162",
+      "value": "4.7n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "F3N",
+        "2": "GND"
+      },
+      "xy": [
+        5.5,
+        58.9
+      ],
+      "kind": "C",
+      "page": "CH3_R",
+      "mpn": "GRM1885C1H472JA01D",
+      "code": "C85980",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "fb17a29e-8654-5944-9c3f-cdd66f96a2c2"
+    },
+    {
+      "ref": "R163",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "F3P",
+        "2": "SUM3P"
+      },
+      "xy": [
+        22.5,
+        55.8
+      ],
+      "kind": "R",
+      "page": "CH3_R",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "b59ae018-c5a9-5887-8f59-e00ccb141860"
+    },
+    {
+      "ref": "R164",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SUM3P",
+        "2": "GND"
+      },
+      "xy": [
+        22.7,
+        51.9
+      ],
+      "kind": "R",
+      "page": "CH3_R",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "f6fe0f27-6e7f-54c1-9ba5-5c32624d5dda"
+    },
+    {
+      "ref": "R165",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "F3N",
+        "2": "SUM3N"
+      },
+      "xy": [
+        21,
+        59.6
+      ],
+      "kind": "R",
+      "page": "CH3_R",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "312614e5-8936-579e-bdb3-9166f7b108d7"
+    },
+    {
+      "ref": "R166",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "R_DRV_P",
+        "2": "SUM3N"
+      },
+      "xy": [
+        19.4,
+        57.175
+      ],
+      "kind": "R",
+      "page": "CH3_R",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "270ae4cb-b429-5c02-8615-d81db9ac08a0"
+    },
+    {
+      "ref": "R167",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "R_DRV_P",
+        "2": "INV3"
+      },
+      "xy": [
+        21.8,
+        48.1
+      ],
+      "kind": "R",
+      "page": "CH3_R",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "d6662659-427c-59bb-88af-3adf2fed1b0c"
+    },
+    {
+      "ref": "R168",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "R_DRV_N",
+        "2": "INV3"
+      },
+      "xy": [
+        19.4,
+        50.825
+      ],
+      "kind": "R",
+      "page": "CH3_R",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "1fc00051-3e99-5ca3-aefc-e47406cd9192"
+    },
+    {
+      "ref": "R169",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ISO_DAC3_P",
+        "2": "IN3P"
+      },
+      "xy": [
+        6.7,
+        51.9
+      ],
+      "kind": "R",
+      "page": "CH3_R",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "fb30051c-037e-53c0-ab1d-3f29c7c001c7"
+    },
+    {
+      "ref": "R170",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ISO_DAC3_N",
+        "2": "IN3N"
+      },
+      "xy": [
+        6.7,
+        56.1
+      ],
+      "kind": "R",
+      "page": "CH3_R",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "547cd16d-31ac-5c74-b2af-8fd494edbb57"
+    },
+    {
+      "ref": "C163",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+15A",
+        "2": "GND"
+      },
+      "xy": [
+        8.45,
+        54
+      ],
+      "kind": "C",
+      "page": "CH3_R",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "e8a4876d-0ea5-5f6f-b369-77df90ab01dd"
+    },
+    {
+      "ref": "C164",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "GND",
+        "2": "-15A"
+      },
+      "xy": [
+        19.55,
+        54
+      ],
+      "kind": "C",
+      "page": "CH3_R",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "c9ead2b3-6ab7-515c-beda-00eaa6117f64"
+    },
+    {
+      "ref": "C165",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "+15A",
+        "2": "GND"
+      },
+      "xy": [
+        11.9,
+        47.7
+      ],
+      "kind": "C",
+      "page": "CH3_R",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "e98f3cfc-194e-5958-8210-cc5ec7327395"
+    },
+    {
+      "ref": "C166",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "GND",
+        "2": "-15A"
+      },
+      "xy": [
+        16,
+        60.3
+      ],
+      "kind": "C",
+      "page": "CH3_R",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "47752e7a-d1c1-5b98-a26a-f555b0e45e68"
+    },
+    {
+      "ref": "U14",
+      "value": "OPA4197IDR",
+      "fp": "ILDA8CH:Package_SO__SOIC-14_3.9x8.7mm_P1.27mm",
+      "source_fp": "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm",
+      "pins": {
+        "1": "B4P",
+        "2": "B4P",
+        "3": "IN4P",
+        "4": "+15A",
+        "5": "IN4N",
+        "6": "B4N",
+        "7": "B4N",
+        "8": "G_DRV_P",
+        "9": "SUM4N",
+        "10": "SUM4P",
+        "11": "-15A",
+        "12": "GND",
+        "13": "INV4",
+        "14": "G_DRV_N"
+      },
+      "xy": [
+        37,
+        54
+      ],
+      "kind": "opquad",
+      "page": "CH4_G",
+      "mpn": "OPA4197IDR",
+      "code": "C2058532",
+      "ds": "https://www.ti.com/lit/ds/symlink/opa4197.pdf",
+      "smt": true,
+      "angle": 0,
+      "uuid": "8e3da3ea-0aa8-542a-a7d7-7946d65e18db"
+    },
+    {
+      "ref": "R181",
+      "value": "1k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "B4P",
+        "2": "F4P"
+      },
+      "xy": [
+        31.2,
+        49.1
+      ],
+      "kind": "R",
+      "page": "CH4_G",
+      "mpn": "RT0603BRD071KL",
+      "code": "C110776",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "4694bccf-3682-5efc-a0cc-23cb0f194d44"
+    },
+    {
+      "ref": "R182",
+      "value": "1k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "B4N",
+        "2": "F4N"
+      },
+      "xy": [
+        31.2,
+        58.9
+      ],
+      "kind": "R",
+      "page": "CH4_G",
+      "mpn": "RT0603BRD071KL",
+      "code": "C110776",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "2831abd4-22f1-5e51-8cf4-2947df729a28"
+    },
+    {
+      "ref": "C181",
+      "value": "4.7n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "F4P",
+        "2": "GND"
+      },
+      "xy": [
+        28.5,
+        49.1
+      ],
+      "kind": "C",
+      "page": "CH4_G",
+      "mpn": "GRM1885C1H472JA01D",
+      "code": "C85980",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "f8ce0420-962d-58d7-9bdc-46801b88cd56"
+    },
+    {
+      "ref": "C182",
+      "value": "4.7n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "F4N",
+        "2": "GND"
+      },
+      "xy": [
+        28.5,
+        58.9
+      ],
+      "kind": "C",
+      "page": "CH4_G",
+      "mpn": "GRM1885C1H472JA01D",
+      "code": "C85980",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "19653b0b-e4e7-507d-b569-3a4f5410fb9b"
+    },
+    {
+      "ref": "R183",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "F4P",
+        "2": "SUM4P"
+      },
+      "xy": [
+        45.5,
+        55.8
+      ],
+      "kind": "R",
+      "page": "CH4_G",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "aae5f2d0-fdf4-5297-befa-07048eaabce7"
+    },
+    {
+      "ref": "R184",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SUM4P",
+        "2": "GND"
+      },
+      "xy": [
+        45.7,
+        51.9
+      ],
+      "kind": "R",
+      "page": "CH4_G",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "3bf004d0-b5ec-5ca8-a865-ae33964c8f41"
+    },
+    {
+      "ref": "R185",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "F4N",
+        "2": "SUM4N"
+      },
+      "xy": [
+        44,
+        59.6
+      ],
+      "kind": "R",
+      "page": "CH4_G",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "64410fc6-97f9-53d1-9aeb-e8f11b12ed19"
+    },
+    {
+      "ref": "R186",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "G_DRV_P",
+        "2": "SUM4N"
+      },
+      "xy": [
+        42.4,
+        57.175
+      ],
+      "kind": "R",
+      "page": "CH4_G",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "69148290-0f3c-5978-b9b6-e1baf2093928"
+    },
+    {
+      "ref": "R187",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "G_DRV_P",
+        "2": "INV4"
+      },
+      "xy": [
+        44.8,
+        48.1
+      ],
+      "kind": "R",
+      "page": "CH4_G",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "f6062845-688f-5152-b72a-89ef56578aa2"
+    },
+    {
+      "ref": "R188",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "G_DRV_N",
+        "2": "INV4"
+      },
+      "xy": [
+        42.4,
+        50.825
+      ],
+      "kind": "R",
+      "page": "CH4_G",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "03133787-f558-519b-b776-6ae5e5b094e4"
+    },
+    {
+      "ref": "R189",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ISO_DAC4_P",
+        "2": "IN4P"
+      },
+      "xy": [
+        29.7,
+        51.9
+      ],
+      "kind": "R",
+      "page": "CH4_G",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "17b94fc6-4610-518e-9c5d-4037bf474009"
+    },
+    {
+      "ref": "R190",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ISO_DAC4_N",
+        "2": "IN4N"
+      },
+      "xy": [
+        29.7,
+        56.1
+      ],
+      "kind": "R",
+      "page": "CH4_G",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "5f653d7b-caae-5c8a-92a5-59a5a83c1b16"
+    },
+    {
+      "ref": "C183",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+15A",
+        "2": "GND"
+      },
+      "xy": [
+        31.45,
+        54
+      ],
+      "kind": "C",
+      "page": "CH4_G",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "cbb973ac-8c15-5ba4-a3f3-72e29664b7e3"
+    },
+    {
+      "ref": "C184",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "GND",
+        "2": "-15A"
+      },
+      "xy": [
+        42.55,
+        54
+      ],
+      "kind": "C",
+      "page": "CH4_G",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "4871c71d-4f44-53c9-9997-fe7c593385ad"
+    },
+    {
+      "ref": "C185",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "+15A",
+        "2": "GND"
+      },
+      "xy": [
+        34.9,
+        47.7
+      ],
+      "kind": "C",
+      "page": "CH4_G",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "68742e42-bc11-591d-9c28-703999c32eae"
+    },
+    {
+      "ref": "C186",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "GND",
+        "2": "-15A"
+      },
+      "xy": [
+        39,
+        60.3
+      ],
+      "kind": "C",
+      "page": "CH4_G",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "de653d27-a83e-58ff-b035-727d7c8f29d2"
+    },
+    {
+      "ref": "U15",
+      "value": "OPA4197IDR",
+      "fp": "ILDA8CH:Package_SO__SOIC-14_3.9x8.7mm_P1.27mm",
+      "source_fp": "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm",
+      "pins": {
+        "1": "B5P",
+        "2": "B5P",
+        "3": "IN5P",
+        "4": "+15A",
+        "5": "IN5N",
+        "6": "B5N",
+        "7": "B5N",
+        "8": "B_DRV_P",
+        "9": "SUM5N",
+        "10": "SUM5P",
+        "11": "-15A",
+        "12": "GND",
+        "13": "INV5",
+        "14": "B_DRV_N"
+      },
+      "xy": [
+        14,
+        70.5
+      ],
+      "kind": "opquad",
+      "page": "CH5_B",
+      "mpn": "OPA4197IDR",
+      "code": "C2058532",
+      "ds": "https://www.ti.com/lit/ds/symlink/opa4197.pdf",
+      "smt": true,
+      "angle": 0,
+      "uuid": "6c34aea8-8a4d-503f-99d7-61be4f75154d"
+    },
+    {
+      "ref": "R201",
+      "value": "1k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "B5P",
+        "2": "F5P"
+      },
+      "xy": [
+        8.2,
+        65.6
+      ],
+      "kind": "R",
+      "page": "CH5_B",
+      "mpn": "RT0603BRD071KL",
+      "code": "C110776",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "2819d2b5-b469-564e-aa6e-fcd79b9d1644"
+    },
+    {
+      "ref": "R202",
+      "value": "1k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "B5N",
+        "2": "F5N"
+      },
+      "xy": [
+        8.2,
+        75.4
+      ],
+      "kind": "R",
+      "page": "CH5_B",
+      "mpn": "RT0603BRD071KL",
+      "code": "C110776",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "2cb56bad-3a1d-5d49-a92d-d92972c1d193"
+    },
+    {
+      "ref": "C201",
+      "value": "4.7n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "F5P",
+        "2": "GND"
+      },
+      "xy": [
+        5.5,
+        65.6
+      ],
+      "kind": "C",
+      "page": "CH5_B",
+      "mpn": "GRM1885C1H472JA01D",
+      "code": "C85980",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "e364e85c-0854-51ef-a7cd-d8784578f7d8"
+    },
+    {
+      "ref": "C202",
+      "value": "4.7n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "F5N",
+        "2": "GND"
+      },
+      "xy": [
+        5.5,
+        75.4
+      ],
+      "kind": "C",
+      "page": "CH5_B",
+      "mpn": "GRM1885C1H472JA01D",
+      "code": "C85980",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "1bc08d55-30cf-5bcd-a597-94ae85a5430e"
+    },
+    {
+      "ref": "R203",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "F5P",
+        "2": "SUM5P"
+      },
+      "xy": [
+        22.5,
+        72.3
+      ],
+      "kind": "R",
+      "page": "CH5_B",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "6c7266fc-c4cf-5894-8c13-c4a0bb3ecd7d"
+    },
+    {
+      "ref": "R204",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SUM5P",
+        "2": "GND"
+      },
+      "xy": [
+        22.7,
+        68.4
+      ],
+      "kind": "R",
+      "page": "CH5_B",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "be90e10e-ca5b-565b-a3d3-8a73754ced80"
+    },
+    {
+      "ref": "R205",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "F5N",
+        "2": "SUM5N"
+      },
+      "xy": [
+        21,
+        76.1
+      ],
+      "kind": "R",
+      "page": "CH5_B",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "ff212102-5c8e-5849-b2e0-4cd64176b6be"
+    },
+    {
+      "ref": "R206",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "B_DRV_P",
+        "2": "SUM5N"
+      },
+      "xy": [
+        19.4,
+        73.675
+      ],
+      "kind": "R",
+      "page": "CH5_B",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "84473ef9-8e87-56df-b9ce-e504add01dfd"
+    },
+    {
+      "ref": "R207",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "B_DRV_P",
+        "2": "INV5"
+      },
+      "xy": [
+        21.8,
+        64.6
+      ],
+      "kind": "R",
+      "page": "CH5_B",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "be7539b1-4db3-5658-a525-b4fefe3d8cf8"
+    },
+    {
+      "ref": "R208",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "B_DRV_N",
+        "2": "INV5"
+      },
+      "xy": [
+        19.4,
+        67.325
+      ],
+      "kind": "R",
+      "page": "CH5_B",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "7afd8a2f-d942-5816-b016-5e818d1efe6a"
+    },
+    {
+      "ref": "R209",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ISO_DAC5_P",
+        "2": "IN5P"
+      },
+      "xy": [
+        6.7,
+        68.4
+      ],
+      "kind": "R",
+      "page": "CH5_B",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "566a3ee1-bfe6-5f22-b59f-98f335541541"
+    },
+    {
+      "ref": "R210",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ISO_DAC5_N",
+        "2": "IN5N"
+      },
+      "xy": [
+        6.7,
+        72.6
+      ],
+      "kind": "R",
+      "page": "CH5_B",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "ce2a64fa-95a9-550d-943b-e1a2ed332ef3"
+    },
+    {
+      "ref": "C203",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+15A",
+        "2": "GND"
+      },
+      "xy": [
+        8.45,
+        70.5
+      ],
+      "kind": "C",
+      "page": "CH5_B",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "cca5ab15-a494-59e7-b0d3-54cdc7c92724"
+    },
+    {
+      "ref": "C204",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "GND",
+        "2": "-15A"
+      },
+      "xy": [
+        19.55,
+        70.5
+      ],
+      "kind": "C",
+      "page": "CH5_B",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "ebb4e19e-445d-5ced-9648-219eb24704d2"
+    },
+    {
+      "ref": "C205",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "+15A",
+        "2": "GND"
+      },
+      "xy": [
+        11.9,
+        64.2
+      ],
+      "kind": "C",
+      "page": "CH5_B",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "a887c567-86d2-57a5-9c2e-777db923809c"
+    },
+    {
+      "ref": "C206",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "GND",
+        "2": "-15A"
+      },
+      "xy": [
+        16,
+        76.8
+      ],
+      "kind": "C",
+      "page": "CH5_B",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "5da3f933-73fd-5a71-b565-3824089654d4"
+    },
+    {
+      "ref": "U16",
+      "value": "OPA4197IDR",
+      "fp": "ILDA8CH:Package_SO__SOIC-14_3.9x8.7mm_P1.27mm",
+      "source_fp": "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm",
+      "pins": {
+        "1": "B6P",
+        "2": "B6P",
+        "3": "IN6P",
+        "4": "+15A",
+        "5": "IN6N",
+        "6": "B6N",
+        "7": "B6N",
+        "8": "I_DRV_P",
+        "9": "SUM6N",
+        "10": "SUM6P",
+        "11": "-15A",
+        "12": "GND",
+        "13": "INV6",
+        "14": "I_DRV_N"
+      },
+      "xy": [
+        37,
+        70.5
+      ],
+      "kind": "opquad",
+      "page": "CH6_I",
+      "mpn": "OPA4197IDR",
+      "code": "C2058532",
+      "ds": "https://www.ti.com/lit/ds/symlink/opa4197.pdf",
+      "smt": true,
+      "angle": 0,
+      "uuid": "a56b1296-d1ac-5ce1-b169-02c46f227235"
+    },
+    {
+      "ref": "R221",
+      "value": "1k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "B6P",
+        "2": "F6P"
+      },
+      "xy": [
+        31.2,
+        65.6
+      ],
+      "kind": "R",
+      "page": "CH6_I",
+      "mpn": "RT0603BRD071KL",
+      "code": "C110776",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "0a46f41f-4ca1-5a2c-b3c1-8f1436e638b9"
+    },
+    {
+      "ref": "R222",
+      "value": "1k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "B6N",
+        "2": "F6N"
+      },
+      "xy": [
+        31.2,
+        75.4
+      ],
+      "kind": "R",
+      "page": "CH6_I",
+      "mpn": "RT0603BRD071KL",
+      "code": "C110776",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "b90581be-1f65-5c70-8ca4-96ad0e7568f2"
+    },
+    {
+      "ref": "C221",
+      "value": "4.7n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "F6P",
+        "2": "GND"
+      },
+      "xy": [
+        28.5,
+        65.6
+      ],
+      "kind": "C",
+      "page": "CH6_I",
+      "mpn": "GRM1885C1H472JA01D",
+      "code": "C85980",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "f0e28eaf-bfbf-5902-a87d-fe478be1d0cb"
+    },
+    {
+      "ref": "C222",
+      "value": "4.7n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "F6N",
+        "2": "GND"
+      },
+      "xy": [
+        28.5,
+        75.4
+      ],
+      "kind": "C",
+      "page": "CH6_I",
+      "mpn": "GRM1885C1H472JA01D",
+      "code": "C85980",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "a8e7a51f-c1cf-54a3-8607-b3a7a8df6bae"
+    },
+    {
+      "ref": "R223",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "F6P",
+        "2": "SUM6P"
+      },
+      "xy": [
+        45.5,
+        72.3
+      ],
+      "kind": "R",
+      "page": "CH6_I",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "c69faf5e-6303-5aaa-a27a-4ab16ea9cc55"
+    },
+    {
+      "ref": "R224",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SUM6P",
+        "2": "GND"
+      },
+      "xy": [
+        45.7,
+        68.4
+      ],
+      "kind": "R",
+      "page": "CH6_I",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "89c9d3ba-de48-54ae-b76f-4d3df1fa4842"
+    },
+    {
+      "ref": "R225",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "F6N",
+        "2": "SUM6N"
+      },
+      "xy": [
+        44,
+        76.1
+      ],
+      "kind": "R",
+      "page": "CH6_I",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "14280581-ce3a-59e2-892c-ac191620f845"
+    },
+    {
+      "ref": "R226",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "I_DRV_P",
+        "2": "SUM6N"
+      },
+      "xy": [
+        42.4,
+        73.675
+      ],
+      "kind": "R",
+      "page": "CH6_I",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "87772e07-5b61-52bb-8eb5-c8448dd40bd7"
+    },
+    {
+      "ref": "R227",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "I_DRV_P",
+        "2": "INV6"
+      },
+      "xy": [
+        44.8,
+        64.6
+      ],
+      "kind": "R",
+      "page": "CH6_I",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "afc17d55-db7b-5b63-8f42-89c26e3b92f6"
+    },
+    {
+      "ref": "R228",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "I_DRV_N",
+        "2": "INV6"
+      },
+      "xy": [
+        42.4,
+        67.325
+      ],
+      "kind": "R",
+      "page": "CH6_I",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "a2cf7f0d-f796-5189-a8cc-d6c84ed1e8a0"
+    },
+    {
+      "ref": "R229",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ISO_DAC6_P",
+        "2": "IN6P"
+      },
+      "xy": [
+        29.7,
+        68.4
+      ],
+      "kind": "R",
+      "page": "CH6_I",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "f086bc54-fffb-5ec8-8e11-bba9381a9196"
+    },
+    {
+      "ref": "R230",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ISO_DAC6_N",
+        "2": "IN6N"
+      },
+      "xy": [
+        29.7,
+        72.6
+      ],
+      "kind": "R",
+      "page": "CH6_I",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "04025e5b-3ca8-51b9-a4e8-4de9c6b9249f"
+    },
+    {
+      "ref": "C223",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+15A",
+        "2": "GND"
+      },
+      "xy": [
+        31.45,
+        70.5
+      ],
+      "kind": "C",
+      "page": "CH6_I",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "19db28e9-d795-5130-8852-fb4bb22b8a77"
+    },
+    {
+      "ref": "C224",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "GND",
+        "2": "-15A"
+      },
+      "xy": [
+        42.55,
+        70.5
+      ],
+      "kind": "C",
+      "page": "CH6_I",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "6460ea6d-68b2-5a9c-8e33-898763706ba2"
+    },
+    {
+      "ref": "C225",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "+15A",
+        "2": "GND"
+      },
+      "xy": [
+        34.9,
+        64.2
+      ],
+      "kind": "C",
+      "page": "CH6_I",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "407abc64-1a25-5e6b-abac-966fef24e38b"
+    },
+    {
+      "ref": "C226",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "GND",
+        "2": "-15A"
+      },
+      "xy": [
+        39,
+        76.8
+      ],
+      "kind": "C",
+      "page": "CH6_I",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "82779410-4cf5-5058-9681-fe0171a77bf7"
+    },
+    {
+      "ref": "U17",
+      "value": "OPA4197IDR",
+      "fp": "ILDA8CH:Package_SO__SOIC-14_3.9x8.7mm_P1.27mm",
+      "source_fp": "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm",
+      "pins": {
+        "1": "B7P",
+        "2": "B7P",
+        "3": "IN7P",
+        "4": "+15A",
+        "5": "IN7N",
+        "6": "B7N",
+        "7": "B7N",
+        "8": "AUX1_DRV_P",
+        "9": "SUM7N",
+        "10": "SUM7P",
+        "11": "-15A",
+        "12": "GND",
+        "13": "INV7",
+        "14": "AUX1_DRV_N"
+      },
+      "xy": [
+        14,
+        87.0
+      ],
+      "kind": "opquad",
+      "page": "CH7_AUX1",
+      "mpn": "OPA4197IDR",
+      "code": "C2058532",
+      "ds": "https://www.ti.com/lit/ds/symlink/opa4197.pdf",
+      "smt": true,
+      "angle": 0,
+      "uuid": "9f9d7a6a-a176-54fc-a7e0-f80c4c9291a4"
+    },
+    {
+      "ref": "R241",
+      "value": "1k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "B7P",
+        "2": "F7P"
+      },
+      "xy": [
+        8.2,
+        82.1
+      ],
+      "kind": "R",
+      "page": "CH7_AUX1",
+      "mpn": "RT0603BRD071KL",
+      "code": "C110776",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "63628d42-fbb3-555e-aaf1-a2323a87abfa"
+    },
+    {
+      "ref": "R242",
+      "value": "1k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "B7N",
+        "2": "F7N"
+      },
+      "xy": [
+        8.2,
+        91.9
+      ],
+      "kind": "R",
+      "page": "CH7_AUX1",
+      "mpn": "RT0603BRD071KL",
+      "code": "C110776",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "38fe2bc3-9c95-54cb-9b4f-a277ef729080"
+    },
+    {
+      "ref": "C241",
+      "value": "4.7n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "F7P",
+        "2": "GND"
+      },
+      "xy": [
+        5.5,
+        82.1
+      ],
+      "kind": "C",
+      "page": "CH7_AUX1",
+      "mpn": "GRM1885C1H472JA01D",
+      "code": "C85980",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "2c687835-16bf-5fa0-9f9e-4719ad43515d"
+    },
+    {
+      "ref": "C242",
+      "value": "4.7n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "F7N",
+        "2": "GND"
+      },
+      "xy": [
+        5.5,
+        91.9
+      ],
+      "kind": "C",
+      "page": "CH7_AUX1",
+      "mpn": "GRM1885C1H472JA01D",
+      "code": "C85980",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "edfb0abe-2fb0-575e-a897-8864226ae592"
+    },
+    {
+      "ref": "R243",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "F7P",
+        "2": "SUM7P"
+      },
+      "xy": [
+        22.5,
+        88.8
+      ],
+      "kind": "R",
+      "page": "CH7_AUX1",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "1b246ae4-4333-5e3a-84f3-862aaddaf55f"
+    },
+    {
+      "ref": "R244",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SUM7P",
+        "2": "GND"
+      },
+      "xy": [
+        22.7,
+        84.9
+      ],
+      "kind": "R",
+      "page": "CH7_AUX1",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "14533422-82aa-55fc-9ade-826e3bc9e955"
+    },
+    {
+      "ref": "R245",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "F7N",
+        "2": "SUM7N"
+      },
+      "xy": [
+        21,
+        92.6
+      ],
+      "kind": "R",
+      "page": "CH7_AUX1",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "bb82ffa8-4436-5ba9-af93-a74e542ca4d4"
+    },
+    {
+      "ref": "R246",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "AUX1_DRV_P",
+        "2": "SUM7N"
+      },
+      "xy": [
+        19.4,
+        90.175
+      ],
+      "kind": "R",
+      "page": "CH7_AUX1",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "134ad920-c5bf-53f7-8dcb-8c4e07d2db8e"
+    },
+    {
+      "ref": "R247",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "AUX1_DRV_P",
+        "2": "INV7"
+      },
+      "xy": [
+        21.8,
+        81.1
+      ],
+      "kind": "R",
+      "page": "CH7_AUX1",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "ad3fa545-0cf3-5dcc-b0d0-41f1c36fb74b"
+    },
+    {
+      "ref": "R248",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "AUX1_DRV_N",
+        "2": "INV7"
+      },
+      "xy": [
+        19.4,
+        83.825
+      ],
+      "kind": "R",
+      "page": "CH7_AUX1",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "4f160d8f-40ca-5931-bb0d-da3086a3d45e"
+    },
+    {
+      "ref": "R249",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ISO_DAC7_P",
+        "2": "IN7P"
+      },
+      "xy": [
+        6.7,
+        84.9
+      ],
+      "kind": "R",
+      "page": "CH7_AUX1",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "c0d226be-8f24-504f-a788-ceeb3800d14a"
+    },
+    {
+      "ref": "R250",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ISO_DAC7_N",
+        "2": "IN7N"
+      },
+      "xy": [
+        6.7,
+        89.1
+      ],
+      "kind": "R",
+      "page": "CH7_AUX1",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "c3e29fca-7e2f-5653-b896-63c84c1b4bae"
+    },
+    {
+      "ref": "C243",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+15A",
+        "2": "GND"
+      },
+      "xy": [
+        8.45,
+        87.0
+      ],
+      "kind": "C",
+      "page": "CH7_AUX1",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "28a3b529-10b6-51b2-884a-c722bc239049"
+    },
+    {
+      "ref": "C244",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "GND",
+        "2": "-15A"
+      },
+      "xy": [
+        19.55,
+        87.0
+      ],
+      "kind": "C",
+      "page": "CH7_AUX1",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "3f0cc349-7978-5bf5-ad6b-f008c9e3221f"
+    },
+    {
+      "ref": "C245",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "+15A",
+        "2": "GND"
+      },
+      "xy": [
+        11.9,
+        80.7
+      ],
+      "kind": "C",
+      "page": "CH7_AUX1",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "8e50702f-31d9-5926-99d1-5584a4a44cb0"
+    },
+    {
+      "ref": "C246",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "GND",
+        "2": "-15A"
+      },
+      "xy": [
+        16,
+        93.3
+      ],
+      "kind": "C",
+      "page": "CH7_AUX1",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "ee448f6e-34d9-5ee0-bbab-b96a01d1a98c"
+    },
+    {
+      "ref": "U18",
+      "value": "OPA4197IDR",
+      "fp": "ILDA8CH:Package_SO__SOIC-14_3.9x8.7mm_P1.27mm",
+      "source_fp": "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm",
+      "pins": {
+        "1": "B8P",
+        "2": "B8P",
+        "3": "IN8P",
+        "4": "+15A",
+        "5": "IN8N",
+        "6": "B8N",
+        "7": "B8N",
+        "8": "AUX2_DRV_P",
+        "9": "SUM8N",
+        "10": "SUM8P",
+        "11": "-15A",
+        "12": "GND",
+        "13": "INV8",
+        "14": "AUX2_DRV_N"
+      },
+      "xy": [
+        37,
+        87.0
+      ],
+      "kind": "opquad",
+      "page": "CH8_AUX2",
+      "mpn": "OPA4197IDR",
+      "code": "C2058532",
+      "ds": "https://www.ti.com/lit/ds/symlink/opa4197.pdf",
+      "smt": true,
+      "angle": 0,
+      "uuid": "7b86b371-b61c-5783-aeb4-fd68ca80d2e8"
+    },
+    {
+      "ref": "R261",
+      "value": "1k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "B8P",
+        "2": "F8P"
+      },
+      "xy": [
+        31.2,
+        82.1
+      ],
+      "kind": "R",
+      "page": "CH8_AUX2",
+      "mpn": "RT0603BRD071KL",
+      "code": "C110776",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "65120d21-195e-50d9-9c21-a06cb945c010"
+    },
+    {
+      "ref": "R262",
+      "value": "1k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "B8N",
+        "2": "F8N"
+      },
+      "xy": [
+        31.2,
+        91.9
+      ],
+      "kind": "R",
+      "page": "CH8_AUX2",
+      "mpn": "RT0603BRD071KL",
+      "code": "C110776",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "3a0b7716-c098-57a7-963c-ea85f353db01"
+    },
+    {
+      "ref": "C261",
+      "value": "4.7n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "F8P",
+        "2": "GND"
+      },
+      "xy": [
+        28.5,
+        82.1
+      ],
+      "kind": "C",
+      "page": "CH8_AUX2",
+      "mpn": "GRM1885C1H472JA01D",
+      "code": "C85980",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "5fdfa787-c8f1-59fa-9489-4423383a0dce"
+    },
+    {
+      "ref": "C262",
+      "value": "4.7n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "F8N",
+        "2": "GND"
+      },
+      "xy": [
+        28.5,
+        91.9
+      ],
+      "kind": "C",
+      "page": "CH8_AUX2",
+      "mpn": "GRM1885C1H472JA01D",
+      "code": "C85980",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "1589d5d8-c157-57b5-921a-e95ecf92bfba"
+    },
+    {
+      "ref": "R263",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "F8P",
+        "2": "SUM8P"
+      },
+      "xy": [
+        45.5,
+        88.8
+      ],
+      "kind": "R",
+      "page": "CH8_AUX2",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "f9effba7-af66-5e78-9f64-6baa02a9b0d8"
+    },
+    {
+      "ref": "R264",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SUM8P",
+        "2": "GND"
+      },
+      "xy": [
+        45.7,
+        84.9
+      ],
+      "kind": "R",
+      "page": "CH8_AUX2",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "b3aa7281-b8b7-5128-bcc1-1e4b89e2a3be"
+    },
+    {
+      "ref": "R265",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "F8N",
+        "2": "SUM8N"
+      },
+      "xy": [
+        44,
+        92.6
+      ],
+      "kind": "R",
+      "page": "CH8_AUX2",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "89f178f8-852d-53ef-b8e2-0953529c9466"
+    },
+    {
+      "ref": "R266",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "AUX2_DRV_P",
+        "2": "SUM8N"
+      },
+      "xy": [
+        42.4,
+        90.175
+      ],
+      "kind": "R",
+      "page": "CH8_AUX2",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "19f2eddf-807a-5acd-ac14-d4401331c89e"
+    },
+    {
+      "ref": "R267",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "AUX2_DRV_P",
+        "2": "INV8"
+      },
+      "xy": [
+        44.8,
+        81.1
+      ],
+      "kind": "R",
+      "page": "CH8_AUX2",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "573a675d-aa7d-556f-8d4d-eeef2b4a3eb4"
+    },
+    {
+      "ref": "R268",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "AUX2_DRV_N",
+        "2": "INV8"
+      },
+      "xy": [
+        42.4,
+        83.825
+      ],
+      "kind": "R",
+      "page": "CH8_AUX2",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "da4ce36a-1206-5b36-93f9-38a91393bb5b"
+    },
+    {
+      "ref": "R269",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ISO_DAC8_P",
+        "2": "IN8P"
+      },
+      "xy": [
+        29.7,
+        84.9
+      ],
+      "kind": "R",
+      "page": "CH8_AUX2",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "27d3cdba-fa5f-5d65-bd56-88a0a73729c3"
+    },
+    {
+      "ref": "R270",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ISO_DAC8_N",
+        "2": "IN8N"
+      },
+      "xy": [
+        29.7,
+        89.1
+      ],
+      "kind": "R",
+      "page": "CH8_AUX2",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "8d8b909c-791e-55d3-9c64-f6d95caabd77"
+    },
+    {
+      "ref": "C263",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+15A",
+        "2": "GND"
+      },
+      "xy": [
+        31.45,
+        87.0
+      ],
+      "kind": "C",
+      "page": "CH8_AUX2",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "d7f8d37a-573a-5861-a8bc-8f1fcc9b650f"
+    },
+    {
+      "ref": "C264",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "GND",
+        "2": "-15A"
+      },
+      "xy": [
+        42.55,
+        87.0
+      ],
+      "kind": "C",
+      "page": "CH8_AUX2",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "e8058dcf-3dea-5f69-b970-5974ef3575a5"
+    },
+    {
+      "ref": "C265",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "+15A",
+        "2": "GND"
+      },
+      "xy": [
+        34.9,
+        80.7
+      ],
+      "kind": "C",
+      "page": "CH8_AUX2",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "dae09212-a85a-575e-837b-afd7814fabdc"
+    },
+    {
+      "ref": "C266",
+      "value": "4.7u",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0805_2012Metric",
+      "source_fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "GND",
+        "2": "-15A"
+      },
+      "xy": [
+        39,
+        93.3
+      ],
+      "kind": "C",
+      "page": "CH8_AUX2",
+      "mpn": "GRM21BR61E475KA12L",
+      "code": "C77077",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "699d28b6-28a0-5170-9c93-3f1fe3ddccf5"
+    },
+    {
+      "ref": "U21",
+      "value": "TMUX6212PWR",
+      "fp": "ILDA8CH:Package_SO__TSSOP-16_4.4x5mm_P0.65mm",
+      "source_fp": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+      "pins": {
+        "4": "-15A",
+        "5": "GND",
+        "12": null,
+        "13": "+15A",
+        "1": "RUN_ENABLE",
+        "3": "X_DRV_P",
+        "2": "X_SW_P",
+        "16": "RUN_ENABLE",
+        "14": "X_DRV_N",
+        "15": "X_SW_N",
+        "9": "RUN_ENABLE",
+        "11": "Y_DRV_P",
+        "10": "Y_SW_P",
+        "8": "RUN_ENABLE",
+        "6": "Y_DRV_N",
+        "7": "Y_SW_N"
+      },
+      "xy": [
+        53,
+        47
+      ],
+      "kind": "block",
+      "page": "Outputs",
+      "mpn": "TMUX6212PWR",
+      "code": "C2902526",
+      "ds": "https://www.ti.com/lit/ds/symlink/tmux6212.pdf",
+      "smt": true,
+      "angle": 0,
+      "uuid": "747a31ee-f6f9-5ee6-aa0d-a943b653ec53"
+    },
+    {
+      "ref": "C310",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+15A",
+        "2": "GND"
+      },
+      "xy": [
+        48,
+        45
+      ],
+      "kind": "C",
+      "page": "Outputs",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "b432101c-12ca-564a-b001-9114c0b69bc9"
+    },
+    {
+      "ref": "C311",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "GND",
+        "2": "-15A"
+      },
+      "xy": [
+        48,
+        49
+      ],
+      "kind": "C",
+      "page": "Outputs",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "cbb3dc36-3bd4-5fd4-aec9-f58e16720a12"
+    },
+    {
+      "ref": "R300",
+      "value": "100",
+      "fp": "ILDA8CH:Resistor_SMD__R_2512_6332Metric",
+      "source_fp": "Resistor_SMD:R_2512_6332Metric",
+      "pins": {
+        "1": "X_SW_P",
+        "2": "ILDA_X_P"
+      },
+      "xy": [
+        72,
+        44
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC2512FK-07100RL",
+      "code": "C309603",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "0c2d9a45-b307-5909-aa1d-340c2d3f8fa4"
+    },
+    {
+      "ref": "R301",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ILDA_X_P",
+        "2": "GND"
+      },
+      "xy": [
+        77.5,
+        44
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "9d57d49c-2446-5918-a1a0-ab8e54d5a0cd"
+    },
+    {
+      "ref": "R302",
+      "value": "100",
+      "fp": "ILDA8CH:Resistor_SMD__R_2512_6332Metric",
+      "source_fp": "Resistor_SMD:R_2512_6332Metric",
+      "pins": {
+        "1": "X_SW_N",
+        "2": "ILDA_X_N"
+      },
+      "xy": [
+        72,
+        50
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC2512FK-07100RL",
+      "code": "C309603",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "b08aecc6-574c-5950-8b27-8ae6c046fa6e"
+    },
+    {
+      "ref": "R303",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ILDA_X_N",
+        "2": "GND"
+      },
+      "xy": [
+        77.5,
+        50
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "377906ba-1487-5f3f-88ea-611f99e64dd1"
+    },
+    {
+      "ref": "R304",
+      "value": "100",
+      "fp": "ILDA8CH:Resistor_SMD__R_2512_6332Metric",
+      "source_fp": "Resistor_SMD:R_2512_6332Metric",
+      "pins": {
+        "1": "Y_SW_P",
+        "2": "ILDA_Y_P"
+      },
+      "xy": [
+        83,
+        44
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC2512FK-07100RL",
+      "code": "C309603",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "e71f859d-c0f1-5b62-aee4-424cfb0296de"
+    },
+    {
+      "ref": "R305",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ILDA_Y_P",
+        "2": "GND"
+      },
+      "xy": [
+        88.5,
+        44
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "e113aada-19a3-57ce-8ab2-98ed00b16474"
+    },
+    {
+      "ref": "R306",
+      "value": "100",
+      "fp": "ILDA8CH:Resistor_SMD__R_2512_6332Metric",
+      "source_fp": "Resistor_SMD:R_2512_6332Metric",
+      "pins": {
+        "1": "Y_SW_N",
+        "2": "ILDA_Y_N"
+      },
+      "xy": [
+        83,
+        50
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC2512FK-07100RL",
+      "code": "C309603",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "4808ce0b-93be-5fd3-b65d-187d461b8f13"
+    },
+    {
+      "ref": "R307",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ILDA_Y_N",
+        "2": "GND"
+      },
+      "xy": [
+        88.5,
+        50
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "199723a4-4334-5882-9547-46c923f284ca"
+    },
+    {
+      "ref": "U22",
+      "value": "TMUX6212PWR",
+      "fp": "ILDA8CH:Package_SO__TSSOP-16_4.4x5mm_P0.65mm",
+      "source_fp": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+      "pins": {
+        "4": "-15A",
+        "5": "GND",
+        "12": null,
+        "13": "+15A",
+        "1": "RUN_ENABLE",
+        "3": "I_DRV_P",
+        "2": "I_SW_P",
+        "16": "RUN_ENABLE",
+        "14": "I_DRV_N",
+        "15": "I_SW_N",
+        "9": "RUN_ENABLE",
+        "11": "R_DRV_P",
+        "10": "R_SW_P",
+        "8": "RUN_ENABLE",
+        "6": "R_DRV_N",
+        "7": "R_SW_N"
+      },
+      "xy": [
+        53,
+        61
+      ],
+      "kind": "block",
+      "page": "Outputs",
+      "mpn": "TMUX6212PWR",
+      "code": "C2902526",
+      "ds": "https://www.ti.com/lit/ds/symlink/tmux6212.pdf",
+      "smt": true,
+      "angle": 0,
+      "uuid": "0a300dcf-d7e0-5938-aea4-ba85c5ab7984"
+    },
+    {
+      "ref": "C312",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+15A",
+        "2": "GND"
+      },
+      "xy": [
+        48,
+        59
+      ],
+      "kind": "C",
+      "page": "Outputs",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "fb86f378-d1d0-505e-9e58-c04d5a3325d2"
+    },
+    {
+      "ref": "C313",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "GND",
+        "2": "-15A"
+      },
+      "xy": [
+        48,
+        63
+      ],
+      "kind": "C",
+      "page": "Outputs",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "f7acdb1a-6f5c-56b1-b901-a4be5d64fb1a"
+    },
+    {
+      "ref": "R308",
+      "value": "100",
+      "fp": "ILDA8CH:Resistor_SMD__R_2512_6332Metric",
+      "source_fp": "Resistor_SMD:R_2512_6332Metric",
+      "pins": {
+        "1": "R_SW_P",
+        "2": "ILDA_R_P"
+      },
+      "xy": [
+        83,
+        58
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC2512FK-07100RL",
+      "code": "C309603",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "3caa62a1-f006-5e4f-b66c-65b700da9025"
+    },
+    {
+      "ref": "R309",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ILDA_R_P",
+        "2": "GND"
+      },
+      "xy": [
+        88.5,
+        58
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "c91addcb-3010-5802-87da-b4a56c1355f9"
+    },
+    {
+      "ref": "R310",
+      "value": "100",
+      "fp": "ILDA8CH:Resistor_SMD__R_2512_6332Metric",
+      "source_fp": "Resistor_SMD:R_2512_6332Metric",
+      "pins": {
+        "1": "R_SW_N",
+        "2": "ILDA_R_N"
+      },
+      "xy": [
+        83,
+        64
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC2512FK-07100RL",
+      "code": "C309603",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "e6f0812c-70f7-5d69-a935-6e65d5e858c7"
+    },
+    {
+      "ref": "R311",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ILDA_R_N",
+        "2": "GND"
+      },
+      "xy": [
+        88.5,
+        64
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "cbd430ac-5ef3-5c6f-aca5-c9489759bffb"
+    },
+    {
+      "ref": "R312",
+      "value": "100",
+      "fp": "ILDA8CH:Resistor_SMD__R_2512_6332Metric",
+      "source_fp": "Resistor_SMD:R_2512_6332Metric",
+      "pins": {
+        "1": "G_SW_P",
+        "2": "ILDA_G_P"
+      },
+      "xy": [
+        72,
+        72
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC2512FK-07100RL",
+      "code": "C309603",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "c0acbadd-b662-538e-954e-0860e6bc7b27"
+    },
+    {
+      "ref": "R313",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ILDA_G_P",
+        "2": "GND"
+      },
+      "xy": [
+        77.5,
+        72
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "1d0bbaa1-2255-5a2c-b55e-3e944d6f3cbf"
+    },
+    {
+      "ref": "R314",
+      "value": "100",
+      "fp": "ILDA8CH:Resistor_SMD__R_2512_6332Metric",
+      "source_fp": "Resistor_SMD:R_2512_6332Metric",
+      "pins": {
+        "1": "G_SW_N",
+        "2": "ILDA_G_N"
+      },
+      "xy": [
+        72,
+        78
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC2512FK-07100RL",
+      "code": "C309603",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "cb8b49f0-015c-52e9-b8a4-0e9728a2972d"
+    },
+    {
+      "ref": "R315",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ILDA_G_N",
+        "2": "GND"
+      },
+      "xy": [
+        77.5,
+        78
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "747e79b3-3061-503e-8afa-a76102469033"
+    },
+    {
+      "ref": "U23",
+      "value": "TMUX6212PWR",
+      "fp": "ILDA8CH:Package_SO__TSSOP-16_4.4x5mm_P0.65mm",
+      "source_fp": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+      "pins": {
+        "4": "-15A",
+        "5": "GND",
+        "12": null,
+        "13": "+15A",
+        "1": "RUN_ENABLE",
+        "3": "G_DRV_P",
+        "2": "G_SW_P",
+        "16": "RUN_ENABLE",
+        "14": "G_DRV_N",
+        "15": "G_SW_N",
+        "9": "RUN_ENABLE",
+        "11": "B_DRV_P",
+        "10": "B_SW_P",
+        "8": "RUN_ENABLE",
+        "6": "B_DRV_N",
+        "7": "B_SW_N"
+      },
+      "xy": [
+        53,
+        75
+      ],
+      "kind": "block",
+      "page": "Outputs",
+      "mpn": "TMUX6212PWR",
+      "code": "C2902526",
+      "ds": "https://www.ti.com/lit/ds/symlink/tmux6212.pdf",
+      "smt": true,
+      "angle": 0,
+      "uuid": "5603ce32-1b56-5a13-aafd-3d9a39c899ac"
+    },
+    {
+      "ref": "C314",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+15A",
+        "2": "GND"
+      },
+      "xy": [
+        48,
+        73
+      ],
+      "kind": "C",
+      "page": "Outputs",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "df15e5d5-0a56-5db6-bbdc-25ea4a5292f0"
+    },
+    {
+      "ref": "C315",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "GND",
+        "2": "-15A"
+      },
+      "xy": [
+        48,
+        77
+      ],
+      "kind": "C",
+      "page": "Outputs",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "197ed172-ded6-50af-a1a2-785322661dea"
+    },
+    {
+      "ref": "R316",
+      "value": "100",
+      "fp": "ILDA8CH:Resistor_SMD__R_2512_6332Metric",
+      "source_fp": "Resistor_SMD:R_2512_6332Metric",
+      "pins": {
+        "1": "B_SW_P",
+        "2": "ILDA_B_P"
+      },
+      "xy": [
+        83,
+        72
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC2512FK-07100RL",
+      "code": "C309603",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "ff91e738-acea-5a18-a89d-8edb6561ae64"
+    },
+    {
+      "ref": "R317",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ILDA_B_P",
+        "2": "GND"
+      },
+      "xy": [
+        88.5,
+        72
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "d2ff1e78-401c-5b8a-92a2-691abf65abc7"
+    },
+    {
+      "ref": "R318",
+      "value": "100",
+      "fp": "ILDA8CH:Resistor_SMD__R_2512_6332Metric",
+      "source_fp": "Resistor_SMD:R_2512_6332Metric",
+      "pins": {
+        "1": "B_SW_N",
+        "2": "ILDA_B_N"
+      },
+      "xy": [
+        83,
+        78
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC2512FK-07100RL",
+      "code": "C309603",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "12e858a5-d60d-5867-9d1d-12b070108045"
+    },
+    {
+      "ref": "R319",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ILDA_B_N",
+        "2": "GND"
+      },
+      "xy": [
+        88.5,
+        78
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "3e21b8e2-62fa-5656-8586-af5197e96d02"
+    },
+    {
+      "ref": "R320",
+      "value": "100",
+      "fp": "ILDA8CH:Resistor_SMD__R_2512_6332Metric",
+      "source_fp": "Resistor_SMD:R_2512_6332Metric",
+      "pins": {
+        "1": "I_SW_P",
+        "2": "ILDA_I_P"
+      },
+      "xy": [
+        72,
+        58
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC2512FK-07100RL",
+      "code": "C309603",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "7c7d1162-95e0-5756-95f1-f516f44c5070"
+    },
+    {
+      "ref": "R321",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ILDA_I_P",
+        "2": "GND"
+      },
+      "xy": [
+        77.5,
+        58
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "b93100b5-0a60-57cf-9bbc-6eaf9942045a"
+    },
+    {
+      "ref": "R322",
+      "value": "100",
+      "fp": "ILDA8CH:Resistor_SMD__R_2512_6332Metric",
+      "source_fp": "Resistor_SMD:R_2512_6332Metric",
+      "pins": {
+        "1": "I_SW_N",
+        "2": "ILDA_I_N"
+      },
+      "xy": [
+        72,
+        64
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC2512FK-07100RL",
+      "code": "C309603",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "33ef733b-1406-5bbf-9544-211bd4b99907"
+    },
+    {
+      "ref": "R323",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ILDA_I_N",
+        "2": "GND"
+      },
+      "xy": [
+        77.5,
+        64
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "cfe5c31a-8161-5b93-a11c-bd518464390b"
+    },
+    {
+      "ref": "U24",
+      "value": "TMUX6212PWR",
+      "fp": "ILDA8CH:Package_SO__TSSOP-16_4.4x5mm_P0.65mm",
+      "source_fp": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+      "pins": {
+        "4": "-15A",
+        "5": "GND",
+        "12": null,
+        "13": "+15A",
+        "1": "RUN_ENABLE",
+        "3": "AUX1_DRV_P",
+        "2": "AUX1_SW_P",
+        "16": "RUN_ENABLE",
+        "14": "AUX1_DRV_N",
+        "15": "AUX1_SW_N",
+        "9": "RUN_ENABLE",
+        "11": "AUX2_DRV_P",
+        "10": "AUX2_SW_P",
+        "8": "RUN_ENABLE",
+        "6": "AUX2_DRV_N",
+        "7": "AUX2_SW_N"
+      },
+      "xy": [
+        53,
+        89
+      ],
+      "kind": "block",
+      "page": "Outputs",
+      "mpn": "TMUX6212PWR",
+      "code": "C2902526",
+      "ds": "https://www.ti.com/lit/ds/symlink/tmux6212.pdf",
+      "smt": true,
+      "angle": 0,
+      "uuid": "d0b09966-ece3-54da-ac24-b4f386ed0533"
+    },
+    {
+      "ref": "C316",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+15A",
+        "2": "GND"
+      },
+      "xy": [
+        48,
+        87
+      ],
+      "kind": "C",
+      "page": "Outputs",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "2f73fd89-ad86-5069-8d4e-debc38b4cf5a"
+    },
+    {
+      "ref": "C317",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "GND",
+        "2": "-15A"
+      },
+      "xy": [
+        48,
+        91
+      ],
+      "kind": "C",
+      "page": "Outputs",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "53ca1254-2155-540d-810d-13a27f1d78f5"
+    },
+    {
+      "ref": "R324",
+      "value": "100",
+      "fp": "ILDA8CH:Resistor_SMD__R_2512_6332Metric",
+      "source_fp": "Resistor_SMD:R_2512_6332Metric",
+      "pins": {
+        "1": "AUX1_SW_P",
+        "2": "ILDA_AUX1_P"
+      },
+      "xy": [
+        72,
+        86
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC2512FK-07100RL",
+      "code": "C309603",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "2ca7d21f-b103-5e88-b738-33deaa450037"
+    },
+    {
+      "ref": "R325",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ILDA_AUX1_P",
+        "2": "GND"
+      },
+      "xy": [
+        77.5,
+        86
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "8cfaa786-68e5-54fe-8715-c8abd713e1da"
+    },
+    {
+      "ref": "R326",
+      "value": "100",
+      "fp": "ILDA8CH:Resistor_SMD__R_2512_6332Metric",
+      "source_fp": "Resistor_SMD:R_2512_6332Metric",
+      "pins": {
+        "1": "AUX1_SW_N",
+        "2": "ILDA_AUX1_N"
+      },
+      "xy": [
+        72,
+        92
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC2512FK-07100RL",
+      "code": "C309603",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "77244d7c-588b-5ccf-99f0-5eace90e1ecf"
+    },
+    {
+      "ref": "R327",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ILDA_AUX1_N",
+        "2": "GND"
+      },
+      "xy": [
+        77.5,
+        92
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "ae82bd73-db36-5c87-ac7a-56824d67db72"
+    },
+    {
+      "ref": "R328",
+      "value": "100",
+      "fp": "ILDA8CH:Resistor_SMD__R_2512_6332Metric",
+      "source_fp": "Resistor_SMD:R_2512_6332Metric",
+      "pins": {
+        "1": "AUX2_SW_P",
+        "2": "ILDA_AUX2_P"
+      },
+      "xy": [
+        83,
+        86
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC2512FK-07100RL",
+      "code": "C309603",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "bc26183f-c0da-5754-9489-39abadff0c31"
+    },
+    {
+      "ref": "R329",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ILDA_AUX2_P",
+        "2": "GND"
+      },
+      "xy": [
+        88.5,
+        86
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "09ca2830-6a1c-585e-b2db-66f93d8d0c92"
+    },
+    {
+      "ref": "R330",
+      "value": "100",
+      "fp": "ILDA8CH:Resistor_SMD__R_2512_6332Metric",
+      "source_fp": "Resistor_SMD:R_2512_6332Metric",
+      "pins": {
+        "1": "AUX2_SW_N",
+        "2": "ILDA_AUX2_N"
+      },
+      "xy": [
+        83,
+        92
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC2512FK-07100RL",
+      "code": "C309603",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "0721a478-7369-5363-9b64-1a752f591d82"
+    },
+    {
+      "ref": "R331",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ILDA_AUX2_N",
+        "2": "GND"
+      },
+      "xy": [
+        88.5,
+        92
+      ],
+      "kind": "R",
+      "page": "Outputs",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "b6db0985-0160-50f4-b0ee-fff43d36d190"
+    },
+    {
+      "ref": "U4",
+      "value": "CD74HC123M96",
+      "fp": "ILDA8CH:Package_SO__SOIC-16_3.9x9.9mm_P1.27mm",
+      "source_fp": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+      "pins": {
+        "1": "GND",
+        "2": "HEARTBEAT",
+        "3": "ARM_QUALIFIED",
+        "4": null,
+        "5": null,
+        "6": null,
+        "7": null,
+        "8": "GND",
+        "9": "GND",
+        "10": "GND",
+        "11": "GND",
+        "12": null,
+        "13": "RUN_ENABLE",
+        "14": "WD_CAP",
+        "15": "WD_RC",
+        "16": "+3V3"
+      },
+      "xy": [
+        31,
+        8
+      ],
+      "kind": "block",
+      "page": "Control",
+      "mpn": "CD74HC123M96",
+      "code": "C133784",
+      "ds": "https://www.ti.com/lit/ds/symlink/cd74hc123.pdf",
+      "smt": true,
+      "angle": 0,
+      "uuid": "50170938-1e2d-5505-9fcf-4fb06dbf3291"
+    },
+    {
+      "ref": "R17",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "WD_RC"
+      },
+      "xy": [
+        39,
+        3
+      ],
+      "kind": "R",
+      "page": "Control",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 180,
+      "uuid": "e138e895-f9f2-5eec-ac2d-cf55a341d818"
+    },
+    {
+      "ref": "C34",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "WD_CAP",
+        "2": "WD_RC"
+      },
+      "xy": [
+        38,
+        7
+      ],
+      "kind": "C",
+      "page": "Control",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "dae34780-b639-53f7-a403-e8af4d08cb32"
+    },
+    {
+      "ref": "C35",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "xy": [
+        33.8,
+        1.5
+      ],
+      "kind": "C",
+      "page": "Control",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "110e2dfd-5c23-5c9e-82eb-51cd3ea027c6"
+    },
+    {
+      "ref": "R18",
+      "value": "2.2k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ARM",
+        "2": "GND"
+      },
+      "xy": [
+        25.8,
+        4
+      ],
+      "kind": "R",
+      "page": "Control",
+      "mpn": "RC0603FR-072K2L",
+      "code": "C114662",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "dbb5d347-3d5f-5805-ba48-df430337c264"
+    },
+    {
+      "ref": "R19",
+      "value": "2.2k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "HEARTBEAT",
+        "2": "GND"
+      },
+      "xy": [
+        25.8,
+        7.4
+      ],
+      "kind": "R",
+      "page": "Control",
+      "mpn": "RC0603FR-072K2L",
+      "code": "C114662",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "4a1e19d0-eb9d-50b2-a054-bb01ddac7590"
+    },
+    {
+      "ref": "R20",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "RUN_ENABLE",
+        "2": "GND"
+      },
+      "xy": [
+        25.8,
+        10.8
+      ],
+      "kind": "R",
+      "page": "Control",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "481cd678-e24c-537e-ad86-b498fa2dd1e2"
+    },
+    {
+      "ref": "U5",
+      "value": "SN74AHCT1G125DBVR",
+      "fp": "ILDA8CH:Package_TO_SOT_SMD__SOT-23-5",
+      "source_fp": "Package_TO_SOT_SMD:SOT-23-5",
+      "pins": {
+        "1": "SHUTTER_DISABLE",
+        "2": "RUN_ENABLE",
+        "3": "GND",
+        "4": "SHUTTER_DRV",
+        "5": "USB_5V"
+      },
+      "xy": [
+        53,
+        39.5
+      ],
+      "kind": "block",
+      "page": "Control",
+      "mpn": "SN74AHCT1G125DBVR",
+      "code": "C7484",
+      "ds": "https://www.ti.com/lit/ds/symlink/sn74ahct1g125.pdf",
+      "smt": true,
+      "angle": 0,
+      "uuid": "6015f1de-0cca-576d-8aad-bb2af9d58199"
+    },
+    {
+      "ref": "C36",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "USB_5V",
+        "2": "GND"
+      },
+      "xy": [
+        57,
+        39.5
+      ],
+      "kind": "C",
+      "page": "Control",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 90,
+      "uuid": "e86dc4ea-8ea3-54cf-a25b-7bddd92655b6"
+    },
+    {
+      "ref": "R21",
+      "value": "1k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SHUTTER_DRV",
+        "2": "ILDA_SHUTTER"
+      },
+      "xy": [
+        60,
+        43
+      ],
+      "kind": "R",
+      "page": "Control",
+      "mpn": "RT0603BRD071KL",
+      "code": "C110776",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "4c85c1e3-885a-5546-b2e8-772a0b52ede4"
+    },
+    {
+      "ref": "R22",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "ILDA_SHUTTER",
+        "2": "GND"
+      },
+      "xy": [
+        64,
+        43
+      ],
+      "kind": "R",
+      "page": "Control",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "200fbb24-4c6b-50d9-abe9-6ba75f509cf8"
+    },
+    {
+      "ref": "R23",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "+15A",
+        "2": "SENSE_P15"
+      },
+      "xy": [
+        27,
+        15
+      ],
+      "kind": "R",
+      "page": "Power",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "1d112cc4-f3a4-5043-b544-19b9380b020e"
+    },
+    {
+      "ref": "R24",
+      "value": "20k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SENSE_P15",
+        "2": "GND"
+      },
+      "xy": [
+        32,
+        15
+      ],
+      "kind": "R",
+      "page": "Power",
+      "mpn": "RT0603BRD0720KL",
+      "code": "C723637",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "e11d59e0-f5c3-533d-87cf-853025e773e6"
+    },
+    {
+      "ref": "R25",
+      "value": "100k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "-15A",
+        "2": "SENSE_N15"
+      },
+      "xy": [
+        27,
+        18
+      ],
+      "kind": "R",
+      "page": "Power",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "16009964-be22-5d25-b0f5-b174411034a7"
+    },
+    {
+      "ref": "R26",
+      "value": "10k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SENSE_N15",
+        "2": "MCU_3V3"
+      },
+      "xy": [
+        32,
+        18
+      ],
+      "kind": "R",
+      "page": "Power",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "597b36d4-495e-525e-82ea-5deb0128edba"
+    },
+    {
+      "ref": "C37",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "SENSE_P15",
+        "2": "GND"
+      },
+      "xy": [
+        37,
+        15
+      ],
+      "kind": "C",
+      "page": "Power",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "b652324e-cb6b-5186-84ad-0345029bdb28"
+    },
+    {
+      "ref": "C38",
+      "value": "100n",
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "SENSE_N15",
+        "2": "GND"
+      },
+      "xy": [
+        37,
+        18
+      ],
+      "kind": "C",
+      "page": "Power",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "0336609d-9fd7-5cbf-960b-295f306e9c60"
+    },
+    {
+      "ref": "J1",
+      "value": "ILDA DB25 FEMALE",
+      "fp": "ILDA8CH:Connector_Dsub__DSUB-25_Socket_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+      "source_fp": "Connector_Dsub:DSUB-25_Socket_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+      "pins": {
+        "1": "ILDA_X_P",
+        "14": "ILDA_X_N",
+        "2": "ILDA_Y_P",
+        "15": "ILDA_Y_N",
+        "3": "ILDA_I_P",
+        "16": "ILDA_I_N",
+        "4": "INTERLOCK",
+        "17": "INTERLOCK",
+        "5": "ILDA_R_P",
+        "18": "ILDA_R_N",
+        "6": "ILDA_G_P",
+        "19": "ILDA_G_N",
+        "7": "ILDA_B_P",
+        "20": "ILDA_B_N",
+        "8": "ILDA_AUX1_P",
+        "21": "ILDA_AUX1_N",
+        "9": "ILDA_AUX2_P",
+        "22": "ILDA_AUX2_N",
+        "10": null,
+        "11": null,
+        "12": null,
+        "13": "ILDA_SHUTTER",
+        "23": null,
+        "24": null,
+        "25": "GND",
+        "SH": "GND"
+      },
+      "xy": [
+        100.88,
+        49.38
+      ],
+      "kind": "block",
+      "page": "Outputs",
+      "mpn": "CANDIDATE: RA DB25 female, 7.70mm pin/edge offset; MPN pending",
+      "code": "",
+      "ds": "https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf",
+      "smt": false,
+      "angle": 90,
+      "uuid": "5e88b398-916a-54de-aa14-dd3896ef1abd"
+    },
+    {
+      "ref": "TP1",
+      "value": "GND",
+      "fp": "ILDA8CH:TestPoint__TestPoint_Pad_D1.0mm",
+      "source_fp": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "GND"
+      },
+      "xy": [
+        53,
+        94
+      ],
+      "kind": "block",
+      "page": "Control",
+      "mpn": "",
+      "code": "",
+      "ds": "",
+      "smt": false,
+      "angle": 0,
+      "uuid": "ee8c11d3-a446-538c-b4ae-4c2bf4a34eb3"
+    },
+    {
+      "ref": "TP2",
+      "value": "+3V3",
+      "fp": "ILDA8CH:TestPoint__TestPoint_Pad_D1.0mm",
+      "source_fp": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "+3V3"
+      },
+      "xy": [
+        45,
+        10
+      ],
+      "kind": "block",
+      "page": "Control",
+      "mpn": "",
+      "code": "",
+      "ds": "",
+      "smt": false,
+      "angle": 0,
+      "uuid": "ce46d0e2-8d5d-5049-949a-d10ee97fd3b5"
+    },
+    {
+      "ref": "TP3",
+      "value": "+5VA",
+      "fp": "ILDA8CH:TestPoint__TestPoint_Pad_D1.0mm",
+      "source_fp": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "+5VA"
+      },
+      "xy": [
+        65,
+        33.5
+      ],
+      "kind": "block",
+      "page": "Control",
+      "mpn": "",
+      "code": "",
+      "ds": "",
+      "smt": false,
+      "angle": 0,
+      "uuid": "1c7d00a7-1c94-5993-9bc1-7a38cb3ce4ca"
+    },
+    {
+      "ref": "TP4",
+      "value": "+15A",
+      "fp": "ILDA8CH:TestPoint__TestPoint_Pad_D1.0mm",
+      "source_fp": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "+15A"
+      },
+      "xy": [
+        18,
+        18
+      ],
+      "kind": "block",
+      "page": "Control",
+      "mpn": "",
+      "code": "",
+      "ds": "",
+      "smt": false,
+      "angle": 0,
+      "uuid": "4acc9dbb-5bf0-599e-9e7b-337cf666afff"
+    },
+    {
+      "ref": "TP5",
+      "value": "-15A",
+      "fp": "ILDA8CH:TestPoint__TestPoint_Pad_D1.0mm",
+      "source_fp": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "-15A"
+      },
+      "xy": [
+        23,
+        18
+      ],
+      "kind": "block",
+      "page": "Control",
+      "mpn": "",
+      "code": "",
+      "ds": "",
+      "smt": false,
+      "angle": 0,
+      "uuid": "f0110ee7-15b3-5640-9935-d3a654c916ad"
+    },
+    {
+      "ref": "TP6",
+      "value": "RUN_ENABLE",
+      "fp": "ILDA8CH:TestPoint__TestPoint_Pad_D1.0mm",
+      "source_fp": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "RUN_ENABLE"
+      },
+      "xy": [
+        93.5,
+        96
+      ],
+      "kind": "block",
+      "page": "Control",
+      "mpn": "",
+      "code": "",
+      "ds": "",
+      "smt": false,
+      "angle": 0,
+      "uuid": "cfcc13f7-d2da-5b0e-8b86-fc26b171b2fd"
+    },
+    {
+      "ref": "TP7",
+      "value": "MCLK",
+      "fp": "ILDA8CH:TestPoint__TestPoint_Pad_D1.0mm",
+      "source_fp": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "MCLK"
+      },
+      "xy": [
+        81,
+        2
+      ],
+      "kind": "block",
+      "page": "Control",
+      "mpn": "",
+      "code": "",
+      "ds": "",
+      "smt": false,
+      "angle": 0,
+      "uuid": "25075645-bc6e-590a-bc3e-a4caa0441873"
+    },
+    {
+      "ref": "TP8",
+      "value": "LRCLK",
+      "fp": "ILDA8CH:TestPoint__TestPoint_Pad_D1.0mm",
+      "source_fp": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "LRCLK"
+      },
+      "xy": [
+        105.8,
+        29
+      ],
+      "kind": "block",
+      "page": "Control",
+      "mpn": "",
+      "code": "",
+      "ds": "",
+      "smt": false,
+      "angle": 0,
+      "uuid": "227ca495-d618-5241-8fce-dd85d5dee2b3"
+    },
+    {
+      "ref": "TP9",
+      "value": "BCLK",
+      "fp": "ILDA8CH:TestPoint__TestPoint_Pad_D1.0mm",
+      "source_fp": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "BCLK"
+      },
+      "xy": [
+        105.8,
+        32.5
+      ],
+      "kind": "block",
+      "page": "Control",
+      "mpn": "",
+      "code": "",
+      "ds": "",
+      "smt": false,
+      "angle": 0,
+      "uuid": "5aca9908-fa59-5959-b6a9-5c857f6450d6"
+    },
+    {
+      "ref": "TP10",
+      "value": "TDM_TX",
+      "fp": "ILDA8CH:TestPoint__TestPoint_Pad_D1.0mm",
+      "source_fp": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "TDM_TX"
+      },
+      "xy": [
+        77.5,
+        7
+      ],
+      "kind": "block",
+      "page": "Control",
+      "mpn": "",
+      "code": "",
+      "ds": "",
+      "smt": false,
+      "angle": 0,
+      "uuid": "8c7dbd72-c74e-5bc2-833d-0231131ac3fe"
+    },
+    {
+      "ref": "TP11",
+      "value": "VQ",
+      "fp": "ILDA8CH:TestPoint__TestPoint_Pad_D1.0mm",
+      "source_fp": "TestPoint:TestPoint_Pad_D1.0mm",
+      "pins": {
+        "1": "VQ"
+      },
+      "xy": [
+        51,
+        30
+      ],
+      "kind": "block",
+      "page": "Control",
+      "mpn": "",
+      "code": "",
+      "ds": "",
+      "smt": false,
+      "angle": 0,
+      "uuid": "0073a329-96b6-59f5-a7c1-be2d214bc9b2"
+    },
+    {
+      "ref": "H1",
+      "value": "M3 NPTH",
+      "fp": "ILDA8CH:MountingHole__MountingHole_3.2mm_M3",
+      "source_fp": "MountingHole:MountingHole_3.2mm_M3",
+      "pins": {},
+      "xy": [
+        3,
+        23
+      ],
+      "kind": "block",
+      "page": "Power",
+      "mpn": "",
+      "code": "",
+      "ds": "",
+      "smt": false,
+      "angle": 0,
+      "uuid": "e795dd8d-27d6-5ce5-a894-5595775fe8c6"
+    },
+    {
+      "ref": "H2",
+      "value": "M3 NPTH",
+      "fp": "ILDA8CH:MountingHole__MountingHole_3.2mm_M3",
+      "source_fp": "MountingHole:MountingHole_3.2mm_M3",
+      "pins": {},
+      "xy": [
+        107,
+        3
+      ],
+      "kind": "block",
+      "page": "Power",
+      "mpn": "",
+      "code": "",
+      "ds": "",
+      "smt": false,
+      "angle": 0,
+      "uuid": "5d6056b3-a831-5654-8c68-eaadf231f0fb"
+    },
+    {
+      "ref": "H3",
+      "value": "M3 NPTH",
+      "fp": "ILDA8CH:MountingHole__MountingHole_3.2mm_M3",
+      "source_fp": "MountingHole:MountingHole_3.2mm_M3",
+      "pins": {},
+      "xy": [
+        3,
+        97
+      ],
+      "kind": "block",
+      "page": "Power",
+      "mpn": "",
+      "code": "",
+      "ds": "",
+      "smt": false,
+      "angle": 0,
+      "uuid": "1dc7ba74-1ab4-5ec2-8a6f-84d7a2f86b45"
+    },
+    {
+      "ref": "H4",
+      "value": "M3 NPTH",
+      "fp": "ILDA8CH:MountingHole__MountingHole_3.2mm_M3",
+      "source_fp": "MountingHole:MountingHole_3.2mm_M3",
+      "pins": {},
+      "xy": [
+        107,
+        97
+      ],
+      "kind": "block",
+      "page": "Power",
+      "mpn": "",
+      "code": "",
+      "ds": "",
+      "smt": false,
+      "angle": 0,
+      "uuid": "3dab7c08-a916-5ba2-bfca-cb103fec2070"
+    },
+    {
+      "ref": "FID1",
+      "value": "FIDUCIAL",
+      "fp": "ILDA8CH:Fiducial__Fiducial_1mm_Mask2mm",
+      "source_fp": "Fiducial:Fiducial_1mm_Mask2mm",
+      "pins": {},
+      "xy": [
+        2,
+        2
+      ],
+      "kind": "block",
+      "page": "Power",
+      "mpn": "",
+      "code": "",
+      "ds": "",
+      "smt": false,
+      "angle": 0,
+      "uuid": "5552a028-c149-5f38-a614-ef0256019c14"
+    },
+    {
+      "ref": "FID2",
+      "value": "FIDUCIAL",
+      "fp": "ILDA8CH:Fiducial__Fiducial_1mm_Mask2mm",
+      "source_fp": "Fiducial:Fiducial_1mm_Mask2mm",
+      "pins": {},
+      "xy": [
+        107,
+        35
+      ],
+      "kind": "block",
+      "page": "Power",
+      "mpn": "",
+      "code": "",
+      "ds": "",
+      "smt": false,
+      "angle": 0,
+      "uuid": "09b88e2d-e55e-50f9-b80f-48528505430a"
+    },
+    {
+      "ref": "FID3",
+      "value": "FIDUCIAL",
+      "fp": "ILDA8CH:Fiducial__Fiducial_1mm_Mask2mm",
+      "source_fp": "Fiducial:Fiducial_1mm_Mask2mm",
+      "pins": {},
+      "xy": [
+        70,
+        98
+      ],
+      "kind": "block",
+      "page": "Power",
+      "mpn": "",
+      "code": "",
+      "ds": "",
+      "smt": false,
+      "angle": 0,
+      "uuid": "a6bb44e7-9b5c-5c4e-ad62-8b2f39f1f2be"
+    },
+    {
+      "ref": "U6",
+      "value": "TLV3202AIDGKR",
+      "pins": {
+        "1": "RAIL_P_RAW",
+        "2": "PREF",
+        "3": "PMON",
+        "4": "GND",
+        "5": "NREF",
+        "6": "NMON",
+        "7": "RAIL_N_RAW",
+        "8": "USB_5V"
+      },
+      "fp": "ILDA8CH:TI_DGK0008A_VSSOP8_3x3_P0.65_Land1.4x0.45",
+      "source_fp": "TI:DGK0008A_datasheet_p30",
+      "mpn": "TLV3202AIDGKR",
+      "code": "C478075",
+      "ds": "https://www.ti.com/lit/ds/symlink/tlv3202.pdf",
+      "page": "Power",
+      "kind": "block",
+      "smt": true,
+      "xy": [
+        17.0,
+        22.0
+      ],
+      "angle": 0,
+      "uuid": "fbf9f4fb-2f67-5b4d-a7f8-4d865149bcce",
+      "pin_names": {
+        "1": "OUT1",
+        "2": "IN1-",
+        "3": "IN1+",
+        "4": "GND",
+        "5": "IN2+",
+        "6": "IN2-",
+        "7": "OUT2",
+        "8": "VCC"
+      },
+      "pin_types": {
+        "1": "output",
+        "2": "input",
+        "3": "input",
+        "4": "power_in",
+        "5": "input",
+        "6": "input",
+        "7": "output",
+        "8": "power_in"
+      }
+    },
+    {
+      "ref": "U7",
+      "value": "SN74LVC1G11DBVR",
+      "pins": {
+        "1": "CODEC_RESET_GPIO",
+        "2": "GND",
+        "3": "RAIL_P_GOOD",
+        "4": "RESET_QUALIFIED",
+        "5": "+3V3",
+        "6": "RAIL_N_GOOD"
+      },
+      "fp": "ILDA8CH:Package_TO_SOT_SMD__SOT-23-6",
+      "source_fp": "Package_TO_SOT_SMD:SOT-23-6",
+      "mpn": "SN74LVC1G11DBVR",
+      "code": "C22046",
+      "ds": "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf",
+      "page": "Control",
+      "kind": "block",
+      "smt": true,
+      "xy": [
+        77.5,
+        4.0
+      ],
+      "angle": 0,
+      "uuid": "b7ebe1d4-caf8-59ff-93a6-fb71b23db291",
+      "pin_names": {
+        "1": "A",
+        "2": "GND",
+        "3": "B",
+        "4": "Y",
+        "5": "VCC",
+        "6": "C"
+      },
+      "pin_types": {
+        "1": "input",
+        "2": "power_in",
+        "3": "input",
+        "4": "output",
+        "5": "power_in",
+        "6": "input"
+      }
+    },
+    {
+      "ref": "U8",
+      "value": "SN74LVC1G175DBVR",
+      "pins": {
+        "1": "ARM",
+        "2": "GND",
+        "3": "+3V3",
+        "4": "ARM_QUALIFIED",
+        "5": "+3V3",
+        "6": "CODEC_RESET"
+      },
+      "fp": "ILDA8CH:Package_TO_SOT_SMD__SOT-23-6",
+      "source_fp": "Package_TO_SOT_SMD:SOT-23-6",
+      "mpn": "SN74LVC1G175DBVR",
+      "code": "C128412",
+      "ds": "https://www.ti.com/lit/ds/symlink/sn74lvc1g175.pdf",
+      "page": "Control",
+      "kind": "block",
+      "smt": true,
+      "xy": [
+        41.25,
+        16.5
+      ],
+      "angle": 0,
+      "uuid": "1edc33ee-fe3b-57d4-8131-aefe4cd9548d",
+      "pin_names": {
+        "1": "CLK",
+        "2": "GND",
+        "3": "D",
+        "4": "Q",
+        "5": "VCC",
+        "6": "~{CLR}"
+      },
+      "pin_types": {
+        "1": "input",
+        "2": "power_in",
+        "3": "input",
+        "4": "output",
+        "5": "power_in",
+        "6": "input"
+      }
+    },
+    {
+      "ref": "U9",
+      "value": "SN74LVC1G06DBVR",
+      "pins": {
+        "1": null,
+        "2": "CODEC_RESET",
+        "3": "GND",
+        "4": "DAC_ISOLATE_N",
+        "5": "+3V3"
+      },
+      "fp": "ILDA8CH:Package_TO_SOT_SMD__SOT-23-5",
+      "source_fp": "Package_TO_SOT_SMD:SOT-23-5",
+      "mpn": "SN74LVC1G06DBVR",
+      "code": "C840103",
+      "ds": "https://www.ti.com/lit/ds/symlink/sn74lvc1g06.pdf",
+      "page": "Control",
+      "kind": "block",
+      "smt": true,
+      "xy": [
+        74.25,
+        8.75
+      ],
+      "angle": 0,
+      "uuid": "74998d18-3d23-5da7-9947-0bc9bcb7bcdc",
+      "pin_names": {
+        "1": "NC",
+        "2": "A",
+        "3": "GND",
+        "4": "Y_OD",
+        "5": "VCC"
+      },
+      "pin_types": {
+        "1": "passive",
+        "2": "input",
+        "3": "power_in",
+        "4": "open_collector",
+        "5": "power_in"
+      }
+    },
+    {
+      "ref": "U10",
+      "value": "TPS3839K33DBZR",
+      "pins": {
+        "1": "GND",
+        "2": "MCU_POWER_GOOD",
+        "3": "MCU_3V3"
+      },
+      "fp": "ILDA8CH:Package_TO_SOT_SMD__SOT-23",
+      "source_fp": "Package_TO_SOT_SMD:SOT-23",
+      "mpn": "TPS3839K33DBZR",
+      "code": "C96333",
+      "ds": "https://www.ti.com/lit/ds/symlink/tps3839.pdf",
+      "page": "Control",
+      "kind": "block",
+      "smt": true,
+      "xy": [
+        82.0,
+        37.5
+      ],
+      "angle": 0,
+      "uuid": "a4e91b61-86ab-52b1-ac61-de6b0f9c5092",
+      "pin_names": {
+        "1": "GND",
+        "2": "RESET_N",
+        "3": "VDD"
+      },
+      "pin_types": {
+        "1": "power_in",
+        "2": "output",
+        "3": "power_in"
+      }
+    },
+    {
+      "ref": "U31",
+      "value": "ADG4613BRUZ",
+      "pins": {
+        "1": "CODEC_RESET",
+        "16": "DAC_ISOLATE_N",
+        "9": "DAC_ISOLATE_N",
+        "8": "CODEC_RESET",
+        "13": "USB_5V",
+        "4": "GND",
+        "5": "GND",
+        "12": null,
+        "3": "DAC1_P",
+        "2": "ISO_DAC1_P",
+        "14": "DAC1_N",
+        "15": "ISO_DAC1_N",
+        "11": "DAC2_P",
+        "10": "ISO_DAC2_P",
+        "6": "DAC2_N",
+        "7": "ISO_DAC2_N"
+      },
+      "fp": "ILDA8CH:Package_SO__TSSOP-16_4.4x5mm_P0.65mm",
+      "source_fp": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+      "mpn": "ADG4613BRUZ",
+      "code": "C657392",
+      "ds": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG4612_4613.pdf",
+      "page": "Codec",
+      "kind": "block",
+      "smt": true,
+      "xy": [
+        62.5,
+        47.0
+      ],
+      "angle": 0,
+      "uuid": "45e70381-532c-5dbc-b126-33554de5da8b",
+      "pin_names": {
+        "1": "IN1",
+        "2": "D1",
+        "3": "S1",
+        "4": "VSS",
+        "5": "GND",
+        "6": "S4",
+        "7": "D4",
+        "8": "IN4",
+        "9": "IN3",
+        "10": "D3",
+        "11": "S3",
+        "12": "NC",
+        "13": "VDD",
+        "14": "S2",
+        "15": "D2",
+        "16": "IN2"
+      },
+      "pin_types": {
+        "1": "input",
+        "2": "passive",
+        "3": "passive",
+        "4": "power_in",
+        "5": "power_in",
+        "6": "passive",
+        "7": "passive",
+        "8": "input",
+        "9": "input",
+        "10": "passive",
+        "11": "passive",
+        "12": "passive",
+        "13": "power_in",
+        "14": "passive",
+        "15": "passive",
+        "16": "input"
+      }
+    },
+    {
+      "ref": "U32",
+      "value": "ADG4613BRUZ",
+      "pins": {
+        "1": "CODEC_RESET",
+        "16": "DAC_ISOLATE_N",
+        "9": "DAC_ISOLATE_N",
+        "8": "CODEC_RESET",
+        "13": "USB_5V",
+        "4": "GND",
+        "5": "GND",
+        "12": null,
+        "3": "DAC3_P",
+        "2": "ISO_DAC3_P",
+        "14": "DAC3_N",
+        "15": "ISO_DAC3_N",
+        "11": "DAC4_P",
+        "10": "ISO_DAC4_P",
+        "6": "DAC4_N",
+        "7": "ISO_DAC4_N"
+      },
+      "fp": "ILDA8CH:Package_SO__TSSOP-16_4.4x5mm_P0.65mm",
+      "source_fp": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+      "mpn": "ADG4613BRUZ",
+      "code": "C657392",
+      "ds": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG4612_4613.pdf",
+      "page": "Codec",
+      "kind": "block",
+      "smt": true,
+      "xy": [
+        63.5,
+        61.0
+      ],
+      "angle": 0,
+      "uuid": "2772a51d-8e00-51b7-9eb0-e781b586bacf",
+      "pin_names": {
+        "1": "IN1",
+        "2": "D1",
+        "3": "S1",
+        "4": "VSS",
+        "5": "GND",
+        "6": "S4",
+        "7": "D4",
+        "8": "IN4",
+        "9": "IN3",
+        "10": "D3",
+        "11": "S3",
+        "12": "NC",
+        "13": "VDD",
+        "14": "S2",
+        "15": "D2",
+        "16": "IN2"
+      },
+      "pin_types": {
+        "1": "input",
+        "2": "passive",
+        "3": "passive",
+        "4": "power_in",
+        "5": "power_in",
+        "6": "passive",
+        "7": "passive",
+        "8": "input",
+        "9": "input",
+        "10": "passive",
+        "11": "passive",
+        "12": "passive",
+        "13": "power_in",
+        "14": "passive",
+        "15": "passive",
+        "16": "input"
+      }
+    },
+    {
+      "ref": "U33",
+      "value": "ADG4613BRUZ",
+      "pins": {
+        "1": "CODEC_RESET",
+        "16": "DAC_ISOLATE_N",
+        "9": "DAC_ISOLATE_N",
+        "8": "CODEC_RESET",
+        "13": "USB_5V",
+        "4": "GND",
+        "5": "GND",
+        "12": null,
+        "3": "DAC5_P",
+        "2": "ISO_DAC5_P",
+        "14": "DAC5_N",
+        "15": "ISO_DAC5_N",
+        "11": "DAC6_P",
+        "10": "ISO_DAC6_P",
+        "6": "DAC6_N",
+        "7": "ISO_DAC6_N"
+      },
+      "fp": "ILDA8CH:Package_SO__TSSOP-16_4.4x5mm_P0.65mm",
+      "source_fp": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+      "mpn": "ADG4613BRUZ",
+      "code": "C657392",
+      "ds": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG4612_4613.pdf",
+      "page": "Codec",
+      "kind": "block",
+      "smt": true,
+      "xy": [
+        63.5,
+        75.0
+      ],
+      "angle": 0,
+      "uuid": "164c05cf-41ef-55aa-ab80-61dfd1858392",
+      "pin_names": {
+        "1": "IN1",
+        "2": "D1",
+        "3": "S1",
+        "4": "VSS",
+        "5": "GND",
+        "6": "S4",
+        "7": "D4",
+        "8": "IN4",
+        "9": "IN3",
+        "10": "D3",
+        "11": "S3",
+        "12": "NC",
+        "13": "VDD",
+        "14": "S2",
+        "15": "D2",
+        "16": "IN2"
+      },
+      "pin_types": {
+        "1": "input",
+        "2": "passive",
+        "3": "passive",
+        "4": "power_in",
+        "5": "power_in",
+        "6": "passive",
+        "7": "passive",
+        "8": "input",
+        "9": "input",
+        "10": "passive",
+        "11": "passive",
+        "12": "passive",
+        "13": "power_in",
+        "14": "passive",
+        "15": "passive",
+        "16": "input"
+      }
+    },
+    {
+      "ref": "U34",
+      "value": "ADG4613BRUZ",
+      "pins": {
+        "1": "CODEC_RESET",
+        "16": "DAC_ISOLATE_N",
+        "9": "DAC_ISOLATE_N",
+        "8": "CODEC_RESET",
+        "13": "USB_5V",
+        "4": "GND",
+        "5": "GND",
+        "12": null,
+        "3": "DAC7_P",
+        "2": "ISO_DAC7_P",
+        "14": "DAC7_N",
+        "15": "ISO_DAC7_N",
+        "11": "DAC8_P",
+        "10": "ISO_DAC8_P",
+        "6": "DAC8_N",
+        "7": "ISO_DAC8_N"
+      },
+      "fp": "ILDA8CH:Package_SO__TSSOP-16_4.4x5mm_P0.65mm",
+      "source_fp": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+      "mpn": "ADG4613BRUZ",
+      "code": "C657392",
+      "ds": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG4612_4613.pdf",
+      "page": "Codec",
+      "kind": "block",
+      "smt": true,
+      "xy": [
+        63.5,
+        88.5
+      ],
+      "angle": 0,
+      "uuid": "4e01d038-6172-555a-a1e3-123c91471870",
+      "pin_names": {
+        "1": "IN1",
+        "2": "D1",
+        "3": "S1",
+        "4": "VSS",
+        "5": "GND",
+        "6": "S4",
+        "7": "D4",
+        "8": "IN4",
+        "9": "IN3",
+        "10": "D3",
+        "11": "S3",
+        "12": "NC",
+        "13": "VDD",
+        "14": "S2",
+        "15": "D2",
+        "16": "IN2"
+      },
+      "pin_types": {
+        "1": "input",
+        "2": "passive",
+        "3": "passive",
+        "4": "power_in",
+        "5": "power_in",
+        "6": "passive",
+        "7": "passive",
+        "8": "input",
+        "9": "input",
+        "10": "passive",
+        "11": "passive",
+        "12": "passive",
+        "13": "power_in",
+        "14": "passive",
+        "15": "passive",
+        "16": "input"
+      }
+    },
+    {
+      "ref": "U35",
+      "value": "ADG4613BRUZ",
+      "pins": {
+        "1": "MCU_POWER_GOOD",
+        "8": "MCU_POWER_GOOD",
+        "16": "MCU_3V3",
+        "9": "MCU_3V3",
+        "3": "SENSE_P15",
+        "2": "ADC_P15",
+        "6": "SENSE_N15",
+        "7": "ADC_N15",
+        "14": "GND",
+        "15": "GND",
+        "11": "GND",
+        "10": "GND",
+        "13": "MCU_3V3",
+        "4": "GND",
+        "5": "GND",
+        "12": null
+      },
+      "fp": "ILDA8CH:Package_SO__TSSOP-16_4.4x5mm_P0.65mm",
+      "source_fp": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+      "mpn": "ADG4613BRUZ",
+      "code": "C657392",
+      "ds": "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG4612_4613.pdf",
+      "page": "Control",
+      "kind": "block",
+      "smt": true,
+      "xy": [
+        91.0,
+        39.5
+      ],
+      "angle": 0,
+      "uuid": "530e00a7-a8a2-53f2-b6eb-6940077a4d6b",
+      "pin_names": {
+        "1": "IN1",
+        "2": "D1",
+        "3": "S1",
+        "4": "VSS",
+        "5": "GND",
+        "6": "S4",
+        "7": "D4",
+        "8": "IN4",
+        "9": "IN3",
+        "10": "D3",
+        "11": "S3",
+        "12": "NC",
+        "13": "VDD",
+        "14": "S2",
+        "15": "D2",
+        "16": "IN2"
+      },
+      "pin_types": {
+        "1": "input",
+        "2": "passive",
+        "3": "passive",
+        "4": "power_in",
+        "5": "power_in",
+        "6": "passive",
+        "7": "passive",
+        "8": "input",
+        "9": "input",
+        "10": "passive",
+        "11": "passive",
+        "12": "passive",
+        "13": "power_in",
+        "14": "passive",
+        "15": "passive",
+        "16": "input"
+      }
+    },
+    {
+      "ref": "R350",
+      "value": "1M",
+      "pins": {
+        "1": "+15A",
+        "2": "PMON_RAW"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-071ML",
+      "code": "C105578",
+      "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811071024_YAGEO-RC0603FR-071ML_C105578.pdf",
+      "page": "Power",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        10.0,
+        18.0
+      ],
+      "angle": 0,
+      "uuid": "3afb32ba-7292-5fb0-b711-dc458d079cce"
+    },
+    {
+      "ref": "R351",
+      "value": "200k",
+      "pins": {
+        "1": "PMON_RAW",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-07200KL",
+      "code": "C105574",
+      "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-07200KL_C105574.pdf",
+      "page": "Power",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        10.0,
+        21.0
+      ],
+      "angle": 0,
+      "uuid": "4ed1397e-37d2-5b21-a698-ed2cb6c8b62d"
+    },
+    {
+      "ref": "R352",
+      "value": "100k",
+      "pins": {
+        "1": "PMON_RAW",
+        "2": "PMON"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "page": "Power",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        13.25,
+        19.25
+      ],
+      "angle": 0,
+      "uuid": "27583cf8-30b2-54c8-9447-8a0ef7c6a1c9"
+    },
+    {
+      "ref": "R353",
+      "value": "150k",
+      "pins": {
+        "1": "USB_5V",
+        "2": "PREF"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-07150KL",
+      "code": "C114660",
+      "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-07140KL_C185372.pdf",
+      "page": "Power",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        13.25,
+        17.5
+      ],
+      "angle": 0,
+      "uuid": "f531d4b4-e7bf-5974-ad60-22d60041fd63"
+    },
+    {
+      "ref": "R354",
+      "value": "100k",
+      "pins": {
+        "1": "PREF",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "page": "Power",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        13.0,
+        15.0
+      ],
+      "angle": 0,
+      "uuid": "3b1ea2a0-5b32-569a-840d-e7538e4a2a9d"
+    },
+    {
+      "ref": "R355",
+      "value": "10M",
+      "pins": {
+        "1": "RAIL_P_RAW",
+        "2": "PMON_RAW"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-0710ML",
+      "code": "C114606",
+      "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710ML_C114606.pdf",
+      "page": "Power",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        10.0,
+        24.0
+      ],
+      "angle": 0,
+      "uuid": "62c1068c-cded-52c2-9864-d6e00a3d5c63"
+    },
+    {
+      "ref": "R356",
+      "value": "1M",
+      "pins": {
+        "1": "-15A",
+        "2": "NMON_RAW"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-071ML",
+      "code": "C105578",
+      "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811071024_YAGEO-RC0603FR-071ML_C105578.pdf",
+      "page": "Power",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        20.5,
+        16.0
+      ],
+      "angle": 0,
+      "uuid": "a23ff022-c3bd-5a4a-ae84-912ae0fcb280"
+    },
+    {
+      "ref": "R357",
+      "value": "100k",
+      "pins": {
+        "1": "NMON_RAW",
+        "2": "USB_5V"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "page": "Power",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        21.75,
+        22.75
+      ],
+      "angle": 0,
+      "uuid": "31e38b65-7d64-5d95-98a5-d7900cf852e7"
+    },
+    {
+      "ref": "R358",
+      "value": "100k",
+      "pins": {
+        "1": "NMON_RAW",
+        "2": "NMON"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "page": "Power",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        21.5,
+        24.75
+      ],
+      "angle": 0,
+      "uuid": "035fdbb4-f95c-58ba-98be-666ad49c024a"
+    },
+    {
+      "ref": "R359",
+      "value": "45.3k",
+      "pins": {
+        "1": "USB_5V",
+        "2": "NREF"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-0745K3L",
+      "code": "C245971",
+      "ds": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311211102_YAGEO-RC0603FR-0746K4L_C165747.pdf",
+      "page": "Power",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        25.0,
+        21.0
+      ],
+      "angle": 0,
+      "uuid": "1d942693-3e3f-561d-9999-f012757d1b59"
+    },
+    {
+      "ref": "R360",
+      "value": "100k",
+      "pins": {
+        "1": "NREF",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "page": "Power",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        25.0,
+        24.0
+      ],
+      "angle": 0,
+      "uuid": "82f7cbea-4aab-50a2-8aa0-db9b8d8ed090"
+    },
+    {
+      "ref": "R361",
+      "value": "10M",
+      "pins": {
+        "1": "RAIL_N_RAW",
+        "2": "NREF"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-0710ML",
+      "code": "C114606",
+      "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710ML_C114606.pdf",
+      "page": "Power",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        25.0,
+        27.0
+      ],
+      "angle": 0,
+      "uuid": "93283476-d430-5610-9f38-661bc0413bca"
+    },
+    {
+      "ref": "R362",
+      "value": "10k",
+      "pins": {
+        "1": "RAILS_GOOD",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "page": "Control",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        40.25,
+        19.25
+      ],
+      "angle": 0,
+      "uuid": "eae3bb7c-d188-5b56-9e13-3f8da3e26bae"
+    },
+    {
+      "ref": "R363",
+      "value": "10k",
+      "pins": {
+        "1": "USB_5V",
+        "2": "DAC_ISOLATE_N"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RT0603BRD0710KL",
+      "code": "C95204",
+      "ds": "",
+      "page": "Control",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        78.0,
+        15.75
+      ],
+      "angle": 0,
+      "uuid": "5f8a0655-f4a0-5c04-a170-12150b330c66"
+    },
+    {
+      "ref": "R364",
+      "value": "4.7k",
+      "pins": {
+        "1": "ADC_P15",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RT0603BRD074K7L",
+      "code": "C513565",
+      "ds": "",
+      "page": "Control",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        82.0,
+        40.25
+      ],
+      "angle": 0,
+      "uuid": "14a68b77-1ab5-54e3-a67b-619a7138570d"
+    },
+    {
+      "ref": "R365",
+      "value": "4.7k",
+      "pins": {
+        "1": "ADC_N15",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RT0603BRD074K7L",
+      "code": "C513565",
+      "ds": "",
+      "page": "Control",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        85.25,
+        41.0
+      ],
+      "angle": 0,
+      "uuid": "0a3cb246-274f-5e87-b618-2df143d5554b"
+    },
+    {
+      "ref": "R366",
+      "value": "330",
+      "pins": {
+        "1": "MCU_3V3",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-07330RL",
+      "code": "C105881",
+      "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-07330RL_C105881.pdf",
+      "page": "Control",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        104.55,
+        11.7
+      ],
+      "angle": 0,
+      "uuid": "82071ebb-a2e2-59c2-8699-c55f304c3612"
+    },
+    {
+      "ref": "R367",
+      "value": "1k",
+      "pins": {
+        "1": "USB_5V",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RT0603BRD071KL",
+      "code": "C110776",
+      "ds": "",
+      "page": "Power",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        17.0,
+        16.0
+      ],
+      "angle": 0,
+      "uuid": "788b7dca-8ef2-5c61-b923-1243e773af5e"
+    },
+    {
+      "ref": "R368",
+      "value": "100k",
+      "pins": {
+        "1": "MCU_POWER_GOOD",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "page": "Control",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        104.55,
+        7.95
+      ],
+      "angle": 0,
+      "uuid": "288dbfae-f7d2-5b4d-99c6-715898b96b98"
+    },
+    {
+      "ref": "R401",
+      "value": "10M",
+      "pins": {
+        "1": "IN1P",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-0710ML",
+      "code": "C114606",
+      "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710ML_C114606.pdf",
+      "page": "CH1_X",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        9.2,
+        35.2
+      ],
+      "angle": 90,
+      "uuid": "1f31b1f5-553a-556e-aa30-94595d3150de"
+    },
+    {
+      "ref": "R402",
+      "value": "10M",
+      "pins": {
+        "1": "IN1N",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-0710ML",
+      "code": "C114606",
+      "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710ML_C114606.pdf",
+      "page": "CH1_X",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        9.2,
+        39.8
+      ],
+      "angle": 90,
+      "uuid": "b2594f56-0e00-5e61-a6c3-29b69372eaec"
+    },
+    {
+      "ref": "R403",
+      "value": "10M",
+      "pins": {
+        "1": "IN2P",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-0710ML",
+      "code": "C114606",
+      "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710ML_C114606.pdf",
+      "page": "CH2_Y",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        32.2,
+        35.2
+      ],
+      "angle": 90,
+      "uuid": "c5ae03a8-9954-53c8-a6cc-9cf2ae1ec7a1"
+    },
+    {
+      "ref": "R404",
+      "value": "10M",
+      "pins": {
+        "1": "IN2N",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-0710ML",
+      "code": "C114606",
+      "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710ML_C114606.pdf",
+      "page": "CH2_Y",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        32.2,
+        39.8
+      ],
+      "angle": 90,
+      "uuid": "a319e783-b075-56c7-a15a-7bb4c4515f2b"
+    },
+    {
+      "ref": "R405",
+      "value": "10M",
+      "pins": {
+        "1": "IN3P",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-0710ML",
+      "code": "C114606",
+      "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710ML_C114606.pdf",
+      "page": "CH3_R",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        9.2,
+        51.7
+      ],
+      "angle": 90,
+      "uuid": "b52c97e6-c063-5fe4-824a-daf1734eef53"
+    },
+    {
+      "ref": "R406",
+      "value": "10M",
+      "pins": {
+        "1": "IN3N",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-0710ML",
+      "code": "C114606",
+      "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710ML_C114606.pdf",
+      "page": "CH3_R",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        9.2,
+        56.55
+      ],
+      "angle": 90,
+      "uuid": "d97531a8-22d4-5767-9b0c-2dbd2ce018c5"
+    },
+    {
+      "ref": "R407",
+      "value": "10M",
+      "pins": {
+        "1": "IN4P",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-0710ML",
+      "code": "C114606",
+      "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710ML_C114606.pdf",
+      "page": "CH4_G",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        32.2,
+        51.7
+      ],
+      "angle": 90,
+      "uuid": "5b48dd5e-c670-5948-a8ac-61dfef5c40b3"
+    },
+    {
+      "ref": "R408",
+      "value": "10M",
+      "pins": {
+        "1": "IN4N",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-0710ML",
+      "code": "C114606",
+      "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710ML_C114606.pdf",
+      "page": "CH4_G",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        32.2,
+        56.3
+      ],
+      "angle": 90,
+      "uuid": "3347d565-067e-50b1-ba43-0bf5de204bc3"
+    },
+    {
+      "ref": "R409",
+      "value": "10M",
+      "pins": {
+        "1": "IN5P",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-0710ML",
+      "code": "C114606",
+      "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710ML_C114606.pdf",
+      "page": "CH5_B",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        9.2,
+        68.2
+      ],
+      "angle": 90,
+      "uuid": "fb031f1c-bf8c-5cfd-8e97-6e2342c28914"
+    },
+    {
+      "ref": "R410",
+      "value": "10M",
+      "pins": {
+        "1": "IN5N",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-0710ML",
+      "code": "C114606",
+      "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710ML_C114606.pdf",
+      "page": "CH5_B",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        9.2,
+        72.8
+      ],
+      "angle": 90,
+      "uuid": "dc25c1d8-4dc7-5781-8568-c6f9482a9c05"
+    },
+    {
+      "ref": "R411",
+      "value": "10M",
+      "pins": {
+        "1": "IN6P",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-0710ML",
+      "code": "C114606",
+      "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710ML_C114606.pdf",
+      "page": "CH6_I",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        32.2,
+        68.2
+      ],
+      "angle": 90,
+      "uuid": "5ec01bea-6b66-5dff-a62f-bc89fe46c108"
+    },
+    {
+      "ref": "R412",
+      "value": "10M",
+      "pins": {
+        "1": "IN6N",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-0710ML",
+      "code": "C114606",
+      "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710ML_C114606.pdf",
+      "page": "CH6_I",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        32.2,
+        72.8
+      ],
+      "angle": 90,
+      "uuid": "49571b7c-a5ce-54a3-9a31-4514244fa765"
+    },
+    {
+      "ref": "R413",
+      "value": "10M",
+      "pins": {
+        "1": "IN7P",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-0710ML",
+      "code": "C114606",
+      "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710ML_C114606.pdf",
+      "page": "CH7_AUX1",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        9.45,
+        84.7
+      ],
+      "angle": 90,
+      "uuid": "163b91f0-af85-54be-9b00-b2d723b30413"
+    },
+    {
+      "ref": "R414",
+      "value": "10M",
+      "pins": {
+        "1": "IN7N",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-0710ML",
+      "code": "C114606",
+      "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710ML_C114606.pdf",
+      "page": "CH7_AUX1",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        9.2,
+        89.3
+      ],
+      "angle": 90,
+      "uuid": "e97a889b-f785-5232-bf17-ed42252bc5fe"
+    },
+    {
+      "ref": "R415",
+      "value": "10M",
+      "pins": {
+        "1": "IN8P",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-0710ML",
+      "code": "C114606",
+      "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710ML_C114606.pdf",
+      "page": "CH8_AUX2",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        32.2,
+        84.7
+      ],
+      "angle": 90,
+      "uuid": "263435d1-024b-5391-ba80-392274a2bf88"
+    },
+    {
+      "ref": "R416",
+      "value": "10M",
+      "pins": {
+        "1": "IN8N",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-0710ML",
+      "code": "C114606",
+      "ds": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710ML_C114606.pdf",
+      "page": "CH8_AUX2",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        32.2,
+        89.3
+      ],
+      "angle": 90,
+      "uuid": "7c157593-4c98-5618-b841-e02dc27c99b4"
+    },
+    {
+      "ref": "C350",
+      "value": "100n",
+      "pins": {
+        "1": "USB_5V",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "page": "Power",
+      "kind": "C",
+      "smt": true,
+      "xy": [
+        21.0,
+        20.25
+      ],
+      "angle": 90,
+      "uuid": "7c3db52a-d0f3-56f6-85b2-e2345841304d"
+    },
+    {
+      "ref": "C351",
+      "value": "100n",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "page": "Control",
+      "kind": "C",
+      "smt": true,
+      "xy": [
+        82.9375,
+        2.275
+      ],
+      "angle": 90,
+      "uuid": "475c6b62-4308-5915-aee3-f60ef16dcab6"
+    },
+    {
+      "ref": "C352",
+      "value": "100n",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "page": "Control",
+      "kind": "C",
+      "smt": true,
+      "xy": [
+        44.1875,
+        16.775
+      ],
+      "angle": 90,
+      "uuid": "b9e5b037-a41f-5f4d-9d5c-bac79d67502c"
+    },
+    {
+      "ref": "C353",
+      "value": "100n",
+      "pins": {
+        "1": "+3V3",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "page": "Control",
+      "kind": "C",
+      "smt": true,
+      "xy": [
+        79.4375,
+        7.275
+      ],
+      "angle": 90,
+      "uuid": "451373f8-48b3-5d42-a1b3-46127e701876"
+    },
+    {
+      "ref": "C354",
+      "value": "100n",
+      "pins": {
+        "1": "MCU_3V3",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "page": "Control",
+      "kind": "C",
+      "smt": true,
+      "xy": [
+        84.7375,
+        38.225
+      ],
+      "angle": 90,
+      "uuid": "562e13dd-b863-57b4-9f87-4a1f2866bf53"
+    },
+    {
+      "ref": "C355",
+      "value": "100n",
+      "pins": {
+        "1": "USB_5V",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "page": "Codec",
+      "kind": "C",
+      "smt": true,
+      "xy": [
+        67.9375,
+        46.925
+      ],
+      "angle": 0,
+      "uuid": "eb934316-bd2f-5d1a-a763-8ce111a36e2c"
+    },
+    {
+      "ref": "C356",
+      "value": "100n",
+      "pins": {
+        "1": "USB_5V",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "page": "Codec",
+      "kind": "C",
+      "smt": true,
+      "xy": [
+        68.9375,
+        60.925
+      ],
+      "angle": 0,
+      "uuid": "80a5748e-e4d7-5f4a-8814-b55851fde747"
+    },
+    {
+      "ref": "C357",
+      "value": "100n",
+      "pins": {
+        "1": "USB_5V",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "page": "Codec",
+      "kind": "C",
+      "smt": true,
+      "xy": [
+        68.9375,
+        74.925
+      ],
+      "angle": 0,
+      "uuid": "b6b3842f-5ab1-5f30-af00-387df5aaa9a7"
+    },
+    {
+      "ref": "C358",
+      "value": "100n",
+      "pins": {
+        "1": "USB_5V",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "page": "Codec",
+      "kind": "C",
+      "smt": true,
+      "xy": [
+        68.9375,
+        88.925
+      ],
+      "angle": 0,
+      "uuid": "4f69aa7c-d29e-5f04-8c20-0d96ce7a4294"
+    },
+    {
+      "ref": "C359",
+      "value": "100n",
+      "pins": {
+        "1": "MCU_3V3",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "page": "Control",
+      "kind": "C",
+      "smt": true,
+      "xy": [
+        95.6625,
+        38.4
+      ],
+      "angle": 90,
+      "uuid": "721b6b4e-4514-57a7-a1de-531971ad9825"
+    },
+    {
+      "ref": "U36",
+      "value": "SN74LVC1G08DBVR",
+      "pins": {
+        "1": "RAIL_P_GOOD",
+        "2": "RAIL_N_GOOD",
+        "3": "GND",
+        "4": "RAILS_GOOD",
+        "5": "MCU_3V3"
+      },
+      "fp": "ILDA8CH:Package_TO_SOT_SMD__SOT-23-5",
+      "source_fp": "Package_TO_SOT_SMD:SOT-23-5",
+      "mpn": "SN74LVC1G08DBVR",
+      "code": "C7666",
+      "ds": "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf",
+      "page": "Control",
+      "kind": "block",
+      "smt": true,
+      "xy": [
+        79.0,
+        22.0
+      ],
+      "angle": 0,
+      "uuid": "769cc46d-8414-55b4-9644-79b3ab2027e4",
+      "pin_names": {
+        "1": "A",
+        "2": "B",
+        "3": "GND",
+        "4": "Y",
+        "5": "VCC"
+      },
+      "pin_types": {
+        "1": "input",
+        "2": "input",
+        "3": "power_in",
+        "4": "output",
+        "5": "power_in"
+      }
+    },
+    {
+      "ref": "U37",
+      "value": "SN74AHCT1G14DBVR",
+      "pins": {
+        "1": null,
+        "2": "CODEC_RESET",
+        "3": "GND",
+        "4": "SHUTTER_DISABLE",
+        "5": "USB_5V"
+      },
+      "fp": "ILDA8CH:Package_TO_SOT_SMD__SOT-23-5",
+      "source_fp": "Package_TO_SOT_SMD:SOT-23-5",
+      "mpn": "SN74AHCT1G14DBVR",
+      "code": "C55250",
+      "ds": "https://www.ti.com/lit/ds/symlink/sn74ahct1g14.pdf",
+      "page": "Control",
+      "kind": "block",
+      "smt": true,
+      "xy": [
+        53.0,
+        34.5
+      ],
+      "angle": 0,
+      "uuid": "dd13ee80-194a-5a11-b6e2-8f5de49cd904",
+      "pin_names": {
+        "1": "NC",
+        "2": "A",
+        "3": "GND",
+        "4": "Y",
+        "5": "VCC"
+      },
+      "pin_types": {
+        "1": "passive",
+        "2": "input",
+        "3": "power_in",
+        "4": "output",
+        "5": "power_in"
+      }
+    },
+    {
+      "ref": "C360",
+      "value": "100n",
+      "pins": {
+        "1": "MCU_3V3",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "page": "Control",
+      "kind": "C",
+      "smt": true,
+      "xy": [
+        82.6125,
+        21.05
+      ],
+      "angle": 0,
+      "uuid": "b0f405ef-f450-5df4-9c0f-d51b3d2eef6f"
+    },
+    {
+      "ref": "C361",
+      "value": "100n",
+      "pins": {
+        "1": "USB_5V",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+      "source_fp": "Capacitor_SMD:C_0603_1608Metric",
+      "mpn": "GRM188R71H104KA93D",
+      "code": "C77055",
+      "ds": "",
+      "page": "Control",
+      "kind": "C",
+      "smt": true,
+      "xy": [
+        56.6125,
+        33.55
+      ],
+      "angle": 0,
+      "uuid": "b45e6d31-cbb9-5f78-8ab7-4cc3fe6911b3"
+    },
+    {
+      "ref": "R369",
+      "value": "100k",
+      "pins": {
+        "1": "RAIL_P_GOOD",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "page": "Power",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        75.25,
+        21.25
+      ],
+      "angle": 0,
+      "uuid": "0efe846d-ad23-509c-ad2b-8d7bdfa3694c"
+    },
+    {
+      "ref": "R370",
+      "value": "100k",
+      "pins": {
+        "1": "RAIL_N_GOOD",
+        "2": "GND"
+      },
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "mpn": "RC0603FR-07100KL",
+      "code": "C14675",
+      "ds": "",
+      "page": "Power",
+      "kind": "R",
+      "smt": true,
+      "xy": [
+        75.25,
+        25.5
+      ],
+      "angle": 0,
+      "uuid": "2fd11750-46d6-5447-bf1f-1d58cdffca3c"
+    },
+    {
+      "ref": "R371",
+      "value": "100",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "RAIL_P_RAW",
+        "2": "RAIL_P_GOOD"
+      },
+      "xy": [
+        13.25,
+        24.75
+      ],
+      "kind": "R",
+      "page": "Power",
+      "mpn": "RC0603FR-07100RL",
+      "code": "C105588",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "3a12b339-872e-54d3-b9f4-26c1000d59ec"
+    },
+    {
+      "ref": "R372",
+      "value": "100",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "RAIL_N_RAW",
+        "2": "RAIL_N_GOOD"
+      },
+      "xy": [
+        19.0,
+        26.5
+      ],
+      "kind": "R",
+      "page": "Power",
+      "mpn": "RC0603FR-07100RL",
+      "code": "C105588",
+      "ds": "",
+      "smt": true,
+      "angle": 0,
+      "uuid": "bfa7488f-5d55-5c41-b9d4-06ba997cdbf7"
+    },
+    {
+      "ref": "R373",
+      "value": "2.2k",
+      "fp": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+      "source_fp": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "CODEC_RESET_GPIO",
+        "2": "GND"
+      },
+      "xy": [
+        74.2,
+        3.7
+      ],
+      "kind": "R",
+      "page": "Control",
+      "mpn": "RC0603FR-072K2L",
+      "code": "C114662",
+      "ds": "",
+      "smt": true,
+      "angle": 270,
+      "uuid": "7e3e55e1-2db5-59c4-8300-62686b3e0544"
+    }
+  ],
+  "stage": "power_eco_native_checked",
+  "electrical_changes": [
+    "U22 SPST assignment: I/R",
+    "U23 SPST assignment: G/B",
+    "FILT_ADC22u/FILT_DAC100u nominal reference correction",
+    "True power-off DAC and ADC isolation",
+    "Dedicated dual-rail hardware qualification and clean shutter OE",
+    "Fresh ARM edge required after analog-rail loss",
+    "Defined 2.2k startup request biases and 4.7k ADC bleeds"
+  ],
+  "connector_status": "Candidate footprint geometry; procurement MPN not locked",
+  "power_connector": "Molex KK-254 22-27-2031; 1=+15V, 2=GND, 3=-15V",
+  "electrical_eco": "power-sequencing-20261025"
+}

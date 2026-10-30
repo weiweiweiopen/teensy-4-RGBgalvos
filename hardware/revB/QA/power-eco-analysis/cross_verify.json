@@ -1,0 +1,1137 @@
+{
+  "cross_verify_version": 1,
+  "schematic_file": "",
+  "pcb_file": "",
+  "component_matching": {
+    "schematic_count": 337,
+    "pcb_count": 337,
+    "matched": 337,
+    "orphans": [],
+    "missing": [],
+    "value_mismatches": [],
+    "dnp_conflicts": []
+  },
+  "diff_pair_routing": [
+    {
+      "type": "differential",
+      "positive": "DAC1_P",
+      "negative": "DAC1_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 33.07,
+      "neg_length_mm": 35.19,
+      "delta_mm": 2.11,
+      "status": "fail",
+      "message": "differential pair DAC1_P/DAC1_N: 2.1mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 2.11,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair DAC1_P/DAC1_N intra-pair skew 2.1mm exceeds differential tolerance (1.0mm)"
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "DAC2_P",
+      "negative": "DAC2_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 35.69,
+      "neg_length_mm": 33.19,
+      "delta_mm": 2.5,
+      "status": "fail",
+      "message": "differential pair DAC2_P/DAC2_N: 2.5mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 2.5,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair DAC2_P/DAC2_N intra-pair skew 2.5mm exceeds differential tolerance (1.0mm)"
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "DAC3_P",
+      "negative": "DAC3_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 43.37,
+      "neg_length_mm": 59.88,
+      "delta_mm": 16.51,
+      "status": "fail",
+      "message": "differential pair DAC3_P/DAC3_N: 16.5mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 16.51,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair DAC3_P/DAC3_N intra-pair skew 16.5mm exceeds differential tolerance (1.0mm)"
+      },
+      "layer_mismatch": {
+        "positive_layers": [
+          "F.Cu",
+          "In2.Cu"
+        ],
+        "negative_layers": [
+          "B.Cu",
+          "F.Cu",
+          "In2.Cu"
+        ]
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "DAC4_P",
+      "negative": "DAC4_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 51.16,
+      "neg_length_mm": 44.82,
+      "delta_mm": 6.34,
+      "status": "fail",
+      "message": "differential pair DAC4_P/DAC4_N: 6.3mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 6.34,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair DAC4_P/DAC4_N intra-pair skew 6.3mm exceeds differential tolerance (1.0mm)"
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "DAC5_P",
+      "negative": "DAC5_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 55.44,
+      "neg_length_mm": 59.3,
+      "delta_mm": 3.86,
+      "status": "fail",
+      "message": "differential pair DAC5_P/DAC5_N: 3.9mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 3.86,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair DAC5_P/DAC5_N intra-pair skew 3.9mm exceeds differential tolerance (1.0mm)"
+      },
+      "layer_mismatch": {
+        "positive_layers": [
+          "F.Cu",
+          "In2.Cu"
+        ],
+        "negative_layers": [
+          "B.Cu",
+          "F.Cu",
+          "In2.Cu"
+        ]
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "DAC6_P",
+      "negative": "DAC6_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 58.56,
+      "neg_length_mm": 55.09,
+      "delta_mm": 3.47,
+      "status": "fail",
+      "message": "differential pair DAC6_P/DAC6_N: 3.5mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 3.47,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair DAC6_P/DAC6_N intra-pair skew 3.5mm exceeds differential tolerance (1.0mm)"
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "DAC7_P",
+      "negative": "DAC7_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 68.26,
+      "neg_length_mm": 66.65,
+      "delta_mm": 1.61,
+      "status": "warning",
+      "message": "differential pair: 1.6mm mismatch approaching 2.0mm limit",
+      "intra_pair_skew": {
+        "skew_mm": 1.61,
+        "tolerance_mm": 1.0,
+        "severity": "MEDIUM",
+        "detail": "Differential pair DAC7_P/DAC7_N intra-pair skew 1.6mm exceeds differential tolerance (1.0mm)"
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "DAC8_P",
+      "negative": "DAC8_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 71.99,
+      "neg_length_mm": 71.94,
+      "delta_mm": 0.05,
+      "status": "pass"
+    },
+    {
+      "type": "differential",
+      "positive": "ISO_DAC1_P",
+      "negative": "ISO_DAC1_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 57.9,
+      "neg_length_mm": 65.14,
+      "delta_mm": 7.25,
+      "status": "fail",
+      "message": "differential pair ISO_DAC1_P/ISO_DAC1_N: 7.2mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 7.25,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair ISO_DAC1_P/ISO_DAC1_N intra-pair skew 7.2mm exceeds differential tolerance (1.0mm)"
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "ISO_DAC2_P",
+      "negative": "ISO_DAC2_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 42.51,
+      "neg_length_mm": 35.78,
+      "delta_mm": 6.73,
+      "status": "fail",
+      "message": "differential pair ISO_DAC2_P/ISO_DAC2_N: 6.7mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 6.73,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair ISO_DAC2_P/ISO_DAC2_N intra-pair skew 6.7mm exceeds differential tolerance (1.0mm)"
+      },
+      "layer_mismatch": {
+        "positive_layers": [
+          "B.Cu",
+          "F.Cu",
+          "In2.Cu"
+        ],
+        "negative_layers": [
+          "B.Cu",
+          "F.Cu"
+        ]
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "ISO_DAC3_P",
+      "negative": "ISO_DAC3_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 60.03,
+      "neg_length_mm": 62.46,
+      "delta_mm": 2.43,
+      "status": "fail",
+      "message": "differential pair ISO_DAC3_P/ISO_DAC3_N: 2.4mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 2.43,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair ISO_DAC3_P/ISO_DAC3_N intra-pair skew 2.4mm exceeds differential tolerance (1.0mm)"
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "ISO_DAC4_P",
+      "negative": "ISO_DAC4_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 43.21,
+      "neg_length_mm": 34.63,
+      "delta_mm": 8.58,
+      "status": "fail",
+      "message": "differential pair ISO_DAC4_P/ISO_DAC4_N: 8.6mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 8.58,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair ISO_DAC4_P/ISO_DAC4_N intra-pair skew 8.6mm exceeds differential tolerance (1.0mm)"
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "ISO_DAC5_P",
+      "negative": "ISO_DAC5_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 56.87,
+      "neg_length_mm": 61.49,
+      "delta_mm": 4.62,
+      "status": "fail",
+      "message": "differential pair ISO_DAC5_P/ISO_DAC5_N: 4.6mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 4.62,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair ISO_DAC5_P/ISO_DAC5_N intra-pair skew 4.6mm exceeds differential tolerance (1.0mm)"
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "ISO_DAC6_P",
+      "negative": "ISO_DAC6_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 42.3,
+      "neg_length_mm": 35.27,
+      "delta_mm": 7.03,
+      "status": "fail",
+      "message": "differential pair ISO_DAC6_P/ISO_DAC6_N: 7.0mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 7.03,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair ISO_DAC6_P/ISO_DAC6_N intra-pair skew 7.0mm exceeds differential tolerance (1.0mm)"
+      },
+      "layer_mismatch": {
+        "positive_layers": [
+          "B.Cu",
+          "F.Cu",
+          "In2.Cu"
+        ],
+        "negative_layers": [
+          "B.Cu",
+          "F.Cu"
+        ]
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "ISO_DAC7_P",
+      "negative": "ISO_DAC7_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 60.21,
+      "neg_length_mm": 66.83,
+      "delta_mm": 6.62,
+      "status": "fail",
+      "message": "differential pair ISO_DAC7_P/ISO_DAC7_N: 6.6mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 6.62,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair ISO_DAC7_P/ISO_DAC7_N intra-pair skew 6.6mm exceeds differential tolerance (1.0mm)"
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "ISO_DAC8_P",
+      "negative": "ISO_DAC8_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 43.31,
+      "neg_length_mm": 35.94,
+      "delta_mm": 7.36,
+      "status": "fail",
+      "message": "differential pair ISO_DAC8_P/ISO_DAC8_N: 7.4mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 7.36,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair ISO_DAC8_P/ISO_DAC8_N intra-pair skew 7.4mm exceeds differential tolerance (1.0mm)"
+      },
+      "layer_mismatch": {
+        "positive_layers": [
+          "B.Cu",
+          "F.Cu",
+          "In2.Cu"
+        ],
+        "negative_layers": [
+          "B.Cu",
+          "F.Cu"
+        ]
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "X_DRV_P",
+      "negative": "X_DRV_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 46.34,
+      "neg_length_mm": 48.59,
+      "delta_mm": 2.25,
+      "status": "fail",
+      "message": "differential pair X_DRV_P/X_DRV_N: 2.3mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 2.25,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair X_DRV_P/X_DRV_N intra-pair skew 2.3mm exceeds differential tolerance (1.0mm)"
+      },
+      "layer_mismatch": {
+        "positive_layers": [
+          "F.Cu"
+        ],
+        "negative_layers": [
+          "F.Cu",
+          "In2.Cu"
+        ]
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "Y_DRV_P",
+      "negative": "Y_DRV_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 33.21,
+      "neg_length_mm": 22.75,
+      "delta_mm": 10.46,
+      "status": "fail",
+      "message": "differential pair Y_DRV_P/Y_DRV_N: 10.5mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 10.46,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair Y_DRV_P/Y_DRV_N intra-pair skew 10.5mm exceeds differential tolerance (1.0mm)"
+      },
+      "layer_mismatch": {
+        "positive_layers": [
+          "F.Cu"
+        ],
+        "negative_layers": [
+          "F.Cu",
+          "In2.Cu"
+        ]
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "R_DRV_P",
+      "negative": "R_DRV_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 52.33,
+      "neg_length_mm": 44.67,
+      "delta_mm": 7.66,
+      "status": "fail",
+      "message": "differential pair R_DRV_P/R_DRV_N: 7.7mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 7.66,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair R_DRV_P/R_DRV_N intra-pair skew 7.7mm exceeds differential tolerance (1.0mm)"
+      },
+      "layer_mismatch": {
+        "positive_layers": [
+          "B.Cu",
+          "F.Cu"
+        ],
+        "negative_layers": [
+          "F.Cu",
+          "In2.Cu"
+        ]
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "G_DRV_P",
+      "negative": "G_DRV_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 41.46,
+      "neg_length_mm": 34.81,
+      "delta_mm": 6.65,
+      "status": "fail",
+      "message": "differential pair G_DRV_P/G_DRV_N: 6.6mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 6.65,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair G_DRV_P/G_DRV_N intra-pair skew 6.6mm exceeds differential tolerance (1.0mm)"
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "B_DRV_P",
+      "negative": "B_DRV_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 53.67,
+      "neg_length_mm": 37.67,
+      "delta_mm": 16.01,
+      "status": "fail",
+      "message": "differential pair B_DRV_P/B_DRV_N: 16.0mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 16.01,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair B_DRV_P/B_DRV_N intra-pair skew 16.0mm exceeds differential tolerance (1.0mm)"
+      },
+      "layer_mismatch": {
+        "positive_layers": [
+          "F.Cu"
+        ],
+        "negative_layers": [
+          "F.Cu",
+          "In2.Cu"
+        ]
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "I_DRV_P",
+      "negative": "I_DRV_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 25.18,
+      "neg_length_mm": 21.96,
+      "delta_mm": 3.23,
+      "status": "fail",
+      "message": "differential pair I_DRV_P/I_DRV_N: 3.2mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 3.23,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair I_DRV_P/I_DRV_N intra-pair skew 3.2mm exceeds differential tolerance (1.0mm)"
+      },
+      "layer_mismatch": {
+        "positive_layers": [
+          "F.Cu"
+        ],
+        "negative_layers": [
+          "F.Cu",
+          "In2.Cu"
+        ]
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "AUX1_DRV_P",
+      "negative": "AUX1_DRV_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 52.73,
+      "neg_length_mm": 47.16,
+      "delta_mm": 5.57,
+      "status": "fail",
+      "message": "differential pair AUX1_DRV_P/AUX1_DRV_N: 5.6mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 5.57,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair AUX1_DRV_P/AUX1_DRV_N intra-pair skew 5.6mm exceeds differential tolerance (1.0mm)"
+      },
+      "layer_mismatch": {
+        "positive_layers": [
+          "F.Cu",
+          "In2.Cu"
+        ],
+        "negative_layers": [
+          "B.Cu",
+          "F.Cu"
+        ]
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "AUX2_DRV_P",
+      "negative": "AUX2_DRV_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 27.37,
+      "neg_length_mm": 18.53,
+      "delta_mm": 8.84,
+      "status": "fail",
+      "message": "differential pair AUX2_DRV_P/AUX2_DRV_N: 8.8mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 8.84,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair AUX2_DRV_P/AUX2_DRV_N intra-pair skew 8.8mm exceeds differential tolerance (1.0mm)"
+      },
+      "layer_mismatch": {
+        "positive_layers": [
+          "F.Cu"
+        ],
+        "negative_layers": [
+          "F.Cu",
+          "In2.Cu"
+        ]
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "X_SW_P",
+      "negative": "X_SW_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 24.7,
+      "neg_length_mm": 24.1,
+      "delta_mm": 0.6,
+      "status": "warning",
+      "layer_mismatch": {
+        "positive_layers": [
+          "B.Cu",
+          "F.Cu"
+        ],
+        "negative_layers": [
+          "B.Cu",
+          "F.Cu",
+          "In2.Cu"
+        ]
+      },
+      "message": "differential pair routes on different layers: ['B.Cu', 'F.Cu'] vs ['B.Cu', 'F.Cu', 'In2.Cu']"
+    },
+    {
+      "type": "differential",
+      "positive": "Y_SW_P",
+      "negative": "Y_SW_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 27.44,
+      "neg_length_mm": 31.99,
+      "delta_mm": 4.55,
+      "status": "fail",
+      "message": "differential pair Y_SW_P/Y_SW_N: 4.6mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 4.55,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair Y_SW_P/Y_SW_N intra-pair skew 4.6mm exceeds differential tolerance (1.0mm)"
+      },
+      "layer_mismatch": {
+        "positive_layers": [
+          "B.Cu",
+          "F.Cu"
+        ],
+        "negative_layers": [
+          "B.Cu",
+          "F.Cu",
+          "In2.Cu"
+        ]
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "ILDA_X_P",
+      "negative": "ILDA_X_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 28.15,
+      "neg_length_mm": 29.16,
+      "delta_mm": 1.02,
+      "status": "warning",
+      "intra_pair_skew": {
+        "skew_mm": 1.02,
+        "tolerance_mm": 1.0,
+        "severity": "MEDIUM",
+        "detail": "Differential pair ILDA_X_P/ILDA_X_N intra-pair skew 1.0mm exceeds differential tolerance (1.0mm)"
+      },
+      "message": "differential pair ILDA_X_P/ILDA_X_N: intra-pair skew 1.0mm exceeds 1.0mm tolerance"
+    },
+    {
+      "type": "differential",
+      "positive": "ILDA_Y_P",
+      "negative": "ILDA_Y_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 18.29,
+      "neg_length_mm": 19.22,
+      "delta_mm": 0.93,
+      "status": "pass"
+    },
+    {
+      "type": "differential",
+      "positive": "I_SW_P",
+      "negative": "I_SW_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 33.37,
+      "neg_length_mm": 19.27,
+      "delta_mm": 14.11,
+      "status": "fail",
+      "message": "differential pair I_SW_P/I_SW_N: 14.1mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 14.11,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair I_SW_P/I_SW_N intra-pair skew 14.1mm exceeds differential tolerance (1.0mm)"
+      },
+      "layer_mismatch": {
+        "positive_layers": [
+          "B.Cu",
+          "F.Cu"
+        ],
+        "negative_layers": [
+          "B.Cu",
+          "F.Cu",
+          "In2.Cu"
+        ]
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "R_SW_P",
+      "negative": "R_SW_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 26.85,
+      "neg_length_mm": 33.04,
+      "delta_mm": 6.19,
+      "status": "fail",
+      "message": "differential pair R_SW_P/R_SW_N: 6.2mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 6.19,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair R_SW_P/R_SW_N intra-pair skew 6.2mm exceeds differential tolerance (1.0mm)"
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "ILDA_R_P",
+      "negative": "ILDA_R_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 15.94,
+      "neg_length_mm": 19.33,
+      "delta_mm": 3.4,
+      "status": "fail",
+      "message": "differential pair ILDA_R_P/ILDA_R_N: 3.4mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 3.4,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair ILDA_R_P/ILDA_R_N intra-pair skew 3.4mm exceeds differential tolerance (1.0mm)"
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "G_SW_P",
+      "negative": "G_SW_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 23.25,
+      "neg_length_mm": 20.89,
+      "delta_mm": 2.36,
+      "status": "fail",
+      "message": "differential pair G_SW_P/G_SW_N: 2.4mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 2.36,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair G_SW_P/G_SW_N intra-pair skew 2.4mm exceeds differential tolerance (1.0mm)"
+      },
+      "layer_mismatch": {
+        "positive_layers": [
+          "B.Cu",
+          "F.Cu"
+        ],
+        "negative_layers": [
+          "B.Cu",
+          "F.Cu",
+          "In2.Cu"
+        ]
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "ILDA_G_P",
+      "negative": "ILDA_G_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 30.71,
+      "neg_length_mm": 35.53,
+      "delta_mm": 4.82,
+      "status": "fail",
+      "message": "differential pair ILDA_G_P/ILDA_G_N: 4.8mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 4.82,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair ILDA_G_P/ILDA_G_N intra-pair skew 4.8mm exceeds differential tolerance (1.0mm)"
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "B_SW_P",
+      "negative": "B_SW_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 27.23,
+      "neg_length_mm": 33.45,
+      "delta_mm": 6.22,
+      "status": "fail",
+      "message": "differential pair B_SW_P/B_SW_N: 6.2mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 6.22,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair B_SW_P/B_SW_N intra-pair skew 6.2mm exceeds differential tolerance (1.0mm)"
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "ILDA_B_P",
+      "negative": "ILDA_B_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 18.09,
+      "neg_length_mm": 22.84,
+      "delta_mm": 4.75,
+      "status": "fail",
+      "message": "differential pair ILDA_B_P/ILDA_B_N: 4.8mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 4.75,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair ILDA_B_P/ILDA_B_N intra-pair skew 4.8mm exceeds differential tolerance (1.0mm)"
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "ILDA_I_P",
+      "negative": "ILDA_I_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 28.36,
+      "neg_length_mm": 34.01,
+      "delta_mm": 5.65,
+      "status": "fail",
+      "message": "differential pair ILDA_I_P/ILDA_I_N: 5.7mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 5.65,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair ILDA_I_P/ILDA_I_N intra-pair skew 5.7mm exceeds differential tolerance (1.0mm)"
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "AUX1_SW_P",
+      "negative": "AUX1_SW_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 23.51,
+      "neg_length_mm": 16.47,
+      "delta_mm": 7.03,
+      "status": "fail",
+      "message": "differential pair AUX1_SW_P/AUX1_SW_N: 7.0mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 7.03,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair AUX1_SW_P/AUX1_SW_N intra-pair skew 7.0mm exceeds differential tolerance (1.0mm)"
+      },
+      "layer_mismatch": {
+        "positive_layers": [
+          "B.Cu",
+          "F.Cu"
+        ],
+        "negative_layers": [
+          "F.Cu",
+          "In2.Cu"
+        ]
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "AUX2_SW_P",
+      "negative": "AUX2_SW_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 30.5,
+      "neg_length_mm": 32.09,
+      "delta_mm": 1.59,
+      "status": "warning",
+      "message": "differential pair: 1.6mm mismatch approaching 2.0mm limit",
+      "intra_pair_skew": {
+        "skew_mm": 1.59,
+        "tolerance_mm": 1.0,
+        "severity": "MEDIUM",
+        "detail": "Differential pair AUX2_SW_P/AUX2_SW_N intra-pair skew 1.6mm exceeds differential tolerance (1.0mm)"
+      },
+      "layer_mismatch": {
+        "positive_layers": [
+          "B.Cu",
+          "F.Cu"
+        ],
+        "negative_layers": [
+          "F.Cu",
+          "In2.Cu"
+        ]
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "ILDA_AUX1_P",
+      "negative": "ILDA_AUX1_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 34.22,
+      "neg_length_mm": 39.04,
+      "delta_mm": 4.82,
+      "status": "fail",
+      "message": "differential pair ILDA_AUX1_P/ILDA_AUX1_N: 4.8mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 4.82,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair ILDA_AUX1_P/ILDA_AUX1_N intra-pair skew 4.8mm exceeds differential tolerance (1.0mm)"
+      }
+    },
+    {
+      "type": "differential",
+      "positive": "ILDA_AUX2_P",
+      "negative": "ILDA_AUX2_N",
+      "tolerance_mm": 2.0,
+      "pos_length_mm": 23.29,
+      "neg_length_mm": 30.42,
+      "delta_mm": 7.13,
+      "status": "fail",
+      "message": "differential pair ILDA_AUX2_P/ILDA_AUX2_N: 7.1mm length mismatch (tolerance 2.0mm)",
+      "intra_pair_skew": {
+        "skew_mm": 7.13,
+        "tolerance_mm": 1.0,
+        "severity": "HIGH",
+        "detail": "Differential pair ILDA_AUX2_P/ILDA_AUX2_N intra-pair skew 7.1mm exceeds differential tolerance (1.0mm)"
+      },
+      "layer_mismatch": {
+        "positive_layers": [
+          "F.Cu",
+          "In2.Cu"
+        ],
+        "negative_layers": [
+          "F.Cu"
+        ]
+      }
+    }
+  ],
+  "decoupling_placement": [
+    {
+      "ic_ref": "+3V3",
+      "cap_ref": "C6",
+      "cap_value": "100n",
+      "status": "info",
+      "message": "C6 or +3V3 not found in PCB placement"
+    },
+    {
+      "ic_ref": "+3V3",
+      "cap_ref": "C35",
+      "cap_value": "100n",
+      "status": "info",
+      "message": "C35 or +3V3 not found in PCB placement"
+    },
+    {
+      "ic_ref": "+3V3",
+      "cap_ref": "C351",
+      "cap_value": "100n",
+      "status": "info",
+      "message": "C351 or +3V3 not found in PCB placement"
+    },
+    {
+      "ic_ref": "+3V3",
+      "cap_ref": "C352",
+      "cap_value": "100n",
+      "status": "info",
+      "message": "C352 or +3V3 not found in PCB placement"
+    },
+    {
+      "ic_ref": "+3V3",
+      "cap_ref": "C353",
+      "cap_value": "100n",
+      "status": "info",
+      "message": "C353 or +3V3 not found in PCB placement"
+    },
+    {
+      "ic_ref": "+3V3",
+      "cap_ref": "C2",
+      "cap_value": "10u",
+      "status": "info",
+      "message": "C2 or +3V3 not found in PCB placement"
+    },
+    {
+      "ic_ref": "+3V3",
+      "cap_ref": "C7",
+      "cap_value": "100n",
+      "status": "info",
+      "message": "C7 or +3V3 not found in PCB placement"
+    },
+    {
+      "ic_ref": "+3V3",
+      "cap_ref": "C8",
+      "cap_value": "100n",
+      "status": "info",
+      "message": "C8 or +3V3 not found in PCB placement"
+    },
+    {
+      "ic_ref": "+3V3",
+      "cap_ref": "C9",
+      "cap_value": "100n",
+      "status": "info",
+      "message": "C9 or +3V3 not found in PCB placement"
+    },
+    {
+      "ic_ref": "+3V3",
+      "cap_ref": "C10",
+      "cap_value": "100n",
+      "status": "info",
+      "message": "C10 or +3V3 not found in PCB placement"
+    },
+    {
+      "ic_ref": "+3V3",
+      "cap_ref": "C11",
+      "cap_value": "100n",
+      "status": "info",
+      "message": "C11 or +3V3 not found in PCB placement"
+    },
+    {
+      "ic_ref": "+3V3",
+      "cap_ref": "C14",
+      "cap_value": "10u",
+      "status": "info",
+      "message": "C14 or +3V3 not found in PCB placement"
+    },
+    {
+      "ic_ref": "+5VA",
+      "cap_ref": "C3",
+      "cap_value": "10u",
+      "status": "info",
+      "message": "C3 or +5VA not found in PCB placement"
+    },
+    {
+      "ic_ref": "+5VA",
+      "cap_ref": "C12",
+      "cap_value": "100n",
+      "status": "info",
+      "message": "C12 or +5VA not found in PCB placement"
+    },
+    {
+      "ic_ref": "+5VA",
+      "cap_ref": "C13",
+      "cap_value": "100n",
+      "status": "info",
+      "message": "C13 or +5VA not found in PCB placement"
+    },
+    {
+      "ic_ref": "+5VA",
+      "cap_ref": "C15",
+      "cap_value": "10u",
+      "status": "info",
+      "message": "C15 or +5VA not found in PCB placement"
+    },
+    {
+      "ic_ref": "+15A",
+      "cap_ref": "C4",
+      "cap_value": "10u",
+      "status": "info",
+      "message": "C4 or +15A not found in PCB placement"
+    },
+    {
+      "ic_ref": "+15A",
+      "cap_ref": "C123",
+      "cap_value": "100n",
+      "status": "info",
+      "message": "C123 or +15A not found in PCB placement"
+    },
+    {
+      "ic_ref": "+15A",
+      "cap_ref": "C125",
+      "cap_value": "4.7u",
+      "status": "info",
+      "message": "C125 or +15A not found in PCB placement"
+    },
+    {
+      "ic_ref": "+15A",
+      "cap_ref": "C143",
+      "cap_value": "100n",
+      "status": "info",
+      "message": "C143 or +15A not found in PCB placement"
+    },
+    {
+      "ic_ref": "+15A",
+      "cap_ref": "C145",
+      "cap_value": "4.7u",
+      "status": "info",
+      "message": "C145 or +15A not found in PCB placement"
+    },
+    {
+      "ic_ref": "+15A",
+      "cap_ref": "C163",
+      "cap_value": "100n",
+      "status": "info",
+      "message": "C163 or +15A not found in PCB placement"
+    },
+    {
+      "ic_ref": "+15A",
+      "cap_ref": "C165",
+      "cap_value": "4.7u",
+      "status": "info",
+      "message": "C165 or +15A not found in PCB placement"
+    },
+    {
+      "ic_ref": "+15A",
+      "cap_ref": "C183",
+      "cap_value": "100n",
+      "status": "info",
+      "message": "C183 or +15A not found in PCB placement"
+    },
+    {
+      "ic_ref": "+15A",
+      "cap_ref": "C185",
+      "cap_value": "4.7u",
+      "status": "info",
+      "message": "C185 or +15A not found in PCB placement"
+    },
+    {
+      "ic_ref": "+15A",
+      "cap_ref": "C203",
+      "cap_value": "100n",
+      "status": "info",
+      "message": "C203 or +15A not found in PCB placement"
+    },
+    {
+      "ic_ref": "+15A",
+      "cap_ref": "C205",
+      "cap_value": "4.7u",
+      "status": "info",
+      "message": "C205 or +15A not found in PCB placement"
+    },
+    {
+      "ic_ref": "+15A",
+      "cap_ref": "C223",
+      "cap_value": "100n",
+      "status": "info",
+      "message": "C223 or +15A not found in PCB placement"
+    },
+    {
+      "ic_ref": "+15A",
+      "cap_ref": "C225",
+      "cap_value": "4.7u",
+      "status": "info",
+      "message": "C225 or +15A not found in PCB placement"
+    },
+    {
+      "ic_ref": "+15A",
+      "cap_ref": "C243",
+      "cap_value": "100n",
+      "status": "info",
+      "message": "C243 or +15A not found in PCB placement"
+    },
+    {
+      "ic_ref": "+15A",
+      "cap_ref": "C245",
+      "cap_value": "4.7u",
+      "status": "info",
+      "message": "C245 or +15A not found in PCB placement"
+    },
+    {
+      "ic_ref": "+15A",
+      "cap_ref": "C263",
+      "cap_value": "100n",
+      "status": "info",
+      "message": "C263 or +15A not found in PCB placement"
+    },
+    {
+      "ic_ref": "+15A",
+      "cap_ref": "C265",
+      "cap_value": "4.7u",
+      "status": "info",
+      "message": "C265 or +15A not found in PCB placement"
+    },
+    {
+      "ic_ref": "+15A",
+      "cap_ref": "C310",
+      "cap_value": "100n",
+      "status": "info",
+      "message": "C310 or +15A not found in PCB placement"
+    },
+    {
+      "ic_ref": "+15A",
+      "cap_ref": "C312",
+      "cap_value": "100n",
+      "status": "info",
+      "message": "C312 or +15A not found in PCB placement"
+    },
+    {
+      "ic_ref": "+15A",
+      "cap_ref": "C314",
+      "cap_value": "100n",
+      "status": "info",
+      "message": "C314 or +15A not found in PCB placement"
+    },
+    {
+      "ic_ref": "+15A",
+      "cap_ref": "C316",
+      "cap_value": "100n",
+      "status": "info",
+      "message": "C316 or +15A not found in PCB placement"
+    }
+  ],
+  "summary": {
+    "total_checks": 3,
+    "pass": 2,
+    "warning": 4,
+    "fail": 34,
+    "info": 37
+  }
+}

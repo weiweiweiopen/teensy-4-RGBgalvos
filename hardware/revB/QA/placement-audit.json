@@ -1,0 +1,825 @@
+{
+  "stage": "PLACEMENT REVIEW / UNROUTED",
+  "board_mm": [
+    110,
+    100
+  ],
+  "area_reduction_pct": 58.25,
+  "components": 273,
+  "pad_comparisons": 810,
+  "pad_mismatches": [],
+  "tracks": 0,
+  "vias": 0,
+  "unconnected_items": 499,
+  "schematic_parity": 0,
+  "placement_errors": 0,
+  "warnings": [
+    {
+      "description": "\u88ab\u677f\u908a\u622a\u65b7\u7684\u7d72\u5370 (\u96fb\u8def\u677f\u8a2d\u5b9a\u4e2d\u7684 \"\u7d72\u5370\" \u7d04\u675f \u9593\u9699 0.1000 mm; \u5be6\u969b 0.0000 mm)",
+      "items": [
+        {
+          "description": "Edge.Cuts \u4e0a\u7684 \u7dda\u6bb5",
+          "pos": {
+            "x": 110.0,
+            "y": 0.0
+          },
+          "uuid": "e40af578-5c59-4605-a07b-467a70c8f663"
+        },
+        {
+          "description": "F.Silkscreen \u4e0a\u7684 \u7dda\u6bb5 J1",
+          "pos": {
+            "x": 99.02,
+            "y": 39.39
+          },
+          "uuid": "ea2e7329-782a-40fe-a03c-acd684db37d3"
+        }
+      ],
+      "severity": "warning",
+      "type": "silk_edge_clearance"
+    },
+    {
+      "description": "\u88ab\u677f\u908a\u622a\u65b7\u7684\u7d72\u5370 (\u96fb\u8def\u677f\u8a2d\u5b9a\u4e2d\u7684 \"\u7d72\u5370\" \u7d04\u675f \u9593\u9699 0.1000 mm; \u5be6\u969b 0.0000 mm)",
+      "items": [
+        {
+          "description": "Edge.Cuts \u4e0a\u7684 \u7dda\u6bb5",
+          "pos": {
+            "x": 110.0,
+            "y": 0.0
+          },
+          "uuid": "e40af578-5c59-4605-a07b-467a70c8f663"
+        },
+        {
+          "description": "F.Silkscreen \u4e0a\u7684 \u7dda\u6bb5 J1",
+          "pos": {
+            "x": 111.36,
+            "y": 92.61
+          },
+          "uuid": "24226c24-4bb2-448f-b18b-460d3464e243"
+        }
+      ],
+      "severity": "warning",
+      "type": "silk_edge_clearance"
+    }
+  ],
+  "groups": [
+    "OUT_I_R",
+    "OUT_X_Y",
+    "OUT_AUX1_AUX2",
+    "TEENSY_AND_DIGITAL_FANOUT",
+    "OUT_G_B",
+    "CH6_I",
+    "CH2_Y",
+    "CH4_G",
+    "CH7_AUX1",
+    "CH3_R",
+    "CH5_B",
+    "CH8_AUX2",
+    "CH1_X"
+  ],
+  "connector_bbox_mm": [
+    98.065662,
+    38.925,
+    20.449338,
+    54.15
+  ],
+  "teensy_bbox_mm": [
+    84.375,
+    0.375,
+    18.49,
+    36.27
+  ],
+  "teensy_to_connector_projected_gap_mm": 2.28,
+  "power_resistor_to_connector_projected_gap_mm": 11.2107,
+  "signal_airwire_MST_mm": {
+    "revA": 5798.45,
+    "revB": 4000.5,
+    "reduction_pct": 31.01,
+    "meaning": "Euclidean spanning-tree lower-bound; excludes power and NC; NOT routed length or SI verification"
+  },
+  "local_pin_distances": [
+    {
+      "channel": 1,
+      "check": "positive feedback OUT",
+      "pads": [
+        [
+          "R126",
+          "1"
+        ],
+        [
+          "U11",
+          "8"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 1,
+      "check": "positive feedback IN-",
+      "pads": [
+        [
+          "R126",
+          "2"
+        ],
+        [
+          "U11",
+          "9"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 1,
+      "check": "inverter feedback OUT",
+      "pads": [
+        [
+          "R128",
+          "1"
+        ],
+        [
+          "U11",
+          "14"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 1,
+      "check": "inverter feedback IN-",
+      "pads": [
+        [
+          "R128",
+          "2"
+        ],
+        [
+          "U11",
+          "13"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 1,
+      "check": "V+ bypass",
+      "pads": [
+        [
+          "C123",
+          "1"
+        ],
+        [
+          "U11",
+          "4"
+        ]
+      ],
+      "distance_mm": 2.3
+    },
+    {
+      "channel": 1,
+      "check": "V- bypass",
+      "pads": [
+        [
+          "C124",
+          "2"
+        ],
+        [
+          "U11",
+          "11"
+        ]
+      ],
+      "distance_mm": 2.3
+    },
+    {
+      "channel": 2,
+      "check": "positive feedback OUT",
+      "pads": [
+        [
+          "R146",
+          "1"
+        ],
+        [
+          "U12",
+          "8"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 2,
+      "check": "positive feedback IN-",
+      "pads": [
+        [
+          "R146",
+          "2"
+        ],
+        [
+          "U12",
+          "9"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 2,
+      "check": "inverter feedback OUT",
+      "pads": [
+        [
+          "R148",
+          "1"
+        ],
+        [
+          "U12",
+          "14"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 2,
+      "check": "inverter feedback IN-",
+      "pads": [
+        [
+          "R148",
+          "2"
+        ],
+        [
+          "U12",
+          "13"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 2,
+      "check": "V+ bypass",
+      "pads": [
+        [
+          "C143",
+          "1"
+        ],
+        [
+          "U12",
+          "4"
+        ]
+      ],
+      "distance_mm": 2.3
+    },
+    {
+      "channel": 2,
+      "check": "V- bypass",
+      "pads": [
+        [
+          "C144",
+          "2"
+        ],
+        [
+          "U12",
+          "11"
+        ]
+      ],
+      "distance_mm": 2.3
+    },
+    {
+      "channel": 3,
+      "check": "positive feedback OUT",
+      "pads": [
+        [
+          "R166",
+          "1"
+        ],
+        [
+          "U13",
+          "8"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 3,
+      "check": "positive feedback IN-",
+      "pads": [
+        [
+          "R166",
+          "2"
+        ],
+        [
+          "U13",
+          "9"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 3,
+      "check": "inverter feedback OUT",
+      "pads": [
+        [
+          "R168",
+          "1"
+        ],
+        [
+          "U13",
+          "14"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 3,
+      "check": "inverter feedback IN-",
+      "pads": [
+        [
+          "R168",
+          "2"
+        ],
+        [
+          "U13",
+          "13"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 3,
+      "check": "V+ bypass",
+      "pads": [
+        [
+          "C163",
+          "1"
+        ],
+        [
+          "U13",
+          "4"
+        ]
+      ],
+      "distance_mm": 2.3
+    },
+    {
+      "channel": 3,
+      "check": "V- bypass",
+      "pads": [
+        [
+          "C164",
+          "2"
+        ],
+        [
+          "U13",
+          "11"
+        ]
+      ],
+      "distance_mm": 2.3
+    },
+    {
+      "channel": 4,
+      "check": "positive feedback OUT",
+      "pads": [
+        [
+          "R186",
+          "1"
+        ],
+        [
+          "U14",
+          "8"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 4,
+      "check": "positive feedback IN-",
+      "pads": [
+        [
+          "R186",
+          "2"
+        ],
+        [
+          "U14",
+          "9"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 4,
+      "check": "inverter feedback OUT",
+      "pads": [
+        [
+          "R188",
+          "1"
+        ],
+        [
+          "U14",
+          "14"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 4,
+      "check": "inverter feedback IN-",
+      "pads": [
+        [
+          "R188",
+          "2"
+        ],
+        [
+          "U14",
+          "13"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 4,
+      "check": "V+ bypass",
+      "pads": [
+        [
+          "C183",
+          "1"
+        ],
+        [
+          "U14",
+          "4"
+        ]
+      ],
+      "distance_mm": 2.3
+    },
+    {
+      "channel": 4,
+      "check": "V- bypass",
+      "pads": [
+        [
+          "C184",
+          "2"
+        ],
+        [
+          "U14",
+          "11"
+        ]
+      ],
+      "distance_mm": 2.3
+    },
+    {
+      "channel": 5,
+      "check": "positive feedback OUT",
+      "pads": [
+        [
+          "R206",
+          "1"
+        ],
+        [
+          "U15",
+          "8"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 5,
+      "check": "positive feedback IN-",
+      "pads": [
+        [
+          "R206",
+          "2"
+        ],
+        [
+          "U15",
+          "9"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 5,
+      "check": "inverter feedback OUT",
+      "pads": [
+        [
+          "R208",
+          "1"
+        ],
+        [
+          "U15",
+          "14"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 5,
+      "check": "inverter feedback IN-",
+      "pads": [
+        [
+          "R208",
+          "2"
+        ],
+        [
+          "U15",
+          "13"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 5,
+      "check": "V+ bypass",
+      "pads": [
+        [
+          "C203",
+          "1"
+        ],
+        [
+          "U15",
+          "4"
+        ]
+      ],
+      "distance_mm": 2.3
+    },
+    {
+      "channel": 5,
+      "check": "V- bypass",
+      "pads": [
+        [
+          "C204",
+          "2"
+        ],
+        [
+          "U15",
+          "11"
+        ]
+      ],
+      "distance_mm": 2.3
+    },
+    {
+      "channel": 6,
+      "check": "positive feedback OUT",
+      "pads": [
+        [
+          "R226",
+          "1"
+        ],
+        [
+          "U16",
+          "8"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 6,
+      "check": "positive feedback IN-",
+      "pads": [
+        [
+          "R226",
+          "2"
+        ],
+        [
+          "U16",
+          "9"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 6,
+      "check": "inverter feedback OUT",
+      "pads": [
+        [
+          "R228",
+          "1"
+        ],
+        [
+          "U16",
+          "14"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 6,
+      "check": "inverter feedback IN-",
+      "pads": [
+        [
+          "R228",
+          "2"
+        ],
+        [
+          "U16",
+          "13"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 6,
+      "check": "V+ bypass",
+      "pads": [
+        [
+          "C223",
+          "1"
+        ],
+        [
+          "U16",
+          "4"
+        ]
+      ],
+      "distance_mm": 2.3
+    },
+    {
+      "channel": 6,
+      "check": "V- bypass",
+      "pads": [
+        [
+          "C224",
+          "2"
+        ],
+        [
+          "U16",
+          "11"
+        ]
+      ],
+      "distance_mm": 2.3
+    },
+    {
+      "channel": 7,
+      "check": "positive feedback OUT",
+      "pads": [
+        [
+          "R246",
+          "1"
+        ],
+        [
+          "U17",
+          "8"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 7,
+      "check": "positive feedback IN-",
+      "pads": [
+        [
+          "R246",
+          "2"
+        ],
+        [
+          "U17",
+          "9"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 7,
+      "check": "inverter feedback OUT",
+      "pads": [
+        [
+          "R248",
+          "1"
+        ],
+        [
+          "U17",
+          "14"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 7,
+      "check": "inverter feedback IN-",
+      "pads": [
+        [
+          "R248",
+          "2"
+        ],
+        [
+          "U17",
+          "13"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 7,
+      "check": "V+ bypass",
+      "pads": [
+        [
+          "C243",
+          "1"
+        ],
+        [
+          "U17",
+          "4"
+        ]
+      ],
+      "distance_mm": 2.3
+    },
+    {
+      "channel": 7,
+      "check": "V- bypass",
+      "pads": [
+        [
+          "C244",
+          "2"
+        ],
+        [
+          "U17",
+          "11"
+        ]
+      ],
+      "distance_mm": 2.3
+    },
+    {
+      "channel": 8,
+      "check": "positive feedback OUT",
+      "pads": [
+        [
+          "R266",
+          "1"
+        ],
+        [
+          "U18",
+          "8"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 8,
+      "check": "positive feedback IN-",
+      "pads": [
+        [
+          "R266",
+          "2"
+        ],
+        [
+          "U18",
+          "9"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 8,
+      "check": "inverter feedback OUT",
+      "pads": [
+        [
+          "R268",
+          "1"
+        ],
+        [
+          "U18",
+          "14"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 8,
+      "check": "inverter feedback IN-",
+      "pads": [
+        [
+          "R268",
+          "2"
+        ],
+        [
+          "U18",
+          "13"
+        ]
+      ],
+      "distance_mm": 2.9312
+    },
+    {
+      "channel": 8,
+      "check": "V+ bypass",
+      "pads": [
+        [
+          "C263",
+          "1"
+        ],
+        [
+          "U18",
+          "4"
+        ]
+      ],
+      "distance_mm": 2.3
+    },
+    {
+      "channel": 8,
+      "check": "V- bypass",
+      "pads": [
+        [
+          "C264",
+          "2"
+        ],
+        [
+          "U18",
+          "11"
+        ]
+      ],
+      "distance_mm": 2.3
+    }
+  ],
+  "pcb_sha256": "c56bc82415dbf0b3a70cab76b8227ade7e249a269aca2c523ec0ccc64522aa8b",
+  "pcb_source": "KiCad/ILDA8CH.kicad_pcb",
+  "connector_procurement": "MPN pending; candidate footprint only",
+  "user_edit": "All footprints unlocked. Native PCB_GROUPs support whole-channel move or entering a group for local edits."
+}

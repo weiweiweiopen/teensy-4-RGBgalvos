@@ -1,0 +1,9 @@
+{
+  "numbered_pads_expected": 1031,
+  "numbered_pads_readback": 1031,
+  "mismatches": [],
+  "missing": [],
+  "extra": [],
+  "pass_pad_net_attributes": true,
+  "limitation": "X2 pad identity/net attributes only; not independent image-based copper connectivity extraction."
+}

@@ -1,0 +1,2 @@
+(version 1)
+(rule "DAC pins: controlled fanout" (condition "A.NetName == 'DAC*'") (constraint track_width (min 0.15) (opt 0.2)))

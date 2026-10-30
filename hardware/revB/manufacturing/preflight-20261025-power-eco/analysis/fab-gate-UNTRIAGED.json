@@ -1,0 +1,175 @@
+{
+  "gate_version": "1.0",
+  "overall_status": "FAIL",
+  "summary": {
+    "total_checks": 12,
+    "pass": 10,
+    "warn": 0,
+    "fail": 1,
+    "skip": 1
+  },
+  "checks": [
+    {
+      "category": "routing",
+      "check_id": "routing_completeness",
+      "status": "pass",
+      "message": "All nets routed (263/263)",
+      "details": null
+    },
+    {
+      "category": "bom",
+      "check_id": "mpn_coverage",
+      "status": "pass",
+      "message": "All components have MPNs (319/319)",
+      "details": null
+    },
+    {
+      "category": "bom",
+      "check_id": "footprint_assignment",
+      "status": "pass",
+      "message": "All components have footprints assigned",
+      "details": null
+    },
+    {
+      "category": "dfm",
+      "check_id": "fab_capability",
+      "status": "pass",
+      "message": "DFM tier: standard",
+      "details": null
+    },
+    {
+      "category": "documentation",
+      "check_id": "revision_marking",
+      "status": "pass",
+      "message": "Revision marking found",
+      "details": null
+    },
+    {
+      "category": "documentation",
+      "check_id": "board_name",
+      "status": "pass",
+      "message": "Board name found on silkscreen",
+      "details": null
+    },
+    {
+      "category": "consistency",
+      "check_id": "component_count",
+      "status": "pass",
+      "message": "Schematic (337 placeable) matches PCB (337 footprints)",
+      "details": null
+    },
+    {
+      "category": "consistency",
+      "check_id": "net_count",
+      "status": "pass",
+      "message": "Net counts match (263)",
+      "details": null
+    },
+    {
+      "category": "gerbers",
+      "check_id": "layer_completeness",
+      "status": "pass",
+      "message": "All expected layers present",
+      "details": null
+    },
+    {
+      "category": "gerbers",
+      "check_id": "layer_alignment",
+      "status": "fail",
+      "message": "Layer alignment issue detected \u2014 coordinate ranges inconsistent",
+      "details": {
+        "alignment": {
+          "aligned": false,
+          "issues": [
+            "Width varies by 8.3mm across copper/edge layers",
+            "Height varies by 7.5mm across copper/edge layers"
+          ],
+          "layer_extents": {
+            "B.Cu": {
+              "width": 101.67,
+              "height": 92.5
+            },
+            "B.Mask": {
+              "width": 104.0,
+              "height": 95.0
+            },
+            "B.Paste": {
+              "width": 0,
+              "height": 0
+            },
+            "B.SilkS": {
+              "width": 104.0,
+              "height": 95.0
+            },
+            "Edge.Cuts": {
+              "width": 110.0,
+              "height": 100.0
+            },
+            "F.Cu": {
+              "width": 106.234,
+              "height": 97.275
+            },
+            "F.Mask": {
+              "width": 105.0,
+              "height": 96.5
+            },
+            "F.Paste": {
+              "width": 101.125,
+              "height": 91.8
+            },
+            "F.SilkS": {
+              "width": 109.36,
+              "height": 97.4
+            },
+            "In1.Cu": {
+              "width": 108.8,
+              "height": 98.8
+            },
+            "In2.Cu": {
+              "width": 108.8,
+              "height": 98.8
+            },
+            "drill_NPTH": {
+              "width": 104.0,
+              "height": 94.0
+            },
+            "drill_PTH": {
+              "width": 101.67,
+              "height": 92.5
+            }
+          }
+        }
+      }
+    },
+    {
+      "category": "thermal",
+      "check_id": "thermal_risk",
+      "status": "pass",
+      "message": "Thermal score None/100 \u2014 no critical/high findings",
+      "details": null
+    },
+    {
+      "category": "emc",
+      "check_id": "emc_risk",
+      "status": "skip",
+      "message": "EMC analysis not provided",
+      "details": null
+    }
+  ],
+  "elapsed_s": 0.0,
+  "trust_posture": {
+    "trust_level": "high",
+    "total_findings": 215,
+    "by_confidence": {
+      "deterministic": 197,
+      "heuristic": 18,
+      "datasheet_backed": 0
+    },
+    "provenance_coverage_pct": 49.6,
+    "per_analyzer": {
+      "schematic": "high",
+      "pcb": "high",
+      "thermal": "high"
+    }
+  }
+}

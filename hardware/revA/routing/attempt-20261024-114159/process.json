@@ -1,0 +1,21 @@
+{
+  "pid": 95253,
+  "command": [
+    "/usr/local/opt/openjdk/bin/java",
+    "-Xmx6g",
+    "-jar",
+    "/Users/shihweichieh/Documents/KiCad/10.0/scripting/plugins/freerouting/jar/freerouting-2.4.1.jar",
+    "-de",
+    "/Users/shihweichieh/Documents/Projects/Audio-8CH-Teensy-CS42448/hardware/revA/routing/ILDA8CH.dsn",
+    "-do",
+    "/Users/shihweichieh/Documents/Projects/Audio-8CH-Teensy-CS42448/hardware/revA/routing/ILDA8CH.ses",
+    "-host",
+    "KiCad",
+    "-mp",
+    "100",
+    "--router.fanout.enabled=true",
+    "--router.fanout.maxPasses=20",
+    "--router.automaticNeckdown=true",
+    "--router.neckWidthUm=0"
+  ]
+}

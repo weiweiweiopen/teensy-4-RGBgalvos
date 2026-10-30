@@ -1,0 +1,42 @@
+ILDA8CH buffered receiver, VDIFF 0 V, common-mode 2.5 V
+VP dp 0 DC 2.5 AC 1
+VN dn 0 DC 2.5 AC 1
+RSIP dp dsp 12.5
+CSIP dsp 0 50p
+RIP dsp ip 100k
+RPIP ip 0 10Meg
+RSIN dn dsn 12.5
+CSIN dsn 0 50p
+RIN dsn inn 100k
+RPIN inn 0 10Meg
+CIP ip 0 8.5p
+CIN inn 0 8.5p
+X1 ip bp bp AMP
+X2 inn bn bn AMP
+RFP bp fp 1k
+RFN bn fn 1k
+CFP fp 0 4.7n
+CFN fn 0 4.7n
+R1 fp sp 20k
+R2 sp 0 39000
+R3 fn sn 20k
+R4 drv sn 39000
+X3 sp sn drv AMP
+R5 drv inv 10k
+R6 drvn inv 10k
+X4 0 inv drvn AMP
+RSW1 drv swp 2.7
+RSW2 drvn swn 2.7
+RO1 swp outp 100
+RO2 swn outn 100
+RP1 outp 0 100k
+RP2 outn 0 100k
+RL1 outp 0 10k
+RL2 outn 0 10k
+.subckt AMP ip im out
+EGAIN nd 0 ip im 1e6
+RDOM nd np 1k
+CDOM np 0 15.915494u
+BOUT out 0 V=max(-13,min(13,V(np)))
+.ends AMP
+.end

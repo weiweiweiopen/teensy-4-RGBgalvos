@@ -1,0 +1,11 @@
+{
+  "expected_hits": 545,
+  "readback_hits": 545,
+  "plated_hits": 541,
+  "nonplated_hits": 4,
+  "missing": [],
+  "extra": [],
+  "tolerance_mm": 0.000501,
+  "maximum_axis_error_mm": 0.0005000000000023874,
+  "pass_bijective_export_precision": true
+}

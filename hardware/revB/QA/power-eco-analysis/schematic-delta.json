@@ -1,0 +1,1257 @@
+{
+  "diff_version": "1.0",
+  "analyzer_type": "schematic",
+  "base_file": "hardware/revB/manufacturing/preflight-20261025/analysis/schematic.json",
+  "head_file": "hardware/revB/eco/power-sequencing-20261025/analysis/schematic.json",
+  "has_changes": true,
+  "summary": {
+    "total_changes": 102,
+    "added": 98,
+    "removed": 1,
+    "modified": 3,
+    "severity": "breaking",
+    "regressions": 10
+  },
+  "diff": {
+    "statistics": {
+      "statistics.total_components": {
+        "base": 273,
+        "head": 337,
+        "delta": 64
+      },
+      "statistics.total_nets": {
+        "base": 223,
+        "head": 263,
+        "delta": 40
+      },
+      "statistics.unique_parts": {
+        "base": 26,
+        "head": 41,
+        "delta": 15
+      },
+      "statistics.total_wires": {
+        "base": 776,
+        "head": 993,
+        "delta": 217
+      },
+      "statistics.total_no_connects": {
+        "base": 33,
+        "head": 38,
+        "delta": 5
+      }
+    },
+    "components": {
+      "added": [
+        {
+          "reference": "U7",
+          "value": "SN74LVC1G11DBVR",
+          "footprint": "ILDA8CH:Package_TO_SOT_SMD__SOT-23-6"
+        },
+        {
+          "reference": "U8",
+          "value": "SN74LVC1G175DBVR",
+          "footprint": "ILDA8CH:Package_TO_SOT_SMD__SOT-23-6"
+        },
+        {
+          "reference": "U9",
+          "value": "SN74LVC1G06DBVR",
+          "footprint": "ILDA8CH:Package_TO_SOT_SMD__SOT-23-5"
+        },
+        {
+          "reference": "U10",
+          "value": "TPS3839K33DBZR",
+          "footprint": "ILDA8CH:Package_TO_SOT_SMD__SOT-23"
+        },
+        {
+          "reference": "U35",
+          "value": "ADG4613BRUZ",
+          "footprint": "ILDA8CH:Package_SO__TSSOP-16_4.4x5mm_P0.65mm"
+        },
+        {
+          "reference": "R362",
+          "value": "10k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R363",
+          "value": "10k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R364",
+          "value": "4.7k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R365",
+          "value": "4.7k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R366",
+          "value": "330",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R368",
+          "value": "100k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "C351",
+          "value": "100n",
+          "footprint": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric"
+        },
+        {
+          "reference": "C352",
+          "value": "100n",
+          "footprint": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric"
+        },
+        {
+          "reference": "C353",
+          "value": "100n",
+          "footprint": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric"
+        },
+        {
+          "reference": "C354",
+          "value": "100n",
+          "footprint": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric"
+        },
+        {
+          "reference": "C359",
+          "value": "100n",
+          "footprint": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric"
+        },
+        {
+          "reference": "U36",
+          "value": "SN74LVC1G08DBVR",
+          "footprint": "ILDA8CH:Package_TO_SOT_SMD__SOT-23-5"
+        },
+        {
+          "reference": "U37",
+          "value": "SN74AHCT1G14DBVR",
+          "footprint": "ILDA8CH:Package_TO_SOT_SMD__SOT-23-5"
+        },
+        {
+          "reference": "C360",
+          "value": "100n",
+          "footprint": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric"
+        },
+        {
+          "reference": "C361",
+          "value": "100n",
+          "footprint": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric"
+        },
+        {
+          "reference": "R373",
+          "value": "2.2k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "U6",
+          "value": "TLV3202AIDGKR",
+          "footprint": "ILDA8CH:TI_DGK0008A_VSSOP8_3x3_P0.65_Land1.4x0.45"
+        },
+        {
+          "reference": "R350",
+          "value": "1M",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R351",
+          "value": "200k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R352",
+          "value": "100k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R353",
+          "value": "150k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R354",
+          "value": "100k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R355",
+          "value": "10M",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R356",
+          "value": "1M",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R357",
+          "value": "100k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R358",
+          "value": "100k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R359",
+          "value": "45.3k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R360",
+          "value": "100k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R361",
+          "value": "10M",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R367",
+          "value": "1k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "C350",
+          "value": "100n",
+          "footprint": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric"
+        },
+        {
+          "reference": "R369",
+          "value": "100k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R370",
+          "value": "100k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R371",
+          "value": "100",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R372",
+          "value": "100",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "U31",
+          "value": "ADG4613BRUZ",
+          "footprint": "ILDA8CH:Package_SO__TSSOP-16_4.4x5mm_P0.65mm"
+        },
+        {
+          "reference": "U32",
+          "value": "ADG4613BRUZ",
+          "footprint": "ILDA8CH:Package_SO__TSSOP-16_4.4x5mm_P0.65mm"
+        },
+        {
+          "reference": "U33",
+          "value": "ADG4613BRUZ",
+          "footprint": "ILDA8CH:Package_SO__TSSOP-16_4.4x5mm_P0.65mm"
+        },
+        {
+          "reference": "U34",
+          "value": "ADG4613BRUZ",
+          "footprint": "ILDA8CH:Package_SO__TSSOP-16_4.4x5mm_P0.65mm"
+        },
+        {
+          "reference": "C355",
+          "value": "100n",
+          "footprint": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric"
+        },
+        {
+          "reference": "C356",
+          "value": "100n",
+          "footprint": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric"
+        },
+        {
+          "reference": "C357",
+          "value": "100n",
+          "footprint": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric"
+        },
+        {
+          "reference": "C358",
+          "value": "100n",
+          "footprint": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric"
+        },
+        {
+          "reference": "R401",
+          "value": "10M",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R402",
+          "value": "10M",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R403",
+          "value": "10M",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R404",
+          "value": "10M",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R405",
+          "value": "10M",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R406",
+          "value": "10M",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R407",
+          "value": "10M",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R408",
+          "value": "10M",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R409",
+          "value": "10M",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R410",
+          "value": "10M",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R411",
+          "value": "10M",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R412",
+          "value": "10M",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R413",
+          "value": "10M",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R414",
+          "value": "10M",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R415",
+          "value": "10M",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        },
+        {
+          "reference": "R416",
+          "value": "10M",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric"
+        }
+      ],
+      "removed": [],
+      "modified": [
+        {
+          "reference": "R18",
+          "changes": [
+            {
+              "field": "value",
+              "base": "100k",
+              "head": "2.2k"
+            },
+            {
+              "field": "mpn",
+              "base": "RC0603FR-07100KL",
+              "head": "RC0603FR-072K2L"
+            }
+          ]
+        },
+        {
+          "reference": "R19",
+          "changes": [
+            {
+              "field": "value",
+              "base": "100k",
+              "head": "2.2k"
+            },
+            {
+              "field": "mpn",
+              "base": "RC0603FR-07100KL",
+              "head": "RC0603FR-072K2L"
+            }
+          ]
+        },
+        {
+          "reference": "R20",
+          "changes": [
+            {
+              "field": "value",
+              "base": "100k",
+              "head": "10k"
+            },
+            {
+              "field": "mpn",
+              "base": "RC0603FR-07100KL",
+              "head": "RT0603BRD0710KL"
+            }
+          ]
+        }
+      ]
+    },
+    "signal_analysis": {
+      "audio_circuits": {
+        "added": [
+          {
+            "ref": "U6",
+            "value": "TLV3202AIDGKR",
+            "type": "audio_codec"
+          }
+        ],
+        "removed": [],
+        "modified": [],
+        "unchanged_count": 1
+      },
+      "level_shifters": {
+        "added": [
+          {
+            "ref": "U7",
+            "value": "SN74LVC1G11DBVR",
+            "type": "level_shifter_ic"
+          },
+          {
+            "ref": "U8",
+            "value": "SN74LVC1G175DBVR",
+            "type": "level_shifter_ic"
+          },
+          {
+            "ref": "U9",
+            "value": "SN74LVC1G06DBVR",
+            "type": "level_shifter_ic"
+          }
+        ],
+        "removed": [],
+        "modified": [],
+        "unchanged_count": 1
+      },
+      "rc_filters": {
+        "added": [],
+        "removed": [
+          {
+            "ref": "C38",
+            "type": "low-pass",
+            "resistor_ref": "R26",
+            "capacitor_ref": "C38"
+          }
+        ],
+        "modified": [],
+        "unchanged_count": 2
+      },
+      "reset_supervisors": {
+        "added": [
+          {
+            "ref": "U10",
+            "value": "TPS3839K33DBZR",
+            "type": "voltage_supervisor"
+          }
+        ],
+        "removed": [],
+        "modified": [],
+        "unchanged_count": 0
+      },
+      "voltage_dividers": {
+        "added": [
+          {
+            "ref": "R401",
+            "r_top_ref": "R129",
+            "r_bottom_ref": "R401"
+          },
+          {
+            "ref": "R402",
+            "r_top_ref": "R130",
+            "r_bottom_ref": "R402"
+          },
+          {
+            "ref": "R403",
+            "r_top_ref": "R149",
+            "r_bottom_ref": "R403"
+          },
+          {
+            "ref": "R404",
+            "r_top_ref": "R150",
+            "r_bottom_ref": "R404"
+          },
+          {
+            "ref": "R405",
+            "r_top_ref": "R169",
+            "r_bottom_ref": "R405"
+          },
+          {
+            "ref": "R406",
+            "r_top_ref": "R170",
+            "r_bottom_ref": "R406"
+          },
+          {
+            "ref": "R407",
+            "r_top_ref": "R189",
+            "r_bottom_ref": "R407"
+          },
+          {
+            "ref": "R408",
+            "r_top_ref": "R190",
+            "r_bottom_ref": "R408"
+          },
+          {
+            "ref": "R409",
+            "r_top_ref": "R209",
+            "r_bottom_ref": "R409"
+          },
+          {
+            "ref": "R410",
+            "r_top_ref": "R210",
+            "r_bottom_ref": "R410"
+          },
+          {
+            "ref": "R411",
+            "r_top_ref": "R229",
+            "r_bottom_ref": "R411"
+          },
+          {
+            "ref": "R412",
+            "r_top_ref": "R230",
+            "r_bottom_ref": "R412"
+          },
+          {
+            "ref": "R413",
+            "r_top_ref": "R249",
+            "r_bottom_ref": "R413"
+          },
+          {
+            "ref": "R414",
+            "r_top_ref": "R250",
+            "r_bottom_ref": "R414"
+          },
+          {
+            "ref": "R366",
+            "r_top_ref": "R26",
+            "r_bottom_ref": "R366"
+          },
+          {
+            "ref": "R415",
+            "r_top_ref": "R269",
+            "r_bottom_ref": "R415"
+          },
+          {
+            "ref": "R416",
+            "r_top_ref": "R270",
+            "r_bottom_ref": "R416"
+          },
+          {
+            "ref": "R351",
+            "r_top_ref": "R350",
+            "r_bottom_ref": "R351"
+          },
+          {
+            "ref": "R351",
+            "r_top_ref": "R352",
+            "r_bottom_ref": "R351"
+          },
+          {
+            "ref": "R352",
+            "r_top_ref": "R355",
+            "r_bottom_ref": "R352"
+          },
+          {
+            "ref": "R354",
+            "r_top_ref": "R353",
+            "r_bottom_ref": "R354"
+          },
+          {
+            "ref": "R367",
+            "r_top_ref": "R353",
+            "r_bottom_ref": "R367"
+          },
+          {
+            "ref": "R367",
+            "r_top_ref": "R357",
+            "r_bottom_ref": "R367"
+          },
+          {
+            "ref": "R360",
+            "r_top_ref": "R359",
+            "r_bottom_ref": "R360"
+          },
+          {
+            "ref": "R367",
+            "r_top_ref": "R359",
+            "r_bottom_ref": "R367"
+          },
+          {
+            "ref": "R360",
+            "r_top_ref": "R361",
+            "r_bottom_ref": "R360"
+          },
+          {
+            "ref": "R367",
+            "r_top_ref": "R363",
+            "r_bottom_ref": "R367"
+          },
+          {
+            "ref": "R369",
+            "r_top_ref": "R371",
+            "r_bottom_ref": "R369"
+          },
+          {
+            "ref": "R370",
+            "r_top_ref": "R372",
+            "r_bottom_ref": "R370"
+          }
+        ],
+        "removed": [],
+        "modified": [],
+        "unchanged_count": 27
+      }
+    },
+    "bom": {
+      "added": [
+        {
+          "value": "1M",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+          "quantity": 2
+        },
+        {
+          "value": "200k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "150k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "10M",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+          "quantity": 18
+        },
+        {
+          "value": "45.3k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "4.7k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+          "quantity": 2
+        },
+        {
+          "value": "330",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "TPS3839K33DBZR",
+          "footprint": "ILDA8CH:Package_TO_SOT_SMD__SOT-23",
+          "quantity": 1
+        },
+        {
+          "value": "ADG4613BRUZ",
+          "footprint": "ILDA8CH:Package_SO__TSSOP-16_4.4x5mm_P0.65mm",
+          "quantity": 5
+        },
+        {
+          "value": "SN74LVC1G08DBVR",
+          "footprint": "ILDA8CH:Package_TO_SOT_SMD__SOT-23-5",
+          "quantity": 1
+        },
+        {
+          "value": "SN74AHCT1G14DBVR",
+          "footprint": "ILDA8CH:Package_TO_SOT_SMD__SOT-23-5",
+          "quantity": 1
+        },
+        {
+          "value": "TLV3202AIDGKR",
+          "footprint": "ILDA8CH:TI_DGK0008A_VSSOP8_3x3_P0.65_Land1.4x0.45",
+          "quantity": 1
+        },
+        {
+          "value": "SN74LVC1G11DBVR",
+          "footprint": "ILDA8CH:Package_TO_SOT_SMD__SOT-23-6",
+          "quantity": 1
+        },
+        {
+          "value": "SN74LVC1G175DBVR",
+          "footprint": "ILDA8CH:Package_TO_SOT_SMD__SOT-23-6",
+          "quantity": 1
+        },
+        {
+          "value": "SN74LVC1G06DBVR",
+          "footprint": "ILDA8CH:Package_TO_SOT_SMD__SOT-23-5",
+          "quantity": 1
+        }
+      ],
+      "removed": [],
+      "quantity_changes": [
+        {
+          "value": "100n",
+          "footprint": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric",
+          "base_qty": 40,
+          "head_qty": 52,
+          "delta": 12
+        },
+        {
+          "value": "100",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+          "base_qty": 5,
+          "head_qty": 7,
+          "delta": 2
+        },
+        {
+          "value": "100k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+          "base_qty": 40,
+          "head_qty": 45,
+          "delta": 5
+        },
+        {
+          "value": "10k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+          "base_qty": 25,
+          "head_qty": 28,
+          "delta": 3
+        },
+        {
+          "value": "1k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+          "base_qty": 17,
+          "head_qty": 18,
+          "delta": 1
+        },
+        {
+          "value": "2.2k",
+          "footprint": "ILDA8CH:Resistor_SMD__R_0603_1608Metric",
+          "base_qty": 2,
+          "head_qty": 5,
+          "delta": 3
+        }
+      ]
+    },
+    "erc": {
+      "new_warnings": [
+        {
+          "type": "no_driver",
+          "net": "ADC_N15",
+          "message": "Net 'ADC_N15' has input pins but no output driver",
+          "pins": [
+            {
+              "component": "A1",
+              "pin_number": "17",
+              "pin_name": "ADC_N15",
+              "pin_type": "input"
+            },
+            {
+              "component": "U35",
+              "pin_number": "7",
+              "pin_name": "D4",
+              "pin_type": "passive"
+            },
+            {
+              "component": "R365",
+              "pin_number": "1",
+              "pin_name": "~",
+              "pin_type": "passive"
+            }
+          ]
+        },
+        {
+          "type": "no_driver",
+          "net": "ADC_P15",
+          "message": "Net 'ADC_P15' has input pins but no output driver",
+          "pins": [
+            {
+              "component": "A1",
+              "pin_number": "16",
+              "pin_name": "ADC_P15",
+              "pin_type": "input"
+            },
+            {
+              "component": "U35",
+              "pin_number": "2",
+              "pin_name": "D1",
+              "pin_type": "passive"
+            },
+            {
+              "component": "R364",
+              "pin_number": "1",
+              "pin_name": "~",
+              "pin_type": "passive"
+            }
+          ]
+        },
+        {
+          "type": "no_driver",
+          "net": "CODEC_RESET",
+          "message": "Net 'CODEC_RESET' has input pins but no output driver",
+          "pins": [
+            {
+              "component": "R5",
+              "pin_number": "2",
+              "pin_name": "~",
+              "pin_type": "passive"
+            },
+            {
+              "component": "U8",
+              "pin_number": "6",
+              "pin_name": "~{CLR}",
+              "pin_type": "input"
+            },
+            {
+              "component": "U9",
+              "pin_number": "2",
+              "pin_name": "A",
+              "pin_type": "input"
+            },
+            {
+              "component": "U37",
+              "pin_number": "2",
+              "pin_name": "A",
+              "pin_type": "input"
+            },
+            {
+              "component": "U1",
+              "pin_number": "3",
+              "pin_name": "~{RST}",
+              "pin_type": "passive"
+            },
+            {
+              "component": "R10",
+              "pin_number": "1",
+              "pin_name": "~",
+              "pin_type": "passive"
+            },
+            {
+              "component": "U31",
+              "pin_number": "1",
+              "pin_name": "IN1",
+              "pin_type": "input"
+            },
+            {
+              "component": "U31",
+              "pin_number": "8",
+              "pin_name": "IN4",
+              "pin_type": "input"
+            },
+            {
+              "component": "U32",
+              "pin_number": "1",
+              "pin_name": "IN1",
+              "pin_type": "input"
+            },
+            {
+              "component": "U32",
+              "pin_number": "8",
+              "pin_name": "IN4",
+              "pin_type": "input"
+            },
+            {
+              "component": "U33",
+              "pin_number": "1",
+              "pin_name": "IN1",
+              "pin_type": "input"
+            },
+            {
+              "component": "U33",
+              "pin_number": "8",
+              "pin_name": "IN4",
+              "pin_type": "input"
+            },
+            {
+              "component": "U34",
+              "pin_number": "1",
+              "pin_name": "IN1",
+              "pin_type": "input"
+            },
+            {
+              "component": "U34",
+              "pin_number": "8",
+              "pin_name": "IN4",
+              "pin_type": "input"
+            }
+          ]
+        },
+        {
+          "type": "no_driver",
+          "net": "NMON",
+          "message": "Net 'NMON' has input pins but no output driver",
+          "pins": [
+            {
+              "component": "U6",
+              "pin_number": "6",
+              "pin_name": "IN2-",
+              "pin_type": "input"
+            },
+            {
+              "component": "R358",
+              "pin_number": "2",
+              "pin_name": "~",
+              "pin_type": "passive"
+            }
+          ]
+        },
+        {
+          "type": "no_driver",
+          "net": "NREF",
+          "message": "Net 'NREF' has input pins but no output driver",
+          "pins": [
+            {
+              "component": "U6",
+              "pin_number": "5",
+              "pin_name": "IN2+",
+              "pin_type": "input"
+            },
+            {
+              "component": "R359",
+              "pin_number": "2",
+              "pin_name": "~",
+              "pin_type": "passive"
+            },
+            {
+              "component": "R360",
+              "pin_number": "1",
+              "pin_name": "~",
+              "pin_type": "passive"
+            },
+            {
+              "component": "R361",
+              "pin_number": "2",
+              "pin_name": "~",
+              "pin_type": "passive"
+            }
+          ]
+        },
+        {
+          "type": "no_driver",
+          "net": "PMON",
+          "message": "Net 'PMON' has input pins but no output driver",
+          "pins": [
+            {
+              "component": "U6",
+              "pin_number": "3",
+              "pin_name": "IN1+",
+              "pin_type": "input"
+            },
+            {
+              "component": "R352",
+              "pin_number": "2",
+              "pin_name": "~",
+              "pin_type": "passive"
+            }
+          ]
+        },
+        {
+          "type": "no_driver",
+          "net": "PREF",
+          "message": "Net 'PREF' has input pins but no output driver",
+          "pins": [
+            {
+              "component": "U6",
+              "pin_number": "2",
+              "pin_name": "IN1-",
+              "pin_type": "input"
+            },
+            {
+              "component": "R353",
+              "pin_number": "2",
+              "pin_name": "~",
+              "pin_type": "passive"
+            },
+            {
+              "component": "R354",
+              "pin_number": "1",
+              "pin_name": "~",
+              "pin_type": "passive"
+            }
+          ]
+        },
+        {
+          "type": "no_driver",
+          "net": "RAIL_N_GOOD",
+          "message": "Net 'RAIL_N_GOOD' has input pins but no output driver",
+          "pins": [
+            {
+              "component": "U7",
+              "pin_number": "6",
+              "pin_name": "C",
+              "pin_type": "input"
+            },
+            {
+              "component": "U36",
+              "pin_number": "2",
+              "pin_name": "B",
+              "pin_type": "input"
+            },
+            {
+              "component": "R370",
+              "pin_number": "1",
+              "pin_name": "~",
+              "pin_type": "passive"
+            },
+            {
+              "component": "R372",
+              "pin_number": "2",
+              "pin_name": "~",
+              "pin_type": "passive"
+            }
+          ]
+        },
+        {
+          "type": "no_driver",
+          "net": "RAIL_P_GOOD",
+          "message": "Net 'RAIL_P_GOOD' has input pins but no output driver",
+          "pins": [
+            {
+              "component": "U7",
+              "pin_number": "3",
+              "pin_name": "B",
+              "pin_type": "input"
+            },
+            {
+              "component": "U36",
+              "pin_number": "1",
+              "pin_name": "A",
+              "pin_type": "input"
+            },
+            {
+              "component": "R369",
+              "pin_number": "1",
+              "pin_name": "~",
+              "pin_type": "passive"
+            },
+            {
+              "component": "R371",
+              "pin_number": "2",
+              "pin_name": "~",
+              "pin_type": "passive"
+            }
+          ]
+        },
+        {
+          "type": "no_driver",
+          "net": "USB_5V",
+          "message": "Net 'USB_5V' has input pins but no output driver",
+          "pins": [
+            {
+              "component": "A1",
+              "pin_number": "28",
+              "pin_name": "USB_5V",
+              "pin_type": "passive"
+            },
+            {
+              "component": "U5",
+              "pin_number": "5",
+              "pin_name": "USB_5V",
+              "pin_type": "passive"
+            },
+            {
+              "component": "C36",
+              "pin_number": "1",
+              "pin_name": "~",
+              "pin_type": "passive"
+            },
+            {
+              "component": "R363",
+              "pin_number": "1",
+              "pin_name": "~",
+              "pin_type": "passive"
+            },
+            {
+              "component": "U37",
+              "pin_number": "5",
+              "pin_name": "VCC",
+              "pin_type": "power_in"
+            },
+            {
+              "component": "C361",
+              "pin_number": "1",
+              "pin_name": "~",
+              "pin_type": "passive"
+            },
+            {
+              "component": "U2",
+              "pin_number": "1",
+              "pin_name": "USB_5V",
+              "pin_type": "passive"
+            },
+            {
+              "component": "U2",
+              "pin_number": "3",
+              "pin_name": "USB_5V",
+              "pin_type": "passive"
+            },
+            {
+              "component": "C1",
+              "pin_number": "1",
+              "pin_name": "~",
+              "pin_type": "passive"
+            },
+            {
+              "component": "FB1",
+              "pin_number": "1",
+              "pin_name": "~",
+              "pin_type": "passive"
+            },
+            {
+              "component": "U6",
+              "pin_number": "8",
+              "pin_name": "VCC",
+              "pin_type": "power_in"
+            },
+            {
+              "component": "R353",
+              "pin_number": "1",
+              "pin_name": "~",
+              "pin_type": "passive"
+            },
+            {
+              "component": "R357",
+              "pin_number": "2",
+              "pin_name": "~",
+              "pin_type": "passive"
+            },
+            {
+              "component": "R359",
+              "pin_number": "1",
+              "pin_name": "~",
+              "pin_type": "passive"
+            },
+            {
+              "component": "R367",
+              "pin_number": "1",
+              "pin_name": "~",
+              "pin_type": "passive"
+            },
+            {
+              "component": "C350",
+              "pin_number": "1",
+              "pin_name": "~",
+              "pin_type": "passive"
+            },
+            {
+              "component": "U31",
+              "pin_number": "13",
+              "pin_name": "VDD",
+              "pin_type": "power_in"
+            },
+            {
+              "component": "U32",
+              "pin_number": "13",
+              "pin_name": "VDD",
+              "pin_type": "power_in"
+            },
+            {
+              "component": "U33",
+              "pin_number": "13",
+              "pin_name": "VDD",
+              "pin_type": "power_in"
+            },
+            {
+              "component": "U34",
+              "pin_number": "13",
+              "pin_name": "VDD",
+              "pin_type": "power_in"
+            },
+            {
+              "component": "C355",
+              "pin_number": "1",
+              "pin_name": "~",
+              "pin_type": "passive"
+            },
+            {
+              "component": "C356",
+              "pin_number": "1",
+              "pin_name": "~",
+              "pin_type": "passive"
+            },
+            {
+              "component": "C357",
+              "pin_number": "1",
+              "pin_name": "~",
+              "pin_type": "passive"
+            },
+            {
+              "component": "C358",
+              "pin_number": "1",
+              "pin_name": "~",
+              "pin_type": "passive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "regressions": [
+    {
+      "category": "erc",
+      "severity": "breaking",
+      "detail": "New ERC warning: no_driver on ADC_N15"
+    },
+    {
+      "category": "erc",
+      "severity": "breaking",
+      "detail": "New ERC warning: no_driver on ADC_P15"
+    },
+    {
+      "category": "erc",
+      "severity": "breaking",
+      "detail": "New ERC warning: no_driver on CODEC_RESET"
+    },
+    {
+      "category": "erc",
+      "severity": "breaking",
+      "detail": "New ERC warning: no_driver on NMON"
+    },
+    {
+      "category": "erc",
+      "severity": "breaking",
+      "detail": "New ERC warning: no_driver on NREF"
+    },
+    {
+      "category": "erc",
+      "severity": "breaking",
+      "detail": "New ERC warning: no_driver on PMON"
+    },
+    {
+      "category": "erc",
+      "severity": "breaking",
+      "detail": "New ERC warning: no_driver on PREF"
+    },
+    {
+      "category": "erc",
+      "severity": "breaking",
+      "detail": "New ERC warning: no_driver on RAIL_N_GOOD"
+    },
+    {
+      "category": "erc",
+      "severity": "breaking",
+      "detail": "New ERC warning: no_driver on RAIL_P_GOOD"
+    },
+    {
+      "category": "erc",
+      "severity": "breaking",
+      "detail": "New ERC warning: no_driver on USB_5V"
+    }
+  ]
+}

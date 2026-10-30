@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-10-25T11:22:03.436686+08:00",
+  "archive": "manufacturing/ILDA8CH-RevB-P4-Gerber-Drill-DRAFT.zip",
+  "archive_sha256": "4f102ea796fcd6303b6a25fc2c2b75f0e5fd47adb38b1edff8868ea4ddea3c7b",
+  "replaced_old_archive_sha256": "3626ae31e190f84671d87e479af01bc9476f3c78040cee2c1fbeacd27879e702",
+  "pcb_sha256": "825edcd27853183ae879091047c481432507c4003eede9e3af0c213e0eff5e42",
+  "raw_exports": "manufacturing/repack-20261025-112156/gerbers-DRAFT",
+  "file_count": 14,
+  "native_drc_errors": 0,
+  "native_unconnected": 0,
+  "native_parity": 0,
+  "native_warnings": [
+    "被板邊截斷的絲印 (電路板設定中的 \"絲印\" 約束 間隙 0.1000 mm; 實際 0.0000 mm)",
+    "被板邊截斷的絲印 (電路板設定中的 \"絲印\" 約束 間隙 0.1000 mm; 實際 0.0000 mm)",
+    "文字線寬超出範圍 (TrueType 字體字符的筆畫線寬不足)"
+  ],
+  "drill_readback": {
+    "expected_hits": 545,
+    "readback_hits": 545,
+    "plated_hits": 541,
+    "nonplated_hits": 4,
+    "missing": [],
+    "extra": [],
+    "tolerance_mm": 0.000501,
+    "maximum_axis_error_mm": 0.0005000000000023874,
+    "pass_bijective_export_precision": true
+  },
+  "gerber_pad_readback": {
+    "numbered_pads_expected": 1031,
+    "numbered_pads_readback": 1031,
+    "mismatches": [],
+    "missing": [],
+    "extra": [],
+    "pass_pad_net_attributes": true,
+    "limitation": "X2 pad identity/net attributes only; not independent image-based copper connectivity extraction."
+  },
+  "source_board_unchanged": true,
+  "status": "DRAFT",
+  "files": {
+    "ILDA8CH-B_Cu.gbl": "d6d3d2054bb148528665a9c9ed29c36b000ced5f6ae879eb85ca1accad6e9ce6",
+    "ILDA8CH-B_Mask.gbs": "27409fe761bc087ab82ed4f2574d03879992ea58c8173c717c97eac1ab454a2f",
+    "ILDA8CH-B_Paste.gbp": "7d6ed3b75c1aecd4dc50fdca79d6af76d6be0f1775b865753f02a2d660822c37",
+    "ILDA8CH-B_Silkscreen.gbo": "d357cbfc619ee8ce1af041d17bb0fa6f83636997bc7b9d2e43dee615401e0023",
+    "ILDA8CH-Edge_Cuts.gm1": "c931328e40de7ada735c1ddd713f1db93cc201138f5f1f33d3ad2b876ba9c10f",
+    "ILDA8CH-F_Cu.gtl": "2d50ae2fea8ab9a09086a56456f18ede9a7faf23b1895b422ea5c85f5102a0b2",
+    "ILDA8CH-F_Mask.gts": "b0cbce6ad64ed6d87bdee083ba9016a8850b7fe885a194ef4d3d54c821cf00ef",
+    "ILDA8CH-F_Paste.gtp": "deffdf040e005bcba8c5baabbe319cdeaa6f20f245e156ce4ba37d60876a70b6",
+    "ILDA8CH-F_Silkscreen.gto": "a00501707b8e87d6385085f71e5b153a3b4ee93c4eff46036203816e771cc463",
+    "ILDA8CH-In1_Cu.g1": "ab8a76d84ba3cc34b6ab7eb5b724036b85dbe80facc49059d0a10b01d9804684",
+    "ILDA8CH-In2_Cu.g2": "3a66fbf5ff1949e5accd5ad78f56f26bcefbd58822030974982dde84f93b9fd5",
+    "ILDA8CH-NPTH.drl": "dba2f078db26b9c83c6bd5e89746824142536c46b0b37775d1b903cd08af24f1",
+    "ILDA8CH-PTH.drl": "14a7148b74cfa367fdefe261778405bf614f719f8cd5910985f063d9101e0bcb",
+    "ILDA8CH-job.gbrjob": "429129427cdfe83cc4a3e6a5a453e6093c9db7067b8eacb0affa874779e3923e"
+  }
+}

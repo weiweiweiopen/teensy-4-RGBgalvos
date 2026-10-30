@@ -3,7 +3,15 @@
 ~*.lck
 *.bak
 *.tmp
+*.orig
+*.rej
 __pycache__/
 *.pyc
 .venv/
 fp-info-cache
+.history/
+*.kicad_prl
+*.kicad_pcb-bak
+*-backups/
+*.gch
+build/

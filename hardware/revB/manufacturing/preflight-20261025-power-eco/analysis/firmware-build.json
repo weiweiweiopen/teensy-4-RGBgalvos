@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/Applications/Arduino IDE.app/Contents/Resources/app/lib/backend/resources/arduino-cli",
+    "compile",
+    "--fqbn",
+    "teensy:avr:teensy40:usb=serialmidiaudio,speed=600,opt=o2std,keys=en-us,audiorate=44,audioblocksize=normal,USBchannelcount=8",
+    "--build-path",
+    "/Users/shihweichieh/Documents/Projects/Audio-8CH-Teensy-CS42448/hardware/revB/eco/power-sequencing-20261025/build/firmware",
+    "/Users/shihweichieh/Documents/Projects/Audio-8CH-Teensy-CS42448/hardware/revB/eco/power-sequencing-20261025/project/firmware/ilda8ch_revB"
+  ],
+  "returncode": 0,
+  "firmware_sha256": {
+    "calibration.h": "b9ceeafb5dc82c2cc6b8534a44edf4efcd0e368dc90106eab253def36b0019b6",
+    "ilda8ch_revB.ino": "8008ba07fef9c50ec8d0cdfe3b7d0120d32b5f2ccda943a2bde41fadc153b41d"
+  },
+  "uploaded": false
+}

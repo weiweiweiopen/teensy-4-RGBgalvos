@@ -1,0 +1,128 @@
+{
+  "simulator": "/Applications/KiCad/KiCad.app/Contents/Frameworks/libngspice.0.dylib",
+  "model": "generic 1e6 DC gain / 10 MHz dominant pole / +/-13V clip; 8.5pF buffer input assumption",
+  "load": "10kohm per leg plus onboard 100kohm pulldown; 2.7ohm switch",
+  "results": [
+    {
+      "channel_class": "XY",
+      "excitation": "differential",
+      "dc_out_positive": 1.8363899962210113,
+      "dc_out_negative": -1.8363863234483646,
+      "expected_positive_gain": 1.8363970793375808,
+      "ac": {
+        "100": {
+          "gain": 1.8363824752832256,
+          "phase_deg": -0.19395241943873515
+        },
+        "1000": {
+          "gain": 1.8356383497020057,
+          "phase_deg": -1.9391013048634782
+        },
+        "10000": {
+          "gain": 1.7653225827740242,
+          "phase_deg": -18.986984679287126
+        },
+        "20000": {
+          "gain": 1.5925478133223623,
+          "phase_deg": -35.825558047365654
+        },
+        "30000": {
+          "gain": 1.3819388610639631,
+          "phase_deg": -50.179364991308645
+        }
+      },
+      "minus3dB_Hz": 34673.68504525281
+    },
+    {
+      "channel_class": "XY",
+      "excitation": "common",
+      "dc_out_positive": 1.8363899962210113,
+      "dc_out_negative": -1.8363863234483646,
+      "expected_positive_gain": 1.8363970793375808,
+      "ac": {
+        "100": {
+          "gain": 1.1543498131099126e-11,
+          "phase_deg": 102.83560959660764
+        },
+        "1000": {
+          "gain": 1.151091160743291e-12,
+          "phase_deg": -89.4270612911868
+        },
+        "10000": {
+          "gain": 1.2870227446953102e-13,
+          "phase_deg": -116.50775541555042
+        },
+        "20000": {
+          "gain": 0.0,
+          "phase_deg": 0.0
+        },
+        "30000": {
+          "gain": 2.6953577158304944e-14,
+          "phase_deg": -134.98102758459845
+        }
+      },
+      "minus3dB_Hz": null
+    },
+    {
+      "channel_class": "Colour",
+      "excitation": "differential",
+      "dc_out_positive": 0.9417393117575233,
+      "dc_out_negative": -0.9417374282826668,
+      "expected_positive_gain": 0.94174209196799,
+      "ac": {
+        "100": {
+          "gain": 0.9417354537606591,
+          "phase_deg": -0.19343402417888975
+        },
+        "1000": {
+          "gain": 0.9413537523882447,
+          "phase_deg": -1.9339171458403897
+        },
+        "10000": {
+          "gain": 0.9052857615952667,
+          "phase_deg": -18.93495294718972
+        },
+        "20000": {
+          "gain": 0.8166676830725701,
+          "phase_deg": -35.72087197727049
+        },
+        "30000": {
+          "gain": 0.7086540127383497,
+          "phase_deg": -50.019496355962886
+        }
+      },
+      "minus3dB_Hz": 34673.68504525281
+    },
+    {
+      "channel_class": "Colour",
+      "excitation": "common",
+      "dc_out_positive": 0.9417393117575233,
+      "dc_out_negative": -0.9417374282826668,
+      "expected_positive_gain": 0.94174209196799,
+      "ac": {
+        "100": {
+          "gain": 5.369230225957141e-13,
+          "phase_deg": -174.28940675229418
+        },
+        "1000": {
+          "gain": 3.5971598773227846e-14,
+          "phase_deg": -179.4270612911868
+        },
+        "10000": {
+          "gain": 0.0,
+          "phase_deg": 0.0
+        },
+        "20000": {
+          "gain": 2.884704834674861e-14,
+          "phase_deg": 90.02871591138619
+        },
+        "30000": {
+          "gain": 9.52952859293613e-15,
+          "phase_deg": 90.01897241540154
+        }
+      },
+      "minus3dB_Hz": null
+    }
+  ],
+  "errors": []
+}

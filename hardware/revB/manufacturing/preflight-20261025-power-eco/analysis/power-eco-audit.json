@@ -1,0 +1,38 @@
+{
+  "revision": "B-P4",
+  "stage": "power_eco_native_checked",
+  "pcb_sha256": "19c24b7b0cacdd23822d85daa3e44d5104a866f5a9f83ac38824fee33554cd69",
+  "placement_version": 11,
+  "footprints": 337,
+  "pad_net_comparisons": 1032,
+  "pad_net_mismatches": [],
+  "existing_footprints_moved": [],
+  "local_feedback_and_supply_checks": 64,
+  "local_path_changes": [],
+  "track_segments": 2876,
+  "vias": 483,
+  "non_through_vias": 0,
+  "minimum_track_width_mm": 0.15,
+  "copper_length_by_layer_mm": {
+    "F.Cu": 3805.8095825881705,
+    "B.Cu": 1773.552278739627,
+    "In2.Cu": 1938.35812471332
+  },
+  "inner_signal_length_mm": 1938.35812471332,
+  "in1_signal_segments": 0,
+  "drc_error_count": 0,
+  "drc_warning_count": 2,
+  "unconnected_errors": 0,
+  "schematic_parity": 0,
+  "erc_violations": 0,
+  "violation_types": {
+    "silk_edge_clearance": 2
+  },
+  "smt_parts": 316,
+  "basis": "Native consistency/geometry only; electrical model and datasheet basis are in the ECO report.",
+  "fabrication_released": false,
+  "assembly_released": false,
+  "electrical_source_sha256": "9d8d5a367881b3cd0f0bbc0575b7a6e2fc000261604b583b2d43254b73774fb1",
+  "placement_sha256": "2da7a12aee5420e71f9a1b29ecb69051a771a06f9dfffcbe9c1ee07eaabb254e",
+  "native_netlist_sha256": "80ad5e4a9a71589127c13f972a70585f1cc089679a0dc4218fc0a6183aeb002c"
+}

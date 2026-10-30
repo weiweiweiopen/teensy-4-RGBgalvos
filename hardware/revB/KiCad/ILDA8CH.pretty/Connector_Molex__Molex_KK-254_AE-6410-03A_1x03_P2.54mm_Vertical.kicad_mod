@@ -1,0 +1,347 @@
+(footprint "Connector_Molex__Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-03A example for new part number: 22-27-2031, 3 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
+	(tags "connector Molex KK-254 vertical")
+	(property "Reference" "REF**"
+		(at 2.54 -4.12 0)
+		(layer "F.SilkS")
+		(uuid "e4606bc2-be8e-4c9a-87b3-8259a48bb3d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
+		(at 2.54 4.08 0)
+		(layer "F.Fab")
+		(uuid "5a81a538-f183-45f6-be59-cefdcc3c878b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3da9bfa-258f-4ee9-a7b2-480722072635")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "773f6e74-07c1-40c1-beba-9c723d286e98")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "connector/Molex"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "63bd8325-389d-4378-8255-ddf7099c9606")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.67 -2)
+		(end -1.67 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b4b97a3-4d14-46e4-b7f5-6d89b7bb725a")
+	)
+	(fp_line
+		(start -0.8 -3.03)
+		(end -0.8 -2.43)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac0e647f-3c06-4cae-a98a-0e111c8683cd")
+	)
+	(fp_line
+		(start -0.8 -2.43)
+		(end 0.8 -2.43)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "272af728-31a1-42f0-b7c4-9492337627b2")
+	)
+	(fp_line
+		(start 0 1.99)
+		(end 0.25 1.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0faf927-34e9-4577-824c-e8cb20fd87a2")
+	)
+	(fp_line
+		(start 0 1.99)
+		(end 5.08 1.99)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab61ce7c-e8cf-46d2-a0bc-68a2705b0145")
+	)
+	(fp_line
+		(start 0 2.99)
+		(end 0 1.99)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eeb9c998-73cd-462c-bc81-c7be0775a1ce")
+	)
+	(fp_line
+		(start 0.25 1.46)
+		(end 4.83 1.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b62896d6-fe11-4bdb-9d62-da8b4dbc2975")
+	)
+	(fp_line
+		(start 0.25 2.99)
+		(end 0.25 1.99)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e3eeb10-3ca7-46a3-85a4-4903c40a21d4")
+	)
+	(fp_line
+		(start 0.8 -2.43)
+		(end 0.8 -3.03)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ccd6b943-5171-47d9-acfc-1fcc36078050")
+	)
+	(fp_line
+		(start 1.74 -3.03)
+		(end 1.74 -2.43)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e0bc6d9-24ba-4611-9b47-540ca1145704")
+	)
+	(fp_line
+		(start 1.74 -2.43)
+		(end 3.34 -2.43)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7a396fe-a93b-470a-9fdc-75d2110c24fe")
+	)
+	(fp_line
+		(start 3.34 -2.43)
+		(end 3.34 -3.03)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8db86e8f-e03e-4fce-afbe-fa7ea34ff603")
+	)
+	(fp_line
+		(start 4.28 -3.03)
+		(end 4.28 -2.43)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93ade46e-dcd9-4e77-a997-4a146d30acc1")
+	)
+	(fp_line
+		(start 4.28 -2.43)
+		(end 5.88 -2.43)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73347498-2c86-4c56-8c0b-f8180b128e71")
+	)
+	(fp_line
+		(start 4.83 1.46)
+		(end 5.08 1.99)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a182c8c-5128-48d0-82f5-a1bd0294ed34")
+	)
+	(fp_line
+		(start 4.83 2.99)
+		(end 4.83 1.99)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dabdb951-3af8-44f9-b91b-21efb4ee70c7")
+	)
+	(fp_line
+		(start 5.08 1.99)
+		(end 5.08 2.99)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c90dd02-741b-4685-b457-8cb59f0054e0")
+	)
+	(fp_line
+		(start 5.88 -2.43)
+		(end 5.88 -3.03)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5ab0ce9-75bf-431f-a947-702eed7eafbb")
+	)
+	(fp_rect
+		(start -1.38 -3.03)
+		(end 6.46 2.99)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "62bf5216-9770-4d63-b05d-e4b6512b7bd9")
+	)
+	(fp_rect
+		(start -1.77 -3.42)
+		(end 6.85 3.38)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "79f151e0-2bf6-4e1d-a167-59d40b427cf9")
+	)
+	(fp_line
+		(start -1.27 -0.5)
+		(end -0.562893 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1f60aa29-59e0-4a45-ba3e-86cd9143b90e")
+	)
+	(fp_line
+		(start -0.562893 0)
+		(end -1.27 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f3ff519f-066b-4c33-b0a1-0dca410c42be")
+	)
+	(fp_rect
+		(start -1.27 -2.92)
+		(end 6.35 2.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "190d9b57-321f-410b-ae4b-2e39d30ad441")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 -2.22 0)
+		(layer "F.Fab")
+		(uuid "50ece641-c638-4304-950c-307eb28132e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.74 2.19)
+		(drill 1.19)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.143678)
+		(uuid "e9b98546-b633-4eca-81d8-6770939e771e")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 1.74 2.19)
+		(drill 1.19)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "efa57c3a-60c8-4648-b912-36f338dd2860")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 0)
+		(size 1.74 2.19)
+		(drill 1.19)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "546fdab6-a94f-4c43-a32a-834a1e70c09f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

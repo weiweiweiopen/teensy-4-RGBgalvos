@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/usr/local/opt/python@3.14/bin/python3.14",
+    "/Users/shihweichieh/.config/opencode/skills/kicad/scripts/check_report_sections.py",
+    "--analysis-dir",
+    "/Users/shihweichieh/Documents/Projects/Audio-8CH-Teensy-CS42448/hardware/revB/eco/power-sequencing-20261025/analysis",
+    "--report",
+    "/Users/shihweichieh/Documents/Projects/Audio-8CH-Teensy-CS42448/hardware/revB/eco/power-sequencing-20261025/project/QA/power-eco-review.md"
+  ],
+  "returncode": 0,
+  "output": "Analyzers present: cross_analysis, gerber, pcb, schematic, thermal\nRequired report sections (20):\n  - Overview   [base]\n  - Critical Findings   [base]\n  - Component Summary   [base]\n  - Power Tree   [base]\n  - Analyzer Verification   [base]\n  - Signal Analysis Review   [base]\n  - Not Performed / Review Limits   [base]\n  - Final verdict / readiness   [base]\n  - PCB Layout Analysis   [pcb.json present]\n  - Thermal Analysis   [thermal.json present]\n  - Gerber Verification   [gerber.json present]\n  - EMC / Cross-Domain Analysis   [cross_analysis.json present]\n  - PDN Impedance   [schematic.pdn_impedance present]\n  - Power Budget   [schematic.power_budget present]\n  - Sleep Current Audit   [schematic.sleep_current_audit present]\n  - Bus Topology   [schematic.bus_topology present]\n  - Test Coverage   [schematic.test_coverage present]\n  - Assembly Complexity   [schematic.assembly_complexity present]\n  - BOM Optimization   [schematic.bom_optimization present]\n  - Deep Review   [deep_review.json present]\n\nOK: all 20 required sections present in /Users/shihweichieh/Documents/Projects/Audio-8CH-Teensy-CS42448/hardware/revB/eco/power-sequencing-20261025/project/QA/power-eco-review.md.\n",
+  "stderr": "",
+  "report_sha256": "582908c9fa67b65c09f9f08d718a5f3876ddc645c98a0d812ab04954c9332b60"
+}

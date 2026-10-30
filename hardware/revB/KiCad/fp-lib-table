@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "ILDA8CH") (type "KiCad") (uri "${KIPRJMOD}/ILDA8CH.pretty") (options "") (descr "RevB local footprints")))

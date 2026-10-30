@@ -1,0 +1,174 @@
+{
+  "codec_reference": {
+    "U1": {
+      "value": "CS42448-CQZR",
+      "pins": {
+        "1": "AD0",
+        "2": "AD1",
+        "3": "CODEC_RESET",
+        "4": "+3V3",
+        "5": "LRCLK",
+        "6": "+3V3",
+        "7": "GND",
+        "8": "+3V3",
+        "9": "BCLK",
+        "10": "MCLK",
+        "11": null,
+        "12": null,
+        "13": null,
+        "14": "SDIN4",
+        "15": "SDIN3",
+        "16": "SDIN2",
+        "17": "TDM_TX",
+        "18": "BCLK",
+        "19": "LRCLK",
+        "20": null,
+        "21": null,
+        "22": "AUX_SDIN",
+        "23": "GND",
+        "24": "+3V3",
+        "35": "MUTEC_5V",
+        "42": "GND",
+        "43": "VQ",
+        "44": "+5VA",
+        "53": "+5VA",
+        "54": "FILT_DAC",
+        "55": "FILT_ADC",
+        "56": "GND",
+        "61": "CODEC_INT",
+        "62": "GND",
+        "63": "SCL",
+        "64": "SDA",
+        "26": "DAC1_P",
+        "25": "DAC1_N",
+        "27": "DAC2_P",
+        "28": "DAC2_N",
+        "30": "DAC3_P",
+        "29": "DAC3_N",
+        "31": "DAC4_P",
+        "32": "DAC4_N",
+        "34": "DAC5_P",
+        "33": "DAC5_N",
+        "36": "DAC6_P",
+        "37": "DAC6_N",
+        "39": "DAC7_P",
+        "38": "DAC7_N",
+        "40": "DAC8_P",
+        "41": "DAC8_N",
+        "46": "AIN1",
+        "45": "AIN2",
+        "48": "AIN3",
+        "47": "AIN4",
+        "50": "AIN5",
+        "49": "AIN6",
+        "52": "AIN7",
+        "51": "AIN8",
+        "58": "AIN9",
+        "57": "AIN10",
+        "60": "AIN11",
+        "59": "AIN12"
+      },
+      "mpn": "CS42448-CQZR",
+      "footprint": "ILDA8CH:Package_QFP__LQFP-64_10x10mm_P0.5mm"
+    },
+    "C18": {
+      "value": "22u",
+      "pins": {
+        "1": "FILT_ADC",
+        "2": "GND"
+      },
+      "mpn": "GRM31CR61E226KE15L",
+      "footprint": "ILDA8CH:Capacitor_SMD__C_1206_3216Metric"
+    },
+    "C19": {
+      "value": "100n",
+      "pins": {
+        "1": "FILT_DAC",
+        "2": "GND"
+      },
+      "mpn": "GRM188R71H104KA93D",
+      "footprint": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric"
+    },
+    "C20": {
+      "value": "100u",
+      "pins": {
+        "1": "FILT_DAC",
+        "2": "GND"
+      },
+      "mpn": "GRM32ER61A107ME20L",
+      "footprint": "ILDA8CH:Capacitor_SMD__C_1210_3225Metric"
+    },
+    "C21": {
+      "value": "100n",
+      "pins": {
+        "1": "FILT_ADC",
+        "2": "GND"
+      },
+      "mpn": "GRM188R71H104KA93D",
+      "footprint": "ILDA8CH:Capacitor_SMD__C_0603_1608Metric"
+    }
+  },
+  "rail_sense": {
+    "R23": {
+      "value": "100k",
+      "pins": {
+        "1": "+15A",
+        "2": "SENSE_P15"
+      }
+    },
+    "R24": {
+      "value": "20k",
+      "pins": {
+        "1": "SENSE_P15",
+        "2": "GND"
+      }
+    },
+    "R25": {
+      "value": "100k",
+      "pins": {
+        "1": "-15A",
+        "2": "SENSE_N15"
+      }
+    },
+    "R26": {
+      "value": "10k",
+      "pins": {
+        "1": "SENSE_N15",
+        "2": "MCU_3V3"
+      }
+    },
+    "C37": {
+      "value": "100n",
+      "pins": {
+        "1": "SENSE_P15",
+        "2": "GND"
+      }
+    },
+    "C38": {
+      "value": "100n",
+      "pins": {
+        "1": "SENSE_N15",
+        "2": "GND"
+      }
+    }
+  },
+  "powered_sense_V": {
+    "positive": 0.5499219968798752,
+    "negative": 0.5576796308503627
+  },
+  "unpowered_sense_unclamped_V": {
+    "positive": 2.4499999999999997,
+    "negative": -1.3363636363636362
+  },
+  "assumptions": "RevB-P4: listed unclamped power-off voltages describe the UPSTREAM divider nodes, not the isolated ADC pins. Actual MCU_3V3 bias and isolation leakage/ramp limits are analysed in the power ECO report.",
+  "xy_leg_gain": 1.8571428571428572,
+  "other_leg_gain": 0.9523809523809523,
+  "filter_pole_Hz": 35555.891541806406,
+  "ldo_typical_power_W": 0.11050000000000001,
+  "ldo_typical_rise_C": 25.536550000000002,
+  "adc_isolation_present": true,
+  "positive_reconstruction_factor": 27.27659574468085,
+  "negative_reconstruction_factor": 32.27659574468085,
+  "downstream_pull_ohms": 4700,
+  "capacitor_values_nominal_only": true
+}

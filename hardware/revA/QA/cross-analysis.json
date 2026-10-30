@@ -1,0 +1,471 @@
+{
+  "analyzer_type": "cross_analysis",
+  "schema_version": "1.4.0",
+  "inputs": {
+    "source_files": [
+      "hardware/revA/QA/schematic-analysis.json",
+      "hardware/revA/QA/pcb-analysis.json"
+    ],
+    "source_hashes": {
+      "hardware/revA/QA/schematic-analysis.json": "96348713c5f6bcaa9571fd264cfb397f32e5b79b0b4e2a88716a9aa3416a5b89",
+      "hardware/revA/QA/pcb-analysis.json": "e9fcad7e8f72357bae9b350aca3d8f01db6e6a8d98cd598095c5534a51ebe756"
+    },
+    "run_id": "20261024T035600Z-f55d8c",
+    "config_hash": null,
+    "upstream_artifacts": {
+      "schematic": {
+        "path": "hardware/revA/QA/schematic-analysis.json",
+        "sha256": "96348713c5f6bcaa9571fd264cfb397f32e5b79b0b4e2a88716a9aa3416a5b89",
+        "schema_version": "1.4.0",
+        "run_id": "20261024T035600Z-f55d8c"
+      },
+      "pcb": {
+        "path": "hardware/revA/QA/pcb-analysis.json",
+        "sha256": "e9fcad7e8f72357bae9b350aca3d8f01db6e6a8d98cd598095c5534a51ebe756",
+        "schema_version": "1.4.0",
+        "run_id": "20261024T035600Z-f55d8c"
+      }
+    }
+  },
+  "compat": {
+    "minimum_consumer_version": "1.4.0",
+    "deprecated_fields": [],
+    "experimental_fields": []
+  },
+  "elapsed_s": 0.065,
+  "summary": {
+    "total_findings": 7,
+    "by_severity": {
+      "error": 0,
+      "warning": 6,
+      "info": 1
+    }
+  },
+  "findings": [
+    {
+      "detector": "check_return_path_enhanced",
+      "rule_id": "RP-002",
+      "category": "return_path",
+      "summary": "Net MCLK: 38% reference plane coverage",
+      "description": "High-speed net MCLK has only 38% reference plane coverage.",
+      "components": [],
+      "nets": [
+        "MCLK"
+      ],
+      "pins": [],
+      "severity": "warning",
+      "confidence": "heuristic",
+      "evidence_source": "topology",
+      "recommendation": "Re-route signal to avoid reference plane gaps.",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "Increased loop area and EMI",
+        "standard_ref": ""
+      },
+      "finding_id": "cross_analysis:RP-002:mclk",
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "detector": "check_return_path_enhanced",
+      "rule_id": "RP-002",
+      "category": "return_path",
+      "summary": "Net MCLK_GPIO: 40% reference plane coverage",
+      "description": "High-speed net MCLK_GPIO has only 40% reference plane coverage.",
+      "components": [],
+      "nets": [
+        "MCLK_GPIO"
+      ],
+      "pins": [],
+      "severity": "warning",
+      "confidence": "heuristic",
+      "evidence_source": "topology",
+      "recommendation": "Re-route signal to avoid reference plane gaps.",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "Increased loop area and EMI",
+        "standard_ref": ""
+      },
+      "finding_id": "cross_analysis:RP-002:mclk_gpio",
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "detector": "check_return_path_enhanced",
+      "rule_id": "RP-002",
+      "category": "return_path",
+      "summary": "Net LRCLK_GPIO: 43% reference plane coverage",
+      "description": "High-speed net LRCLK_GPIO has only 43% reference plane coverage.",
+      "components": [],
+      "nets": [
+        "LRCLK_GPIO"
+      ],
+      "pins": [],
+      "severity": "warning",
+      "confidence": "heuristic",
+      "evidence_source": "topology",
+      "recommendation": "Re-route signal to avoid reference plane gaps.",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "Increased loop area and EMI",
+        "standard_ref": ""
+      },
+      "finding_id": "cross_analysis:RP-002:lrclk_gpio",
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "detector": "check_return_path_enhanced",
+      "rule_id": "RP-002",
+      "category": "return_path",
+      "summary": "Net BCLK: 48% reference plane coverage",
+      "description": "High-speed net BCLK has only 48% reference plane coverage.",
+      "components": [],
+      "nets": [
+        "BCLK"
+      ],
+      "pins": [],
+      "severity": "warning",
+      "confidence": "heuristic",
+      "evidence_source": "topology",
+      "recommendation": "Re-route signal to avoid reference plane gaps.",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "Increased loop area and EMI",
+        "standard_ref": ""
+      },
+      "finding_id": "cross_analysis:RP-002:bclk",
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "detector": "check_return_path_enhanced",
+      "rule_id": "RP-002",
+      "category": "return_path",
+      "summary": "Net LRCLK: 49% reference plane coverage",
+      "description": "High-speed net LRCLK has only 49% reference plane coverage.",
+      "components": [],
+      "nets": [
+        "LRCLK"
+      ],
+      "pins": [],
+      "severity": "warning",
+      "confidence": "heuristic",
+      "evidence_source": "topology",
+      "recommendation": "Re-route signal to avoid reference plane gaps.",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "Increased loop area and EMI",
+        "standard_ref": ""
+      },
+      "finding_id": "cross_analysis:RP-002:lrclk",
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "detector": "check_return_path_enhanced",
+      "rule_id": "RP-002",
+      "category": "return_path",
+      "summary": "Net BCLK_GPIO: 50% reference plane coverage",
+      "description": "High-speed net BCLK_GPIO has only 50% reference plane coverage.",
+      "components": [],
+      "nets": [
+        "BCLK_GPIO"
+      ],
+      "pins": [],
+      "severity": "warning",
+      "confidence": "heuristic",
+      "evidence_source": "topology",
+      "recommendation": "Re-route signal to avoid reference plane gaps.",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "Increased loop area and EMI",
+        "standard_ref": ""
+      },
+      "finding_id": "cross_analysis:RP-002:bclk_gpio",
+      "stages": [
+        "layout"
+      ]
+    },
+    {
+      "detector": "check_via_stitching_density",
+      "rule_id": "VS-002",
+      "category": "via_stitching",
+      "summary": "Via stitching sparse: 33% of board lacks ground vias",
+      "description": "33% of board area (at 73.2mm grid) has no ground stitching vias. For 100MHz, lambda/20 = 73.2mm.",
+      "components": [],
+      "nets": [],
+      "pins": [],
+      "severity": "info",
+      "confidence": "heuristic",
+      "evidence_source": "topology",
+      "recommendation": "Add ground stitching vias at <= 73mm intervals.",
+      "report_context": {
+        "section": "Via Stitching",
+        "impact": "Degraded ground plane connectivity at high frequencies",
+        "standard_ref": ""
+      },
+      "finding_id": "cross_analysis:VS-002:4f935e43d932",
+      "stages": [
+        "layout"
+      ]
+    }
+  ],
+  "assessments": [],
+  "trust_summary": {
+    "total_findings": 7,
+    "trust_level": "low",
+    "by_confidence": {
+      "deterministic": 0,
+      "heuristic": 7,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 7,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 0,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": 0.0
+  },
+  "audience_summary": {
+    "designer": {
+      "total_findings": 7,
+      "by_severity": {
+        "error": 0,
+        "warning": 6,
+        "info": 1
+      },
+      "by_category": {
+        "return_path": 6,
+        "via_stitching": 1
+      },
+      "top_issues": [
+        {
+          "detector": "check_return_path_enhanced",
+          "rule_id": "RP-002",
+          "category": "return_path",
+          "summary": "Net MCLK: 38% reference plane coverage",
+          "description": "High-speed net MCLK has only 38% reference plane coverage.",
+          "components": [],
+          "nets": [
+            "MCLK"
+          ],
+          "pins": [],
+          "severity": "warning",
+          "confidence": "heuristic",
+          "evidence_source": "topology",
+          "recommendation": "Re-route signal to avoid reference plane gaps.",
+          "report_context": {
+            "section": "Return Path",
+            "impact": "Increased loop area and EMI",
+            "standard_ref": ""
+          },
+          "finding_id": "cross_analysis:RP-002:mclk",
+          "stages": [
+            "layout"
+          ]
+        },
+        {
+          "detector": "check_return_path_enhanced",
+          "rule_id": "RP-002",
+          "category": "return_path",
+          "summary": "Net MCLK_GPIO: 40% reference plane coverage",
+          "description": "High-speed net MCLK_GPIO has only 40% reference plane coverage.",
+          "components": [],
+          "nets": [
+            "MCLK_GPIO"
+          ],
+          "pins": [],
+          "severity": "warning",
+          "confidence": "heuristic",
+          "evidence_source": "topology",
+          "recommendation": "Re-route signal to avoid reference plane gaps.",
+          "report_context": {
+            "section": "Return Path",
+            "impact": "Increased loop area and EMI",
+            "standard_ref": ""
+          },
+          "finding_id": "cross_analysis:RP-002:mclk_gpio",
+          "stages": [
+            "layout"
+          ]
+        },
+        {
+          "detector": "check_return_path_enhanced",
+          "rule_id": "RP-002",
+          "category": "return_path",
+          "summary": "Net LRCLK_GPIO: 43% reference plane coverage",
+          "description": "High-speed net LRCLK_GPIO has only 43% reference plane coverage.",
+          "components": [],
+          "nets": [
+            "LRCLK_GPIO"
+          ],
+          "pins": [],
+          "severity": "warning",
+          "confidence": "heuristic",
+          "evidence_source": "topology",
+          "recommendation": "Re-route signal to avoid reference plane gaps.",
+          "report_context": {
+            "section": "Return Path",
+            "impact": "Increased loop area and EMI",
+            "standard_ref": ""
+          },
+          "finding_id": "cross_analysis:RP-002:lrclk_gpio",
+          "stages": [
+            "layout"
+          ]
+        },
+        {
+          "detector": "check_return_path_enhanced",
+          "rule_id": "RP-002",
+          "category": "return_path",
+          "summary": "Net BCLK: 48% reference plane coverage",
+          "description": "High-speed net BCLK has only 48% reference plane coverage.",
+          "components": [],
+          "nets": [
+            "BCLK"
+          ],
+          "pins": [],
+          "severity": "warning",
+          "confidence": "heuristic",
+          "evidence_source": "topology",
+          "recommendation": "Re-route signal to avoid reference plane gaps.",
+          "report_context": {
+            "section": "Return Path",
+            "impact": "Increased loop area and EMI",
+            "standard_ref": ""
+          },
+          "finding_id": "cross_analysis:RP-002:bclk",
+          "stages": [
+            "layout"
+          ]
+        },
+        {
+          "detector": "check_return_path_enhanced",
+          "rule_id": "RP-002",
+          "category": "return_path",
+          "summary": "Net LRCLK: 49% reference plane coverage",
+          "description": "High-speed net LRCLK has only 49% reference plane coverage.",
+          "components": [],
+          "nets": [
+            "LRCLK"
+          ],
+          "pins": [],
+          "severity": "warning",
+          "confidence": "heuristic",
+          "evidence_source": "topology",
+          "recommendation": "Re-route signal to avoid reference plane gaps.",
+          "report_context": {
+            "section": "Return Path",
+            "impact": "Increased loop area and EMI",
+            "standard_ref": ""
+          },
+          "finding_id": "cross_analysis:RP-002:lrclk",
+          "stages": [
+            "layout"
+          ]
+        },
+        {
+          "detector": "check_return_path_enhanced",
+          "rule_id": "RP-002",
+          "category": "return_path",
+          "summary": "Net BCLK_GPIO: 50% reference plane coverage",
+          "description": "High-speed net BCLK_GPIO has only 50% reference plane coverage.",
+          "components": [],
+          "nets": [
+            "BCLK_GPIO"
+          ],
+          "pins": [],
+          "severity": "warning",
+          "confidence": "heuristic",
+          "evidence_source": "topology",
+          "recommendation": "Re-route signal to avoid reference plane gaps.",
+          "report_context": {
+            "section": "Return Path",
+            "impact": "Increased loop area and EMI",
+            "standard_ref": ""
+          },
+          "finding_id": "cross_analysis:RP-002:bclk_gpio",
+          "stages": [
+            "layout"
+          ]
+        }
+      ]
+    },
+    "reviewer": {
+      "total_findings": 6,
+      "by_category": {
+        "return_path": 6
+      },
+      "top_issues": [
+        {
+          "rule_id": "RP-002",
+          "severity": "warning",
+          "summary": "Net MCLK: 38% reference plane coverage",
+          "recommendation": "Re-route signal to avoid reference plane gaps.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-002",
+          "severity": "warning",
+          "summary": "Net MCLK_GPIO: 40% reference plane coverage",
+          "recommendation": "Re-route signal to avoid reference plane gaps.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-002",
+          "severity": "warning",
+          "summary": "Net LRCLK_GPIO: 43% reference plane coverage",
+          "recommendation": "Re-route signal to avoid reference plane gaps.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-002",
+          "severity": "warning",
+          "summary": "Net BCLK: 48% reference plane coverage",
+          "recommendation": "Re-route signal to avoid reference plane gaps.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-002",
+          "severity": "warning",
+          "summary": "Net LRCLK: 49% reference plane coverage",
+          "recommendation": "Re-route signal to avoid reference plane gaps.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-002",
+          "severity": "warning",
+          "summary": "Net BCLK_GPIO: 50% reference plane coverage",
+          "recommendation": "Re-route signal to avoid reference plane gaps.",
+          "category": "return_path"
+        }
+      ]
+    },
+    "manager": {
+      "risk_level": "low",
+      "blocker_count": 0,
+      "warning_count": 6,
+      "stage_readiness": {
+        "schematic": "pass",
+        "layout": "needs_review",
+        "pre_fab": "pass",
+        "bring_up": "pass"
+      },
+      "one_liner": "6 warnings across 1 category."
+    }
+  },
+  "capability_mode_ref": {
+    "source": "analysis/capability_mode.json",
+    "run_id": "20261024T035600Z-f55d8c"
+  }
+}

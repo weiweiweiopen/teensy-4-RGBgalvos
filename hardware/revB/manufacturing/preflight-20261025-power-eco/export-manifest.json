@@ -1,0 +1,27 @@
+{
+  "status": "HOLD \u2014 DO NOT ORDER",
+  "pcb_sha256": "19c24b7b0cacdd23822d85daa3e44d5104a866f5a9f83ac38824fee33554cd69",
+  "files": {
+    "gerbers-DRAFT/ILDA8CH-B_Cu.gbl": "e177e392dad427c848fa446195bfa59d661e46b25299e41f35e932d4cbd21d49",
+    "gerbers-DRAFT/ILDA8CH-B_Mask.gbs": "4e5a6d06da92eb9d22ed263d248090f2f37a38f1c1f5d03066e14f494c0392ed",
+    "gerbers-DRAFT/ILDA8CH-B_Paste.gbp": "8db3e7ae33e1adf3fbd2d88dc73a8cdf9ada74947f75cbc7d5669a08626a7b98",
+    "gerbers-DRAFT/ILDA8CH-B_Silkscreen.gbo": "49509b89bb4a2fd798bb55cad3b21bee3c2253661ae29b1df2ce659db5ac2089",
+    "gerbers-DRAFT/ILDA8CH-Edge_Cuts.gm1": "a6cbabfa5cee1d6c2c0c94932b0a30c10cfeccbca5dbb5db58dc4e4af537267d",
+    "gerbers-DRAFT/ILDA8CH-F_Cu.gtl": "854b1c5dc5b4b8edadff8b9f00e320a56a9beec0a51c2925c0264d80f9693da1",
+    "gerbers-DRAFT/ILDA8CH-F_Mask.gts": "4f1f8321e06099f07fab5741f74346ab8878de860901a5337c5e2e9f5dfbe688",
+    "gerbers-DRAFT/ILDA8CH-F_Paste.gtp": "00c0ee45943bb74fe534e39c2f9ff48095f2966df0ebff58c588cbee3a4aba98",
+    "gerbers-DRAFT/ILDA8CH-F_Silkscreen.gto": "963b37816aee77ef97019e1290e10c59c0fbf5abb349019650cb467e77f90fe3",
+    "gerbers-DRAFT/ILDA8CH-In1_Cu.g1": "54d0018becc0ee211658f7f9f508cad0f210d1323556f8006ef151b530d646cd",
+    "gerbers-DRAFT/ILDA8CH-In2_Cu.g2": "e97fbf85b6c12c17fbb6a98925731c8757c34a745904512332aa57544802fce9",
+    "gerbers-DRAFT/ILDA8CH-NPTH-drl_map.svg": "428b9f1df5ea6fbaaf20a0432dedfa703396632426026ab65208cbc89eda8a27",
+    "gerbers-DRAFT/ILDA8CH-NPTH.drl": "ad6ab65b9debf6707525ca9897b7b0b41d0130bcf6967fa2e8330df309e3db77",
+    "gerbers-DRAFT/ILDA8CH-PTH-drl_map.svg": "d397b4fa91d72ddee6a0d0255f7fa8382ec1ef397d19f008ca518f3efbf5e048",
+    "gerbers-DRAFT/ILDA8CH-PTH.drl": "644f3ed97d563a53277dda00ff414260cbef75eb019cdc0a104e9f94acae24fe",
+    "gerbers-DRAFT/ILDA8CH-job.gbrjob": "1b7258a828e518bd47f4d3be1bfb26372f96669c066af2148bb55c36f6556eb8",
+    "assembly-DRAFT/JLC_BOM_DRAFT.csv": "1369a8ccb7f4331b31cc5d0046788260a0131cc02f70ceac22e4d31ab805b0b3",
+    "assembly-DRAFT/JLC_CPL_DRAFT_UNCHECKED_ROTATIONS.csv": "7763d1864b8c2cd5766c3dff128d5ad4d889d55d63629ba515cd3553ebbf00e0",
+    "assembly-DRAFT/KiCad-native.csv": "929e7f755a88c82522c7b4a2faf2f0a8c8f3a973e22485d00fc714c69fc759fc",
+    "assembly-DRAFT/rotation-audit.json": "3ee4bffb1a5f63f5b65e80278886fa38f3ec94685d897e1441ae6653f96e9883",
+    "assembly-DRAFT/source-BOM-review.csv": "ce0e0d133e7d173c2da879bea70b293b6a8ffacb180420a28b8cdcff544c1d58"
+  }
+}
